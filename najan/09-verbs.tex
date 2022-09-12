@@ -1,0 +1,211 @@
+\section{Clauses} \label{sec:verbs}
+
+Syntactically, Najan has only four verbs (Table~\ref{tab:verbs}), which express
+only aspect.
+
+\begin{table}
+	\caption{Verbs}
+	\centering
+	\begin{tabular}{ll}
+		\toprule
+		\trans{the}  & Perfective             \\
+		\trans{zhe}  & Continuous/progressive \\
+		\trans{fxe}  & Habitual               \\
+		\trans{khon} & Gnomic                 \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:verbs}
+\end{table}
+
+Modifiers (\S\ref{sec:modifiers}) to these aspectual verbs convey almost all the
+semantic information in a clause, including the agent, patient, and even the
+action or state of being itself. Since such modifiers can occur in any order,
+Najan has very free word order.
+
+The modifier \trans{nuh} (``with/having [a property]'') is used along with an
+appropriate noun phrase to convey the action (for dynamic clauses) or state of
+being (for stative clauses) associated with the verb. In fact, \trans{nuh} can
+be used to convey any kind of argument to the verb. For instance, to express a
+first-person agent, one could use a phrase that translates literally to ``with
+agent of I''. However, certain thematic relations have dedicated modifiers,
+which can express such arguments more succinctly and are listed in
+Table~\ref{tab:thematic-relations}.
+
+\begin{table}
+	\caption{Thematic relational modifiers}
+	\centering
+	\begin{tabular}{ll}
+		\toprule
+		Relation                   & Modifier     \\
+		\midrule
+		Agent                      & \trans{shi}  \\
+		Involuntary cause          & \trans{otq}  \\
+		Attributee [of a property] & \trans{nihm} \\
+		Patient                    & \trans{ruh}  \\
+		Instrument                 & \trans{gha}  \\
+		Recipient                  & \trans{dhu}  \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:thematic-relations}
+\end{table}
+
+\todo{Examples. "I destroy the sand castle" vs. "The sea destroys the sand castle"}
+
+\paragraph{Dynamic and Stative Clauses} In English, the subject does not vary
+when paired with a dynamic vs. a stative verb. However, in Najan, dynamic
+clauses typically include either an ``agent'' or ``involuntary cause'', while
+stative clauses typically include an ``attributee''.
+
+Note that because all arguments to the verb are indicated using modifiers, it's
+possible for a verb to have multiple actions, agents, etc. associated with a
+single verb, without using grouping phrases.
+
+\todo{Format and translate examples below.}
+
+``I threw and broke your toy.'' Since both ``throw'' and ``break'' modify
+\trans{the} in this case, they become semantically part of a single action.
+
+\trans{shi ko shi to nuh <sing> the} implies singing together.
+
+\trans{shi ko ruh <ball> ruh <glove> nuh <throw> the} implies I threw the ball
+and glove as part of the same action.
+
+\todo{Anything below this line in this section may be outdated.}
+
+\subsection{Stative Verbs} \label{ssec:stative-verbs}
+
+\example{Stative sentence using \trans{ya}}{
+	I love you.
+}{
+	\transLine{ya kih FOR to elihf ko} \\
+	(literally ``I with love for you exist.'') \\
+}
+
+\subsection{Mood} \label{ssec:mood}
+
+Structurally, Najan only has one mood, which is the indicative. The semantics of
+other moods can be expressed by modifying an indicative sentence using a
+monovalent sentence modifier. Table~\ref{tab:mood-modifiers} lists each mood
+with its corresponding modifier.
+
+\paragraph{Indicative} The indicative mood signifies that the speaker believes
+the clause is true. An unmodified sentence is indicative.
+
+\paragraph{Deontic} Deontic clauses express wishes and commands. Najan does not
+have a separate imperative mood to express requests or orders; a deontic clause
+with a second-person subject serves this purpose.
+
+\paragraph{Polar Interrogative} Polar interrogative clauses express yes/no
+questions. The modifier \trans{kya} could be translated as ``it is being asked
+whether [sentence]''. The expectation is that the listener will answer by
+affirming the question (\trans{azh}), negating it (\trans{esh}), or objecting to
+its underlying premises or implications (\trans{ith}).
+
+\example{Polar interrogative sentence}{
+	\begin{tabular}{rl}
+		\textbf{Alice} & Have you stopped beating your spouse? \\
+		\textbf{Bob}   & To the contrary, I never beat her.    \\
+	\end{tabular}
+}{
+	\begin{tabular}{rl}
+		% Duplicating text here instead of using a macro to make the
+		% table rows and columns work.
+		\textbf{Alice} & \naj{kya kxesh goruhp to i zho nih enihd to} \\
+		               & ⟨kya kxesh goruhp to i zho nih enihd to      \\
+		\textbf{Bob}   & \naj{ith. nu goruhp ko zho}                  \\
+		               & ⟨ith. nu goruhp ko zho⟩                      \\
+	\end{tabular}
+}
+
+\paragraph{Open Interrogative} Used for open-ended questions. An open
+interrogative sentence must include at least one occurrence of the interrogative
+pronoun, \trans{vo}. The utterance of an open interrogative clause invites the
+listener to supply an answer for each occurrence of \trans{vo}. As with polar
+questions, \trans{ihth} can be an appropriate response if the question is based
+on false premises and therefore cannot be meaningfully answered.
+
+\example{Open interrogative sentence}
+{What do you want?}
+{\transLine{kwa ya kih FOR vo vihm to}}
+
+\example{Open interrogative sentence with discrete choices}
+{Do you want soup or salad?}
+{\transLine{kwa ya vihm nhinh zaw thloth pewsh vo to}}
+
+\paragraph{Confirmative Interrogative} This mood is similar to the polar
+interrogative except that the speaker already believes the proposition to be
+true, at least tentatively. Use of this mood presents the addressee a chance to
+contradict the claim if it is false. It may also be used rhetorically when the
+speaker is already certain the claim is true. Sentences of this mood are like
+tag questions in English and other languages. \trans{odh} and \trans{ihth} are
+typical responses to confirmative questions.
+
+\begin{table}
+	\caption{Mood modifiers}
+	\centering
+	\begin{tabular}{ll}
+		\toprule
+		Mood                       & Modifier     \\
+		\midrule
+		Indicative                 & --           \\
+		Deontic                    & \trans{ksha} \\
+		Polar Interrogative        & \trans{kya}  \\
+		Open Interrogative         & \trans{kwa}  \\
+		Confirmative Interrogative & \trans{kla}  \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:mood-modifiers}
+\end{table}
+
+\subsection{Tense} \label{ssec:tense}
+
+Temporal predicate modifiers express tense. If no such modifiers are present,
+then the time frame must be inferred from context.
+Table~\ref{tab:temporal-modifiers} lists all the modifiers that affect the tense
+of a verb phrase, and Table~\ref{tab:temporal-terms} provides a (nonexhaustive)
+list of terms commonly used with temporal modifiers.
+
+\begin{table}
+	\caption{Temporal modifiers}
+	\centering
+	\begin{tabular}{ll}
+		\toprule
+		Modifier     & Meaning                     \\
+		\midrule
+		\trans{ve}   & at/on [time point]          \\
+		\trans{le}   & for [duration]              \\
+		\trans{de}   & during/in [time period]     \\
+		\trans{the}  & before [time point]         \\
+		\trans{thih} & shortly before [time point] \\
+		\trans{thu}  & long before [time point]    \\
+		\trans{she}  & after [time point]          \\
+		\trans{shih} & shortly after [time point]  \\
+		\trans{shu}  & long after [time point]     \\
+		\trans{nhe}  & from [time point]           \\
+		\trans{ne}   & to [time point]             \\
+		             & until [event]               \\
+		             & while [event]               \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:temporal-modifiers}
+\end{table}
+
+\todo{That looks like inflection to me.}
+
+\begin{table}
+	\caption{Common temporal terms}
+	\centering
+	\begin{tabular}{ll}
+		\toprule
+		Term            & Meaning                   \\
+		\midrule
+		\trans{va}      & the present/now           \\
+		\trans{tha}     & the past                  \\
+		\trans{sha}     & the future                \\
+		\trans{gha}     & moment/instant            \\
+		\trans{kha}     & time span                 \\
+		\trans{thenish} & eternity/forever/all time \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:temporal-terms}
+\end{table}

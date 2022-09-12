@@ -1,0 +1,110 @@
+\input{common-header}
+\usepackage[title]{appendix}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage
+    [ colorlinks
+    , linkcolor=.
+    , urlcolor=blue
+    ]{hyperref}
+\usepackage[usenames, dvipsnames]{xcolor} % Must include before mdframed.
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{multirow}
+\usepackage[super]{nth}
+\usepackage[parfill]{parskip}
+\usepackage{tcolorbox}
+\usepackage{todonotes}
+\usepackage{vowel}
+
+\NewDocumentCommand{\grapheme}{m}{\huge \naj{#1}}
+\NewDocumentCommand{\transIPA}{m}{⟨#1⟩ [\ipa{#1}]}
+
+\definecolor{NonterminalColor}{RGB}{0, 32, 96}
+\definecolor{TerminalColor}{RGB}{60, 128, 49}
+
+\NewDocumentEnvironment{ebnf}{}{
+	% Formatting settings.
+	\setlength{\parindent}{0em}
+	\setlength{\parskip}{0.5\baselineskip}
+	% Separates LHS and RHS.
+	\newcommand{\is}{\ $\rightarrow$ \ }
+	% Alternative.
+	\newcommand{\alt}{|\ }
+	\newcommand{\altLine}{\\ \phantom{\hspace{2em}} |\ \ \ }
+	% Puts the RHS on a new line without an alternative symbol.
+	\newcommand{\newLine}{\\ \phantom{\hspace{2em}}}
+	% Optional group.
+	\NewDocumentCommand{\opt}{m}{##1?}
+	% Zero or more copies.
+	\RenewDocumentCommand{\star}{m}{##1\textsuperscript{*}}
+	% One or more copies.
+	\NewDocumentCommand{\plus}{m}{##1\textsuperscript{+}}
+	% N copies.
+	\NewDocumentCommand{\n}{mm}{##1\textsuperscript{##2}}
+	% Nonterminal symbol.
+	\NewDocumentCommand{\nt}{m}{⟨\textcolor{NonterminalColor}{##1}⟩}
+	% Terminal symbol in Najan.
+	\RenewDocumentCommand{\t}{m}{``\textcolor{TerminalColor}{##1}''}
+
+	% Box the grammar.
+	\begin{mdframed}
+		[ hidealllines=true
+		, backgroundcolor=gray!10
+		, innerleftmargin=3pt
+		, innerrightmargin=3pt
+		, leftmargin=-3pt
+		, rightmargin=-3pt
+		]
+}{
+	\end{mdframed}
+}
+
+% Box to hold an example translation from English to Najan.
+\newcounter{example}
+\stepcounter{example}
+\NewDocumentCommand{\example}{mmm}{
+	\vspace{1em}
+	\begin{tcolorbox}
+		[ title=Example \theexample: #1
+		, halign=center
+		, halign lower=center
+		]
+		#2 \tcblower #3
+	\end{tcolorbox}
+	\vspace{0.5em}
+	\stepcounter{example}
+}
+
+% Down arrow and new line, for use in translation examples.
+\NewDocumentCommand{\down}{}{$\Downarrow$ \\}
+
+\title{\naj{nih naj vihl} \\ The Najan Language}
+\author{Jonathan Sharman}
+
+\begin{document}
+
+\listoftodos
+
+\maketitle
+
+\tableofcontents
+
+\twocolumn
+
+\input{01-intro}
+\input{02-phonology}
+\input{03-orthography}
+\input{04-morphology}
+\input{05-syntax}
+\input{06-binding}
+\input{07-conjunctions}
+\input{08-interjections}
+\input{09-verbs}
+\input{10-modifiers}
+\input{11-numbers}
+
+\begin{appendices}
+	\input{A-example-translations}
+\end{appendices}
+
+\end{document}

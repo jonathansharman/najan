@@ -1,0 +1,52 @@
+\section{Syntax} \label{sec:syntax}
+
+The formal grammar of the language is defined by the following extended
+Backus-Naur form (EBNF) grammar. This is a deterministic context-free grammar,
+making it amenable to automatic parsing.
+
+\begin{ebnf}
+	\nt{string} \is \nt{independent} \star{(\t{\naj{.}} \nt{independent})}
+	\\
+	\nt{independent} \is \nt{sentence} \alt \nt{interjection}
+	\\
+	\nt{sentence} \is \nt{predicate}
+	\altLine \t{\trans{nunh}} \nt{sentence}
+	\altLine \nt{binary sentence conj.} \nt{sentence} \nt{sentence}
+	\\
+	\nt{predicate} \is \nt{verb}
+	\altLine \nt{predicate mod.} \nt{term} \nt{predicate}
+	\altLine \nt{predicate conj.} \nt{predicate} \nt{predicate}
+	\\
+	\nt{term} \is \nt{quant. term}
+	\altLine \nt{unquant. term}
+	\altLine \nt{sentence}
+	\altLine \nt{quotation}
+	\altLine \nt{term conj.} \nt{term} \nt{term}
+	\\
+	\nt{quant. term} \is \nt{det.} \plus{\nt{pronoun}} \nt{unquant. term}
+	\\
+	\nt{unquant. term} \is \nt{noun} \alt \nt{pronoun}
+	\altLine \nt{term mod.} \nt{term} \nt{unquant. term}
+	\\
+	\nt{quotation} \is \t{\trans{ca}} \star{\nt{quoted word}} \t{\trans{sa}}
+	\\
+	\nt{quoted word} \is \nt{word} - \t{\trans{ca}} - \t{\trans{nosh}} - \t{\trans{tqa}}
+	\altLine \t{\trans{tqa}} \t{\trans{ca}}
+	\altLine \t{\trans{tqa}} \t{\trans{nosh}}
+	\altLine \t{\trans{tqa}} \t{\trans{tqa}}
+\end{ebnf}
+
+\todo{Example}
+
+\paragraph{Quotation} The particle \trans{ca} begins a quotation, which is a
+string of text acting as a term. A quotation ends with the closing particle,
+\trans{sa}. The escape particle \trans{tqa} is used within a quotation to
+indicate that the following occurrence of \trans{sa}, \trans{nosh}, or
+\trans{tqa} should be interpreted as part of the quotation, serving the same
+role that escape characters serve in strings of text in programming languages.
+
+\example{Nested quotation using particles}{
+	You say ``I say `no'''.
+}{
+	\transLine{ka ca ka ca esh tqa sa tihz ko sa tihz to}
+}

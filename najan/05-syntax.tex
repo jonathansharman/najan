@@ -5,15 +5,11 @@ Backus-Naur form (EBNF) grammar. This is a deterministic context-free grammar,
 making it amenable to automatic parsing.
 
 \begin{ebnf}
-	\nt{sentence} \is \opt{\nt{mood particle}} \nt{clause}
+	\nt{clause} \is \opt{\nt{mood particle}} \nt{verb phrase (VP)}
 	\\
-	\nt{clause} \is \nt{predicate}
-	\altLine \t{\trans{nunh}} \nt{clause}
-	\altLine \nt{binary clause conj.} \nt{clause} \nt{clause}
-	\\
-	\nt{predicate} \is \nt{verb}
-	\altLine \nt{predicate mod.} \nt{NP} \nt{predicate}
-	\altLine \nt{predicate conj.} \nt{predicate} \nt{predicate}
+	\nt{VP} \is \opt{\nt{aspect particle}} \nt{verb}
+	\altLine \nt{prep.} \nt{NP} \nt{VP}
+	\altLine \nt{conj.} \nt{VP} \nt{VP}
 	\\
 	\nt{noun phrase (NP)} \is \nt{quant. NP}
 	\altLine \nt{unquant. NP}

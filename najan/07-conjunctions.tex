@@ -27,8 +27,11 @@ list of arguments. Table~\ref{tab:conjunctions} lists all conjunctions in Najan.
 \todo{ Do I need three versions of each conjunction, or can some of them be
 	shared and distinguished by syntax? }
 
-Note that biconditional statements (``if and only if'') are equivalent to {\sc
-		xnor}, which can be expressed by combining {\sc not} and {\sc xor} conjunctions.
+Note that biconditional statements (``if and only if'') are equivalent to
+	{\sc xnor}, which can be expressed by combining {\sc not} and {\sc xor} conjunctions.
+
+Note that \trans{tqanh} only denotes material implication; it does not imply a
+causal relationship.
 
 Sentential conjunctions are the fundamental and most general form of
 conjunction. Semantically, any conjunction of terms or predicates can be
@@ -39,8 +42,8 @@ converted to only sentential conjunctions as follows:
 
 \begin{enumerate}
 	\item Factor out in-place quantified terms to forward assignments, as
-	      described in \S\ref{sec:binding}. Now consider the subsentence after all
-	      forward assignments.
+	      described in \S\ref{sec:binding}. Now consider the subsentence after
+	      all forward assignments.
 	\item Scanning left to right, if there is a term or predicate conjunction,
 	      replace the containing sentence with the corresponding sentential
 	      conjunction with copies of the sentence, each holding one of the conjunction

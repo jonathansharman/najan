@@ -1,0 +1,932 @@
+\input{common-header}
+\usepackage[title]{appendix}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage
+    [ colorlinks
+    , linkcolor=.
+    , urlcolor=blue
+    ]{hyperref}
+\usepackage[usenames, dvipsnames]{xcolor} % Must include before mdframed.
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{multirow}
+\usepackage[super]{nth}
+\usepackage[parfill]{parskip}
+\usepackage{tcolorbox}
+\usepackage{todonotes}
+\usepackage{vowel}
+
+\NewDocumentCommand{\grapheme}{m}{\huge \naj{#1}}
+\NewDocumentCommand{\transIPA}{m}{⟨#1⟩ [\ipa{#1}]}
+
+\definecolor{NonterminalColor}{RGB}{0, 32, 96}
+\definecolor{TerminalColor}{RGB}{60, 128, 49}
+
+\NewDocumentEnvironment{ebnf}{}{
+	% Formatting settings.
+	\setlength{\parindent}{0em}
+	\setlength{\parskip}{0.5\baselineskip}
+	% Separates LHS and RHS.
+	\newcommand{\is}{\ $\rightarrow$ \ }
+	% Alternative.
+	\newcommand{\alt}{|\ }
+	\newcommand{\altLine}{\\ \phantom{\hspace{2em}} |\ \ \ }
+	% Puts the RHS on a new line without an alternative symbol.
+	\newcommand{\newLine}{\\ \phantom{\hspace{2em}}}
+	% Optional group.
+	\NewDocumentCommand{\opt}{m}{##1?}
+	% Zero or more copies.
+	\RenewDocumentCommand{\star}{m}{##1\textsuperscript{*}}
+	% One or more copies.
+	\NewDocumentCommand{\plus}{m}{##1\textsuperscript{+}}
+	% N copies.
+	\NewDocumentCommand{\n}{mm}{##1\textsuperscript{##2}}
+	% Nonterminal symbol.
+	\NewDocumentCommand{\nt}{m}{⟨\textcolor{NonterminalColor}{##1}⟩}
+	% Terminal symbol in Najan.
+	\RenewDocumentCommand{\t}{m}{``\textcolor{TerminalColor}{##1}''}
+
+	% Box the grammar.
+	\begin{mdframed}
+		[ hidealllines=true
+		, backgroundcolor=gray!10
+		, innerleftmargin=3pt
+		, innerrightmargin=3pt
+		, leftmargin=-3pt
+		, rightmargin=-3pt
+		]
+}{
+	\end{mdframed}
+}
+
+% Box to hold an example translation from English to Najan.
+\newcounter{example}
+\stepcounter{example}
+\NewDocumentCommand{\example}{mmm}{
+	\vspace{1em}
+	\begin{tcolorbox}
+		[ title=Example \theexample: #1
+		, halign=center
+		, halign lower=center
+		]
+		#2 \tcblower #3
+	\end{tcolorbox}
+	\vspace{0.5em}
+	\stepcounter{example}
+}
+
+% Down arrow and new line, for use in translation examples.
+\NewDocumentCommand{\down}{}{$\Downarrow$ \\}
+
+\title{\naj{kuhv naj vihrh} \\ The Najan Language}
+\author{Jonathan Sharman}
+
+\begin{document}
+
+\listoftodos
+
+\maketitle
+
+\tableofcontents
+
+\twocolumn
+
+\section{Introduction}
+
+Najan is an a priori, analytic, isolating conlang featuring perfectly phonemic
+orthography and unambiguous syntax based on first-order logic. It is my first
+and only conlang, developed for no particular purpose beyond recreation. This
+document describes the major phonetic, orthographic, syntactic, and semantic
+features of Najan.
+
+My only real design goal was to create a language that I personally find
+aesthetically pleasing, and simplicity, consistency, and unambiguity are
+properties I like. Naturalism was a low priority, perhaps more from inability
+than disinterest since I have no formal linguistic training.
+
+For a comprehensive list of Najan words, see \emph{The Najan Lexicon}
+(upcoming).
+
+\section{Phonology} \label{sec:phonology}
+
+Tables~\ref{tab:consonants} and \ref{tab:vowels} list the consonants and vowels
+of Najan, respectively.
+
+Gemination occurs only between consonants with the same point of articulation.
+For instance, the /k/ in \trans{shekga} (``string'') is geminated and not
+aspirated since /k/ and /g/ are both velar, but the /k/ in \trans{daktu}
+(``enemy'') is aspirated as usual since /t/ is alveolar.
+
+Approximants only occur next to vowels or other approximants; i.e. they cannot
+occur directly between two consonants. Within a single word, there can be at
+most two consecutive vowels. Including approximants, very long sequences of
+consonants are possible, e.g. in \trans{aylmshtwath} (``gambeson'').
+
+Word stress falls on the first syllable of a word, and nouns usually receive
+greater stress than other words. However, stress never distinguishes words and
+can be altered for emphasis.
+
+\begin{table*}
+	\centering
+	\caption{Najan consonants}
+	\begin{tabular}{lcccccccc}
+		\toprule
+		            & Bilabial        & Labio-dental    & Dental            & Alveolar          & Post-alveolar     & Palatal & Velar             \\
+		\midrule
+		Nasal       & \ipa{m}         &                 &                   & \ipa{n}           &                   &         & \ipa{nh}          \\
+		\midrule
+		Stop        & \ipa{p} \ipa{b} &                 &                   & \ipa{t} \ipa{d}   &                   &         & \ipa{k} \ipa{g}   \\
+		\midrule
+		Affricate   &                 &                 &                   & \ipa{tq} \ipa{dq} & \ipa{c} \ipa{j}   &         & \ipa{kq} \ipa{gq} \\
+		\midrule
+		Fricative   &                 & \ipa{f} \ipa{v} & \ipa{th} \ipa{dh} & \ipa{s} \ipa{z}   & \ipa{sh} \ipa{zh} &         & \ipa{kh} \ipa{gh} \\
+		\midrule
+		Approximant &                 &                 &                   & \ipa{l}           &                   & \ipa{y} & \ipa{w}           \\
+		\midrule
+		Trill       &                 &                 &                   & \ipa{xh} \ipa{rh} &                   &         &                   \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:consonants}
+\end{table*}
+
+\begin{table}
+	\centering
+	\caption{Najan vowels}
+	\resizebox{0.6\columnwidth}{!}{
+		\begin{vowel}
+			\putcvowel{i}{1}
+			\putcvowel{\ipa{e}}{3}
+			\putcvowel{\ipa{a}}{5}
+			\putcvowel{\ipa{o}}{7}
+			\putcvowel{u}{8}
+			\putcvowel{\ipa{ih}}{13}
+			\putcvowel{\ipa{uh}}{14}
+		\end{vowel}
+	}
+	\label{tab:vowels}
+\end{table}
+
+\section{Orthography} \label{sec:orthography}
+
+Najan orthography is perfectly phonemic, i.e. there is a bijection between
+graphemes and phonemes. Table~\ref{tab:alphabet} lists the thirty-seven letters
+of the Najan alphabet, along with the transliteration and IPA transcription for
+each letter.
+
+Sentences are written left-to-right, then top-to-bottom. The only punctuation
+mark in written Najan is the sentence separator, ``\naj{.}'', which is used to
+separate independent sentences and/or interjections.
+
+\begin{table}
+	\caption{The Najan alphabet}
+	\centering
+	\resizebox{\columnwidth}{!}{\begin{tabular}{cccccc}
+			\toprule
+			\grapheme{k}  & \grapheme{g}  & \grapheme{t}  & \grapheme{d}  & \grapheme{p} & \grapheme{b} \\
+			\transIPA{k}  & \transIPA{g}  & \transIPA{t}  & \transIPA{d}  & \transIPA{p} & \transIPA{b} \\
+			\midrule
+
+			\grapheme{kq} & \grapheme{gq} & \grapheme{tq} & \grapheme{dq} & \grapheme{c} & \grapheme{j} \\
+			\transIPA{kq} & \transIPA{gq} & \transIPA{tq} & \transIPA{dq} & \transIPA{c} & \transIPA{j} \\
+			\midrule
+
+			\grapheme{kh} & \grapheme{gh} & \grapheme{x}  & \grapheme{r}  & \grapheme{s} & \grapheme{z} \\
+			\transIPA{kh} & \transIPA{gh} & \transIPA{x}  & \transIPA{r}  & \transIPA{s} & \transIPA{z} \\
+			\midrule
+
+			\grapheme{sh} & \grapheme{zh} & \grapheme{th} & \grapheme{dh} & \grapheme{f} & \grapheme{v} \\
+			\transIPA{sh} & \transIPA{zh} & \transIPA{th} & \transIPA{dh} & \transIPA{f} & \transIPA{v} \\
+			\midrule
+
+			\grapheme{nh} & \grapheme{n}  & \grapheme{m}  & \grapheme{y}  & \grapheme{l} & \grapheme{w} \\
+			\transIPA{nh} & \transIPA{n}  & \transIPA{m}  & \transIPA{y}  & \transIPA{l} & \transIPA{w} \\
+			\midrule
+		\end{tabular}}
+	\resizebox{\columnwidth}{!}{\begin{tabular}{ccccccc}
+			\grapheme{uh} & \grapheme{a} & \grapheme{e} & \grapheme{ih} & \grapheme{i} & \grapheme{u} & \grapheme{o} \\
+			\transIPA{uh} & \transIPA{a} & \transIPA{e} & \transIPA{ih} & \transIPA{i} & \transIPA{u} & \transIPA{o} \\
+			\bottomrule
+		\end{tabular}}
+	\label{tab:alphabet}
+\end{table}
+
+\subsection{Numbers}
+
+\todo{Switch to dozenal.}
+
+Najan uses an octal positional numeral system and thus has eight numeric glyphs
+(0-7): \naj{0}, \naj{1}, \naj{2}, \naj{3}, \naj{4}, \naj{5}, \naj{6}, and
+\naj{7}. Numerals are typically written using these glyphs (from most to least
+significant digit) rather than spelling them out as they are pronounced (as
+described in \S\ref{sec:morphology}).
+
+\section{Morphology} \label{sec:morphology}
+
+Najan is analytic and purely isolating (having just one morpheme per word).
+
+\section{Syntax} \label{sec:syntax}
+
+The formal grammar of the language is defined by the following extended
+Backus-Naur form (EBNF) grammar. This is a deterministic context-free grammar,
+making it amenable to automatic parsing.
+
+\begin{ebnf}
+	\nt{clause} \is \opt{\nt{mood particle}} \nt{verb phrase (VP)}
+	\\
+	\nt{VP} \is \opt{\nt{aspect particle}} \nt{verb}
+	\altLine \nt{prep.} \nt{NP} \nt{VP}
+	\altLine \nt{conj.} \nt{VP} \nt{VP}
+	\\
+	\nt{noun phrase (NP)} \is \nt{quant. NP}
+	\altLine \nt{unquant. NP}
+	\altLine \nt{clause}
+	\altLine \nt{quotation}
+	\altLine \nt{conj.} \nt{NP} \nt{NP}
+	\\
+	\nt{quant. NP} \is \nt{det.} \plus{\nt{pronoun}} \nt{unquant. NP}
+	\\
+	\nt{unquant. NP} \is \nt{noun} \alt \nt{pronoun}
+	\altLine \nt{prep.} \nt{NP} \nt{unquant. NP}
+	\\
+	\nt{quotation} \is \t{\trans{ca}} \star{\nt{quoted word}} \t{\trans{ca}}
+	\\
+	\nt{quoted word} \is \nt{word} - \t{\trans{ca}} - \t{\trans{nosh}} - \t{\trans{tqa}}
+	\altLine \t{\trans{tqa}} \t{\trans{ca}}
+	\altLine \t{\trans{tqa}} \t{\trans{nosh}}
+	\altLine \t{\trans{tqa}} \t{\trans{tqa}}
+\end{ebnf}
+
+\todo{Example}
+
+\paragraph{Quotation} A quotation begins and ends with the particle \trans{ca},
+acting as a noun signifying the literal contained words themselves. The escape
+particle \trans{tqa} is used within a quotation just before \trans{ca},
+\trans{nosh}, or \trans{tqa} to indicate that the following particle should be
+interpreted as part of the quotation, not as a particle within the sentence
+containing the quotation.
+
+\example{Nested quotation using particles}{
+	You say ``I say `no'''.
+}{
+	\transLine{ka ca ka ca esh tqa sa tihz ko sa tihz to}
+}
+
+\section{Binding and Quantification} \label{sec:binding}
+
+\paragraph{Quantified Terms} A quantified term binds one or more pronouns to a
+complement, according to the semantics of a determiner, and signifies the bound
+pronouns in-place. Generally, such pronouns remain bound until they are rebound
+to a different complement. However, any pronouns bound using the universal
+determiner \trans{u}---or in any subsequent quantified term within the same
+clause---become unbound at the end of the current clause.
+
+\todo{ Explain the semantics of multiple pronouns. (I think it'll be equivalent
+	to repeating the containing phrase.) }
+
+\todo{ Examples illustrating why it works this way. "Every man X has a horse Y;
+	Y is a good horse" doesn't make sense. "A man X has a horse Y; Y is a good
+	horse" does }
+
+\paragraph{Quotations} Quotations cannot affect the bindings of surrounding
+pronouns. Any assignable pronouns contained in a quotation may refer to
+completely different antecedents that in the surrounding context or even to
+nothing at all, e.g. when using a quotation to talk about the pronouns
+themselves.
+
+\subsection{Pronouns} \label{sec:pronouns}
+
+\paragraph{Assignable} Assignable pronouns are those which can be bound
+explicitly using determiners. There are four assignable pronouns: \trans{zho},
+\trans{co}, \trans{rho}, and \trans{so}. Once all available pronouns have been
+assigned, subsequent assignments must overwrite an existing assignment.
+
+\paragraph{Personal} Najan has four personal pronouns, which are listed in
+Table~\ref{tab:personal-pronouns}.
+
+\begin{table}
+	\caption{Personal pronouns}
+	\centering
+	\begin{tabular}{lll}
+		\toprule
+		               & Singular   & Plural       \\
+		\midrule
+		\nth{1}-person & \trans{ko} & \trans{kxho} \\
+		\nth{2}-person & \trans{to} & \trans{txho} \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:personal-pronouns}
+\end{table}
+
+Note that the first-person plural (\trans{kxho}) is used only in speech or
+writing considered to have multiple speakers or authors, to refer to the group a
+spokesperson represents or to the coauthors of a jointly written document. In
+other words, the first-person plural in Najan does not merely indicate
+association with the speaker; it indicates multiple speakers. Unlike in English,
+the first-person plural should not be used to refer to one's group when speaking
+as an individual or to refer to oneself and the addressee together.
+
+The choice between second-person singular or plural is more intuitive, from an
+English-language perspective. If there is a single primary addressee, the
+singular is used. If there are multiple addressees, the plural is used.
+
+\todo{I could probably get rid of the plural personal pronouns.}
+
+\paragraph{Interrogative} The interrogative pronoun \trans{vo} is used in place
+of unknown terms. It is also essential to the formation of interrogative
+sentences, where it indicates any missing information that the asker wishes to
+know.
+
+\subsection{Determiners} \label{sec:determiners}
+
+\paragraph{Universal} The universal determiner \trans{u} is used to express that
+its immediately enclosing clause holds for each instance of its complement,
+functioning similarly to English ``each'', ``every'', or ``all''. When it binds
+$k$ pronouns in a single quantified noun phrase, the clause applies to every
+$k$-permutation of the elements. As noted above, the universal determiner is
+unique in that it only binds pronouns for the duration of the containing clause.
+
+\example{Universal determiner}
+{Everyone hugged each other.}
+{\transLine{u zho co mil the buda va zho co}}
+
+\paragraph{Existential} The existential determiner \trans{a} binds pronouns to
+individual instances of a complement, similar to many uses of English
+``a''/``an''. When it binds multiple pronouns, each signifies a unique instance.
+Pronouns bound by separate existential determiners applied to the same
+complement may or may not share a referent.
+
+\example{Existential determiner}
+{I have a dog.}
+{\transLine{ya lut ko a zho nhiruh}}
+
+\todo{ Rework this old example, talking about shifting modifiers around instead.
+	Also include an example using a specialized ``for'' modifier, for when the
+	pronouns need to be defined together but used separately? }
+
+\example{Using forward assignment to change semantics}{
+	Every person has an ancestor. \\
+	$\Downarrow$ \\
+	For each person, there's a person that's an ancestor to the first. \\
+}{
+	\transLine{u zho mil ya nhinh a co mil OF runat zho} \\
+	$\Downarrow$ \\
+	\transLine{u zho mil a co mil ya nhinh co OF runat zho} \\
+}
+
+\paragraph{Definite} When the set of entities an unquantified term refers to is
+a singleton, i.e. when it has only one instance, the definitive determiner
+\trans{i} can be used to refer to that single instance, functioning much the
+same as the English determiner ``the'' in many cases.
+
+\example{Definite determiner}{
+	A dog wagged its tail. \\
+	$\Downarrow$ \\
+	Before now, a dog wagged the tail belonging to it.
+}{
+	\transLine{the va threre a zho nhiruh i co sex zho shuht}
+}
+
+\todo{Do I really want a definite determiner?}
+
+\paragraph{Demonstrative} Demonstrative determiners function just like the
+definite determiner except that the complement need not be a singleton. Instead,
+the particular instance of the complement is understood by context, e.g. by
+physical gesturing or by common understanding. Najan has proximal
+(\trans{ihla}), medial (\trans{aya}), and distal (\trans{owa}) demonstrative
+determiners, based on the distance of the referent from the speaker in space and
+time. These correspond roughly to English ``this'', ``that'', and ``yonder'',
+respectively. The concept of distance with regard to demonstrative determiners
+can be more abstract than just spatiotemporal distance to a physical object;
+e.g. it could be a measure of the relevance of the complement to the present
+conversation.
+
+\paragraph{Indefinite} The indefinite determiner \trans{na} acts like the
+English word ``any'', meaning a single instance of the complement where the
+particular instance does not matter. As with the existential determiner, it can
+bind multiple pronouns at once, in which case each referent is unique. Note that
+many English sentences using ``a''/``an'' are best translated using \trans{na}
+rather than \trans{a}.
+
+\example{Indefinite determiner}{
+	I want a book.
+}{
+	\transLine{ka na zho suaysh zihm ko}
+	\\
+	acting-on any pron. book want I
+}
+
+\example{Indefinite determiner binding two pronouns}{
+	I want two books.
+}{
+	\transLine{wa na zho co suaysh ka sem zho co zihm ko}
+	\\
+	forward-assignment any pron.-1 pron.-2 book acting-on and pron.-1 pron.-2 want I
+}
+
+\todo{ This would probably be better translated as "I want any books numbering
+	two" unless the specific two books are going to be referenced individually
+	later. Might want to come up with a better example or add a sentence using
+	the books. }
+
+\subsection{Cancellation} \label{sec:cancellation}
+
+The cancellation particle \trans{nosh} can be used to cancel the entire
+preceding independent sentence, even if it is only partially uttered. The
+conversation then proceeds as if the utterance had never occurred, including
+reverting the context to its previous state. Speakers and listeners alike can
+use \trans{nosh} at any time in a conversation. Cancellation is useful when the
+speaker makes a mistake (like saying ``I mean'') or when the listener does not
+understand something (like saying ``What?'').
+
+Note that for the sake of simplicity and clarity, the formal grammar
+(\S\ref{sec:syntax}) does not handle cancellation. It is relatively
+straightforward for a parser to detect cancellation (e.g., by checking for an
+unescaped cancellation particle during tokenization), but expressing it formally
+overcomplicates the grammar.
+
+\section{Conjunctions} \label{sec:conjunctions}
+
+In Najan, conjunctions are restricted to logical connectives, i.e. functions of
+Boolean values. Many words considered conjunctions in other languages, such as
+English ``because'', are instead classified as modifiers in Najan. Conjunctions
+can connect sentences, predicates, or terms and can be unary, binary, or
+variadic. In the case of variadic conjunctions, \trans{sa} marks the end of the
+list of arguments. Table~\ref{tab:conjunctions} lists all conjunctions in Najan.
+
+\begin{table}
+	\caption{Conjunctions}
+	\centering
+	\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} llll}
+		\toprule
+		Function & Sentence & Predicate & Term \\
+		\midrule
+		$\lnot$ ({\sc not}) & \trans{nunh} & -- & -- \\
+		$\land$ ({\sc and}) & \trans{senh} & \trans{sen} & \trans{sem} \\
+		$\lor$ ({\sc or}) & \trans{shenh} & \trans{shen} & \trans{shem} \\
+		$\oplus$ ({\sc xor}) & \trans{cenh} & \trans{cen} & \trans{cem} \\
+		$\rightarrow$ ({\sc implies}) & \trans{tqanh} & \trans{tqan} & \trans{tqam} \\
+		\bottomrule
+	\end{tabular*}
+	\label{tab:conjunctions}
+\end{table}
+
+\todo{ Do I need three versions of each conjunction, or can some of them be
+	shared and distinguished by syntax? }
+
+Note that biconditional statements (``if and only if'') are equivalent to
+	{\sc xnor}, which can be expressed by combining {\sc not} and {\sc xor} conjunctions.
+
+Note that \trans{tqanh} only denotes material implication; it does not imply a
+causal relationship.
+
+\subsection{Conjunction Rewriting Rules} \label{sec:conj-rewriting}
+
+Sentential conjunctions are the fundamental and most general form of
+conjunction. Semantically, any conjunction of terms or predicates can be
+expressed using a sentential conjunction instead, though usually less concisely.
+As with the conversion from quantified terms to forward assignments
+(\S\ref{sec:binding}), this is a mechanical transformation. A sentence can be
+converted to only sentential conjunctions as follows:
+
+\begin{enumerate}
+	\item Factor out in-place quantified terms to forward assignments, as
+	      described in \S\ref{sec:binding}. Now consider the subsentence after
+	      all forward assignments.
+	\item Scanning left to right, if there is a term or predicate conjunction,
+	      replace the containing sentence with the corresponding sentential
+	      conjunction with copies of the sentence, each holding one of the conjunction
+	      arguments in place of the original conjunction.
+	\item If you performed any substitutions, repeat steps 2-3 for each new
+	      subsentence.
+\end{enumerate}
+
+\example{Conversion from a term conjunction to a sentence conjunction}{
+	I have a cat and a dog.
+}{
+	\transLine{lut ko sem a zho kanaz a co nhiruh} \\
+	$\Downarrow$ \\
+	\transLine{a zho kanaz a co nhiruh lut ko sem zho co} \\
+	$\Downarrow$ \\
+	\transLine{a zho kanaz a co nhiruh senh lut ko zho lut ko co}. \\
+}
+
+Special care should be taken when translating conjunctions from English to
+Najan. A simple literal translation often provides the wrong semantics. Consider
+the following translation attempt:
+
+\example{Incorrect translation of English conjunction}
+{I want an apple or an orange.}
+{WRONG: \trans{zihm ko cem na zho duhxihn na co rhabuhm}}
+
+The translated sentence actually means ``Either I want an apple, or I want an
+orange.'' A more faithful translation of the original sentence would be as
+follows:
+
+\example{Correct translation of conjunction using union modifier}
+{I want an apple or an orange.}
+{\transLine{zihm ko na zho zaw duhxihn rhabuhm}}
+
+This literally means that the speaker wants any single item that is either an
+apple or an orange.
+
+\section{Verbs} \label{sec:verbs}
+
+\subsection{Mood} \label{sec:mood}
+
+Clauses default to the subjunctive mood but can be changed using a particle
+before the clause.
+
+\paragraph{Subjunctive} Used for talking about clauses in the abstract,
+subjunctive clauses don't signify anything as independent clauses; they are
+always used as a dependent clause (e.g. in a hypothetical) or other noun phrase,
+serving a role similar to verbal nouns in English. The shortest possible
+subjunctive clauses - just the particle and a verb, with no modifiers - can
+function exactly like an infinitive or gerund in English.
+
+\paragraph{Indicative} Signifies that the speaker believes the clause is true.
+
+\paragraph{Deontic} Expresses wishes and commands. Najan does not have a
+separate imperative mood to express requests or orders; a deontic clause with a
+(perhaps implicit) second-person agent serves this purpose.
+
+\paragraph{Polar Interrogative} Express yes-no questions. The particle
+\trans{kya} could be translated as ``it is being asked whether [clause]''. The
+expectation is that the listener will answer by affirming the question
+(\trans{azh}), negating it (\trans{esh}), or objecting to its underlying
+premises or implications (\trans{ith}).
+
+\todo{Update this example.}
+
+\example{Polar interrogative sentence}{
+	\begin{tabular}{rl}
+		\textbf{Alice} & Have you stopped beating your spouse? \\
+		\textbf{Bob}   & To the contrary, I never beat her.    \\
+	\end{tabular}
+}{
+	\begin{tabular}{rl}
+		% Duplicating text here instead of using a macro to make the
+		% table rows and columns work.
+		\textbf{Alice} & \naj{kya kxesh goruhp to i zho nih enihd to} \\
+		               & ⟨kya kxesh goruhp to i zho nih enihd to      \\
+		\textbf{Bob}   & \naj{ith. nu goruhp ko zho}                  \\
+		               & ⟨ith. nu goruhp ko zho⟩                      \\
+	\end{tabular}
+}
+
+Multiple-choice questions can be constructed using the polar interrogative mood
+and a logical disjunction, which due to the rewriting rules defined in
+\S~\ref{sec:conj-rewriting} has the same semantics as asking multiple yes/no
+questions.
+
+\paragraph{Open Interrogative} Used for open-ended questions. An open
+interrogative sentence must include at least one occurrence of the interrogative
+pronoun, \trans{vo}. The utterance of an open interrogative clause invites the
+listener to supply an answer for each occurrence of \trans{vo}. As with polar
+questions, \trans{ihth} can be an appropriate response if the question is based
+on false premises and therefore cannot be meaningfully answered.
+
+\example{Open interrogative sentence}
+{What do you want?}
+{\transLine{kwa ya kih FOR vo vihm to}}
+
+\example{Open interrogative sentence with discrete choices}
+{Do you want soup or salad?}
+{\transLine{kwa ya vihm nhinh zaw thloth pewsh vo to}}
+
+\paragraph{Confirmative Interrogative} This mood is similar to the polar
+interrogative except that the speaker already believes the proposition to be
+true, at least tentatively. Use of this mood presents the addressee a chance to
+contradict the claim if it is false. It may also be used rhetorically when the
+speaker is already certain the claim is true. Sentences of this mood are like
+tag questions in English (``right?'') and other languages. \trans{odh} and
+\trans{ihth} are typical responses to confirmative questions.
+
+\todo{Make these particles more dissimilar and interesting.}
+
+\begin{table}
+	\caption{Mood particles}
+	\centering
+	\begin{tabular}{ll}
+		\toprule
+		Mood                       & Particle     \\
+		\midrule
+		Subjunctive                & --           \\
+		Indicative                 & \trans{zhe}  \\
+		Deontic                    & \trans{ksha} \\
+		Polar Interrogative        & \trans{kya}  \\
+		Open Interrogative         & \trans{kwa}  \\
+		Confirmative Interrogative & \trans{kla}  \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:mood-particles}
+\end{table}
+
+\subsection{Aspect} \label{sec:aspect}
+
+Verbs default to the continuous aspect but can be changed using a particle
+immediately preceding the verb. (Note that the continuous aspect applies to both
+dynamic and stative verbs. Najan does not distinguish between progressive and
+continuous aspects.)
+
+\begin{table}
+	\caption{Aspect particles}
+	\centering
+	\begin{tabular}{ll}
+		\toprule
+		Particle     & Aspect
+		\midrule
+		--           & Continuous \\
+		\trans{the}  & Perfective \\
+		\trans{fxe}  & Habitual   \\
+		\trans{khon} & Gnomic     \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:aspect-particles}
+\end{table}
+
+\subsection{Arguments} \label{sec:arguments}
+
+All arguments to the verb are expressed via optional prepositional phrases
+modifying the verb (\S\ref{sec:modifiers}). Since prepositional phrases can
+occur in any order, Najan has very free word order.
+
+In English, the subject does not vary morphosyntactically when paired with a
+dynamic vs. a stative verb. In Najan however, dynamic and stative clauses
+require different sets of prepositional phrases to express their arguments.
+
+Common prepositions for expressing dynamic arguments are listed in
+Table~\ref{tab:dynamic-argument-prepositions}.
+
+\todo{Use descriptive paragraphs instead of a table.}
+
+\begin{table}
+	\caption{Dynamic argument prepositions}
+	\centering
+	\begin{tabular}{ll}
+		\toprule
+		Relation          & Modifier      \\
+		\midrule
+		Agent             & \trans{shi}   \\
+		Involuntary cause & \trans{slo}   \\
+		Patient           & \trans{ruh}   \\
+		Instrument        & \trans{lathu} \\
+		Recipient         & \trans{dhu}   \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:dynamic-argument-prepositions}
+\end{table}
+
+\todo{Examples. "I destroy the sand castle" vs. "The sea destroys the sand castle"}
+
+The prepositions for stative arguments are more abstract. The subject marker
+\trans{nihm} indicates the primary noun phrase to which the predicate applies.
+The object marker \trans{gha} provides additional context. The exact semantics
+of these arguments varies by stative verb.
+
+\todo{Example: this equals that: this and that are both subjects}
+
+\todo{Example: this is greater than that: this is the subject, that the object}
+
+Note that because all arguments to the verb are indicated using modifiers, it's
+possible for a verb to have multiple arguments of the same type - for instance,
+multiple agents - without using grouping phrases.
+
+\todo{Format and translate examples below.}
+
+\trans{shi ko shi to <sing>} implies singing together.
+
+\trans{shi ko ruh <ball> ruh <glove> <throw>} implies I threw the ball
+and glove as part of the same action.
+
+\subsection{Tense} \label{sec:tense}
+
+Like arguments to the verb, verb tense is expressed by modifying the verb with a
+prepositional phrase. If no such modifiers are present, then the time frame must
+be inferred from context. Table~\ref{tab:temporal-modifiers} lists all the
+modifiers that affect the tense of a verb phrase, and
+Table~\ref{tab:temporal-terms} provides a (nonexhaustive) list of terms commonly
+used with temporal modifiers.
+
+\begin{table}
+	\caption{Temporal modifiers}
+	\centering
+	\begin{tabular}{ll}
+		\toprule
+		Modifier     & Meaning                     \\
+		\midrule
+		\trans{ve}   & at/on [time point]          \\
+		\trans{le}   & for [duration]              \\
+		\trans{de}   & during/in [time period]     \\
+		\trans{the}  & before [time point]         \\
+		\trans{thih} & shortly before [time point] \\
+		\trans{thu}  & long before [time point]    \\
+		\trans{she}  & after [time point]          \\
+		\trans{shih} & shortly after [time point]  \\
+		\trans{shu}  & long after [time point]     \\
+		\trans{nhe}  & from [time point]           \\
+		\trans{ne}   & to [time point]             \\
+		             & until [event]               \\
+		             & while [event]               \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:temporal-modifiers}
+\end{table}
+
+\todo{That looks like inflection to me.}
+
+\begin{table}
+	\caption{Common temporal terms}
+	\centering
+	\begin{tabular}{ll}
+		\toprule
+		Term            & Meaning                   \\
+		\midrule
+		\trans{va}      & the present/now           \\
+		\trans{tha}     & the past                  \\
+		\trans{sha}     & the future                \\
+		\trans{gha}     & moment/instant            \\
+		\trans{kha}     & time span                 \\
+		\trans{thenish} & eternity/forever/all time \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:temporal-terms}
+\end{table}
+
+\subsection{Interjections} \label{sec:interjections}
+
+Some avalent verbs function as interjections. Four common interjections are
+\trans{azh} (``yes''), \trans{esh} (``no''), \trans{odh} (``indeed'',
+``right''), and \trans{ihth} (``to the contrary'').
+
+\section{Modifiers} \label{sec:modifiers}
+
+\todo{ This entire section below this line may be outdated and in need of
+	reworking/redistribution. }
+
+Modifiers change the meaning of sentences, predicates, or terms. They serve the
+roles that prepositions, adjectives, adverbs, and certain coordinating
+conjunctions serve in English. A modifier precedes any additional arguments
+(which are terms), depending on the valency of the modifier, which precede the
+modified object.
+
+\subsection{Sentence Modifiers}
+
+\begin{table}
+	\caption{Sentence modifiers}
+	\centering
+	\begin{tabular}{ll}
+		\toprule
+		Modifier     & Meaning                                  \\
+		\midrule
+		\trans{bihn} & because [reason]                         \\
+		\trans{vihr} & so/thus/therefore [consequence]          \\
+		             & with respect to/regarding/concerning ... \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:sentence-modifiers}
+\end{table}
+
+\subsection{Predicate Modifiers}
+
+\begin{table}
+	\caption{Spatial modifiers}
+	\centering
+	\begin{tabular}{ll}
+		\toprule
+		Modifier & Meaning                        \\
+		\midrule
+		\naj{}   & at [position]                  \\
+		\naj{}   & away from [position/direction] \\
+		\naj{}   & to [position/direction]        \\
+		\naj{}   & towards [position/direction]   \\
+
+		\bottomrule
+	\end{tabular}
+	\label{tab:spatial-modifiers}
+\end{table}
+
+\subsection{Term Modifiers}
+
+\begin{table}
+	\caption{Abstract modifiers}
+	\centering
+	\begin{tabular}{ll}
+		\toprule
+		Modifier    & Meaning                    \\
+		\midrule
+		\trans{nih} & of/related to [term]       \\
+		\trans{sex} & component/member of [term] \\
+		\trans{sih} & such that [sentence]       \\
+		\trans{kih} & with/having [property]     \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:abstract-modifiers}
+\end{table}
+
+\begin{table}
+	\caption{Mathematical modifiers}
+	\centering
+	\begin{tabular}{ll}
+		\toprule
+		Modifier      & Meaning                                    \\
+		\midrule
+		\trans{nhinh} & belonging to/element of [set]              \\
+		\trans{vekh}  & subset of [set]                            \\
+		\trans{vekq}  & proper subset of [set]                     \\
+		\trans{ghaf}  & superset of [set]                          \\
+		\trans{gqaf}  & proper superset of [set]                   \\
+		\trans{zaw}   & union with [set]                           \\
+		\trans{tew}   & intersection with [set]                    \\
+		\trans{khep}  & except/set-minus [set]                     \\
+		\trans{shi}   & equivalent to/identical to [term]          \\
+		\trans{thik}  & equal to [term]                            \\
+		\trans{muhl}  & not equal to ...                           \\
+		\trans{thuhm} & less than or equal to ...                  \\
+		\trans{thuhl} & less than ...                              \\
+		\trans{shuhm} & greater than or equal to ...               \\
+		\trans{shuhl} & greater than ...                           \\
+		\trans{ray}   & preceded by [cardinal number] predecessors \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:mathematical-modifiers}
+\end{table}
+
+\todo{Lots of inflection here as well.}
+
+\section{Numbers} \label{sec:numbers}
+
+Numerals always function grammatically as nouns and signify rational numbers.
+
+\paragraph{Ordinals} Ordinality (\trans{ray}) in Najan is zero-based (unlike in
+English, where ordinals are one-based).
+
+\example{Ordinal number}{
+	the first person \\
+	$\Downarrow$ \\
+	the person with ordinality equal to zero
+}{
+	\trans{i nuh thik anh ray mihl}
+}
+
+\todo{ This section below this line may be out of date. Should have just twelve
+	easily distinguishable digits, combined using modifiers. }
+
+Najan uses a dozenal positional numeral system. Digits are grouped into threes,
+with 1,728 possible values per digit group. Placeholder zeros are not
+pronounced, and the eleven non-zero digits have unique names depending on their
+place within a digit group. Table~\ref{tab:digit-names} lists the names of
+digits in each position.
+
+The preposition \trans{nuh dhihn} (``with negation'') can be used to negate a
+numeral. Integers with absolute value less than decimal $12^3$ can be expressed
+using just a single digit group. For numbers with magnitude greater or equal to
+$12^3$ or with a fractional component, each group of three digits is preceded by
+the word \trans{lihnh} and a multiplier. The value of each digit group is its
+base value times $12^3$ raised to the power of its multiplier. Note that
+negative multipliers express fractional values.
+
+The following extended Backus-Naur form (EBNF) grammar defines the structure of
+Najan numerals.
+
+\begin{ebnf}
+	\nt{numeral} \is \opt{\t{\naj{dhihn}}} (\nt{group} \alt \plus{\t{\naj{lihnh}} \nt{numeral} \nt{group}})
+
+	\nt{group} \is \nt{triple} \opt{\nt{double}} \opt{\nt{single}}
+	\altLine \nt{double} \opt{\nt{single}}
+	\altLine \nt{single}
+	\altLine \t{\naj{anh}}
+
+	\nt{single} \is \t{\naj{aj}} \alt \t{\naj{az}} \alt \t{\naj{ac}} \alt \t{\naj{ak}} \alt \t{\naj{af}} \alt \t{\naj{ash}} \alt \t{\naj{av}}
+
+	\nt{double} \is \t{\naj{ej}} \alt \t{\naj{ez}} \alt \t{\naj{ec}} \alt \t{\naj{ek}} \alt \t{\naj{ef}} \alt \t{\naj{esh}} \alt \t{\naj{ev}}
+
+	\nt{triple} \is \t{\naj{oj}} \alt \t{\naj{oz}} \alt \t{\naj{oc}} \alt \t{\naj{ok}} \alt \t{\naj{of}} \alt \t{\naj{osh}} \alt \t{\naj{ov}}
+\end{ebnf}
+
+\begin{table}
+	\caption{Digit names}
+	\centering
+	\begin{tabular}{llll}
+		\toprule
+		\multirow{2}{*}{Digit} & \multicolumn{3}{c}{Multiplier}                             \\
+		\cmidrule{2-4}
+		                       & $\times 1$                     & $\times 8$  & $\times 64$ \\
+		\midrule
+		0                      & \trans{anh}                    & --          & --          \\
+		1                      & \trans{aj}                     & \trans{ej}  & \trans{oj}  \\
+		2                      & \trans{az}                     & \trans{ez}  & \trans{oz}  \\
+		3                      & \trans{ac}                     & \trans{ec}  & \trans{oc}  \\
+		4                      & \trans{ak}                     & \trans{ek}  & \trans{ok}  \\
+		5                      & \trans{af}                     & \trans{ef}  & \trans{of}  \\
+		6                      & \trans{ash}                    & \trans{esh} & \trans{osh} \\
+		7                      & \trans{av}                     & \trans{ev}  & \trans{ov}  \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:digit-names}
+\end{table}
+
+\begin{appendices}
+	\section{Example Translations}
+\end{appendices}
+
+\end{document}

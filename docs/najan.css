@@ -1,0 +1,13 @@
+@font-face {
+	font-family: Najan;
+	src: url('../Najan.ttf');
+}
+
+naj {
+	font-family: Najan;
+}
+
+naj-xxl {
+	font-family: Najan;
+	font-size: xx-large;
+}

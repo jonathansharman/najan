@@ -1,0 +1,13 @@
+[book]
+authors = ["Jonathan Sharman"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Najan"
+
+[build]
+build-dir = "docs"
+
+[output.html]
+additional-css = ["src/najan.css"]
+curly-quotes = true

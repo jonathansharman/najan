@@ -1,4 +1,4 @@
-# Chapter 1
+# Phonology
 
 <naj>kʊv naj vɪx</naj> ⟨kʊv naj vɪx⟩
 

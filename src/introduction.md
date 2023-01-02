@@ -2,11 +2,13 @@
 
 This book describes the major phonological, orthographic, syntactic, and
 semantic properties of Najan, my first and only conlang. Najan is an *a priori*,
-analytic, isolating conlang with mostly phonemic orthography, unambiguous
-context-free syntax, and features from first-order logic.
+analytic, isolating conlang featuring mostly phonemic orthography, an
+unambiguous context-free grammar, and pronoun binding and quantification rules
+inspired by first-order logic. The Najan name for Najan is <naj>kʊv naj
+vɪx</naj> [kʰʊv näʒ vɪɾ̥ʰ].
 
 I have no formal linguistic training, so the language is not very naturalistic
 or elaborate as far as conlangs go. Nevertheless, it's been a joy to work on,
-and I'm happy with how it has evolved and excited to share it with others.
+and I'm happy with how it has evolved and am excited to share it with others.
 
 *Soli Deo gloria.*

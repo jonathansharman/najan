@@ -1,6 +1,6 @@
-# Phonology
+# Orthography
 
-<naj>kʊv naj vɪx</naj> ⟨kʊv naj vɪx⟩
+TODO: glyph names
 
 | | | | | | |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -11,4 +11,4 @@
 
 | | | | | | | |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| <naj-xxl>ʊ</naj-xxl> <br> ⟨ʊ⟩ \[ʊ\] | <naj-xxl>a</naj-xxl> <br> ⟨a⟩ \[ä\] | <naj-xxl>e</naj-xxl> <br> ⟨e⟩ \[e\] | <naj-xxl>ɪ</naj-xxl> <br> ⟨ɪ⟩ \[ɪ\] | <naj-xxl>i</naj-xxl> <br> ⟨i⟩ \[i\] | <naj-xxl>u</naj-xxl> <br> ⟨u⟩ \[u\] | <naj-xxl>o</naj-xxl> <br> ⟨o⟩ \[o\] |
+| <naj-xxl>ʊ</naj-xxl> <br> ⟨ʊ⟩ \[ʊ\] | <naj-xxl>a</naj-xxl> <br> ⟨a⟩ \[ä\] | <naj-xxl>e</naj-xxl> <br> ⟨e⟩ \[ɛ\] | <naj-xxl>ɪ</naj-xxl> <br> ⟨ɪ⟩ \[ɪ\] | <naj-xxl>i</naj-xxl> <br> ⟨i⟩ \[i\] | <naj-xxl>u</naj-xxl> <br> ⟨u⟩ \[u\] | <naj-xxl>o</naj-xxl> <br> ⟨o⟩ \[o̞\] |

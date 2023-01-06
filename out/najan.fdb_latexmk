@@ -1,0 +1,17 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "out/najan.xdv" "out/najan.pdf" "out/najan" 0
+  "out/najan.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "out/najan.pdf"
+["xelatex"] 1672700998 "c:/Users/jonat/Documents/Najan/najan.tex" "out/najan.xdv" "najan" 1672700998
+  "c:/Users/jonat/Documents/Najan/najan.tex" 1672700993 32898 2ddead92efe387c679258b91f59ed5c1 ""
+  "c:/texlive/2022/texmf-dist/web2c/texmf.cnf" 1662837526 40171 cdab547de63d26590bebb3baff566530 ""
+  "c:/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1662861387 5555457 3b68afc41e85bd3b8b5022f050ef3e6b ""
+  "c:/texlive/2022/texmf.cnf" 1662861274 713 e69b156964470283e0530f5060668171 ""
+  "common-header.tex" 0 -1 0 ""
+  "najan.tex" 1672700993 32898 2ddead92efe387c679258b91f59ed5c1 ""
+  "out/common-header.tex" 0 -1 0 ""
+  "out/najan.aux" 1672700998 34 3985256e7290058c681f74d7a3565a19 ""
+  (generated)
+  "out/najan.log"
+  "out/najan.xdv"

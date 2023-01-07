@@ -11,3 +11,9 @@ naj-xxl {
 	font-family: Najan;
 	font-size: xx-large;
 }
+
+lhs {
+	display: inline-block;
+	width: 180px;
+	text-align: right;
+}

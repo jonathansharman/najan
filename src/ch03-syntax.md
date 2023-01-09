@@ -11,7 +11,7 @@ in extended Backus-Naur form as follows:
 >
 > <lhs>**unquantified NP** ⇒</lhs> ⟨**noun**⟩ | ⟨**ᴘʀᴏ**⟩ | ⟨**clause**⟩ | ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩ ⟨**unquantified NP**⟩
 >
-> <lhs>**quantified NP** ⇒</lhs> ⟨**ᴅᴇᴛ**⟩ ⟨**ᴘʀᴏ**⟩+ ⟨**unquantified NP**⟩ | ⟨**quotation**⟩
+> <lhs>**quantified NP** ⇒</lhs> ⟨**ᴅᴇᴛ**⟩ { ⟨**ᴘʀᴏ**⟩ } ⟨**unquantified NP**⟩ | ⟨**quotation**⟩
 >
 > <lhs>**quotation** ⇒</lhs> "<naj>tca</naj> ⟨tca⟩" ⟨**quoted word**⟩ "<naj>tca</naj> ⟨tca⟩"
 >

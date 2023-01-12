@@ -9,9 +9,9 @@ in extended Backus-Naur form as follows:
 >
 > <lhs>**noun phrase (NP)** ⇒</lhs> ⟨**unquantified NP**⟩ | ⟨**quantified NP**⟩ | ⟨**ᴄᴏɴᴊ**⟩ ⟨**NP**⟩ ⟨**NP**⟩
 >
-> <lhs>**unquantified NP** ⇒</lhs> ⟨**noun**⟩ | ⟨**ᴘʀᴏ**⟩ | ⟨**clause**⟩ | ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩ ⟨**unquantified NP**⟩
+> <lhs>**unquantified NP** ⇒</lhs> ⟨**noun**⟩ | ⟨**clause**⟩ | ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩ ⟨**unquantified NP**⟩
 >
-> <lhs>**quantified NP** ⇒</lhs> ⟨**ᴅᴇᴛ**⟩ { ⟨**ᴘʀᴏ**⟩ } ⟨**unquantified NP**⟩ | ⟨**quotation**⟩
+> <lhs>**quantified NP** ⇒</lhs> ⟨**ᴘʀᴏ**⟩ | ⟨**ᴅᴇᴛ**⟩ { ⟨**ᴘʀᴏ**⟩ } ⟨**unquantified NP**⟩ | ⟨**quotation**⟩
 >
 > <lhs>**quotation** ⇒</lhs> "<naj>tca</naj> ⟨tca⟩" ⟨**quoted word**⟩ "<naj>tca</naj> ⟨tca⟩"
 >

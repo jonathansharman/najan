@@ -1,108 +1,3 @@
-\input{common-header}
-\usepackage[title]{appendix}
-\usepackage{booktabs}
-\usepackage{float}
-\usepackage
-    [ colorlinks
-    , linkcolor=.
-    , urlcolor=blue
-    ]{hyperref}
-\usepackage[usenames, dvipsnames]{xcolor} % Must include before mdframed.
-\usepackage[framemethod=tikz]{mdframed}
-\usepackage{multirow}
-\usepackage[super]{nth}
-\usepackage[parfill]{parskip}
-\usepackage{tcolorbox}
-\usepackage{todonotes}
-\usepackage{vowel}
-
-\NewDocumentCommand{\grapheme}{m}{\huge \naj{#1}}
-\NewDocumentCommand{\transIPA}{m}{⟨#1⟩ [\ipa{#1}]}
-
-\definecolor{NonterminalColor}{RGB}{0, 32, 96}
-\definecolor{TerminalColor}{RGB}{60, 128, 49}
-
-\NewDocumentEnvironment{ebnf}{}{
-	% Formatting settings.
-	\setlength{\parindent}{0em}
-	\setlength{\parskip}{0.5\baselineskip}
-	% Separates LHS and RHS.
-	\newcommand{\is}{\ $\rightarrow$ \ }
-	% Alternative.
-	\newcommand{\alt}{|\ }
-	\newcommand{\altLine}{\\ \phantom{\hspace{2em}} |\ \ \ }
-	% Puts the RHS on a new line without an alternative symbol.
-	\newcommand{\newLine}{\\ \phantom{\hspace{2em}}}
-	% Optional group.
-	\NewDocumentCommand{\opt}{m}{##1?}
-	% Zero or more copies.
-	\RenewDocumentCommand{\star}{m}{##1\textsuperscript{*}}
-	% One or more copies.
-	\NewDocumentCommand{\plus}{m}{##1\textsuperscript{+}}
-	% N copies.
-	\NewDocumentCommand{\n}{mm}{##1\textsuperscript{##2}}
-	% Nonterminal symbol.
-	\NewDocumentCommand{\nt}{m}{⟨\textcolor{NonterminalColor}{##1}⟩}
-	% Terminal symbol in Najan.
-	\RenewDocumentCommand{\t}{m}{``\textcolor{TerminalColor}{##1}''}
-
-	% Box the grammar.
-	\begin{mdframed}
-		[ hidealllines=true
-		, backgroundcolor=gray!10
-		, innerleftmargin=3pt
-		, innerrightmargin=3pt
-		, leftmargin=-3pt
-		, rightmargin=-3pt
-		]
-}{
-	\end{mdframed}
-}
-
-% Box to hold an example translation from English to Najan.
-\newcounter{example}
-\stepcounter{example}
-\NewDocumentCommand{\example}{mmm}{
-	\vspace{1em}
-	\begin{tcolorbox}
-		[ title=Example \theexample: #1
-		, halign=center
-		, halign lower=center
-		]
-		#2 \tcblower #3
-	\end{tcolorbox}
-	\vspace{0.5em}
-	\stepcounter{example}
-}
-
-% Down arrow and new line, for use in translation examples.
-\NewDocumentCommand{\down}{}{$\Downarrow$ \\}
-
-\title{\naj{kuhv naj vihrh} \\ The Najan Language}
-\author{Jonathan Sharman}
-
-\begin{document}
-
-\listoftodos
-
-\maketitle
-
-\tableofcontents
-
-\twocolumn
-
-\section{Orthography} \label{sec:orthography}
-
-\subsection{Numbers}
-
-\todo{Switch to dozenal.}
-
-Najan uses an octal positional numeral system and thus has eight numeric glyphs
-(0-7): \naj{0}, \naj{1}, \naj{2}, \naj{3}, \naj{4}, \naj{5}, \naj{6}, and
-\naj{7}. Numerals are typically written using these glyphs (from most to least
-significant digit) rather than spelling them out as they are pronounced (as
-described in \S\ref{sec:morphology}).
-
 \section{Binding and Quantification} \label{sec:binding}
 
 \paragraph{Quantified Terms} A quantified term binds one or more pronouns to a
@@ -259,22 +154,6 @@ rather than \trans{a}.
 	two" unless the specific two books are going to be referenced individually
 	later. Might want to come up with a better example or add a sentence using
 	the books. }
-
-\subsection{Cancellation} \label{sec:cancellation}
-
-The cancellation particle \trans{nosh} can be used to cancel the entire
-preceding independent sentence, even if it is only partially uttered. The
-conversation then proceeds as if the utterance had never occurred, including
-reverting the context to its previous state. Speakers and listeners alike can
-use \trans{nosh} at any time in a conversation. Cancellation is useful when the
-speaker makes a mistake (like saying ``I mean'') or when the listener does not
-understand something (like saying ``What?'').
-
-Note that for the sake of simplicity and clarity, the formal grammar
-(\S\ref{sec:syntax}) does not handle cancellation. It is relatively
-straightforward for a parser to detect cancellation (e.g., by checking for an
-unescaped cancellation particle during tokenization), but expressing it formally
-overcomplicates the grammar.
 
 \section{Conjunctions} \label{sec:conjunctions}
 
@@ -756,9 +635,5 @@ Najan numerals.
 	\end{tabular}
 	\label{tab:digit-names}
 \end{table}
-
-\begin{appendices}
-	\section{Example Translations}
-\end{appendices}
 
 \end{document}

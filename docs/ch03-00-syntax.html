@@ -143,14 +143,15 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="syntax"><a class="header" href="#syntax">Syntax</a></h1>
-<p>Najan is a deterministic context-free language, and its grammar can be expressed
-in extended Backus-Naur form as follows:</p>
+<p>Najan is a deterministic context-free language whose grammar can be expressed in
+extended Backus-Naur form as follows:</p>
 <blockquote>
 <p><lhs><strong>clause</strong> ⇒</lhs> [ ⟨<strong>mood ᴘᴛᴄʟ</strong>⟩ ] ⟨<strong>VP</strong>⟩</p>
 <p><lhs><strong>verb phrase (VP)</strong> ⇒</lhs> [ ⟨<strong>aspect ᴘᴛᴄʟ</strong>⟩ ] ⟨<strong>verb</strong>⟩ | ⟨<strong>ᴘʀᴇᴘ</strong>⟩ ⟨<strong>NP</strong>⟩ ⟨<strong>VP</strong>⟩ | ⟨<strong>ᴄᴏɴᴊ</strong>⟩ ⟨<strong>VP</strong>⟩ ⟨<strong>VP</strong>⟩</p>
 <p><lhs><strong>noun phrase (NP)</strong> ⇒</lhs> ⟨<strong>unquantified NP</strong>⟩ | ⟨<strong>quantified NP</strong>⟩ | ⟨<strong>ᴄᴏɴᴊ</strong>⟩ ⟨<strong>NP</strong>⟩ ⟨<strong>NP</strong>⟩</p>
-<p><lhs><strong>unquantified NP</strong> ⇒</lhs> ⟨<strong>noun</strong>⟩ | ⟨<strong>clause</strong>⟩ | ⟨<strong>ᴘʀᴇᴘ</strong>⟩ ⟨<strong>NP</strong>⟩ ⟨<strong>unquantified NP</strong>⟩</p>
-<p><lhs><strong>quantified NP</strong> ⇒</lhs> ⟨<strong>ᴘʀᴏ</strong>⟩ | ⟨<strong>ᴅᴇᴛ</strong>⟩ { ⟨<strong>ᴘʀᴏ</strong>⟩ } ⟨<strong>unquantified NP</strong>⟩ | ⟨<strong>quotation</strong>⟩</p>
+<p><lhs><strong>unquantified NP</strong> ⇒</lhs> ⟨<strong>clause</strong>⟩ | ⟨<strong>ᴘʀᴇᴘ</strong>⟩ ⟨<strong>NP</strong>⟩ ⟨<strong>unquantified NP</strong>⟩</p>
+<p><lhs><strong>quantified NP</strong> ⇒</lhs> ⟨<strong>ᴘʀᴏ</strong>⟩ | ⟨<strong>ᴅᴇᴛ phrase</strong>⟩ | ⟨<strong>quotation</strong>⟩</p>
+<p><lhs><strong>ᴅᴇᴛ phrase</strong> ⇒</lhs> ⟨<strong>ᴅᴇᴛ</strong>⟩ { ⟨<strong>ᴘʀᴏ</strong>⟩ } ⟨<strong>unquantified NP</strong>⟩</p>
 <p><lhs><strong>quotation</strong> ⇒</lhs> “<naj>tca</naj> ⟨tca⟩” ⟨<strong>quoted word</strong>⟩ “<naj>tca</naj> ⟨tca⟩”</p>
 <p><lhs><strong>quoted word</strong> ⇒</lhs> ⟨<strong>word</strong>⟩ - “<naj>tca</naj> ⟨tca⟩” - “<naj>tsa</naj> ⟨tsa⟩” | “<naj>tsa tca</naj> ⟨tsa tca⟩” | “<naj>tsa tsa</naj> ⟨tsa tsa⟩”</p>
 </blockquote>

@@ -143,128 +143,17 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="binding"><a class="header" href="#binding">Binding</a></h1>
-<p>A quantified term binds one or more pronouns to a complement, according to the
-semantics of a determiner, and signifies the bound pronouns in-place. Generally,
-such pronouns remain bound until they are rebound to a different complement.
-However, any pronouns bound using the universal determiner <naj>u</naj> ⟨u⟩ - or
-in any subsequent quantified term within the same clause - become unbound at the
-end of the current clause.</p>
-<p>\todo{ Explain the semantics of multiple pronouns. (I think it’ll be equivalent
-to repeating the containing phrase.) }</p>
-<p>\todo{ Examples illustrating why it works this way. “Every man X has a horse Y;
-Y is a good horse” doesn’t make sense. “A man X has a horse Y; Y is a good
-horse” does }</p>
-<p>Quotations cannot affect the bindings of surrounding pronouns. Any assignable
-pronouns contained in a quotation may refer to completely different antecedents
-that in the surrounding context or even to nothing at all, e.g. when using a
-quotation to talk about the pronouns themselves.</p>
-<h2 id="pronouns"><a class="header" href="#pronouns">Pronouns</a></h2>
-<p>The assignable pronouns can be bound explicitly using determiners. There are
-four assignable pronouns: <naj>jo</naj> ⟨jo⟩, … TODO. Once all available
-pronouns have been assigned, subsequent assignments must overwrite an existing
-assignment.</p>
-<p>Najan has four personal pronouns, which are listed in
-Table~\ref{tab:personal-pronouns}.</p>
-<p>\begin{table}
-\caption{Personal pronouns}
-\centering
-\begin{tabular}{lll}
-\toprule
-&amp; Singular   &amp; Plural       \
-\midrule
-\nth{1}-person &amp; \trans{ko} &amp; \trans{jal} \
-\nth{2}-person &amp; \trans{to} &amp; \trans{txho} \
-\bottomrule
-\end{tabular}
-\label{tab:personal-pronouns}
-\end{table}</p>
-<p>Note that the first-person plural (\trans{jal}) is used only in speech or
-writing considered to have multiple speakers or authors, to refer to the group a
-spokesperson represents or to the coauthors of a jointly written document. In
-other words, the first-person plural in Najan does not merely indicate
-association with the speaker; it indicates multiple speakers. Unlike in English,
-the first-person plural should not be used to refer to one’s group when speaking
-as an individual or to refer to oneself and the addressee together.</p>
-<p>The choice between second-person singular or plural is more intuitive, from an
-English-language perspective. If there is a single primary addressee, the
-singular is used. If there are multiple addressees, the plural is used.</p>
-<p>\paragraph{Interrogative} The interrogative pronoun TODO is used in place
-of unknown terms. It is also essential to the formation of interrogative
-sentences, where it indicates any missing information that the asker wishes to
-know.</p>
-<h2 id="determiners"><a class="header" href="#determiners">Determiners</a></h2>
-<p>\paragraph{Universal} The universal determiner \trans{u} is used to express that
-its immediately enclosing clause holds for each instance of its complement,
-functioning similarly to English <code>each'', </code>every’‘, or ``all’’. When it binds
-$k$ pronouns in a single quantified noun phrase, the clause applies to every
-$k$-permutation of the elements. As noted above, the universal determiner is
-unique in that it only binds pronouns for the duration of the containing clause.</p>
-<p>\example{Universal determiner}
-{Everyone hugged each other.}
-{\transLine{u zho co mil the buda va zho co}}</p>
-<p>\paragraph{Existential} The existential determiner \trans{a} binds pronouns to
-individual instances of a complement, similar to many uses of English
-<code>a''/</code>an’’. When it binds multiple pronouns, each signifies a unique instance.
-Pronouns bound by separate existential determiners applied to the same
-complement may or may not share a referent.</p>
-<p>\example{Existential determiner}
-{I have a dog.}
-{\transLine{ya lut ko a zho nhiruh}}</p>
-<p>\todo{ Rework this old example, talking about shifting modifiers around instead.
-Also include an example using a specialized ``for’’ modifier, for when the
-pronouns need to be defined together but used separately? }</p>
-<p>\example{Using forward assignment to change semantics}{
-Every person has an ancestor. \
-$\Downarrow$ \
-For each person, there’s a person that’s an ancestor to the first. \
-}{
-\transLine{u zho mil ya nhinh a co mil OF runat zho} \
-$\Downarrow$ \
-\transLine{u zho mil a co mil ya nhinh co OF runat zho} \
-}</p>
-<p>\paragraph{Definite} When the set of entities an unquantified term refers to is
-a singleton, i.e. when it has only one instance, the definitive determiner
-\trans{i} can be used to refer to that single instance, functioning much the
-same as the English determiner ``the’’ in many cases.</p>
-<p>\example{Definite determiner}{
-A dog wagged its tail. \
-$\Downarrow$ \
-Before now, a dog wagged the tail belonging to it.
-}{
-\transLine{the va threre a zho nhiruh i co sex zho shuht}
-}</p>
-<p>\paragraph{Demonstrative} Demonstrative determiners function just like the
-definite determiner except that the complement need not be a singleton. Instead,
-the particular instance of the complement is understood by context, e.g. by
-physical gesturing or by common understanding. Najan has proximal
-(\trans{ihla}), medial (\trans{aya}), and distal (\trans{owa}) demonstrative
-determiners, based on the distance of the referent from the speaker in space and
-time. These correspond roughly to English <code>this'', </code>that’‘, and ``yonder’’,
-respectively. The concept of distance with regard to demonstrative determiners
-can be more abstract than just spatiotemporal distance to a physical object;
-e.g. it could be a measure of the relevance of the complement to the present
-conversation.</p>
-<p>\paragraph{Indefinite} The indefinite determiner \trans{na} acts like the
-English word <code>any'', meaning a single instance of the complement where the particular instance does not matter. As with the existential determiner, it can bind multiple pronouns at once, in which case each referent is unique. Note that many English sentences using </code>a’‘/``an’’ are best translated using \trans{na}
-rather than \trans{a}.</p>
-<p>\example{Indefinite determiner}{
-I want a book.
-}{
-\transLine{ka na zho suaysh zihm ko}
-\
-acting-on any pron. book want I
-}</p>
-<p>\example{Indefinite determiner binding two pronouns}{
-I want two books.
-}{
-\transLine{wa na zho co suaysh ka sem zho co zihm ko}
-\
-forward-assignment any pron.-1 pron.-2 book acting-on and pron.-1 pron.-2 want I
-}</p>
-<p>\todo{ This would probably be better translated as “I want any books numbering
-two” unless the specific two books are going to be referenced individually
-later. Might want to come up with a better example or add a sentence using
-the books. }</p>
+<p>A noun phrase in Najan can be unquantified or quantified. Unquantified noun
+phrases can be modified with a prepositional phrase and signify something in the
+abstract (e.g. “being human”, “running”, “love”). Quantified noun phrases cannot
+be modified and signify a concrete instance, set, or amount of something (e.g.
+“you”, “the victory”, “two dogs”, “some water”, “several words”).</p>
+<p>A quantified noun phrase can be a pronoun, quotation, or determiner phrase.
+Determiner phrases can optionally bind the referent or referents to one or more
+assignable pronouns, with different binding semantics depending on the
+determiner.</p>
+<p>This chapter will explain the function of Najan pronouns and determiners and how
+the two interact via binding expressions.</p>
 
                     </main>
 

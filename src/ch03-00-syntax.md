@@ -1,7 +1,7 @@
 # Syntax
 
-Najan is a deterministic context-free language, and its grammar can be expressed
-in extended Backus-Naur form as follows:
+Najan is a deterministic context-free language whose grammar can be expressed in
+extended Backus-Naur form as follows:
 
 > <lhs>**clause** ⇒</lhs> [ ⟨**mood ᴘᴛᴄʟ**⟩ ] ⟨**VP**⟩
 >
@@ -9,9 +9,11 @@ in extended Backus-Naur form as follows:
 >
 > <lhs>**noun phrase (NP)** ⇒</lhs> ⟨**unquantified NP**⟩ | ⟨**quantified NP**⟩ | ⟨**ᴄᴏɴᴊ**⟩ ⟨**NP**⟩ ⟨**NP**⟩
 >
-> <lhs>**unquantified NP** ⇒</lhs> ⟨**noun**⟩ | ⟨**clause**⟩ | ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩ ⟨**unquantified NP**⟩
+> <lhs>**unquantified NP** ⇒</lhs> ⟨**clause**⟩ | ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩ ⟨**unquantified NP**⟩
 >
-> <lhs>**quantified NP** ⇒</lhs> ⟨**ᴘʀᴏ**⟩ | ⟨**ᴅᴇᴛ**⟩ { ⟨**ᴘʀᴏ**⟩ } ⟨**unquantified NP**⟩ | ⟨**quotation**⟩
+> <lhs>**quantified NP** ⇒</lhs> ⟨**ᴘʀᴏ**⟩ | ⟨**ᴅᴇᴛ phrase**⟩ | ⟨**quotation**⟩
+>
+> <lhs>**ᴅᴇᴛ phrase** ⇒</lhs> ⟨**ᴅᴇᴛ**⟩ { ⟨**ᴘʀᴏ**⟩ } ⟨**unquantified NP**⟩
 >
 > <lhs>**quotation** ⇒</lhs> "<naj>tca</naj> ⟨tca⟩" ⟨**quoted word**⟩ "<naj>tca</naj> ⟨tca⟩"
 >

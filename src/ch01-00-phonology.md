@@ -3,7 +3,7 @@
 Stress falls on the first syllable of a word. However, stress never
 distinguishes words and can be altered for emphasis. Najan is stress-timed.
 
-## Consonants
+<div class="caption">Consonants</div>
 
 | | Bilabial | Labio-dental | Dental | Alveolar | Post-alveolar | Palatal | Velar |
 | --: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -34,7 +34,7 @@ affricates \[t͡ɬ\] and \[d͡ɮ\], respectively. Similarly, but only in some
 dialects, <naj>sl</naj> ⟨sl⟩ and <naj>zl</naj> ⟨zl⟩ become the lateral
 fricatives \[ɬ\] and \[ɮ\].
 
-## Vowels
+<div class="caption">Vowels</div>
 
 | | Front | Near-front | Central | Near-back | Back |
 | --: | :-: | :-: | :-: | :-: | :-: |

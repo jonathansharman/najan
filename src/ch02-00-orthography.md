@@ -1,17 +1,14 @@
 # Orthography
 
-Sentences are written left-to-right, then top-to-bottom. Najan has no
-punctuation except spaces between words.
-
-## Alphabet
-
-In the following table, each Najan glyph is labeled with the transliteration of
+In the table below, each Najan glyph is labeled with the transliteration of
 its grapheme's Najan name (in angle brackets), along with its most common
 associated phone (in square brackets). Each grapheme name begins with the
 grapheme itself. Since Najan is perfectly phonemic, this table also represents
 all the Najan phonemes. Note however, that these phonemes are not always
 pronounced exactly as the example phones, due to the allophonic variations
 described in [Phonology](./ch01-phonology.md).
+
+<div class="caption">The Najan Alphabet</div>
 
 | | | | | | |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -23,3 +20,6 @@ described in [Phonology](./ch01-phonology.md).
 | | | | | | | |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | <naj-xxl>ʊ</naj-xxl> <br> ⟨ʊlf⟩ \[ʊ\] | <naj-xxl>a</naj-xxl> <br> ⟨adz⟩ \[ä\] | <naj-xxl>e</naj-xxl> <br> ⟨eŋg⟩ \[ɛ\] | <naj-xxl>ɪ</naj-xxl> <br> ⟨ɪpθ⟩ \[ɪ\] | <naj-xxl>i</naj-xxl> <br> ⟨idj⟩ \[i\] | <naj-xxl>u</naj-xxl> <br> ⟨uc⟩ \[u\] | <naj-xxl>o</naj-xxl> <br> ⟨oz⟩ \[o̞\] |
+
+Sentences are written left-to-right, then top-to-bottom. Najan has no
+punctuation except spaces between words.

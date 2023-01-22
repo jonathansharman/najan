@@ -223,10 +223,8 @@ extended Backus-Naur form as follows:</p>
 <blockquote>
 <p><lhs><strong>clause</strong> ⇒</lhs> [ ⟨<strong>mood ᴘᴛᴄʟ</strong>⟩ ] ⟨<strong>VP</strong>⟩</p>
 <p><lhs><strong>verb phrase (VP)</strong> ⇒</lhs> [ ⟨<strong>aspect ᴘᴛᴄʟ</strong>⟩ ] ⟨<strong>verb</strong>⟩ | ⟨<strong>ᴘʀᴇᴘ</strong>⟩ ⟨<strong>NP</strong>⟩ ⟨<strong>VP</strong>⟩ | ⟨<strong>ᴄᴏɴᴊ</strong>⟩ ⟨<strong>VP</strong>⟩ ⟨<strong>VP</strong>⟩</p>
-<p><lhs><strong>noun phrase (NP)</strong> ⇒</lhs> ⟨<strong>unquantified NP</strong>⟩ | ⟨<strong>quantified NP</strong>⟩ | ⟨<strong>ᴄᴏɴᴊ</strong>⟩ ⟨<strong>NP</strong>⟩ ⟨<strong>NP</strong>⟩</p>
-<p><lhs><strong>unquantified NP</strong> ⇒</lhs> ⟨<strong>clause</strong>⟩ | ⟨<strong>ᴘʀᴇᴘ</strong>⟩ ⟨<strong>NP</strong>⟩ ⟨<strong>unquantified NP</strong>⟩</p>
-<p><lhs><strong>quantified NP</strong> ⇒</lhs> ⟨<strong>ᴘʀᴏ</strong>⟩ | ⟨<strong>ᴅᴇᴛ phrase</strong>⟩ | ⟨<strong>quotation</strong>⟩</p>
-<p><lhs><strong>ᴅᴇᴛ phrase</strong> ⇒</lhs> ⟨<strong>ᴅᴇᴛ</strong>⟩ { ⟨<strong>ᴘʀᴏ</strong>⟩ } ⟨<strong>unquantified NP</strong>⟩</p>
+<p><lhs><strong>noun phrase (NP)</strong> ⇒</lhs> ⟨<strong>VP</strong>⟩ | ⟨<strong>ᴘʀᴏ</strong>⟩ | ⟨<strong>ᴅᴇᴛ phrase</strong>⟩ | ⟨<strong>quotation</strong>⟩ | ⟨<strong>ᴄᴏɴᴊ</strong>⟩ ⟨<strong>NP</strong>⟩ ⟨<strong>NP</strong>⟩</p>
+<p><lhs><strong>ᴅᴇᴛ phrase</strong> ⇒</lhs> ⟨<strong>ᴅᴇᴛ</strong>⟩ [ ⟨<strong>ᴘʀᴏ</strong>⟩ ] ⟨<strong>VP</strong>⟩</p>
 <p><lhs><strong>quotation</strong> ⇒</lhs> “<naj>tca</naj> ⟨tca⟩” ⟨<strong>quoted word</strong>⟩ “<naj>tca</naj> ⟨tca⟩”</p>
 <p><lhs><strong>quoted word</strong> ⇒</lhs> ⟨<strong>word</strong>⟩ - “<naj>tca</naj> ⟨tca⟩” - “<naj>tsa</naj> ⟨tsa⟩” | “<naj>tsa tca</naj> ⟨tsa tca⟩” | “<naj>tsa tsa</naj> ⟨tsa tsa⟩”</p>
 </blockquote>
@@ -238,17 +236,21 @@ as a noun signifying the contained words themselves. The particle <naj>tsa</naj>
 as part of the quotation, not as a particle within the sentence containing the
 quotation.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="binding"><a class="header" href="#binding">Binding</a></h1>
-<p>A noun phrase in Najan can be unquantified or quantified. Unquantified noun
-phrases can be modified with a prepositional phrase and signify something in the
-abstract (e.g. “being human”, “running”, “love”). Quantified noun phrases cannot
-be modified and signify a concrete instance, set, or amount of something (e.g.
-“you”, “the victory”, “two dogs”, “some water”, “several words”).</p>
-<p>A quantified noun phrase can be a pronoun, quotation, or determiner phrase.
-Determiner phrases can optionally bind the referent or referents to one or more
-assignable pronouns, with different binding semantics depending on the
-determiner.</p>
-<p>This chapter will explain the function of Najan pronouns and determiners and how
-the two interact via binding expressions.</p>
+<p>Any verb phrase can also function as a noun phrase, signifying an abstract state
+or action (e.g. “being human”, “running”, “love”). To talk about concrete
+instances, sets, or amounts of something (e.g. “you”, “the victory”, “two dogs”,
+“some water”, “several words”), one can use pronouns or determiner phrases.
+Determiner phrases can optionally bind the referent or referents to an
+assignable pronoun, with different binding semantics depending on the determiner
+used.</p>
+<blockquote>
+<p><strong>Note:</strong> Determiner phrases within quotations cannot affect the bindings of
+surrounding pronouns. Assignable pronouns contained in a quotation may have
+completely different referents than in the surrounding context—or even none at
+all, when using a quotation to talk about the pronouns themselves.</p>
+</blockquote>
+<p>This chapter explains the function of Najan pronouns and determiners and how the
+two interact via determiner phrases.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="pronouns"><a class="header" href="#pronouns">Pronouns</a></h1>
 <p>Najan has two first-person plural pronouns, distinguished by clusivity. The
 inclusive pronoun <naj>djof</naj> ⟨djof⟩ includes the speaker, those addressed,
@@ -256,7 +258,7 @@ and possibly one or more third-person referents. The exclusive pronoun
 <naj>jal</naj> ⟨jal⟩ includes the speaker and at least one third person but
 excludes those addressed.</p>
 <div class="caption">First-person Pronouns</div>
-<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Singular</th><th style="text-align: left">Plural Inclusive</th><th style="text-align: left">Plural Exclusive</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Singular</th><th style="text-align: left">Plural inclusive</th><th style="text-align: left">Plural exclusive</th></tr></thead><tbody>
 <tr><td style="text-align: left"><naj>ko</naj> ⟨ko⟩</td><td style="text-align: left"><naj>djof</naj> ⟨djof⟩</td><td style="text-align: left"><naj>jal</naj> ⟨jal⟩</td></tr>
 </tbody></table>
 </div><div class="caption">Second-person Pronouns</div>
@@ -264,37 +266,63 @@ excludes those addressed.</p>
 <tr><td style="text-align: left"><naj>to</naj> ⟨to⟩</td><td style="text-align: left"><naj>ŋak</naj> ⟨ŋak⟩</td></tr>
 </tbody></table>
 </div>
-<p>The assignable pronouns <naj>jom</naj> ⟨jom⟩, <naj>með</naj> ⟨með⟩,
-<naj>paw</naj> ⟨paw⟩, and <naj>tsut</naj> ⟨tsut⟩ have no fixed properties (such
-as person, number, or gender) and can be bound to any unquantified noun phrase
-using determiners. Once all available pronouns have been assigned, subsequent
-assignments must overwrite an existing assignment.</p>
-<p>Quotations cannot affect the bindings of surrounding pronouns. Assignable
-pronouns contained in a quotation may have completely different referents than
-in the surrounding context or even none at all, when using a quotation to talk
-about the pronouns themselves.</p>
 <p>The interrogative pronoun <naj>velk</naj> ⟨velk⟩ stands for something unknown
 and is essential to the formation of interrogative sentences, where it indicates
 any missing information that the asker wishes to know.</p>
+<h2 id="assignable-pronouns"><a class="header" href="#assignable-pronouns">Assignable Pronouns</a></h2>
+<p>The assignable pronouns <naj>jow</naj> ⟨jow⟩, <naj>með</naj> ⟨með⟩,
+<naj>paw</naj> ⟨paw⟩, and <naj>tsut</naj> ⟨tsut⟩ have no fixed properties, such
+as person, number, or gender. They can be bound (or rebound) to any unquantified
+noun phrase, using determiners.</p>
+<p>The next section explains the function of the determiners, including the meaning
+and scope of any pronouns they bind.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="determiners"><a class="header" href="#determiners">Determiners</a></h1>
-<p>The universal determiner <naj>u</naj> ⟨u⟩ is used to express that its
-immediately enclosing clause holds for each instance of its complement,
-functioning similarly to English “each”, “every”, or “all”. When it binds <em>k</em>
-pronouns in a single quantified noun phrase, the clause applies to every
-<em>k</em>-permutation of the elements. As noted above, the universal determiner is
+<p>A determiner phrase consists of a determiner, an optional pronoun to bind, and a
+verb phrase complement; it signifies some instance or set of entities such that
+the complement holds true.</p>
+<p>In the case of stative verb complements like <naj>tab</naj> ⟨tab⟩ (“be a
+father”), the noun phrase implicitly acts as the subject.</p>
+<div class="caption">"to be a happy father"</div>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left"></th><th style="text-align: left"></th><th style="text-align: left"></th></tr></thead><tbody>
+<tr><td style="text-align: left"><naj>nʊ</naj></td><td style="text-align: left"><naj>tayn</naj></td><td style="text-align: left"><naj>tab</naj></td></tr>
+<tr><td style="text-align: left">nʊ</td><td style="text-align: left">tayn</td><td style="text-align: left">tab</td></tr>
+<tr><td style="text-align: left">such-that</td><td style="text-align: left">be-happy</td><td style="text-align: left">be-father</td></tr>
+</tbody></table>
+</div><div class="caption">"a happy father"</div>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left"></th><th style="text-align: left"></th><th style="text-align: left"></th><th style="text-align: left"></th></tr></thead><tbody>
+<tr><td style="text-align: left"><naj>a</naj></td><td style="text-align: left"><naj>nʊ</naj></td><td style="text-align: left"><naj>tayn</naj></td><td style="text-align: left"><naj>tab</naj></td></tr>
+<tr><td style="text-align: left">a</td><td style="text-align: left">nʊ</td><td style="text-align: left">tayn</td><td style="text-align: left">tab</td></tr>
+<tr><td style="text-align: left">a-ᴅᴇᴛ</td><td style="text-align: left">such-that</td><td style="text-align: left">be-happy</td><td style="text-align: left">be-father</td></tr>
+</tbody></table>
+</div>
+<p>For dynamic verb complements, the noun phrase by default refers to the action
+itself (and not for instance to the agent of the action).</p>
+<div class="caption">"an action"</div>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left"></th><th style="text-align: left"></th></tr></thead><tbody>
+<tr><td style="text-align: left"><naj>a</naj></td><td style="text-align: left"><naj>pɪn</naj></td></tr>
+<tr><td style="text-align: left">a</td><td style="text-align: left">pɪn</td></tr>
+<tr><td style="text-align: left">a-ᴅᴇᴛ</td><td style="text-align: left">do</td></tr>
+</tbody></table>
+</div>
+<p>TODO: Organize specific determiners into subsections</p>
+<p>The universal distributive determiner <naj>u</naj> ⟨u⟩ expresses that its
+immediately enclosing clause holds true individually for each instance of its
+complement, functioning similarly to “each” or “every”. This determiner is
 unique in that it only binds pronouns for the duration of the containing clause.</p>
-<p>\example{Universal determiner}
-{Everyone hugged each other.}
-{\transLine{u zho co mil the buda va zho co}}</p>
+<div class="caption">"every language changes"</div>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left"></th><th style="text-align: left"></th><th style="text-align: left"></th><th style="text-align: left"></th><th style="text-align: left"></th><th style="text-align: left"></th></tr></thead><tbody>
+<tr><td style="text-align: left"><naj>je</naj></td><td style="text-align: left"><naj>rʊ</naj></td><td style="text-align: left"><naj>u</naj></td><td style="text-align: left"><naj>vix</naj></td><td style="text-align: left"><naj>fxe</naj></td><td style="text-align: left"><naj>cay</naj></td></tr>
+<tr><td style="text-align: left">je</td><td style="text-align: left">rʊ</td><td style="text-align: left">u</td><td style="text-align: left">vix</td><td style="text-align: left">fxe</td><td style="text-align: left">cay</td></tr>
+<tr><td style="text-align: left">ᴵᴺᴰ</td><td style="text-align: left">ᴾ</td><td style="text-align: left">each-ᴅᴇᴛ</td><td style="text-align: left">language</td><td style="text-align: left">ʜᴀʙ</td><td style="text-align: left">change</td></tr>
+</tbody></table>
+</div>
+<p>TODO: Examples illustrating why the universal and existential determiners vary
+in binding scope as they do. “Every man X has a horse Y; Y is a good horse”
+doesn’t make sense. “A man X has a horse Y; Y is a good horse” does.</p>
 <p>Generally, bound pronouns remain bound until rebound to a new
 referent. However, any pronouns bound using the universal determiner
 <naj>u</naj> ⟨u⟩—or in any subsequent quantified term within the same
 clause—become unbound at the end of the current clause.</p>
-<p>TODO: Explain the semantics of multiple pronouns. (I think it’ll be equivalent
-to repeating the containing phrase.)</p>
-<p>TODO: Examples illustrating why the universal and existential determiners vary
-in binding scope as they do. “Every man X has a horse Y; Y is a good horse”
-doesn’t make sense. “A man X has a horse Y; Y is a good horse” does.</p>
 <p>\paragraph{Existential} The existential determiner \trans{a} binds pronouns to
 individual instances of a complement, similar to many uses of English
 “a”/“an”. When it binds multiple pronouns, each signifies a unique instance.

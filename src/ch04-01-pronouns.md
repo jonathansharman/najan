@@ -8,7 +8,7 @@ excludes those addressed.
 
 <div class="caption">First-person Pronouns</div>
 
-| Singular | Plural Inclusive | Plural Exclusive |
+| Singular | Plural inclusive | Plural exclusive |
 | :-- | :-- | :-- |
 | <naj>ko</naj> ⟨ko⟩ | <naj>djof</naj> ⟨djof⟩ | <naj>jal</naj> ⟨jal⟩ |
 
@@ -18,17 +18,16 @@ excludes those addressed.
 | :-- | :-- |
 | <naj>to</naj> ⟨to⟩ | <naj>ŋak</naj> ⟨ŋak⟩ |
 
-The assignable pronouns <naj>jom</naj> ⟨jom⟩, <naj>með</naj> ⟨með⟩,
-<naj>paw</naj> ⟨paw⟩, and <naj>tsut</naj> ⟨tsut⟩ have no fixed properties (such
-as person, number, or gender) and can be bound to any unquantified noun phrase
-using determiners. Once all available pronouns have been assigned, subsequent
-assignments must overwrite an existing assignment.
-
-Quotations cannot affect the bindings of surrounding pronouns. Assignable
-pronouns contained in a quotation may have completely different referents than
-in the surrounding context or even none at all, when using a quotation to talk
-about the pronouns themselves.
-
 The interrogative pronoun <naj>velk</naj> ⟨velk⟩ stands for something unknown
 and is essential to the formation of interrogative sentences, where it indicates
 any missing information that the asker wishes to know.
+
+## Assignable Pronouns
+
+The assignable pronouns <naj>jow</naj> ⟨jow⟩, <naj>með</naj> ⟨með⟩,
+<naj>paw</naj> ⟨paw⟩, and <naj>tsut</naj> ⟨tsut⟩ have no fixed properties, such
+as person, number, or gender. They can be bound (or rebound) to any unquantified
+noun phrase, using determiners.
+
+The next section explains the function of the determiners, including the meaning
+and scope of any pronouns they bind.

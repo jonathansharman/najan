@@ -1,15 +1,17 @@
 # Binding
 
-A noun phrase in Najan can be unquantified or quantified. Unquantified noun
-phrases can be modified with a prepositional phrase and signify something in the
-abstract (e.g. "being human", "running", "love"). Quantified noun phrases cannot
-be modified and signify a concrete instance, set, or amount of something (e.g.
-"you", "the victory", "two dogs", "some water", "several words").
+Any verb phrase can also function as a noun phrase, signifying an abstract state
+or action (e.g. "being human", "running", "love"). To talk about concrete
+instances, sets, or amounts of something (e.g. "you", "the victory", "two dogs",
+"some water", "several words"), one can use pronouns or determiner phrases.
+Determiner phrases can optionally bind the referent or referents to an
+assignable pronoun, with different binding semantics depending on the determiner
+used.
 
-A quantified noun phrase can be a pronoun, quotation, or determiner phrase.
-Determiner phrases can optionally bind the referent or referents to one or more
-assignable pronouns, with different binding semantics depending on the
-determiner.
+> **Note:** Determiner phrases within quotations cannot affect the bindings of
+surrounding pronouns. Assignable pronouns contained in a quotation may have
+completely different referents than in the surrounding context—or even none at
+all, when using a quotation to talk about the pronouns themselves.
 
-This chapter will explain the function of Najan pronouns and determiners and how
-the two interact via binding expressions.
+This chapter explains the function of Najan pronouns and determiners and how the
+two interact via determiner phrases.

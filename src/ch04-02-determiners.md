@@ -1,27 +1,63 @@
 # Determiners
 
-The universal determiner <naj>u</naj> ⟨u⟩ is used to express that its
-immediately enclosing clause holds for each instance of its complement,
-functioning similarly to English "each", "every", or "all". When it binds _k_
-pronouns in a single quantified noun phrase, the clause applies to every
-_k_-permutation of the elements. As noted above, the universal determiner is
+A determiner phrase consists of a determiner, an optional pronoun to bind, and a
+verb phrase complement; it signifies some instance or set of entities such that
+the complement holds true.
+
+In the case of stative verb complements like <naj>tab</naj> ⟨tab⟩ ("be a
+father"), the noun phrase implicitly acts as the subject.
+
+<div class="caption">"to be a happy father"</div>
+
+| | | |
+| :-- | :-- | :-- |
+| <naj>nʊ</naj>  | <naj>tayn</naj> | <naj>tab</naj> |
+|      nʊ        |      tayn       |      tab       |
+|      such-that |      be-happy   |      be-father |
+
+<div class="caption">"a happy father"</div>
+
+| | | | |
+| :-- | :-- | :-- | :-- |
+| <naj>a</naj>     | <naj>nʊ</naj>  | <naj>tayn</naj> | <naj>tab</naj> |
+|      a           |      nʊ        |      tayn       |      tab       |
+|      a-ᴅᴇᴛ       |      such-that |      be-happy   |      be-father |
+
+For dynamic verb complements, the noun phrase by default refers to the action
+itself (and not for instance to the agent of the action).
+
+<div class="caption">"an action"</div>
+
+| | |
+| :-- | :-- |
+| <naj>a</naj>     | <naj>pɪn</naj> |
+|      a           |      pɪn       |
+|      a-ᴅᴇᴛ       |      do        |
+
+TODO: Organize specific determiners into subsections
+
+The universal distributive determiner <naj>u</naj> ⟨u⟩ expresses that its
+immediately enclosing clause holds true individually for each instance of its
+complement, functioning similarly to "each" or "every". This determiner is
 unique in that it only binds pronouns for the duration of the containing clause.
 
-\example{Universal determiner}
-{Everyone hugged each other.}
-{\transLine{u zho co mil the buda va zho co}}
+<div class="caption">"every language changes"</div>
+
+| | | | | | |
+| :-- | :-- | :-- | :-- | :-- | :-- |
+| <naj>je</naj> | <naj>rʊ</naj> | <naj>u</naj>  | <naj>vix</naj> | <naj>fxe</naj> | <naj>cay</naj> |
+|      je       |      rʊ       |      u        |      vix       |      fxe       |      cay       |
+|      ᴵᴺᴰ      |      ᴾ        |      each-ᴅᴇᴛ |      language  |      ʜᴀʙ       |      change    |
+
+TODO: Examples illustrating why the universal and existential determiners vary
+in binding scope as they do. "Every man X has a horse Y; Y is a good horse"
+doesn't make sense. "A man X has a horse Y; Y is a good horse" does.
+
 
 Generally, bound pronouns remain bound until rebound to a new
 referent. However, any pronouns bound using the universal determiner
 <naj>u</naj> ⟨u⟩—or in any subsequent quantified term within the same
 clause—become unbound at the end of the current clause.
-
-TODO: Explain the semantics of multiple pronouns. (I think it'll be equivalent
-to repeating the containing phrase.)
-
-TODO: Examples illustrating why the universal and existential determiners vary
-in binding scope as they do. "Every man X has a horse Y; Y is a good horse"
-doesn't make sense. "A man X has a horse Y; Y is a good horse" does.
 
 \paragraph{Existential} The existential determiner \trans{a} binds pronouns to
 individual instances of a complement, similar to many uses of English

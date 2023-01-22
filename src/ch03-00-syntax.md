@@ -7,13 +7,9 @@ extended Backus-Naur form as follows:
 >
 > <lhs>**verb phrase (VP)** ⇒</lhs> [ ⟨**aspect ᴘᴛᴄʟ**⟩ ] ⟨**verb**⟩ | ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩ ⟨**VP**⟩ | ⟨**ᴄᴏɴᴊ**⟩ ⟨**VP**⟩ ⟨**VP**⟩
 >
-> <lhs>**noun phrase (NP)** ⇒</lhs> ⟨**unquantified NP**⟩ | ⟨**quantified NP**⟩ | ⟨**ᴄᴏɴᴊ**⟩ ⟨**NP**⟩ ⟨**NP**⟩
+> <lhs>**noun phrase (NP)** ⇒</lhs> ⟨**ᴘʀᴏ**⟩ | ⟨**ᴅᴇᴛ phrase**⟩ | ⟨**quotation**⟩ | ⟨**ᴄᴏɴᴊ**⟩ ⟨**NP**⟩ ⟨**NP**⟩
 >
-> <lhs>**unquantified NP** ⇒</lhs> ⟨**clause**⟩ | ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩ ⟨**unquantified NP**⟩
->
-> <lhs>**quantified NP** ⇒</lhs> ⟨**ᴘʀᴏ**⟩ | ⟨**ᴅᴇᴛ phrase**⟩ | ⟨**quotation**⟩
->
-> <lhs>**ᴅᴇᴛ phrase** ⇒</lhs> ⟨**ᴅᴇᴛ**⟩ { ⟨**ᴘʀᴏ**⟩ } ⟨**unquantified NP**⟩
+> <lhs>**ᴅᴇᴛ phrase** ⇒</lhs> ⟨**ᴅᴇᴛ**⟩ [ ⟨**ᴘʀᴏ**⟩ ] ⟨**VP**⟩
 >
 > <lhs>**quotation** ⇒</lhs> "<naj>tca</naj> ⟨tca⟩" ⟨**quoted word**⟩ "<naj>tca</naj> ⟨tca⟩"
 >

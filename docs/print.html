@@ -82,7 +82,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="ch00-00-introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="ch01-00-phonology.html"><strong aria-hidden="true">2.</strong> Phonology</a></li><li class="chapter-item expanded "><a href="ch02-00-orthography.html"><strong aria-hidden="true">3.</strong> Orthography</a></li><li class="chapter-item expanded "><a href="ch03-00-syntax.html"><strong aria-hidden="true">4.</strong> Syntax</a></li><li class="chapter-item expanded "><a href="ch04-00-verb-phrases.html"><strong aria-hidden="true">5.</strong> Verb Phrases</a></li><li class="chapter-item expanded "><a href="ch05-00-noun-phrases.html"><strong aria-hidden="true">6.</strong> Noun Phrases</a></li><li class="chapter-item expanded "><a href="ch06-00-pronouns-determiners.html"><strong aria-hidden="true">7.</strong> Pronouns & Determiners</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch06-01-pronouns.html"><strong aria-hidden="true">7.1.</strong> Pronouns</a></li><li class="chapter-item expanded "><a href="ch06-02-determiners.html"><strong aria-hidden="true">7.2.</strong> Determiners</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="phonology.html"><strong aria-hidden="true">2.</strong> Phonology</a></li><li class="chapter-item expanded "><a href="orthography.html"><strong aria-hidden="true">3.</strong> Orthography</a></li><li class="chapter-item expanded "><a href="syntax.html"><strong aria-hidden="true">4.</strong> Syntax</a></li><li class="chapter-item expanded "><a href="verb-phrases.html"><strong aria-hidden="true">5.</strong> Verb Phrases</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="stativization.html"><strong aria-hidden="true">5.1.</strong> Stativization</a></li></ol></li><li class="chapter-item expanded "><a href="noun-phrases.html"><strong aria-hidden="true">6.</strong> Noun Phrases</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="pronouns-determiners.html"><strong aria-hidden="true">6.1.</strong> Pronouns & Determiners</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="pronouns.html"><strong aria-hidden="true">6.1.1.</strong> Pronouns</a></li><li class="chapter-item expanded "><a href="determiner-phrases.html"><strong aria-hidden="true">6.1.2.</strong> Determiner Phrases</a></li></ol></li><li class="chapter-item expanded "><a href="quotations.html"><strong aria-hidden="true">6.2.</strong> Quotations</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -222,20 +222,21 @@ punctuation except spaces between words.</p>
 extended Backus-Naur form as follows:</p>
 <blockquote>
 <p><lhs><strong>clause</strong> ⇒</lhs> [ ⟨<strong>mood ᴘᴛᴄʟ</strong>⟩ ] ⟨<strong>VP</strong>⟩</p>
-<p><lhs><strong>verb phrase (VP)</strong> ⇒</lhs> [ ⟨<strong>aspect ᴘᴛᴄʟ</strong>⟩ ] ⟨<strong>verb</strong>⟩ | ⟨<strong>ᴘʀᴇᴘ</strong>⟩ ⟨<strong>NP</strong>⟩ ⟨<strong>VP</strong>⟩ | ⟨<strong>ᴄᴏɴᴊ</strong>⟩ ⟨<strong>VP</strong>⟩ ⟨<strong>VP</strong>⟩</p>
+<p><lhs><strong>verb phrase (VP)</strong> ⇒</lhs> [ ⟨<strong>aspect ᴘᴛᴄʟ</strong>⟩ ] ⟨<strong>verb</strong>⟩
+<br>
+<lhs>|</lhs> ⟨<strong>stativized VP</strong>⟩
+<br>
+<lhs>|</lhs> ⟨<strong>ᴘʀᴇᴘ</strong>⟩ ⟨<strong>NP</strong>⟩ ⟨<strong>VP</strong>⟩
+<br>
+<lhs>|</lhs> ⟨<strong>ᴄᴏɴᴊ</strong>⟩ ⟨<strong>VP</strong>⟩ ⟨<strong>VP</strong>⟩</p>
+<p><lhs><strong>stativized VP</strong> ⇒</lhs> “<naj>djʊ</naj> ⟨djʊ⟩” ⟨<strong>VP</strong>⟩ | “<naj>vʊ</naj> ⟨vʊ⟩” ⟨<strong>ᴘʀᴇᴘ</strong>⟩ ⟨<strong>VP</strong>⟩</p>
 <p><lhs><strong>noun phrase (NP)</strong> ⇒</lhs> ⟨<strong>VP</strong>⟩ | ⟨<strong>ᴘʀᴏ</strong>⟩ | ⟨<strong>ᴅᴇᴛ phrase</strong>⟩ | ⟨<strong>quotation</strong>⟩ | ⟨<strong>ᴄᴏɴᴊ</strong>⟩ ⟨<strong>NP</strong>⟩ ⟨<strong>NP</strong>⟩</p>
 <p><lhs><strong>ᴅᴇᴛ phrase</strong> ⇒</lhs> ⟨<strong>ᴅᴇᴛ</strong>⟩ [ ⟨<strong>ᴘʀᴏ</strong>⟩ ] ⟨<strong>VP</strong>⟩</p>
 <p><lhs><strong>quotation</strong> ⇒</lhs> “<naj>tca</naj> ⟨tca⟩” ⟨<strong>quoted word</strong>⟩ “<naj>tca</naj> ⟨tca⟩”</p>
 <p><lhs><strong>quoted word</strong> ⇒</lhs> ⟨<strong>word</strong>⟩ - “<naj>tca</naj> ⟨tca⟩” - “<naj>tsa</naj> ⟨tsa⟩” | “<naj>tsa tca</naj> ⟨tsa tca⟩” | “<naj>tsa tsa</naj> ⟨tsa tsa⟩”</p>
 </blockquote>
-<h2 id="quotation"><a class="header" href="#quotation">Quotation</a></h2>
-<p>A quotation begins and ends with the particle <naj>tca</naj> ⟨tca⟩ and functions
-as a noun signifying the contained words themselves. The particle <naj>tsa</naj>
-⟨tsa⟩ is used within a quotation just before <naj>tca</naj> ⟨tca⟩ or another
-<naj>tsa</naj> ⟨tsa⟩ to indicate that the second particle should be interpreted
-as part of the quotation, not as a particle within the sentence containing the
-quotation.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="verb-phrases"><a class="header" href="#verb-phrases">Verb Phrases</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="stativization"><a class="header" href="#stativization">Stativization</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="noun-phrases"><a class="header" href="#noun-phrases">Noun Phrases</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="pronouns--determiners"><a class="header" href="#pronouns--determiners">Pronouns &amp; Determiners</a></h1>
 <p>Any verb phrase can also function as a noun phrase, signifying an abstract state
@@ -245,13 +246,7 @@ instances, sets, or amounts of something (e.g. “you”, “the victory”, “
 Determiner phrases can optionally bind the referent or referents to an
 assignable pronoun, with different binding semantics depending on the determiner
 used.</p>
-<blockquote>
-<p><strong>Note:</strong> Determiner phrases within quotations cannot affect the bindings of
-surrounding pronouns. Assignable pronouns contained in a quotation may have
-completely different referents than in the surrounding context—or even none at
-all, when using a quotation to talk about the pronouns themselves.</p>
-</blockquote>
-<p>This chapter explains the function of Najan pronouns and determiners and how the
+<p>This section explains the function of Najan pronouns and determiners and how the
 two interact via determiner phrases.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="pronouns"><a class="header" href="#pronouns">Pronouns</a></h1>
 <p>Najan has two first-person plural pronouns, distinguished by clusivity. The
@@ -388,6 +383,19 @@ forward-assignment any pron.-1 pron.-2 book acting-on and pron.-1 pron.-2 want I
 two” unless the specific two books are going to be referenced individually
 later. Might want to come up with a better example or add a sentence using
 the books. }</p>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="quotation"><a class="header" href="#quotation">Quotation</a></h2>
+<p>A quotation begins and ends with the particle <naj>tca</naj> ⟨tca⟩ and functions
+as a noun signifying the contained words themselves. The particle <naj>tsa</naj>
+⟨tsa⟩ is used within a quotation just before <naj>tca</naj> ⟨tca⟩ or another
+<naj>tsa</naj> ⟨tsa⟩ to indicate that the second particle should be interpreted
+as part of the quotation, not as a particle within the sentence containing the
+quotation.</p>
+<blockquote>
+<p><strong>Note:</strong> Determiner phrases within quotations cannot affect the bindings of
+surrounding pronouns. Assignable pronouns contained in a quotation may have
+completely different referents than in the surrounding context—or even none at
+all, when using a quotation to talk about the pronouns themselves.</p>
+</blockquote>
 
                     </main>
 

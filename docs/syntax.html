@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Verb Phrases - Najan</title>
+        <title>Syntax - Najan</title>
 
 
         <!-- Custom HTML head -->
@@ -81,7 +81,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="ch00-00-introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="ch01-00-phonology.html"><strong aria-hidden="true">2.</strong> Phonology</a></li><li class="chapter-item expanded "><a href="ch02-00-orthography.html"><strong aria-hidden="true">3.</strong> Orthography</a></li><li class="chapter-item expanded "><a href="ch03-00-syntax.html"><strong aria-hidden="true">4.</strong> Syntax</a></li><li class="chapter-item expanded "><a href="ch04-00-verb-phrases.html" class="active"><strong aria-hidden="true">5.</strong> Verb Phrases</a></li><li class="chapter-item expanded "><a href="ch05-00-noun-phrases.html"><strong aria-hidden="true">6.</strong> Noun Phrases</a></li><li class="chapter-item expanded "><a href="ch06-00-pronouns-determiners.html"><strong aria-hidden="true">7.</strong> Pronouns & Determiners</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ch06-01-pronouns.html"><strong aria-hidden="true">7.1.</strong> Pronouns</a></li><li class="chapter-item expanded "><a href="ch06-02-determiners.html"><strong aria-hidden="true">7.2.</strong> Determiners</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="phonology.html"><strong aria-hidden="true">2.</strong> Phonology</a></li><li class="chapter-item expanded "><a href="orthography.html"><strong aria-hidden="true">3.</strong> Orthography</a></li><li class="chapter-item expanded "><a href="syntax.html" class="active"><strong aria-hidden="true">4.</strong> Syntax</a></li><li class="chapter-item expanded "><a href="verb-phrases.html"><strong aria-hidden="true">5.</strong> Verb Phrases</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="stativization.html"><strong aria-hidden="true">5.1.</strong> Stativization</a></li></ol></li><li class="chapter-item expanded "><a href="noun-phrases.html"><strong aria-hidden="true">6.</strong> Noun Phrases</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="pronouns-determiners.html"><strong aria-hidden="true">6.1.</strong> Pronouns & Determiners</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="pronouns.html"><strong aria-hidden="true">6.1.1.</strong> Pronouns</a></li><li class="chapter-item expanded "><a href="determiner-phrases.html"><strong aria-hidden="true">6.1.2.</strong> Determiner Phrases</a></li></ol></li><li class="chapter-item expanded "><a href="quotations.html"><strong aria-hidden="true">6.2.</strong> Quotations</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -142,17 +142,34 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="verb-phrases"><a class="header" href="#verb-phrases">Verb Phrases</a></h1>
+                        <h1 id="syntax"><a class="header" href="#syntax">Syntax</a></h1>
+<p>Najan is a deterministic context-free language whose grammar can be expressed in
+extended Backus-Naur form as follows:</p>
+<blockquote>
+<p><lhs><strong>clause</strong> ⇒</lhs> [ ⟨<strong>mood ᴘᴛᴄʟ</strong>⟩ ] ⟨<strong>VP</strong>⟩</p>
+<p><lhs><strong>verb phrase (VP)</strong> ⇒</lhs> [ ⟨<strong>aspect ᴘᴛᴄʟ</strong>⟩ ] ⟨<strong>verb</strong>⟩
+<br>
+<lhs>|</lhs> ⟨<strong>stativized VP</strong>⟩
+<br>
+<lhs>|</lhs> ⟨<strong>ᴘʀᴇᴘ</strong>⟩ ⟨<strong>NP</strong>⟩ ⟨<strong>VP</strong>⟩
+<br>
+<lhs>|</lhs> ⟨<strong>ᴄᴏɴᴊ</strong>⟩ ⟨<strong>VP</strong>⟩ ⟨<strong>VP</strong>⟩</p>
+<p><lhs><strong>stativized VP</strong> ⇒</lhs> “<naj>djʊ</naj> ⟨djʊ⟩” ⟨<strong>VP</strong>⟩ | “<naj>vʊ</naj> ⟨vʊ⟩” ⟨<strong>ᴘʀᴇᴘ</strong>⟩ ⟨<strong>VP</strong>⟩</p>
+<p><lhs><strong>noun phrase (NP)</strong> ⇒</lhs> ⟨<strong>VP</strong>⟩ | ⟨<strong>ᴘʀᴏ</strong>⟩ | ⟨<strong>ᴅᴇᴛ phrase</strong>⟩ | ⟨<strong>quotation</strong>⟩ | ⟨<strong>ᴄᴏɴᴊ</strong>⟩ ⟨<strong>NP</strong>⟩ ⟨<strong>NP</strong>⟩</p>
+<p><lhs><strong>ᴅᴇᴛ phrase</strong> ⇒</lhs> ⟨<strong>ᴅᴇᴛ</strong>⟩ [ ⟨<strong>ᴘʀᴏ</strong>⟩ ] ⟨<strong>VP</strong>⟩</p>
+<p><lhs><strong>quotation</strong> ⇒</lhs> “<naj>tca</naj> ⟨tca⟩” ⟨<strong>quoted word</strong>⟩ “<naj>tca</naj> ⟨tca⟩”</p>
+<p><lhs><strong>quoted word</strong> ⇒</lhs> ⟨<strong>word</strong>⟩ - “<naj>tca</naj> ⟨tca⟩” - “<naj>tsa</naj> ⟨tsa⟩” | “<naj>tsa tca</naj> ⟨tsa tca⟩” | “<naj>tsa tsa</naj> ⟨tsa tsa⟩”</p>
+</blockquote>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="ch03-00-syntax.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="orthography.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next" href="ch05-00-noun-phrases.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="verb-phrases.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -162,11 +179,11 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="ch03-00-syntax.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="orthography.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next" href="ch05-00-noun-phrases.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="verb-phrases.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>

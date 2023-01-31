@@ -1,4 +1,4 @@
-# Binding
+# Pronouns & Determiners
 
 Any verb phrase can also function as a noun phrase, signifying an abstract state
 or action (e.g. "being human", "running", "love"). To talk about concrete

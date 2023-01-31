@@ -1,57 +1,54 @@
-# Determiners
+# Determiner Phrases
 
 A determiner phrase consists of a determiner, an optional pronoun to bind, and a
-verb phrase complement; it signifies some instance or set of entities such that
-the complement holds true.
+stative verb phrase complement. The phrase signifies some entity or set of
+entities such that the complement holds true with those entities acting as the
+subject.
 
-In the case of stative verb complements like <naj>tab</naj> ⟨tab⟩ ("be a
-father"), the noun phrase implicitly acts as the subject.
+Combining the existential determiner <naj>za</naj> ⟨za⟩ with the stative verb
+<naj>tab</naj> ⟨tab⟩ ("to be a father") forms the determiner phrase <naj>za
+tab</naj> ⟨za tab⟩, which means "an entity that is a father" or simply "a
+father".
 
-<div class="caption">"to be a happy father"</div>
+Binding a pronoun in a determiner phrase allows referring back to it in a
+concise and unambiguous way.
 
-| | | |
-| :-- | :-- | :-- |
-| <naj>nʊ</naj>  | <naj>tayn</naj> | <naj>tab</naj> |
-|      nʊ        |      tayn       |      tab       |
-|      such-that |      be-happy   |      be-father |
+<div class="caption">"the child hurt itself"</div>
 
-<div class="caption">"a happy father"</div>
+|               |               |                |                 |               |                |                  |
+| :------------ | :------------ | :------------- | :-------------- | :------------ | :------------- | :--------------- |
+| <naj>ci</naj> | <naj>gi</naj> | <naj>paw</naj> | <naj>dzað</naj> | <naj>rʊ</naj> | <naj>paw</naj> | <naj>khɪtc</naj> |
+|      ci       |      gi       |      paw       |      dzað       |      rʊ       |      paw       |      khɪtc       |
+|      ᴬ        |      the      |      it        |      be-child   |      ᴾ        |      it        |      hurt        |
 
-| | | | |
-| :-- | :-- | :-- | :-- |
-| <naj>a</naj>     | <naj>nʊ</naj>  | <naj>tayn</naj> | <naj>tab</naj> |
-|      a           |      nʊ        |      tayn       |      tab       |
-|      a-ᴅᴇᴛ       |      such-that |      be-happy   |      be-father |
+To instantiate the action or state of a verb itself, we can first stativize the
+verb. Compare <naj>wo tayn</naj> ⟨wo tayn⟩ ("all that are happy"), to <naj>wo
+djʊ tayn</naj> ⟨wo djʊ tayn⟩ ("all that are happiness" or "all happiness").
+Similarly, the dynamic verb <naj>tθoc</naj> ⟨tθoc⟩ ("burn") becomes the stative
+<naj>djʊ tθoc</naj> ⟨djʊ tθoc⟩ ("to be burning" or "to be a fire"), which can
+then be instantiated: <naj>za djʊ tθoc</naj> ⟨za djʊ tθoc⟩ ("a fire").
 
-For dynamic verb complements, the noun phrase by default refers to the action
-itself (and not for instance to the agent of the action).
+## Determiners
 
-<div class="caption">"an action"</div>
-
-| | |
-| :-- | :-- |
-| <naj>a</naj>     | <naj>pɪn</naj> |
-|      a           |      pɪn       |
-|      a-ᴅᴇᴛ       |      do        |
-
-TODO: Organize specific determiners into subsections
-
-The universal distributive determiner <naj>u</naj> ⟨u⟩ expresses that its
+The universal distributive determiner <naj>su</naj> ⟨su⟩ expresses that its
 immediately enclosing clause holds true individually for each instance of its
 complement, functioning similarly to "each" or "every". This determiner is
 unique in that it only binds pronouns for the duration of the containing clause.
 
 <div class="caption">"every language changes"</div>
 
-| | | | | | |
-| :-- | :-- | :-- | :-- | :-- | :-- |
-| <naj>je</naj> | <naj>rʊ</naj> | <naj>u</naj>  | <naj>vix</naj> | <naj>fxe</naj> | <naj>cay</naj> |
-|      je       |      rʊ       |      u        |      vix       |      fxe       |      cay       |
-|      ᴵᴺᴰ      |      ᴾ        |      each-ᴅᴇᴛ |      language  |      ʜᴀʙ       |      change    |
+|               |               |               |                |                |                |
+| :------------ | :------------ | :------------ | :------------- | :------------- | :------------- |
+| <naj>je</naj> | <naj>rʊ</naj> | <naj>su</naj> | <naj>vix</naj> | <naj>fxe</naj> | <naj>cay</naj> |
+|      je       |      rʊ       |      su       |      vix       |      fxe       |      cay       |
+|      ᴵᴺᴰ      |      ᴾ        |      each     |      language  |      ʜᴀʙ       |      change    |
 
 TODO: Examples illustrating why the universal and existential determiners vary
 in binding scope as they do. "Every man X has a horse Y; Y is a good horse"
 doesn't make sense. "A man X has a horse Y; Y is a good horse" does.
+
+
+Universal collective determiner <naj>wo</naj> ⟨wo⟩
 
 
 Generally, bound pronouns remain bound until rebound to a new

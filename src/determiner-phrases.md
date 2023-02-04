@@ -12,13 +12,11 @@ father" or simply "a father".
 Binding a pronoun in a determiner phrase allows referring back to it in a
 concise and unambiguous way.
 
-<div class="caption">"the child hurt itself"</div>
-
-|        |        |         |             |        |         |           |
-| :----- | :----- | :------ | :---------- | :----- | :------ | :-------- |
-| {{ci}} | {{gi}} | {{paw}} | {{dzað}}    | {{rʊ}} | {{paw}} | {{khɪtc}} |
-|   ci   |   gi   |   paw   |   dzað      |   rʊ   |   paw   |   khɪtc   |
-|   ᴬ    |   the  |   it    |   be-child  |   ᴾ    |   it    |   hurt    |
+<gloss>
+{ci} | {gi} | {paw} | {dzað}   | {rʊ} | {paw} | {khɪtc}
+ᴬ    | the  | it    | be-child | ᴾ    | it    | hurt
+The child hurt itself.
+</gloss>
 
 To instantiate the action or state of a verb itself, we can first stativize the
 verb. Compare {wo tayn} ("all that are happy"), to {wo djʊ tayn} ("all that are
@@ -33,48 +31,11 @@ enclosing clause holds true individually for each instance of its complement,
 functioning similarly to "each" or "every". This determiner is unique in that it
 only binds pronouns for the duration of the containing clause.
 
-<div class="caption">"every language changes"</div>
-
-|      |      |       |           |       |         |
-| :--- | :--- | :---- | :-------- | :---- | :------ |
-| {je} | {rʊ} | {su}  | {vɪx}     | {fxe} | {cay}   |
-|  je  |  rʊ  |  su   |  vɪx      |  fxe  |  cay    |
-|  ᴵᴺᴰ |  ᴾ   |  each |  language |  ʜᴀʙ  |  change |
-
-GLOSS
-	je  | rʊ | su   | vɪx      | fxe | cay
-	ᴵᴺᴰ | ᴾ  | each | language | ʜᴀʙ | change
-	"Every language changes."
-
-<table class="gloss">
-	<tr>
-		<td>{je}</td>
-		<td>{rʊ}</td>
-		<td>{su}</td>
-		<td>{vɪx}</td>
-		<td>{fxe}</td>
-		<td>{cay}</td>
-	</tr>
-	<tr>
-		<td>je</td>
-		<td>rʊ</td>
-		<td>su</td>
-		<td>vɪx</td>
-		<td>fxe</td>
-		<td>cay</td>
-	</tr>
-	<tr>
-		<td>ᴵᴺᴰ</td>
-		<td>ᴾ</td>
-		<td>each</td>
-		<td>language</td>
-		<td>ʜᴀʙ</td>
-		<td>change</td>
-	</tr>
-	<tr>
-		<td colspan="6">"Every language changes."</td>
-	</tr>
-</table>
+<gloss>
+{je} | {rʊ} | {su} | {vɪx}    | {fxe} | {cay}
+ᴵᴺᴰ  | ᴾ    | each | language | ʜᴀʙ   | change
+Every language changes.
+</gloss>
 
 TODO: Examples illustrating why the universal and existential determiners vary
 in binding scope as they do. "Every man X has a horse Y; Y is a good horse"

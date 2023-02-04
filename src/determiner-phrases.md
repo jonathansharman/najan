@@ -1,7 +1,7 @@
 # Determiner Phrases
 
-A determiner phrase consists of a determiner, an optional pronoun to bind, and a
-stative verb phrase complement. The phrase signifies some entity or set of
+A **determiner phrase** consists of a determiner, an optional pronoun to bind,
+and a stative verb phrase complement. The phrase signifies some entity or set of
 entities such that the complement holds true with those entities acting as the
 subject.
 
@@ -30,7 +30,7 @@ then be instantiated: <naj>za djʊ tθoc</naj> ⟨za djʊ tθoc⟩ ("a fire").
 
 ## Determiners
 
-The universal distributive determiner <naj>su</naj> ⟨su⟩ expresses that its
+The **universal distributive determiner** <naj>su</naj> ⟨su⟩ expresses that its
 immediately enclosing clause holds true individually for each instance of its
 complement, functioning similarly to "each" or "every". This determiner is
 unique in that it only binds pronouns for the duration of the containing clause.
@@ -48,7 +48,10 @@ in binding scope as they do. "Every man X has a horse Y; Y is a good horse"
 doesn't make sense. "A man X has a horse Y; Y is a good horse" does.
 
 
-Universal collective determiner <naj>wo</naj> ⟨wo⟩
+The **universal collective determiner** <naj>wo</naj> ⟨wo⟩ could be translated
+as "all". It is similar to the universal distributive determiner except that it
+quantifies its complement collectively rather than individually. TODO: practical
+difference?
 
 
 Generally, bound pronouns remain bound until rebound to a new

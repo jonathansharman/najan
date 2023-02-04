@@ -26,3 +26,8 @@ div.caption {
 	font-weight: bold;
 	font-size: large;
 }
+
+table.gloss td {
+	border: none;
+	padding: 2pt 5pt;
+}

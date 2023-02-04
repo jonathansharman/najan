@@ -8,6 +8,8 @@ title = "Najan"
 [build]
 build-dir = "docs"
 
+[preprocessor.najan]
+
 [output.html]
 additional-css = ["src/najan.css"]
 curly-quotes = true

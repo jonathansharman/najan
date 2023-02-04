@@ -5,59 +5,91 @@ and a stative verb phrase complement. The phrase signifies some entity or set of
 entities such that the complement holds true with those entities acting as the
 subject.
 
-Combining the existential determiner <naj>za</naj> ⟨za⟩ with the stative verb
-<naj>tab</naj> ⟨tab⟩ ("to be a father") forms the determiner phrase <naj>za
-tab</naj> ⟨za tab⟩, which means "an entity that is a father" or simply "a
-father".
+Combining the existential determiner {za} with the stative verb {tab} ("to be a
+father") forms the determiner phrase {za tab}, which means "an entity that is a
+father" or simply "a father".
 
 Binding a pronoun in a determiner phrase allows referring back to it in a
 concise and unambiguous way.
 
 <div class="caption">"the child hurt itself"</div>
 
-|               |               |                |                 |               |                |                  |
-| :------------ | :------------ | :------------- | :-------------- | :------------ | :------------- | :--------------- |
-| <naj>ci</naj> | <naj>gi</naj> | <naj>paw</naj> | <naj>dzað</naj> | <naj>rʊ</naj> | <naj>paw</naj> | <naj>khɪtc</naj> |
-|      ci       |      gi       |      paw       |      dzað       |      rʊ       |      paw       |      khɪtc       |
-|      ᴬ        |      the      |      it        |      be-child   |      ᴾ        |      it        |      hurt        |
+|        |        |         |             |        |         |           |
+| :----- | :----- | :------ | :---------- | :----- | :------ | :-------- |
+| {{ci}} | {{gi}} | {{paw}} | {{dzað}}    | {{rʊ}} | {{paw}} | {{khɪtc}} |
+|   ci   |   gi   |   paw   |   dzað      |   rʊ   |   paw   |   khɪtc   |
+|   ᴬ    |   the  |   it    |   be-child  |   ᴾ    |   it    |   hurt    |
 
 To instantiate the action or state of a verb itself, we can first stativize the
-verb. Compare <naj>wo tayn</naj> ⟨wo tayn⟩ ("all that are happy"), to <naj>wo
-djʊ tayn</naj> ⟨wo djʊ tayn⟩ ("all that are happiness" or "all happiness").
-Similarly, the dynamic verb <naj>tθoc</naj> ⟨tθoc⟩ ("burn") becomes the stative
-<naj>djʊ tθoc</naj> ⟨djʊ tθoc⟩ ("to be burning" or "to be a fire"), which can
-then be instantiated: <naj>za djʊ tθoc</naj> ⟨za djʊ tθoc⟩ ("a fire").
+verb. Compare {wo tayn} ("all that are happy"), to {wo djʊ tayn} ("all that are
+happiness" or "all happiness"). Similarly, the dynamic verb {tθoc} ("burn")
+becomes the stative {djʊ tθoc} ("to be burning" or "to be a fire"), which can
+then be instantiated: {za djʊ tθoc} ("a fire").
 
 ## Determiners
 
-The **universal distributive determiner** <naj>su</naj> ⟨su⟩ expresses that its
-immediately enclosing clause holds true individually for each instance of its
-complement, functioning similarly to "each" or "every". This determiner is
-unique in that it only binds pronouns for the duration of the containing clause.
+The **universal distributive determiner** {su} expresses that its immediately
+enclosing clause holds true individually for each instance of its complement,
+functioning similarly to "each" or "every". This determiner is unique in that it
+only binds pronouns for the duration of the containing clause.
 
 <div class="caption">"every language changes"</div>
 
-|               |               |               |                |                |                |
-| :------------ | :------------ | :------------ | :------------- | :------------- | :------------- |
-| <naj>je</naj> | <naj>rʊ</naj> | <naj>su</naj> | <naj>vix</naj> | <naj>fxe</naj> | <naj>cay</naj> |
-|      je       |      rʊ       |      su       |      vix       |      fxe       |      cay       |
-|      ᴵᴺᴰ      |      ᴾ        |      each     |      language  |      ʜᴀʙ       |      change    |
+|      |      |       |           |       |         |
+| :--- | :--- | :---- | :-------- | :---- | :------ |
+| {je} | {rʊ} | {su}  | {vɪx}     | {fxe} | {cay}   |
+|  je  |  rʊ  |  su   |  vɪx      |  fxe  |  cay    |
+|  ᴵᴺᴰ |  ᴾ   |  each |  language |  ʜᴀʙ  |  change |
+
+GLOSS
+	je  | rʊ | su   | vɪx      | fxe | cay
+	ᴵᴺᴰ | ᴾ  | each | language | ʜᴀʙ | change
+	"Every language changes."
+
+<table class="gloss">
+	<tr>
+		<td>{je}</td>
+		<td>{rʊ}</td>
+		<td>{su}</td>
+		<td>{vɪx}</td>
+		<td>{fxe}</td>
+		<td>{cay}</td>
+	</tr>
+	<tr>
+		<td>je</td>
+		<td>rʊ</td>
+		<td>su</td>
+		<td>vɪx</td>
+		<td>fxe</td>
+		<td>cay</td>
+	</tr>
+	<tr>
+		<td>ᴵᴺᴰ</td>
+		<td>ᴾ</td>
+		<td>each</td>
+		<td>language</td>
+		<td>ʜᴀʙ</td>
+		<td>change</td>
+	</tr>
+	<tr>
+		<td colspan="6">"Every language changes."</td>
+	</tr>
+</table>
 
 TODO: Examples illustrating why the universal and existential determiners vary
 in binding scope as they do. "Every man X has a horse Y; Y is a good horse"
 doesn't make sense. "A man X has a horse Y; Y is a good horse" does.
 
 
-The **universal collective determiner** <naj>wo</naj> ⟨wo⟩ could be translated
-as "all". It is similar to the universal distributive determiner except that it
-quantifies its complement collectively rather than individually. TODO: practical
-difference?
+The **universal collective determiner** {wo} could be translated as "all". It is
+similar to the universal distributive determiner except that it quantifies its
+complement collectively rather than individually. TODO: practical difference?
 
 
-Generally, bound pronouns remain bound until rebound to a new
-referent. However, any pronouns bound using the universal determiner
-<naj>u</naj> ⟨u⟩—or in any subsequent quantified term within the same
-clause—become unbound at the end of the current clause.
+Generally, bound pronouns remain bound until rebound to a new referent. However,
+any pronouns bound using the universal determiner {u}—or in any subsequent
+quantified term within the same clause—become unbound at the end of the current
+clause.
 
 \paragraph{Existential} The existential determiner \trans{a} binds pronouns to
 individual instances of a complement, similar to many uses of English

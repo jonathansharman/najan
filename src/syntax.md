@@ -13,12 +13,12 @@ extended Backus-Naur form as follows:
 > <br>
 > <lhs>|</lhs> ⟨**ᴄᴏɴᴊ**⟩ ⟨**VP**⟩ ⟨**VP**⟩
 >
-> <lhs>**stativized VP** ⇒</lhs> "<naj>djʊ</naj> ⟨djʊ⟩" ⟨**VP**⟩ | "<naj>vʊ</naj> ⟨vʊ⟩" ⟨**ᴘʀᴇᴘ**⟩ ⟨**VP**⟩
+> <lhs>**stativized VP** ⇒</lhs> "{djʊ}" ⟨**VP**⟩ | "{vʊ}" ⟨**ᴘʀᴇᴘ**⟩ ⟨**VP**⟩
 >
 > <lhs>**noun phrase (NP)** ⇒</lhs> ⟨**VP**⟩ | ⟨**ᴘʀᴏ**⟩ | ⟨**ᴅᴇᴛ phrase**⟩ | ⟨**quotation**⟩ | ⟨**ᴄᴏɴᴊ**⟩ ⟨**NP**⟩ ⟨**NP**⟩
 >
 > <lhs>**ᴅᴇᴛ phrase** ⇒</lhs> ⟨**ᴅᴇᴛ**⟩ [ ⟨**ᴘʀᴏ**⟩ ] ⟨**VP**⟩
 >
-> <lhs>**quotation** ⇒</lhs> "<naj>tca</naj> ⟨tca⟩" ⟨**quoted word**⟩ "<naj>tca</naj> ⟨tca⟩"
+> <lhs>**quotation** ⇒</lhs> "{tca}" ⟨**quoted word**⟩ "{tca}"
 >
-> <lhs>**quoted word** ⇒</lhs> ⟨**word**⟩ - "<naj>tca</naj> ⟨tca⟩" - "<naj>tsa</naj> ⟨tsa⟩" | "<naj>tsa tca</naj> ⟨tsa tca⟩" | "<naj>tsa tsa</naj> ⟨tsa tsa⟩"
+> <lhs>**quoted word** ⇒</lhs> ⟨**word**⟩ - "{tca}" - "{tsa}" | "{tsa tca}" | "{tsa tsa}"

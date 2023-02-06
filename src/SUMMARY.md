@@ -7,6 +7,7 @@
 - [Verb Phrases](./verb-phrases.md)
 	- [Stativization](./stativization.md)
 - [Noun Phrases](./noun-phrases.md)
+	- [Case](./case.md)
 	- [Pronouns & Determiners](./pronouns-determiners.md)
 		- [Pronouns](./pronouns.md)
 		- [Determiner Phrases](./determiner-phrases.md)

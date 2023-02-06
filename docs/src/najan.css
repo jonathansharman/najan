@@ -27,6 +27,10 @@ div.caption {
 	font-size: large;
 }
 
+table.gloss {
+	margin-left: 0;
+}
+
 table.gloss td {
 	padding: 2pt 5pt;
 }

@@ -18,11 +18,12 @@ concise and unambiguous way.
 The child hurt itself.
 </gloss>
 
-To instantiate the action or state of a verb itself, we can first stativize the
-verb. Compare {wo tayn} ("all that are happy"), to {wo djʊ tayn} ("all that are
-happiness" or "all happiness"). Similarly, the dynamic verb {tθoc} ("burn")
-becomes the stative {djʊ tθoc} ("to be burning" or "to be a fire"), which can
-then be instantiated: {za djʊ tθoc} ("a fire").
+To instantiate the action or state of a verb itself, we can first
+[stativize](./stativization.md) the verb. Compare {wo tayn} ("all that are
+happy"), to {wo djʊ tayn} ("all that are happiness" or "all happiness").
+Similarly, the dynamic verb {tθoc} ("burn") becomes the stative {djʊ tθoc} ("to
+be burning" or "to be a fire"), which can then be instantiated: {za djʊ tθoc}
+("a fire").
 
 ## Determiners
 

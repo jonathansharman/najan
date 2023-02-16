@@ -11,7 +11,7 @@ A doctor (healer) is an agent of healing:
 
 <gloss>
 {vʊ} | {ci} | {flej}
-sᴛᴀᴛ | ᴬ    | to heal
+sᴛᴀᴛ | ᴀ    | to heal
 to be a healer
 </gloss>
 

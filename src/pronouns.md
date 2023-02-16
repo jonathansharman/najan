@@ -23,7 +23,7 @@ information that the asker wishes to know.
 
 ## Assignable Pronouns
 
-The assignable pronouns {jow}, {með}, {paw}, and {tsut} have no fixed
+The assignable pronouns {jow}, {með}, {paŋ}, and {tsut} have no fixed
 properties, such as person, number, or gender. They can be bound (or rebound) to
 any unquantified noun phrase, using determiners.
 

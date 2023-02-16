@@ -13,8 +13,8 @@ Binding a pronoun in a determiner phrase allows referring back to it in a
 concise and unambiguous way.
 
 <gloss>
-{ci} | {gi} | {paw} | {dzað}   | {rʊ} | {paw} | {khɪtc}
-ᴬ    | the  | it    | be-child | ᴾ    | it    | hurt
+{je} | {ci} | {gi} | {paŋ} | {dzað}   | {rʊ} | {paŋ} | {θe} | {khɪtc}
+ɪɴᴅ  | ᴀ    | the  | it    | be-child | ᴘ    | it    | ᴘғᴠ  | hurt
 The child hurt itself.
 </gloss>
 
@@ -34,7 +34,7 @@ only binds pronouns for the duration of the containing clause.
 
 <gloss>
 {je} | {rʊ} | {su} | {vɪx}    | {fxe} | {cay}
-ᴵᴺᴰ  | ᴾ    | each | language | ʜᴀʙ   | change
+ɪɴᴅ  | ᴘ    | each | language | ʜᴀʙ   | change
 Every language changes.
 </gloss>
 

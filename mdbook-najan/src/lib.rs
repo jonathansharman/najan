@@ -102,8 +102,8 @@ impl Preprocessor for Najan {
 		book.for_each_mut(|item| {
 			if let BookItem::Chapter(ch) = item {
 				self.expand_interlinear_gloss(ch);
-				self.expand_najan_xlit(ch);
 				self.expand_najan(ch);
+				self.expand_najan_xlit(ch);
 			}
 		});
 		Ok(book)

@@ -5,6 +5,8 @@
 - [Orthography](./orthography.md)
 - [Syntax](./syntax.md)
 - [Verb Phrases](./verb-phrases.md)
+	- [Tense & Aspect](./tense-aspect.md)
+	- [Arguments](./arguments.md)
 	- [Stativization](./stativization.md)
 - [Noun Phrases](./noun-phrases.md)
 	- [Case](./case.md)

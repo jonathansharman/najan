@@ -60,10 +60,15 @@ impl Najan {
 
 fn generate_gloss(gloss: &[String]) -> String {
 	let mut result = "<table class='gloss'>".to_string();
-	let mut colspan = 1;
-	for row in gloss[..gloss.len() - 1].iter() {
+	// The first line is assumed to be a raw Najan transcription. Output it
+	// first in Najan script (by wrapping in {{}}) and then italicized.
+	let mut colspan = gloss[0].len();
+	result.push_str(&generate_gloss_row(&gloss[0], "{{", "}}"));
+	result.push_str(&generate_gloss_row(&gloss[0], "<i>", "</i>"));
+	// Middle rows should be glosses, which can be output as-is.
+	for row in gloss[1..gloss.len() - 1].iter() {
 		colspan = colspan.max(row.len());
-		result.push_str(&generate_gloss_row(row));
+		result.push_str(&generate_gloss_row(row, "", ""));
 	}
 	// The last line is assumed to be a single full sentence, to be quoted.
 	result.push_str(&format!(
@@ -73,11 +78,11 @@ fn generate_gloss(gloss: &[String]) -> String {
 	result
 }
 
-fn generate_gloss_row(row: &str) -> String {
+fn generate_gloss_row(row: &str, left: &str, right: &str) -> String {
 	format!(
 		"<tr>{}</tr>",
 		row.split('|')
-			.map(|word| format!("<td>{}</td>", word.trim()))
+			.map(|word| format!("<td>{left}{}{right}</td>", word.trim()))
 			.collect::<Vec<String>>()
 			.join("")
 	)

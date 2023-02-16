@@ -13,8 +13,8 @@ Binding a pronoun in a determiner phrase allows referring back to it in a
 concise and unambiguous way.
 
 <gloss>
-{je} | {ci} | {gi} | {paŋ} | {dzað}   | {rʊ} | {paŋ} | {θe} | {khɪtc}
-ɪɴᴅ  | ᴀ    | the  | it    | be-child | ᴘ    | it    | ᴘғᴠ  | hurt
+je  | ci | gi  | paŋ | dzað     | rʊ | paŋ | θe  | khɪtc
+ɪɴᴅ | ᴀ  | the | it  | be-child | ᴘ  | it  | ᴘғᴠ | hurt
 The child hurt itself.
 </gloss>
 
@@ -33,8 +33,8 @@ functioning similarly to "each" or "every". This determiner is unique in that it
 only binds pronouns for the duration of the containing clause.
 
 <gloss>
-{je} | {rʊ} | {su} | {vɪx}    | {fxe} | {cay}
-ɪɴᴅ  | ᴘ    | each | language | ʜᴀʙ   | change
+je  | rʊ | su   | vɪx      | fxe | cay
+ɪɴᴅ | ᴘ  | each | language | ʜᴀʙ | change
 Every language changes.
 </gloss>
 

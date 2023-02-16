@@ -27,8 +27,8 @@ that relates to the subject according to the particular semantics of the verb.
 The object-marking preposition {qa} could be translated as "with respect to".
 
 <gloss>
-{je}  | {qa} | {to} | {ŋɪ} | {ko} | {gwi}
-ɪɴᴅ   | ᴏʙᴊ  | you  | sʙᴊ  | I    | be-behind
+je  | qa  | to  | ŋɪ  | ko | gwi
+ɪɴᴅ | ᴏʙᴊ | you | sʙᴊ | I  | be-behind
 I am behind you.
 </gloss>
 
@@ -39,23 +39,23 @@ action. A **patient** (ᴘ) is something that is acted upon or undergoes change 
 a result of the action.
 
 <gloss>
-{ci} | {ko} | {rʊ} | {gi} | {nʊ}      | {ganθ}  | {vʊ} | {lɪ} | {kwon}  | {θe} | {fleh}
-ᴀ    | I    | ᴘ    | the  | such-that | be-sand | sᴛᴀᴛ | ʟᴏᴄ  | fortify | ᴘғᴠ  | destroy
+ci | ko | rʊ | gi  | nʊ        | ganθ    | vʊ   | lɪ   | kwon    | θe   | fleh
+ᴀ  | I  | ᴘ  | the | such-that | be-sand | sᴛᴀᴛ | ʟᴏᴄ  | fortify | ᴘғᴠ  | destroy
 I destroyed the sand castle (intentionally).
 </gloss>
 
 In contrast to an agent, a **cause** (ᴄᴀᴜs) is involuntary.
 
 <gloss>
-{slo} | {ko} | {rʊ} | {gi} | {nʊ}      | {ganθ}  | {vʊ} | {lɪ} | {kwon}  | {θe} | {fleh}
-ᴄᴀᴜs  | I    | ᴘ    | the  | such-that | be-sand | sᴛᴀᴛ | ʟᴏᴄ  | fortify | ᴘғᴠ  | destroy
+slo  | ko | rʊ | gi  | nʊ        | ganθ    | vʊ   | lɪ  | kwon    | θe  | fleh
+ᴄᴀᴜs | I  | ᴘ  | the | such-that | be-sand | sᴛᴀᴛ | ʟᴏᴄ | fortify | ᴘғᴠ | destroy
 I destroyed the sand castle (unintentionally).
 </gloss>
 
 A cause can also be inanimate.
 
 <gloss>
-{slo} | {gi} | {vucul} | {rʊ} | {gi} | {nʊ}      | {ganθ}  | {vʊ} | {lɪ} | {kwon}  | {θe} | {fleh}
-ᴄᴀᴜs  | the  | sea     | ᴘ    | the  | such-that | be-sand | sᴛᴀᴛ | ʟᴏᴄ  | fortify | ᴘғᴠ  | destroy
+slo  | gi  | vucul | rʊ | gi  | nʊ        | ganθ    | vʊ   | lɪ  | kwon    | θe  | fleh
+ᴄᴀᴜs | the | sea   | ᴘ  | the | such-that | be-sand | sᴛᴀᴛ | ʟᴏᴄ | fortify | ᴘғᴠ | destroy
 The sea destroyed the sand castle.
 </gloss>

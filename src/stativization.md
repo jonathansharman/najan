@@ -10,24 +10,24 @@ produces a new phrase meaning "to be a (case) with respect to (verb phrase)".
 A doctor (healer) is an agent of healing:
 
 <gloss>
-{vʊ} | {ci} | {flej}
-sᴛᴀᴛ | ᴀ    | to heal
+vʊ   | ci | flej
+sᴛᴀᴛ | ᴀ  | to heal
 to be a healer
 </gloss>
 
 A sword is an instrument of fencing:
 
 <gloss>
-{vʊ} | {θla} | {ces}
-sᴛᴀᴛ | ɪɴs   | to fence (engage in swordplay)
+vʊ   | θla | ces
+sᴛᴀᴛ | ɪɴs | to fence (engage in swordplay)
 to be a sword
 </gloss>
 
 A mother's child is an object of mothering:
 
 <gloss>
-{vʊ} | {qa} | {θaf}
-sᴛᴀᴛ | ᴏʙᴊ  | to be a mother (to a child)
+vʊ   | qa  | θaf
+sᴛᴀᴛ | ᴏʙᴊ | to be a mother (to a child)
 to be a child (of a mother)
 </gloss>
 
@@ -37,15 +37,15 @@ phrase)".
 A fire is an instance of burning:
 
 <gloss>
-{djʊ} | {tθoc}
-sᴛᴀᴛ  | to burn
+djʊ  | tθoc
+sᴛᴀᴛ | to burn
 to be a fire
 </gloss>
 
 Somone's happiness is an instance of being happy:
 
 <gloss>
-{djʊ} | {tayn}
-sᴛᴀᴛ  | to be happy
+djʊ  | tayn
+sᴛᴀᴛ | to be happy
 to be happiness
 </gloss>

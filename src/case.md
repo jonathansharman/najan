@@ -39,23 +39,23 @@ action. A **patient** (ᴘ) is something that is acted upon or undergoes change 
 a result of the action.
 
 <gloss>
-ci | ko | rʊ | gi  | nʊ        | ganθ    | vʊ   | lɪ   | kwon    | θe   | fleh
-ᴀ  | I  | ᴘ  | the | such-that | be-sand | sᴛᴀᴛ | ʟᴏᴄ  | fortify | ᴘғᴠ  | destroy
+je  | ci | ko | rʊ | gi  | nʊ        | ganθ    | vʊ   | lɪ   | kwon    | θe   | fleh
+ɪɴᴅ | ᴀ  | I  | ᴘ  | the | such-that | be-sand | sᴛᴀᴛ | ʟᴏᴄ  | fortify | ᴘғᴠ  | destroy
 I destroyed the sand castle (intentionally).
 </gloss>
 
 In contrast to an agent, a **cause** (ᴄᴀᴜs) is involuntary.
 
 <gloss>
-slo  | ko | rʊ | gi  | nʊ        | ganθ    | vʊ   | lɪ  | kwon    | θe  | fleh
-ᴄᴀᴜs | I  | ᴘ  | the | such-that | be-sand | sᴛᴀᴛ | ʟᴏᴄ | fortify | ᴘғᴠ | destroy
+je  | slo  | ko | rʊ | gi  | nʊ        | ganθ    | vʊ   | lɪ  | kwon    | θe  | fleh
+ɪɴᴅ | ᴄᴀᴜs | I  | ᴘ  | the | such-that | be-sand | sᴛᴀᴛ | ʟᴏᴄ | fortify | ᴘғᴠ | destroy
 I destroyed the sand castle (unintentionally).
 </gloss>
 
 A cause can also be inanimate.
 
 <gloss>
-slo  | gi  | vucul | rʊ | gi  | nʊ        | ganθ    | vʊ   | lɪ  | kwon    | θe  | fleh
-ᴄᴀᴜs | the | sea   | ᴘ  | the | such-that | be-sand | sᴛᴀᴛ | ʟᴏᴄ | fortify | ᴘғᴠ | destroy
+je  | slo  | gi  | vucul | rʊ | gi  | nʊ        | ganθ    | vʊ   | lɪ  | kwon    | θe  | fleh
+ɪɴᴅ | ᴄᴀᴜs | the | sea   | ᴘ  | the | such-that | be-sand | sᴛᴀᴛ | ʟᴏᴄ | fortify | ᴘғᴠ | destroy
 The sea destroyed the sand castle.
 </gloss>

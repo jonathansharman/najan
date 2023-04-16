@@ -63,5 +63,5 @@ particle {kɪ} often translates to "as", "like", or "in the manner of".
 <gloss>
 hon | kɪ   | lec   | pɪf
 ɢɴᴏ | ᴄᴍᴘʀ | water | soothe
-It soothes like water.
+[It] soothes like water.
 </gloss>

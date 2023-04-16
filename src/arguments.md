@@ -13,13 +13,16 @@ je  | ci | ko | ci | to  | rʊ | za | rabʊm  | tcet
 You and I are eating an orange.
 </gloss>
 
-We can reverse the order of the arguments without affecting the meaning:
+We can usually reverse the order of the arguments without affecting the meaning:
 
 <gloss>
 je  | rʊ | za | rabʊm  | ci | ko | ci | to  | tcet
 ɪɴᴅ | ᴘ  | an | orange | ᴀ  | I  | ᴀ  | you | eat
 An orange is being eaten by you and me.
 </gloss>
+
+However, sometimes order does matter, for instance when [universal and
+existential quantification](./determiner-phrases.md) are involved.
 
 In this example, the ball and glove are thrown as part of the same action:
 

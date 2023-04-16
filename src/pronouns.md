@@ -25,4 +25,4 @@ information that the asker wishes to know.
 
 The assignable pronouns {jow}, {með}, {paŋ}, and {tsut} have no fixed
 properties, such as person, number, or gender. They can be bound (or rebound) to
-any unquantified noun phrase, using determiners.
+any unquantified noun phrase, via determiner phrases.

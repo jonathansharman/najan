@@ -23,11 +23,11 @@ sᴛᴀᴛ | ɪɴs | to fence (engage in swordplay)
 to be a sword
 </gloss>
 
-A mother's child is an object of mothering:
+A child exists with respect to a mother:
 
 <gloss>
 vʊ   | qa  | θaf
-sᴛᴀᴛ | ᴏʙᴊ | to be a mother (to a child)
+sᴛᴀᴛ | ɢᴇɴ | to be a mother (of a child)
 to be a child (of a mother)
 </gloss>
 

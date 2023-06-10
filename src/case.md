@@ -7,29 +7,36 @@ phrases](./stativization.md) using the particle {vʊ}.
 | Case         | Gloss | Preposition |
 | :----------- | :---- | :---------- |
 | Subjective   | sʙᴊ   | {ŋɪ}        |
-| Objective    | ᴏʙᴊ   | {qa}        |
+| Genitive     | ɢᴇɴ   | {qa}        |
 | Agentive     | ᴀ     | {ci}        |
 | Causal       | ᴄᴀᴜs  | {slo}       |
 | Patientive   | ᴘ     | {rʊ}        |
 | Instrumental | ɪɴs   | {θla}       |
-| Dative       | ᴅᴀᴛ   | {ðu}        |
+| Partitive    | ᴘᴛᴠ   | {bo}        |
 | Locative     | ʟᴏᴄ   | {lɪ}        |
+| Lative       | ʟᴀᴛ   | {we}        |
+| Ablative     | ᴀʙʟ   | {xun}       |
+| Perlative    | ᴘᴇʀ   | {zij}       |
 | Resultative  | ʀᴇs   | {tce}       |
 | Identical    | ɪᴅᴇɴᴛ | {kʊv}       |
-| Comparative  | ᴄᴍᴘʀ  | {kɪ}        |
+| Semblative   | sᴇᴍʙʟ | {kɪ}        |
+| Comparative  | ᴄᴍᴘʀ  | {gwa}       |
 
-Within a stative verb phrase, a **subject** (sʙᴊ) is something that is in the
-state described by the verb, and an **object** (ᴏʙᴊ) is a catch-all argument
-that relates to the subject according to the particular semantics of the verb.
-The objective preposition {qa} could be translated as "with respect to".
+Within a stative verb phrase, a **subject** (sʙᴊ) is something that is in that
+state. A stative verb phrase may also take a genitive (ɢᴇɴ) argument, which
+relates that argument to the subject according to the semantics of the verb. The
+genitive preposition {qa} means "with respect to", "with regard to", or "in
+relation to".
 
 <gloss>
-je  | qa  | to  | ŋɪ  | ko | gwi
-ɪɴᴅ | ᴏʙᴊ | you | sʙᴊ | I  | be-behind
-I am behind you.
+je  | qa  | vɪθ   | ŋɪ  | ko | zim
+ɪɴᴅ | ɢᴇɴ | exist | sʙᴊ | I  | want
+I want to exist.
 </gloss>
 
-TODO: two-subject example, e.g. this equals that (this and that are both subjects)
+The role of the genitive case in Najan is relatively narrow, reserved for
+abstract relations where no other case applies. For example, the genitive is
+distinct from the locative and partitive cases.
 
 An **agent** (ᴀ) of a dynamic verb phrase is an animate, voluntary cause of the
 action. A **patient** (ᴘ) is something that is acted upon or undergoes change as
@@ -57,11 +64,20 @@ je  | slo  | gi  | vucul | rʊ | gi  | nʊ        | ganθ    | vʊ   | tce | kwo
 The sea destroyed the sand castle.
 </gloss>
 
-A **comparison** (ᴄᴍᴘʀ) is something the verb is similar to. The comparative
-particle {kɪ} often translates to "as", "like", or "in the manner of".
+The **lative** (ʟᴀᴛ) case is used for any kind of action to or towards
+something, in space or time.
 
 <gloss>
-hon | kɪ   | lec   | pɪf
-ɢɴᴏ | ᴄᴍᴘʀ | water | soothe
+je  | we   | to  | ci | ko | θe  | zen
+ɪɴᴅ | ʟᴀᴛ  | you | ᴀ  | I  | ᴘғᴠ | give
+I gave [it] to you.
+</gloss>
+
+The **semblative** (sᴇᴍʙʟ) case marks something the verb is similar to. The
+semblative particle {kɪ} means "as", "like", or "in the manner of".
+
+<gloss>
+hon | kɪ    | ðu  | lec   | pɪf
+ɢɴᴏ | sᴇᴍʙʟ | ɢɴʀ | water | soothe
 [It] soothes like water.
 </gloss>

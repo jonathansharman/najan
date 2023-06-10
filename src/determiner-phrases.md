@@ -64,7 +64,7 @@ It's true that every human has a human mother:
 
 <gloss>
 je  | qa  | su   | ðap   | ŋɪ  | za | ðap   | θaf
-ɪɴᴅ | ᴏʙᴊ | each | human | sʙᴊ | a  | human | be-mother
+ɪɴᴅ | ɢᴇɴ | each | human | sʙᴊ | a  | human | mother
 Every human is mothered by a human.
 </gloss>
 
@@ -72,6 +72,6 @@ It is however not true that all humans share a single universal mother:
 
 <gloss>
 je  | ŋɪ  | za | ðap   | qa  | su   | ðap   | θaf
-ɪɴᴅ | sʙᴊ | a  | human | ᴏʙᴊ | each | human | be-mother
-[There exists] a human [that] is mother to every human.
+ɪɴᴅ | sʙᴊ | a  | human | ɢᴇɴ | each | human | mother
+There is a human that is mother to every human.
 </gloss>

@@ -2,7 +2,7 @@
 
 A **determiner phrase** consists of a determiner, an optional pronoun to bind,
 and a stative verb phrase complement. The phrase signifies some entity such that
-the complement holds true with that entity as the subject. Najan has just three
+the complement holds true with that entity as the subject. Najan has just four
 determiners:
 
 | Determiner | Type         | Translation    |
@@ -10,6 +10,7 @@ determiners:
 | {za}       | Indefinite   | "a"/"an"       |
 | {gi}       | Definite     | "the"          |
 | {su}       | Distributive | "each"/"every" |
+| {ðu}       | Generic      | "in general"   |
 
 The **indefinite determiner** {za} introduces a new instance of the complement.
 It corresponds to existential quantification in logic.
@@ -41,6 +42,18 @@ complement. It corresponds to universal quantification in logic.
 je  | rʊ | su   | vɪx      | fxe | cay
 ɪɴᴅ | ᴘ  | each | language | ʜᴀʙ | change
 Every language changes.
+</gloss>
+
+The **generic determiner** {ðu} refers to the complement in a general sense.
+It's often used with the [gnomic aspect](./tense-aspect). This determiner
+doesn't map cleanly to any one determiner in English; for instance, "a man's
+gotta eat", "cats are cute", and "the giraffe is an African species" all have a
+generic subject.
+
+<gloss>
+je  | ŋɪ  | ko | ðu  | dwav | kem
+ɪɴᴅ | sʙᴊ | I  | ɢɴʀ | book | like
+I like books.
 </gloss>
 
 ## Pronoun Binding

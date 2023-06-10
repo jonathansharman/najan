@@ -20,7 +20,6 @@ phrases](./stativization.md) using the particle {vʊ}.
 | Resultative  | ʀᴇs   | {tce}       |
 | Identical    | ɪᴅᴇɴᴛ | {kʊv}       |
 | Semblative   | sᴇᴍʙʟ | {kɪ}        |
-| Comparative  | ᴄᴍᴘʀ  | {gwa}       |
 
 Within a stative verb phrase, a **subject** (sʙᴊ) is something that is in that
 state. A stative verb phrase may also take a genitive (ɢᴇɴ) argument, which

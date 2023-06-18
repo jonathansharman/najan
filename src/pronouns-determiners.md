@@ -1,2 +1,0 @@
-# Pronouns & Determiners
-

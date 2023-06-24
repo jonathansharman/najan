@@ -12,13 +12,13 @@ determiners:
 | {su}       | Distributive | "each"/"every" |
 | {ðu}       | Generic      | "in general"   |
 
-The **indefinite determiner** {za} introduces a new instance of the complement.
-It corresponds to existential quantification in logic.
+The **indefinite determiner** {za} introduces a new specific instance of the
+complement. It corresponds to existential quantification in logic.
 
 <gloss>
-za | tab
-a  | be-father
-a father
+je  | za | lak  | cɪŋ
+ɪɴᴅ | a  | bird | see
+A bird is being seen.
 </gloss>
 
 The **definite determiner** {gi} refers to a known instance of the complement.
@@ -26,8 +26,8 @@ The referent should be unique (e.g. a proper noun) or otherwise obvious from
 context. There is only one entity that is the sun:
 
 <gloss>
-je  | ci | gi  | θxɪl   | fiq
-ɪɴᴅ | ᴀ  | the | be-sun | shine
+je  | ci | gi  | θxɪl | fiq
+ɪɴᴅ | ᴀ  | the | sun  | shine
 The sun is shining.
 </gloss>
 
@@ -44,16 +44,34 @@ je  | rʊ | su   | vɪx      | fxe | cay
 Every language changes.
 </gloss>
 
-The **generic determiner** {ðu} refers to the complement in a general sense.
-It's often used with the [gnomic aspect](./tense-aspect). This determiner
-doesn't map cleanly to any one determiner in English; for instance, "a man's
-gotta eat", "cats are cute", and "the giraffe is an African species" all have a
-generic subject.
+The **generic determiner** {ðu} refers to the complement in a general,
+nonspecific sense. It's often used with the [gnomic aspect](./tense-aspect).
+This determiner doesn't map cleanly to any one determiner in English; for
+instance, "a man's gotta eat", "cats are cute", and "the giraffe is an African
+species" all have a generic subject.
 
 <gloss>
 je  | ŋɪ  | ko | ðu  | dwav | kem
 ɪɴᴅ | sʙᴊ | I  | ɢɴʀ | book | like
 I like books.
+</gloss>
+
+In English, the indefinite articles "a" and "an" do not encode specificity. For
+instance, "I'm looking for a book" could mean I have or don't have a specific
+book in mind. In Najan, the indefinite determiner is always specific:
+
+<gloss>
+je  | ŋɪ  | ko | za | dwav | moθ
+ɪɴᴅ | sʙᴊ | I  | a  | book | need
+I need a (particular) book.
+</gloss>
+
+The generic determiner is always nonspecific.
+
+<gloss>
+je  | ŋɪ  | ko | ðu  | dwav | moθ
+ɪɴᴅ | sʙᴊ | I  | ɢɴʀ | book | need
+I need a book (any book).
 </gloss>
 
 ## Pronoun Binding
@@ -62,8 +80,8 @@ Binding a pronoun in a determiner phrase allows referring back to it in a
 concise and unambiguous way.
 
 <gloss>
-je  | ci | gi  | paŋ | dzað     | rʊ | paŋ | θe  | khɪtc
-ɪɴᴅ | ᴀ  | the | it  | be-child | ᴘ  | it  | ᴘғᴠ | hurt
+je  | ci | gi  | paŋ | dzað  | rʊ | paŋ | θe  | khɪtc
+ɪɴᴅ | ᴀ  | the | it  | child | ᴘ  | it  | ᴘғᴠ | hurt
 The child hurt itself.
 </gloss>
 

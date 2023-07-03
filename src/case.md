@@ -12,6 +12,7 @@ phrases](./stativization.md) using the particle {vʊ}.
 | Causal       | ᴄᴀᴜs  | {slo}       |
 | Patientive   | ᴘ     | {rʊ}        |
 | Instrumental | ɪɴs   | {θla}       |
+| Possessive   | ᴘᴏs   | {me}        |
 | Partitive    | ᴘᴛᴠ   | {bo}        |
 | Locative     | ʟᴏᴄ   | {lɪ}        |
 | Lative       | ʟᴀᴛ   | {we}        |

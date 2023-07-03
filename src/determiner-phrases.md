@@ -16,9 +16,9 @@ The **indefinite determiner** {za} introduces a new specific instance of the
 complement. It corresponds to existential quantification in logic.
 
 <gloss>
-je  | za | lak  | cɪŋ
-ɪɴᴅ | a  | bird | see
-A bird is being seen.
+je  | qa  | za | lak  | cɪŋ
+ɪɴᴅ | ɢᴇɴ | a  | bird | see
+A bird is seen.
 </gloss>
 
 The **definite determiner** {gi} refers to a known instance of the complement.

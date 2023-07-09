@@ -85,6 +85,25 @@ je  | ci | gi  | paŋ | dzað  | rʊ | paŋ | θe  | khɪtc
 The child hurt itself.
 </gloss>
 
+## Plural and Uncountable Determiner Phrases
+
+The complement in a determiner phrase may be uncountable or
+[plural](./pluralization.md), in which case the entity identified by the
+determiner phrase is a set or quantity.
+
+<gloss>
+je  | qa  | ðu  | me | rabʊm  | qa  | ðu  | lec   | can
+ɪɴᴅ | ɢᴇɴ | ɢɴʀ | ᴘʟ | orange | ɢᴇɴ | ɢɴʀ | water | want
+(I) want some oranges and some water.
+</gloss>
+
+In fact, Najan does not distinguish between countable and uncountable determiner
+phrases since determiner phrases always identify discrete entities. In English,
+"rock" is countable in "a small rock" but uncountable in "a hunk of rock". In
+Najan, the word for "rock", {kut}, means "to be made of stone". Thus {za kut},
+literally "a thing that is made of stone", could be translated into English
+either as "a rock" (countable) or as "some rock" (uncountable).
+
 ## Ordering Determiner Phrases
 
 We have to be careful about the order of [arguments](./arguments.md) when

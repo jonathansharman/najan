@@ -9,6 +9,7 @@
 	- [Arguments](./arguments.md)
 	- [Stativization](./stativization.md)
 - [Noun Phrases](./noun-phrases.md)
+	- [Pluralization](./pluralization.md)
 	- [Case](./case.md)
 	- [Pronouns](./pronouns.md)
 	- [Determiner Phrases](./determiner-phrases.md)

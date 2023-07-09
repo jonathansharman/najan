@@ -83,7 +83,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="phonology.html"><strong aria-hidden="true">2.</strong> Phonology</a></li><li class="chapter-item expanded "><a href="orthography.html"><strong aria-hidden="true">3.</strong> Orthography</a></li><li class="chapter-item expanded "><a href="syntax.html"><strong aria-hidden="true">4.</strong> Syntax</a></li><li class="chapter-item expanded "><a href="verb-phrases.html"><strong aria-hidden="true">5.</strong> Verb Phrases</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="tense-aspect.html"><strong aria-hidden="true">5.1.</strong> Tense & Aspect</a></li><li class="chapter-item expanded "><a href="arguments.html"><strong aria-hidden="true">5.2.</strong> Arguments</a></li><li class="chapter-item expanded "><a href="stativization.html"><strong aria-hidden="true">5.3.</strong> Stativization</a></li></ol></li><li class="chapter-item expanded "><a href="noun-phrases.html"><strong aria-hidden="true">6.</strong> Noun Phrases</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="case.html"><strong aria-hidden="true">6.1.</strong> Case</a></li><li class="chapter-item expanded "><a href="pronouns.html"><strong aria-hidden="true">6.2.</strong> Pronouns</a></li><li class="chapter-item expanded "><a href="determiner-phrases.html"><strong aria-hidden="true">6.3.</strong> Determiner Phrases</a></li><li class="chapter-item expanded "><a href="quotations.html"><strong aria-hidden="true">6.4.</strong> Quotations</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="phonology.html"><strong aria-hidden="true">2.</strong> Phonology</a></li><li class="chapter-item expanded "><a href="orthography.html"><strong aria-hidden="true">3.</strong> Orthography</a></li><li class="chapter-item expanded "><a href="syntax.html"><strong aria-hidden="true">4.</strong> Syntax</a></li><li class="chapter-item expanded "><a href="verb-phrases.html"><strong aria-hidden="true">5.</strong> Verb Phrases</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="tense-aspect.html"><strong aria-hidden="true">5.1.</strong> Tense & Aspect</a></li><li class="chapter-item expanded "><a href="arguments.html"><strong aria-hidden="true">5.2.</strong> Arguments</a></li><li class="chapter-item expanded "><a href="stativization.html"><strong aria-hidden="true">5.3.</strong> Stativization</a></li></ol></li><li class="chapter-item expanded "><a href="noun-phrases.html"><strong aria-hidden="true">6.</strong> Noun Phrases</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="pluralization.html"><strong aria-hidden="true">6.1.</strong> Pluralization</a></li><li class="chapter-item expanded "><a href="case.html"><strong aria-hidden="true">6.2.</strong> Case</a></li><li class="chapter-item expanded "><a href="pronouns.html"><strong aria-hidden="true">6.3.</strong> Pronouns</a></li><li class="chapter-item expanded "><a href="determiner-phrases.html"><strong aria-hidden="true">6.4.</strong> Determiner Phrases</a></li><li class="chapter-item expanded "><a href="quotations.html"><strong aria-hidden="true">6.5.</strong> Quotations</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -220,17 +220,27 @@ punctuation except spaces between words.</p>
 <p>Najan is a deterministic context-free language whose grammar can be expressed in
 extended Backus-Naur form as follows:</p>
 <blockquote>
-<p><lhs><strong>clause</strong> ⇒</lhs> [ ⟨<strong>mood ᴘᴛᴄʟ</strong>⟩ ] ⟨<strong>VP</strong>⟩</p>
-<p><lhs><strong>verb phrase (VP)</strong> ⇒</lhs> [ ⟨<strong>aspect ᴘᴛᴄʟ</strong>⟩ ] ⟨<strong>verb</strong>⟩
+<p><lhs><strong>clause</strong> ⇒</lhs> ⟨<strong>mood ᴘᴛᴄʟ</strong>⟩ ⟨<strong>VP</strong>⟩</p>
+<p><lhs><strong>verb phrase (VP)</strong> ⇒</lhs> [ ⟨<strong>aspect ᴘᴛᴄʟ</strong>⟩ ] ⟨<strong>dynamic verb</strong>⟩
 <br>
-<lhs>|</lhs> ⟨<strong>stativized VP</strong>⟩
+<lhs>|</lhs> ⟨<strong>stative VP</strong>⟩
 <br>
 <lhs>|</lhs> ⟨<strong>ᴘʀᴇᴘ</strong>⟩ ⟨<strong>NP</strong>⟩ ⟨<strong>VP</strong>⟩
 <br>
 <lhs>|</lhs> ⟨<strong>ᴄᴏɴᴊ</strong>⟩ ⟨<strong>VP</strong>⟩ ⟨<strong>VP</strong>⟩</p>
-<p><lhs><strong>stativized VP</strong> ⇒</lhs> “<naj>djʊ</naj> ⟨djʊ⟩” ⟨<strong>VP</strong>⟩ | “<naj>vʊ</naj> ⟨vʊ⟩” ⟨<strong>ᴘʀᴇᴘ</strong>⟩ ⟨<strong>VP</strong>⟩</p>
+<p><lhs><strong>stative VP</strong> ⇒</lhs> [ ⟨<strong>aspect ᴘᴛᴄʟ</strong>⟩ ] ⟨<strong>stative verb</strong>⟩
+<br>
+<lhs>|</lhs> “<naj>djʊ</naj> ⟨djʊ⟩” ⟨<strong>VP</strong>⟩
+<br>
+<lhs>|</lhs> “<naj>vʊ</naj> ⟨vʊ⟩” ⟨<strong>case ᴘʀᴇᴘ</strong>⟩ ⟨<strong>VP</strong>⟩
+<br>
+<lhs>|</lhs> “<naj>ma</naj> ⟨ma⟩” ⟨<strong>stative VP</strong>⟩
+<br>
+<lhs>|</lhs> ⟨<strong>ᴘʀᴇᴘ</strong>⟩ ⟨<strong>NP</strong>⟩ ⟨<strong>stative VP</strong>⟩
+<br>
+<lhs>|</lhs> ⟨<strong>ᴄᴏɴᴊ</strong>⟩ ⟨<strong>stative VP</strong>⟩ ⟨<strong>stative VP</strong>⟩</p>
 <p><lhs><strong>noun phrase (NP)</strong> ⇒</lhs> ⟨<strong>VP</strong>⟩ | ⟨<strong>ᴘʀᴏ</strong>⟩ | ⟨<strong>ᴅᴇᴛ phrase</strong>⟩ | ⟨<strong>quotation</strong>⟩ | ⟨<strong>ᴄᴏɴᴊ</strong>⟩ ⟨<strong>NP</strong>⟩ ⟨<strong>NP</strong>⟩</p>
-<p><lhs><strong>ᴅᴇᴛ phrase</strong> ⇒</lhs> ⟨<strong>ᴅᴇᴛ</strong>⟩ [ ⟨<strong>ᴘʀᴏ</strong>⟩ ] ⟨<strong>VP</strong>⟩</p>
+<p><lhs><strong>ᴅᴇᴛ phrase</strong> ⇒</lhs> ⟨<strong>ᴅᴇᴛ</strong>⟩ [ ⟨<strong>ᴘʀᴏ</strong>⟩ ] ⟨<strong>stative VP</strong>⟩</p>
 <p><lhs><strong>quotation</strong> ⇒</lhs> “<naj>tca</naj> ⟨tca⟩” ⟨<strong>quoted word</strong>⟩ “<naj>tca</naj> ⟨tca⟩”</p>
 <p><lhs><strong>quoted word</strong> ⇒</lhs> ⟨<strong>word</strong>⟩ - “<naj>tca</naj> ⟨tca⟩” - “<naj>tsa</naj> ⟨tsa⟩” | “<naj>tsa tca</naj> ⟨tsa tca⟩” | “<naj>tsa tsa</naj> ⟨tsa tsa⟩”</p>
 </blockquote>
@@ -277,7 +287,17 @@ phrase)”.</p>
 or action (e.g. “being human”, “running”, “love”). To talk about concrete
 instances, sets, or amounts of something (e.g. “you”, “the victory”, “two dogs”,
 “some water”, “several words”), we can use pronouns or determiner phrases.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="case"><a class="header" href="#case">Case</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="pluralization"><a class="header" href="#pluralization">Pluralization</a></h1>
+<p>A stative verb phrase can be pluralized by preceding it with the particle <naj>ma</naj> ⟨ma⟩.
+Precisely, <naj>ma</naj> ⟨ma⟩ followed by a state means to be a set of entities that are all
+in that state. This set may contain any number of elements, including zero or
+one.</p>
+<p>Unlike plurals in English, instantiating the <naj>ma</naj> ⟨ma⟩ plural form requires the use
+of a <a href="./determiner-phrases.html">determiner</a>. The following attempted translation
+of “I hear people over there” is incorrect (and nonsensical):</p>
+<table class='gloss'><tr><td><naj>je</naj></td><td><naj>ŋɪ</naj></td><td><naj>ko</naj></td><td><naj>qa</naj></td><td><naj>nʊ</naj></td><td><naj>dwa</naj></td><td><naj>ma</naj></td><td><naj>mɪl</naj></td><td><naj>noy</naj></td></tr><tr><td><i>je</i></td><td><i>ŋɪ</i></td><td><i>ko</i></td><td><i>qa</i></td><td><i>nʊ</i></td><td><i>dwa</i></td><td><i>ma</i></td><td><i>mɪl</i></td><td><i>noy</i></td></tr><tr><td>ɪɴᴅ</td><td>sʙᴊ</td><td>I</td><td>ɢᴇɴ</td><td>that</td><td>distant</td><td>ᴘʟ</td><td>person</td><td>hear</td></tr><tr><td colspan="72">“I hear to be distant people.”</td></tr></table>
+<p>Adding the indefinite determiner gives the intended meaning:</p>
+<table class='gloss'><tr><td><naj>je</naj></td><td><naj>ŋɪ</naj></td><td><naj>ko</naj></td><td><naj>qa</naj></td><td><naj>za</naj></td><td><naj>nʊ</naj></td><td><naj>dwa</naj></td><td><naj>ma</naj></td><td><naj>mɪl</naj></td><td><naj>noy</naj></td></tr><tr><td><i>je</i></td><td><i>ŋɪ</i></td><td><i>ko</i></td><td><i>qa</i></td><td><i>za</i></td><td><i>nʊ</i></td><td><i>dwa</i></td><td><i>ma</i></td><td><i>mɪl</i></td><td><i>noy</i></td></tr><tr><td>ɪɴᴅ</td><td>sʙᴊ</td><td>I</td><td>ɢᴇɴ</td><td>some</td><td>that</td><td>distant</td><td>ᴘʟ</td><td>person</td><td>hear</td></tr><tr><td colspan="79">“I hear people over there. (I hear some people that are distant.)”</td></tr></table><div style="break-before: page; page-break-before: always;"></div><h1 id="case"><a class="header" href="#case">Case</a></h1>
 <p>Najan marks case using prepositions, in both prepositional phrases acting as
 <a href="./arguments.html">arguments</a> to a verb and in <a href="./stativization.html">stativized verb
 phrases</a> using the particle <naj>vʊ</naj> ⟨vʊ⟩.</p>
@@ -356,7 +376,7 @@ determiners:</p>
 </div>
 <p>The <strong>indefinite determiner</strong> <naj>za</naj> ⟨za⟩ introduces a new specific instance of the
 complement. It corresponds to existential quantification in logic.</p>
-<table class='gloss'><tr><td><naj>je</naj></td><td><naj>za</naj></td><td><naj>lak</naj></td><td><naj>cɪŋ</naj></td></tr><tr><td><i>je</i></td><td><i>za</i></td><td><i>lak</i></td><td><i>cɪŋ</i></td></tr><tr><td>ɪɴᴅ</td><td>a</td><td>bird</td><td>see</td></tr><tr><td colspan="25">“A bird is being seen.”</td></tr></table>
+<table class='gloss'><tr><td><naj>je</naj></td><td><naj>qa</naj></td><td><naj>za</naj></td><td><naj>lak</naj></td><td><naj>cɪŋ</naj></td></tr><tr><td><i>je</i></td><td><i>qa</i></td><td><i>za</i></td><td><i>lak</i></td><td><i>cɪŋ</i></td></tr><tr><td>ɪɴᴅ</td><td>ɢᴇɴ</td><td>a</td><td>bird</td><td>see</td></tr><tr><td colspan="35">“A bird is seen.”</td></tr></table>
 <p>The <strong>definite determiner</strong> <naj>gi</naj> ⟨gi⟩ refers to a known instance of the complement.
 The referent should be unique (e.g. a proper noun) or otherwise obvious from
 context. There is only one entity that is the sun:</p>
@@ -383,6 +403,17 @@ book in mind. In Najan, the indefinite determiner is always specific:</p>
 <p>Binding a pronoun in a determiner phrase allows referring back to it in a
 concise and unambiguous way.</p>
 <table class='gloss'><tr><td><naj>je</naj></td><td><naj>ci</naj></td><td><naj>gi</naj></td><td><naj>paŋ</naj></td><td><naj>dzað</naj></td><td><naj>rʊ</naj></td><td><naj>paŋ</naj></td><td><naj>θe</naj></td><td><naj>khɪtc</naj></td></tr><tr><td><i>je</i></td><td><i>ci</i></td><td><i>gi</i></td><td><i>paŋ</i></td><td><i>dzað</i></td><td><i>rʊ</i></td><td><i>paŋ</i></td><td><i>θe</i></td><td><i>khɪtc</i></td></tr><tr><td>ɪɴᴅ</td><td>ᴀ</td><td>the</td><td>it</td><td>child</td><td>ᴘ</td><td>it</td><td>ᴘғᴠ</td><td>hurt</td></tr><tr><td colspan="65">“The child hurt itself.”</td></tr></table>
+<h2 id="plural-and-uncountable-determiner-phrases"><a class="header" href="#plural-and-uncountable-determiner-phrases">Plural and Uncountable Determiner Phrases</a></h2>
+<p>The complement in a determiner phrase may be uncountable or
+<a href="./pluralization.html">plural</a>, in which case the entity identified by the
+determiner phrase is a set or quantity.</p>
+<table class='gloss'><tr><td><naj>je</naj></td><td><naj>qa</naj></td><td><naj>ðu</naj></td><td><naj>me</naj></td><td><naj>rabʊm</naj></td><td><naj>qa</naj></td><td><naj>ðu</naj></td><td><naj>lec</naj></td><td><naj>can</naj></td></tr><tr><td><i>je</i></td><td><i>qa</i></td><td><i>ðu</i></td><td><i>me</i></td><td><i>rabʊm</i></td><td><i>qa</i></td><td><i>ðu</i></td><td><i>lec</i></td><td><i>can</i></td></tr><tr><td>ɪɴᴅ</td><td>ɢᴇɴ</td><td>ɢɴʀ</td><td>ᴘʟ</td><td>orange</td><td>ɢᴇɴ</td><td>ɢɴʀ</td><td>water</td><td>want</td></tr><tr><td colspan="77">“(I) want some oranges and some water.”</td></tr></table>
+<p>In fact, Najan does not distinguish between countable and uncountable determiner
+phrases since determiner phrases always identify discrete entities. In English,
+“rock” is countable in “a small rock” but uncountable in “a hunk of rock”. In
+Najan, the word for “rock”, <naj>kut</naj> ⟨kut⟩, means “to be made of stone”. Thus <naj>za kut</naj> ⟨za kut⟩,
+literally “a thing that is made of stone”, could be translated into English
+either as “a rock” (countable) or as “some rock” (uncountable).</p>
 <h2 id="ordering-determiner-phrases"><a class="header" href="#ordering-determiner-phrases">Ordering Determiner Phrases</a></h2>
 <p>We have to be careful about the order of <a href="./arguments.html">arguments</a> when
 distributive determiners and indefinite determiners are both present since they

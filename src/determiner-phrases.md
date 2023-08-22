@@ -12,6 +12,10 @@ determiners:
 | {su}       | Distributive | "each"/"every" |
 | {ðu}       | Generic      | "in general"   |
 
+> **Note:** Dynamic verb phrases cannot be used directly in determiner phrases,
+but it is possible to use a dynamic verb as an argument to a stative verb
+phrase. For example "a fire" is "an act of burning": {za qa tθoc djʊ}.
+
 The **indefinite determiner** {za} introduces a new specific instance of the
 complement. It corresponds to existential quantification in logic.
 

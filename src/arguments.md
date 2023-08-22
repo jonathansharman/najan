@@ -1,8 +1,8 @@
 # Arguments
 
-Arguments to a verb are expressed as [case-marking](./case.md) prepositional
-phrases modifying the verb. As a result, arguments have no fixed order, and a
-single verb can take multiple arguments of the same semantic role.
+Arguments to a verb are expressed using optional modifiers, each marked for
+[case](./case.md). As a result, arguments have no fixed order, and a single verb
+can take multiple arguments of the same semantic role.
 
 In the following, "you" and "I" are joint agents of the eating of a single
 orange:
@@ -13,7 +13,7 @@ je  | ci | ko | ci | to  | rʊ | za | rabʊm  | tcet
 You and I are eating an orange.
 </gloss>
 
-We can usually reverse the order of the arguments without affecting the meaning:
+Reversing the order of the arguments usually does not affecting the meaning:
 
 <gloss>
 je  | rʊ | za | rabʊm  | ci | ko | ci | to  | tcet
@@ -22,7 +22,8 @@ An orange is being eaten by you and me.
 </gloss>
 
 However, sometimes order does matter, for instance when [universal and
-existential quantification](./determiner-phrases.md) are involved.
+existential quantification](./determiner-phrases.md#ordering-determiner-phrases)
+are involved.
 
 In this example, the ball and glove are thrown as part of the same action:
 

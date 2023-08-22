@@ -1,42 +1,39 @@
 # Case
 
-Najan marks case using prepositions, in both prepositional phrases acting as
-[arguments](./arguments.md) to a verb and in [stativized verb
-phrases](./stativization.md) using the particle {vʊ}.
+Each Najan case corresponds to a particular semantic role within the verb
+phrase, marked using a preposition. These case prepositions are clipped from
+corresponding stative verbs. For example, since {cim} means *agent*, the
+corresponding case preposition {ci} marks the agentive case.
 
-| Case         | Gloss | Preposition |
-| :----------- | :---- | :---------- |
-| Subjective   | sʙᴊ   | {ŋɪ}        |
-| Genitive     | ɢᴇɴ   | {qa}        |
-| Agentive     | ᴀ     | {ci}        |
-| Causal       | ᴄᴀᴜs  | {slo}       |
-| Patientive   | ᴘ     | {rʊ}        |
-| Instrumental | ɪɴs   | {θla}       |
-| Possessive   | ᴘᴏs   | {me}        |
-| Partitive    | ᴘᴛᴠ   | {bo}        |
-| Locative     | ʟᴏᴄ   | {lɪ}        |
-| Lative       | ʟᴀᴛ   | {we}        |
-| Ablative     | ᴀʙʟ   | {xun}       |
-| Perlative    | ᴘᴇʀ   | {zij}       |
-| Resultative  | ʀᴇs   | {tce}       |
-| Identical    | ɪᴅᴇɴᴛ | {kʊv}       |
-| Semblative   | sᴇᴍʙʟ | {kɪ}        |
+| Case         | Gloss | Preposition | Stative Verb |
+| :----------- | :---- | :---------- | :----------- |
+| Subjective   | sʙᴊ   | {ŋɪ}        | {ŋɪθ}        |
+| Genitive     | ɢᴇɴ   | {qa}        | {qac}        |
+| Agentive     | ᴀ     | {ci}        | {cim}        |
+| Causal       | ᴄᴀᴜs  | {slo}       | {slon}       |
+| Patientive   | ᴘ     | {rʊ}        | {rʊk}        |
+| Instrumental | ɪɴs   | {da}        | {dan}        |
+| Possessive   | ᴘᴏs   | {me}        | {mep}        |
+| Partitive    | ᴘᴛᴠ   | {bo}        | {bol}        |
+| Locative     | ʟᴏᴄ   | {lɪ}        | {lɪf}        |
+| Lative       | ʟᴀᴛ   | {we}        | {wef}        |
+| Ablative     | ᴀʙʟ   | {xu}        | {xun}        |
+| Perlative    | ᴘᴇʀ   | {zi}        | {zij}        |
+| Resultative  | ʀᴇs   | {tce}       | {tceh}       |
+| Identical    | ɪᴅᴇɴᴛ | {kʊ}        | {kʊv}        |
+| Semblative   | sᴇᴍʙʟ | {kɪ}        | {kɪr}        |
 
 Within a stative verb phrase, a **subject** (sʙᴊ) is something that is in that
-state. A stative verb phrase may also take a genitive (ɢᴇɴ) argument, which
-relates that argument to the subject according to the semantics of the verb. The
-genitive preposition {qa} means "with respect to", "with regard to", or "in
-relation to".
+state. Many stative verb phrases also permit a genitive (ɢᴇɴ) argument, which
+relates that argument to the subject according to the particular semantics of
+the verb. The genitive preposition {qa} means "with respect to", "with regard
+to", or "in relation to".
 
 <gloss>
-je  | qa  | vɪθ   | ŋɪ  | ko | zim
-ɪɴᴅ | ɢᴇɴ | exist | sʙᴊ | I  | want
-I want to exist.
+je  | qa  | ŋɪ  | ko | ŋɪθ   | ŋɪ  | ko | zim
+ɪɴᴅ | ɢᴇɴ | sʙᴊ | I  | exist | sʙᴊ | I  | want
+I want to exist. (I want that I exist.)
 </gloss>
-
-The role of the genitive case in Najan is relatively narrow, reserved for
-abstract relations where no other case applies. For example, the genitive is
-distinct from the locative and partitive cases.
 
 An **agent** (ᴀ) of a dynamic verb phrase is an animate, voluntary cause of the
 action. A **patient** (ᴘ) is something that is acted upon or undergoes change as

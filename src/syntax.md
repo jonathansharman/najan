@@ -15,10 +15,6 @@ extended Backus-Naur form as follows:
 >
 > <lhs>**stative VP** ⇒</lhs> [ ⟨**aspect ᴘᴛᴄʟ**⟩ ] ⟨**stative verb**⟩
 > <br>
-> <lhs>|</lhs> "{djʊ}" ⟨**VP**⟩
-> <br>
-> <lhs>|</lhs> "{vʊ}" ⟨**case ᴘʀᴇᴘ**⟩ ⟨**VP**⟩
-> <br>
 > <lhs>|</lhs> "{ma}" ⟨**stative VP**⟩
 > <br>
 > <lhs>|</lhs> ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩ ⟨**stative VP**⟩

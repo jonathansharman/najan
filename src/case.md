@@ -61,15 +61,6 @@ je  | slo  | gi  | vucul | rʊ | gi  | nʊ        | ganθ    | vʊ   | tce | kwo
 The sea destroyed the sand castle.
 </gloss>
 
-The **lative** (ʟᴀᴛ) case is used for any kind of action to or towards
-something, in space or time.
-
-<gloss>
-je  | we   | to  | ci | ko | θe  | zen
-ɪɴᴅ | ʟᴀᴛ  | you | ᴀ  | I  | ᴘғᴠ | give
-I gave [it] to you.
-</gloss>
-
 The **semblative** (sᴇᴍʙʟ) case marks something the verb is similar to. The
 semblative particle {kɪ} means "as", "like", or "in the manner of".
 
@@ -91,16 +82,25 @@ Each of these prepositions is inclusive: {we} includes the destination; {xu}
 includes the origin; and {zi} includes the entirety of the path, region, or
 duration.
 
+The objects of these case prepositions may be explicit places or times, but they
+could also be something else, such as a person or event. In that case, the
+argument refers to the spatio-temporal location of that object; e.g. {lɪ ko}
+(literally "at me") means "at my time and place".
+
 English supplies a plethora of prepositions for describing spatio-temporal
 relations. For instance, a chair may be at, on, under, or beside a table. In
 Najan, each of these relations would use the locative case: {za lɪ za cats qa
 muð dan}, "a chair at a table".
 
 The case marker alone is often sufficient in context to convey the full
-relationship. To add clarity or expressiveness, one can replace the object of
-the case preposition with a more specific expression. For example, since the
+relationship, but to add clarity or expressiveness, one can replace the object
+of the case preposition with a more specific expression. For example, since the
 lative case particle {we} ("to") is always inclusive of the specified
 destination, {we gi ta} (lit. "to the present") means that the verb phrase holds
 true up to and including now. To convey that the verb phrase held true up to
 some time before the present (but not necessarily including the present), one
 could say {we za qa gi ta myo}, lit. "to a [point] anterior to the present".
+
+Note that, as in English, Najan conceives of the timeline as projecting
+"forward" in time, from the past to the present and onward to the future. Thus
+past events are "behind" future events.

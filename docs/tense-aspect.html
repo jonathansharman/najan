@@ -82,7 +82,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="phonology.html"><strong aria-hidden="true">2.</strong> Phonology</a></li><li class="chapter-item expanded "><a href="orthography.html"><strong aria-hidden="true">3.</strong> Orthography</a></li><li class="chapter-item expanded "><a href="syntax.html"><strong aria-hidden="true">4.</strong> Syntax</a></li><li class="chapter-item expanded "><a href="verb-phrases.html"><strong aria-hidden="true">5.</strong> Verb Phrases</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="tense-aspect.html" class="active"><strong aria-hidden="true">5.1.</strong> Tense & Aspect</a></li><li class="chapter-item expanded "><a href="arguments.html"><strong aria-hidden="true">5.2.</strong> Arguments</a></li><li class="chapter-item expanded "><a href="case.html"><strong aria-hidden="true">5.3.</strong> Case</a></li></ol></li><li class="chapter-item expanded "><a href="noun-phrases.html"><strong aria-hidden="true">6.</strong> Noun Phrases</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="pluralization.html"><strong aria-hidden="true">6.1.</strong> Pluralization</a></li><li class="chapter-item expanded "><a href="pronouns.html"><strong aria-hidden="true">6.2.</strong> Pronouns</a></li><li class="chapter-item expanded "><a href="determiner-phrases.html"><strong aria-hidden="true">6.3.</strong> Determiner Phrases</a></li><li class="chapter-item expanded "><a href="quotations.html"><strong aria-hidden="true">6.4.</strong> Quotations</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="phonology.html"><strong aria-hidden="true">2.</strong> Phonology</a></li><li class="chapter-item expanded "><a href="orthography.html"><strong aria-hidden="true">3.</strong> Orthography</a></li><li class="chapter-item expanded "><a href="syntax.html"><strong aria-hidden="true">4.</strong> Syntax</a></li><li class="chapter-item expanded "><a href="verb-phrases.html"><strong aria-hidden="true">5.</strong> Verb Phrases</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="arguments.html"><strong aria-hidden="true">5.1.</strong> Arguments</a></li><li class="chapter-item expanded "><a href="tense-aspect.html" class="active"><strong aria-hidden="true">5.2.</strong> Tense & Aspect</a></li><li class="chapter-item expanded "><a href="case.html"><strong aria-hidden="true">5.3.</strong> Case</a></li></ol></li><li class="chapter-item expanded "><a href="noun-phrases.html"><strong aria-hidden="true">6.</strong> Noun Phrases</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="pluralization.html"><strong aria-hidden="true">6.1.</strong> Pluralization</a></li><li class="chapter-item expanded "><a href="pronouns.html"><strong aria-hidden="true">6.2.</strong> Pronouns</a></li><li class="chapter-item expanded "><a href="determiner-phrases.html"><strong aria-hidden="true">6.3.</strong> Determiner Phrases</a></li><li class="chapter-item expanded "><a href="quotations.html"><strong aria-hidden="true">6.4.</strong> Quotations</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -144,17 +144,77 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="tense--aspect"><a class="header" href="#tense--aspect">Tense &amp; Aspect</a></h1>
-<p>TODO</p>
+<p>Tense specifies <em>when</em> along a timeline a verb phrase occurs (e.g. past,
+present, future), whereas aspect characterizes <em>how</em> the verb phrase extends
+over time. In Najan, aspect is marked syntactically with a (possibly null)
+particle immediately preceding the verb or verb phrase. In contrast, tense has
+no direct syntactic representation, so it must be marked explicitly with
+<a href="./case.html#spatio-temporal-cases">temporal arguments</a>, <a href="./tense-aspect.html#inferring-tense-from-context">inferred from the
+surrounding context</a>, or else
+assumed from the verb’s aspect.</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Aspect</th><th style="text-align: left">Gloss</th><th style="text-align: left">Particle</th></tr></thead><tbody>
+<tr><td style="text-align: left">Continuous</td><td style="text-align: left">ᴄᴏɴᴛ</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Perfective</td><td style="text-align: left">ᴘғᴠ</td><td style="text-align: left"><naj>θe</naj> ⟨θe⟩</td></tr>
+<tr><td style="text-align: left">Inchoative</td><td style="text-align: left">ɪɴᴄʜ</td><td style="text-align: left"><naj>dje</naj> ⟨dje⟩</td></tr>
+<tr><td style="text-align: left">Cessative</td><td style="text-align: left">ᴄᴇss</td><td style="text-align: left"><naj>vat</naj> ⟨vat⟩</td></tr>
+<tr><td style="text-align: left">Habitual</td><td style="text-align: left">ʜᴀʙ</td><td style="text-align: left"><naj>fxe</naj> ⟨fxe⟩</td></tr>
+<tr><td style="text-align: left">Gnomic</td><td style="text-align: left">ɢɴᴏ</td><td style="text-align: left"><naj>hon</naj> ⟨hon⟩</td></tr>
+</tbody></table>
+</div>
+<p>The <strong>continuous</strong> (ᴄᴏɴᴛ) aspect views a verb as ongoing or in progress. It can
+apply to both stative and dynamic verbs (Najan does not distinguish between
+continuous and progressive aspects), and it is the default aspect, in the
+absence of an aspect particle. Without temporal arguments or additional context,
+a continuous verb phrase may be assumed to be in present tense.</p>
+<p>The <strong>perfective</strong> (ᴘғᴠ) aspect views a verb in its entirety, as a complete
+action or state. Without other clues, a perfective verb phrase is most likely to
+be in past tense. For example, <naj>je ci ko θe tcet</naj> ⟨je ci ko θe tcet⟩ is more likely to mean “I ate”
+(simple past) or “I have eaten” (past perfect) than “I will eat” (simple
+future).</p>
+<p>The <strong>inchoative</strong> (ɪɴᴄʜ) aspect views a verb as beginning, as in <naj>je dje sic</naj> ⟨je dje sic⟩,
+“[he] starts to cry”. Inversely, the <strong>cessative</strong> (ᴄᴇss) aspect views a verb as
+ending: <naj>je vat sic</naj> ⟨je vat sic⟩, “[he] stops crying”. By default, verbs in these aspects
+are in present tense.</p>
+<p>The <strong>habitual</strong> (ʜᴀʙ) aspect views a verb as occurring regularly over some
+period of time, centered on the present by default. If <naj>je ci to vɪg</naj> ⟨je ci to vɪg⟩ is in
+present tense, it means “you are going”, and the corresponding habitual phrase,
+<naj>je ci to fxe vɪg</naj> ⟨je ci to fxe vɪg⟩, means “you go [regularly]”. If we instead assume past tense,
+then they translate respectively to “you were going” and either “you would go”
+or “you used to go”.</p>
+<p>The <strong>gnomic</strong> (ɢɴᴏ) aspect views a verb as a general truth with little or no
+temporal structure. As such, the concept of tense is usually inapplicable.
+Gnomic verb phrases often feature generic <a href="./determiner-phrases.html">determiner
+phrases</a> as arguments and express an aphorism, a
+mathematical truth, etc.</p>
+<table class='gloss'><tr><td><naj>je</naj></td><td><naj>ŋɪ</naj></td><td><naj>ðu</naj></td><td><naj>zʊn</naj></td><td><naj>qa</naj></td><td><naj>ðu</naj></td><td><naj>djʊr</naj></td><td><naj>hon</naj></td><td><naj>dzul</naj></td></tr><tr><td><i>je</i></td><td><i>ŋɪ</i></td><td><i>ðu</i></td><td><i>zʊn</i></td><td><i>qa</i></td><td><i>ðu</i></td><td><i>djʊr</i></td><td><i>hon</i></td><td><i>dzul</i></td></tr><tr><td>ɪɴᴅ</td><td>sʙᴊ</td><td>ɢɴʀ</td><td>two</td><td>ɢᴇɴ</td><td>ɢɴʀ</td><td>one</td><td>ɢɴᴏ</td><td>is-greater-than</td></tr><tr><td colspan="85">“Two is greater than one. (Things of size two are greater than things of size one.)”</td></tr></table>
+<p>For a stative gnomic verb phrase, such as in the preceding example, the
+distinction from the continuous aspect is subtle. Whereas the given gnomic
+version expresses a general mathematical fact, the continuous version (without
+<naj>hon</naj> ⟨hon⟩) would leave open the possibility that two might not have always been or
+might not always be greater than one.</p>
+<h2 id="inferring-tense-from-context"><a class="header" href="#inferring-tense-from-context">Inferring Tense from Context</a></h2>
+<p>As described above, aspect markers can also carry a small amount of tense
+information. For example, perfective aspect often implies past tense. However,
+these associations are secondary to context. Suppose I first say:</p>
+<table class='gloss'><tr><td><naj>je</naj></td><td><naj>lɪ</naj></td><td><naj>ŋodl</naj></td><td><naj>ci</naj></td><td><naj>ko</naj></td><td><naj>θe</naj></td><td><naj>vɪg</naj></td></tr><tr><td><i>je</i></td><td><i>lɪ</i></td><td><i>ŋodl</i></td><td><i>ci</i></td><td><i>ko</i></td><td><i>θe</i></td><td><i>vɪg</i></td></tr><tr><td>ɪɴᴅ</td><td>ʟᴏᴄ</td><td>tomorrow</td><td>ᴀ</td><td>I</td><td>ᴘғᴠ</td><td>go</td></tr><tr><td colspan="57">“I will go tomorrow.”</td></tr></table>
+<p>At this point I have established tomorrow (i.e. the future) as the time period
+under discussion, using a <a href="./case.html#spatio-temporal-cases">temporal argument</a>.
+Suppose I then say <naj>je ci ko θe tɪz</naj> ⟨je ci ko θe tɪz⟩. In isolation, since this sentence is in
+perfective aspect, one might interpret it to mean “I have spoken” (present
+perfect) or “I spoke” (simple past). However, since the context has already been
+established as in the future (thanks to the locative argument), one should
+instead translate the second clause as “I will speak” or “I will have spoken”
+sometime after I have gone tomorrow.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="verb-phrases.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="arguments.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next" href="arguments.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="case.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -164,11 +224,11 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="verb-phrases.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="arguments.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next" href="arguments.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="case.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>

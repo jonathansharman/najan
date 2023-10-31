@@ -4,6 +4,7 @@
 - [Phonology](./phonology.md)
 - [Orthography](./orthography.md)
 - [Syntax](./syntax.md)
+- [Modality](./modality.md)
 - [Verb Phrases](./verb-phrases.md)
 	- [Arguments](./arguments.md)
 	- [Tense & Aspect](./tense-aspect.md)

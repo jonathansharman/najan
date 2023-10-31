@@ -40,24 +40,24 @@ action. A **patient** (ᴘ) is something that is acted upon or undergoes change 
 a result of the action.
 
 <gloss>
-je  | ci | ko | rʊ | gi  | nʊ        | ganθ    | vʊ   | tce  | kwon    | θe   | fleh
-ɪɴᴅ | ᴀ  | I  | ᴘ  | the | such-that | be-sand | sᴛᴀᴛ | ʀᴇs  | fortify | ᴘғᴠ  | destroy
+je  | ci | ko | rʊ | gi  | nʊ        | ganθ    | qa  | kwon    | tceh   | θe  | fleh
+ɪɴᴅ | ᴀ  | I  | ᴘ  | the | such-that | be-sand | ɢᴇɴ | fortify | result | ᴘғᴠ | destroy
 I destroyed the sand castle (intentionally).
 </gloss>
 
 In contrast to an agent, a **cause** (ᴄᴀᴜs) is involuntary.
 
 <gloss>
-je  | slo  | ko | rʊ | gi  | nʊ        | ganθ    | vʊ   | tce | kwon    | θe  | fleh
-ɪɴᴅ | ᴄᴀᴜs | I  | ᴘ  | the | such-that | be-sand | sᴛᴀᴛ | ʀᴇs | fortify | ᴘғᴠ | destroy
+je  | slo  | ko | rʊ | gi  | nʊ        | ganθ    | qa  | kwon    | tceh   | θe  | fleh
+ɪɴᴅ | ᴄᴀᴜs | I  | ᴘ  | the | such-that | be-sand | ɢᴇɴ | fortify | result | ᴘғᴠ | destroy
 I destroyed the sand castle (unintentionally).
 </gloss>
 
 A cause can also be inanimate.
 
 <gloss>
-je  | slo  | gi  | vucul | rʊ | gi  | nʊ        | ganθ    | vʊ   | tce | kwon    | θe  | fleh
-ɪɴᴅ | ᴄᴀᴜs | the | sea   | ᴘ  | the | such-that | be-sand | sᴛᴀᴛ | ʀᴇs | fortify | ᴘғᴠ | destroy
+je  | slo  | gi  | vucul | rʊ | gi  | nʊ        | ganθ    | qa  | kwon    | tceh   | θe  | fleh
+ɪɴᴅ | ᴄᴀᴜs | the | sea   | ᴘ  | the | such-that | be-sand | ɢᴇɴ | fortify | result | ᴘғᴠ | destroy
 The sea destroyed the sand castle.
 </gloss>
 
@@ -96,11 +96,7 @@ The case marker alone is often sufficient in context to convey the full
 relationship, but to add clarity or expressiveness, one can replace the object
 of the case preposition with a more specific expression. For example, since the
 lative case particle {we} ("to") is always inclusive of the specified
-destination, {we gi ta} (lit. "to the present") means that the verb phrase holds
-true up to and including now. To convey that the verb phrase held true up to
-some time before the present (but not necessarily including the present), one
-could say {we za qa gi ta myo}, lit. "to a [point] anterior to the present".
-
-Note that, as in English, Najan conceives of the timeline as projecting
-"forward" in time, from the past to the present and onward to the future. Thus
-past events are "behind" future events.
+destination, {we gi vatθ} ("to the end") means that the verb phrase holds true
+up to and including the end. To convey that the verb phrase held true up to (but
+not necessarily including) some time before the end, one could say {we za qa gi
+vatθ kle}, lit. "to a past [time] of the end".

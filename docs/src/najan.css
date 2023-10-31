@@ -34,3 +34,7 @@ table.gloss {
 table.gloss td {
 	padding: 2pt 5pt;
 }
+
+table td[rowspan] {
+	background: var(--bg);
+}

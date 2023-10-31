@@ -17,11 +17,9 @@ speaker and at least one third person but excludes those addressed.
 | :------- | :------ |
 | {to}     | {ŋak}   |
 
-The interrogative pronoun {velk} stands for something unknown and is essential
-to the formation of interrogative sentences, where it indicates any missing
-information that the asker wishes to know.
-
-## Assignable Pronouns
+The interrogative pronoun {vel} stands for something unknown and is essential to
+the formation of [content questions](./modality.md#interrogative-moods), where
+it indicates the missing information that the asker wishes to know.
 
 The assignable pronouns {jow}, {með}, {paŋ}, and {tsut} have no fixed
 properties, such as person, number, or gender. They can be bound (or rebound) to

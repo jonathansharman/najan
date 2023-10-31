@@ -83,7 +83,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="phonology.html"><strong aria-hidden="true">2.</strong> Phonology</a></li><li class="chapter-item expanded "><a href="orthography.html"><strong aria-hidden="true">3.</strong> Orthography</a></li><li class="chapter-item expanded "><a href="syntax.html"><strong aria-hidden="true">4.</strong> Syntax</a></li><li class="chapter-item expanded "><a href="verb-phrases.html"><strong aria-hidden="true">5.</strong> Verb Phrases</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="arguments.html"><strong aria-hidden="true">5.1.</strong> Arguments</a></li><li class="chapter-item expanded "><a href="tense-aspect.html"><strong aria-hidden="true">5.2.</strong> Tense & Aspect</a></li><li class="chapter-item expanded "><a href="case.html"><strong aria-hidden="true">5.3.</strong> Case</a></li></ol></li><li class="chapter-item expanded "><a href="noun-phrases.html"><strong aria-hidden="true">6.</strong> Noun Phrases</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="pluralization.html"><strong aria-hidden="true">6.1.</strong> Pluralization</a></li><li class="chapter-item expanded "><a href="pronouns.html"><strong aria-hidden="true">6.2.</strong> Pronouns</a></li><li class="chapter-item expanded "><a href="determiner-phrases.html"><strong aria-hidden="true">6.3.</strong> Determiner Phrases</a></li><li class="chapter-item expanded "><a href="quotations.html"><strong aria-hidden="true">6.4.</strong> Quotations</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="phonology.html"><strong aria-hidden="true">2.</strong> Phonology</a></li><li class="chapter-item expanded "><a href="orthography.html"><strong aria-hidden="true">3.</strong> Orthography</a></li><li class="chapter-item expanded "><a href="syntax.html"><strong aria-hidden="true">4.</strong> Syntax</a></li><li class="chapter-item expanded "><a href="modality.html"><strong aria-hidden="true">5.</strong> Modality</a></li><li class="chapter-item expanded "><a href="verb-phrases.html"><strong aria-hidden="true">6.</strong> Verb Phrases</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="arguments.html"><strong aria-hidden="true">6.1.</strong> Arguments</a></li><li class="chapter-item expanded "><a href="tense-aspect.html"><strong aria-hidden="true">6.2.</strong> Tense & Aspect</a></li><li class="chapter-item expanded "><a href="case.html"><strong aria-hidden="true">6.3.</strong> Case</a></li></ol></li><li class="chapter-item expanded "><a href="noun-phrases.html"><strong aria-hidden="true">7.</strong> Noun Phrases</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="pluralization.html"><strong aria-hidden="true">7.1.</strong> Pluralization</a></li><li class="chapter-item expanded "><a href="pronouns.html"><strong aria-hidden="true">7.2.</strong> Pronouns</a></li><li class="chapter-item expanded "><a href="determiner-phrases.html"><strong aria-hidden="true">7.3.</strong> Determiner Phrases</a></li><li class="chapter-item expanded "><a href="quotations.html"><strong aria-hidden="true">7.4.</strong> Quotations</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -220,7 +220,7 @@ punctuation except spaces between words.</p>
 <p>Najan is a deterministic context-free language whose grammar can be expressed in
 extended Backus-Naur form as follows:</p>
 <blockquote>
-<p><lhs><strong>clause</strong> ⇒</lhs> ⟨<strong>mood ᴘᴛᴄʟ</strong>⟩ ⟨<strong>VP</strong>⟩</p>
+<p><lhs><strong>clause</strong> ⇒</lhs> ⟨<strong>mood ᴘᴛᴄʟ</strong>⟩ [ ⟨<strong>epistemic mood ᴘᴛᴄʟ</strong>⟩ ] ⟨<strong>VP</strong>⟩</p>
 <p><lhs><strong>verb phrase (VP)</strong> ⇒</lhs> [ ⟨<strong>aspect ᴘᴛᴄʟ</strong>⟩ ] ⟨<strong>dynamic verb</strong>⟩
 <br>
 <lhs>|</lhs> ⟨<strong>stative VP</strong>⟩
@@ -240,6 +240,178 @@ extended Backus-Naur form as follows:</p>
 <p><lhs><strong>quotation</strong> ⇒</lhs> “<naj>tca</naj> ⟨tca⟩” ⟨<strong>quoted word</strong>⟩ “<naj>tca</naj> ⟨tca⟩”</p>
 <p><lhs><strong>quoted word</strong> ⇒</lhs> ⟨<strong>word</strong>⟩ - “<naj>tca</naj> ⟨tca⟩” - “<naj>tsa</naj> ⟨tsa⟩” | “<naj>tsa tca</naj> ⟨tsa tca⟩” | “<naj>tsa tsa</naj> ⟨tsa tsa⟩”</p>
 </blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="modality"><a class="header" href="#modality">Modality</a></h1>
+<p>Every clause in Najan begins with one to two particles expressing that clause’s
+modality, how the clause relates to the world or to other possible worlds. The
+first particle is required and establishes the clause’s basic <strong>mood</strong>.</p>
+<table>
+	<thead>
+		<tr>
+			<th>Category</th>
+			<th>Mood</th>
+			<th>Gloss</th>
+			<th>Particle</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td rowspan="3">Indicative</td>
+			<td>Sensory</td>
+			<td>sɴs</td>
+			<td><naj>je</naj> ⟨je⟩</td>
+		</tr>
+		<tr>
+			<td>Deductive</td>
+			<td>ᴅᴇᴅ</td>
+			<td><naj>ŋo</naj> ⟨ŋo⟩</td>
+		</tr>
+		<tr>
+			<td>Reportative</td>
+			<td>ʀᴘʀᴛ</td>
+			<td><naj>fo</naj> ⟨fo⟩</td>
+		</tr>
+		<tr>
+			<td rowspan="3">Interrogative</td>
+			<td>Content</td>
+			<td>ᴄᴏ̨</td>
+			<td><naj>gwɪ</naj> ⟨gwɪ⟩</td>
+		</tr>
+		<tr>
+			<td>Polar</td>
+			<td>ᴘᴏ̨</td>
+			<td><naj>ner</naj> ⟨ner⟩</td>
+		</tr>
+		<tr>
+			<td>Alternative</td>
+			<td>ᴀᴏ̨</td>
+			<td><naj>ðɪv</naj> ⟨ðɪv⟩</td>
+		</tr>
+		<tr>
+			<td rowspan="3">Deontic</td>
+			<td>Commissive</td>
+			<td>ᴄᴍs</td>
+			<td><naj>lay</naj> ⟨lay⟩</td>
+		</tr>
+		<tr>
+			<td>Imperative</td>
+			<td>ɪᴍᴘᴇʀ</td>
+			<td><naj>kca</naj> ⟨kca⟩</td>
+		</tr>
+		<tr>
+			<td>Volitive</td>
+			<td>ᴠᴏʟ</td>
+			<td><naj>max</naj> ⟨max⟩</td>
+		</tr>
+	</tbody>
+</table>
+<p>The second, optional particle conveys the clause’s <strong>epistemtic mood</strong>, a
+refinement of the mood that specifies the degree of certainty associated with
+the clause.</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Epistemic Mood</th><th style="text-align: left">Gloss</th><th style="text-align: left">Particle</th></tr></thead><tbody>
+<tr><td style="text-align: left">Dubitative</td><td style="text-align: left">ᴅᴜʙ</td><td style="text-align: left"><naj>dze</naj> ⟨dze⟩</td></tr>
+<tr><td style="text-align: left">Speculative</td><td style="text-align: left">sᴘᴇᴄ</td><td style="text-align: left"><naj>glu</naj> ⟨glu⟩</td></tr>
+<tr><td style="text-align: left">Probabilitative</td><td style="text-align: left">ᴘʀᴏʙ</td><td style="text-align: left"><naj>kis</naj> ⟨kis⟩</td></tr>
+<tr><td style="text-align: left">Assertive</td><td style="text-align: left">ᴀss</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Certaintative</td><td style="text-align: left">ᴄᴇʀᴛ</td><td style="text-align: left"><naj>bji</naj> ⟨bji⟩</td></tr>
+</tbody></table>
+</div>
+<p>The following paragraphs outline how the epistemic moods interact with the
+indicative moods, to give a general sense of their semantics. Note however that
+the semantics differ somewhat when combined with other mood categories.</p>
+<p>The <strong>dubatative epistemic mood</strong> (ᴅᴜʙ) indicates that there’s some evidence for
+the claim, but the speaker disbelieves it or at least has doubts about it. This
+mood has a similar connotation to <em>purportedly</em>, <em>supposedly</em>, etc.</p>
+<p>The <strong>speculative epistemic mood</strong> (sᴘᴇᴄ) conveys that the claim is merely
+possible; it may have some supporting evidence but not enough to deem it likely.</p>
+<p>The <strong>probabilitative epistemic mood</strong> (ᴘʀᴏʙ) is for claims that the speaker
+deems most likely true but without firm conviction.</p>
+<p>The <strong>assertive epistemic mood</strong> (ᴀss) is the default when no epistemic particle
+is given and simply means the speaker holds the claim to be true.</p>
+<p>The <strong>certaintative epistemic mood</strong> (ᴄᴇʀᴛ) means the speaker is unreservedly
+convinced. The omission of this marker does not necessarily indicate a degree of
+doubt. Rather, its inclusion serves as emphatic assurance when the audience
+might otherwise hold some doubt. One wouldn’t typically bother using this marker
+for uncontroversial, commonplace claims, even if the degree of certainty is
+high.</p>
+<h2 id="indicative-moods"><a class="header" href="#indicative-moods">Indicative Moods</a></h2>
+<p>The indicative moods are used to make a claim about how the world actually is.
+These moods are distinguished by evidentiality, i.e. the speaker’s source of
+information supporting the claim.</p>
+<p>The <strong>sensory mood</strong> (sɴs) is for claims supported by the speaker’s own direct
+sensory experience or intuition.</p>
+<p>The <strong>deductive mood</strong> (ᴅᴇᴅ) is for conclusions the speaker has deduced
+rationally from other accepted evidence. The conclusion could be based on sense
+data, hearsay, or other inferences, as long as the conclusion itself comes from
+the speaker’s own reasoning. Use of the deductive mood doesn’t imply that the
+speaker has consciously constructed a formal logical proof for their claim, but
+it should imply that they believe they could sketch a convincing informal
+argument on request. Hunches should be expressed using the sensory mood, not the
+deductive.</p>
+<p>The <strong>reportative mood</strong> (ʀᴘʀᴛ) is for claims originating from someone other
+than the speaker, such as something the speaker has heard or read.</p>
+<p>The choice of indicative particle by itself has no bearing on how strongly the
+speaker believes the claim. For instance, it’s entirely possible to be more
+convinced of a reportative statement originating from a highly reliable and
+authoritative source than of a sensory statement based on a vague feeling or
+unclear view. The speaker may convey how strongly they believe their own
+statement using an epistemic mood particle.</p>
+<h2 id="interrogative-moods"><a class="header" href="#interrogative-moods">Interrogative Moods</a></h2>
+<p>The interrogative moods are for asking different types of questions.</p>
+<p>A <strong>content question</strong> (ᴄᴏ̨) requests missing information using the
+<a href="./pronouns.html">interrogative pronoun</a> <naj>vel</naj> ⟨vel⟩. The response should supply the
+missing information that would make the complete clause true. To this
+question…</p>
+<table class='gloss'><tr><td><naj>gwɪ</naj></td><td><naj>ŋɪ</naj></td><td><naj>vel</naj></td><td><naj>qa</naj></td><td><naj>to</naj></td><td><naj>kʊv</naj></td></tr><tr><td><i>gwɪ</i></td><td><i>ŋɪ</i></td><td><i>vel</i></td><td><i>qa</i></td><td><i>to</i></td><td><i>kʊv</i></td></tr><tr><td>ᴄᴏ̨</td><td>sʙᴊ</td><td>what</td><td>ɢᴇɴ</td><td>you</td><td>names</td></tr><tr><td colspan="49">“What names you? (What is your name?)”</td></tr></table>
+<p>…I could respond <naj>je djan</naj> ⟨je djan⟩ (<em>It’s Jon</em>).</p>
+<p>Informally, one can omit <naj>vel</naj> ⟨vel⟩, if it’s apparent what’s being asked: <naj>gwi kʊv</naj> ⟨gwi kʊv⟩
+(<em>Name?</em>).</p>
+<p>A content question may request multiple pieces of information.</p>
+<table class='gloss'><tr><td><naj>gwɪ</naj></td><td><naj>tce</naj></td><td><naj>vel</naj></td><td><naj>ci</naj></td><td><naj>vel</naj></td><td><naj>θe</naj></td><td><naj>pɪn</naj></td></tr><tr><td><i>gwɪ</i></td><td><i>tce</i></td><td><i>vel</i></td><td><i>ci</i></td><td><i>vel</i></td><td><i>θe</i></td><td><i>pɪn</i></td></tr><tr><td>ᴄᴏ̨</td><td>ʀᴇs</td><td>what</td><td>ᴀ</td><td>who</td><td>ᴘғᴠ</td><td>do</td></tr><tr><td colspan="54">“Who did what?”</td></tr></table>
+<p>This questioner has asked for two pieces of information here: who did it and
+what they did. Note that <naj>vel</naj> ⟨vel⟩ is a pronoun, so it can’t stand in for a verb
+directly. However, using <naj>pɪn</naj> ⟨pɪn⟩ (<em>do</em>) as the verb allows asking about actions,
+by using <naj>vel</naj> ⟨vel⟩ as a resultative argument.</p>
+<table class='gloss'><tr><td><naj>fo</naj></td><td><naj>ci</naj></td><td><naj>tlek</naj></td><td><naj>θe</naj></td><td><naj>tah</naj></td></tr><tr><td><i>fo</i></td><td><i>ci</i></td><td><i>tlek</i></td><td><i>θe</i></td><td><i>tah</i></td></tr><tr><td>ʀᴘʀᴛ</td><td>ᴀ</td><td>Tlek</td><td>ᴘғᴠ</td><td>sob</td></tr><tr><td colspan="41">“I've heard that Tlek sobbed.”</td></tr></table>
+<p>A <strong>polar question</strong> (ᴘᴏ̨) prompts for a yes-or-no answer, confirming or denying
+the clause.</p>
+<table class='gloss'><tr><td><naj>ner</naj></td><td><naj>ci</naj></td><td><naj>to</naj></td><td><naj>vɪg</naj></td></tr><tr><td><i>ner</i></td><td><i>ci</i></td><td><i>to</i></td><td><i>vɪg</i></td></tr><tr><td>ᴘᴏ̨</td><td>ᴀ</td><td>you-sɢ</td><td>go</td></tr><tr><td colspan="31">“Are you going?”</td></tr></table>
+<p>The reponse can usually be very brief, e.g. <naj>je ksi</naj> ⟨je ksi⟩ (<em>it’s true</em>) or <naj>je gle</naj> ⟨je gle⟩
+(<em>it’s false</em>).</p>
+<p>An <strong>alternative question</strong> (ᴀᴏ̨) should pose a series of mutually exclusive
+options, only one of which makes the overall clause true. Typically this
+involves an exclusive logical disjunction. It’s possible but very uncommon for
+an alternative question to contain multiple sets of options, prompting multiple
+selections from the respondent. A question with two opposite possibilities would
+typically be expressed as a polar question but could be expressed as an
+alternative question for emphassis: <em>are you or are you not my people?</em></p>
+<p>Any question may be predicated on faulty premises, whether implicit or explicit.
+In that case, the respondent may choose to contradict these assumptions rather
+than answer the question on its own terms.</p>
+<h3 id="interrogative-epistemic-mood"><a class="header" href="#interrogative-epistemic-mood">Interrogative Epistemic Mood</a></h3>
+<p>The epistemic mood of a question indicates the asker’s degree of confidence in
+the underlying proposition. In the case of content or alternative questions,
+this refers to the proposition after the respondent has filled in the blanks.</p>
+<table class='gloss'><tr><td><naj>gwɪ</naj></td><td><naj>bji</naj></td><td><naj>bo</naj></td><td><naj>ŋak</naj></td><td><naj>vel</naj></td><td><naj>θe</naj></td><td><naj>pɪn</naj></td></tr><tr><td><i>gwɪ</i></td><td><i>bji</i></td><td><i>bo</i></td><td><i>ŋak</i></td><td><i>vel</i></td><td><i>θe</i></td><td><i>pɪn</i></td></tr><tr><td>ᴄᴏ̨</td><td>ᴄᴇʀᴛ</td><td>ᴘᴛᴠ</td><td>you-ᴘʟ</td><td>which</td><td>ᴘғᴠ</td><td>do</td></tr><tr><td colspan="71">“Which of you did it? (I know it was one of you!)”</td></tr></table>
+<p>Polar questions often specify the epistemic mood for rhetorical effect or to
+function similarly to a tag question.</p>
+<h2 id="deontic-moods"><a class="header" href="#deontic-moods">Deontic Moods</a></h2>
+<p>The deontic moods are for asserting how the world shall be or ought to be.</p>
+<p>The <strong>commissive mood</strong> (ᴄᴍs) indicates that the speaker intends to bring about
+the clause so that in the future it will be become or remain true.</p>
+<p>The <strong>imperative mood</strong> (ɪᴍᴘᴇʀ) expresses a request or command for the listener
+to make or keep the clause true.</p>
+<p>The <strong>volitive mood</strong> (ᴠᴏʟ) expresses a wish or desire of the speaker. Unlike
+the commissive or imperative moods, it does not imply that the speaker or
+listener is responsible for actualizing that wish.</p>
+<h3 id="deontic-epistemic-mood"><a class="header" href="#deontic-epistemic-mood">Deontic Epistemic Mood</a></h3>
+<p>The epistemic mood of a deontic clause indicates how likely the speaker thinks
+the clause is to become or remain true. For a commissive clause, this factors in
+the speaker’s own commitment to following through on the promise. For an
+imperative clause, it factors in the listener’s willingness to carry out the
+request or command, as perceived by the speaker. Thus an epistemic mood particle
+can serve to weaken or strengthen a promise or command. For instance, a
+dubitative imperative clause could express a very polite request, whereas a
+certaintative imperative could be an urgent command or exhortation.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="verb-phrases"><a class="header" href="#verb-phrases">Verb Phrases</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="arguments"><a class="header" href="#arguments">Arguments</a></h1>
 <p>Arguments to a verb are expressed using optional modifiers, each marked for
@@ -354,11 +526,11 @@ to”, or “in relation to”.</p>
 <p>An <strong>agent</strong> (ᴀ) of a dynamic verb phrase is an animate, voluntary cause of the
 action. A <strong>patient</strong> (ᴘ) is something that is acted upon or undergoes change as
 a result of the action.</p>
-<table class='gloss'><tr><td><naj>je</naj></td><td><naj>ci</naj></td><td><naj>ko</naj></td><td><naj>rʊ</naj></td><td><naj>gi</naj></td><td><naj>nʊ</naj></td><td><naj>ganθ</naj></td><td><naj>vʊ</naj></td><td><naj>tce</naj></td><td><naj>kwon</naj></td><td><naj>θe</naj></td><td><naj>fleh</naj></td></tr><tr><td><i>je</i></td><td><i>ci</i></td><td><i>ko</i></td><td><i>rʊ</i></td><td><i>gi</i></td><td><i>nʊ</i></td><td><i>ganθ</i></td><td><i>vʊ</i></td><td><i>tce</i></td><td><i>kwon</i></td><td><i>θe</i></td><td><i>fleh</i></td></tr><tr><td>ɪɴᴅ</td><td>ᴀ</td><td>I</td><td>ᴘ</td><td>the</td><td>such-that</td><td>be-sand</td><td>sᴛᴀᴛ</td><td>ʀᴇs</td><td>fortify</td><td>ᴘғᴠ</td><td>destroy</td></tr><tr><td colspan="109">“I destroyed the sand castle (intentionally).”</td></tr></table>
+<table class='gloss'><tr><td><naj>je</naj></td><td><naj>ci</naj></td><td><naj>ko</naj></td><td><naj>rʊ</naj></td><td><naj>gi</naj></td><td><naj>nʊ</naj></td><td><naj>ganθ</naj></td><td><naj>qa</naj></td><td><naj>kwon</naj></td><td><naj>tceh</naj></td><td><naj>θe</naj></td><td><naj>fleh</naj></td></tr><tr><td><i>je</i></td><td><i>ci</i></td><td><i>ko</i></td><td><i>rʊ</i></td><td><i>gi</i></td><td><i>nʊ</i></td><td><i>ganθ</i></td><td><i>qa</i></td><td><i>kwon</i></td><td><i>tceh</i></td><td><i>θe</i></td><td><i>fleh</i></td></tr><tr><td>ɪɴᴅ</td><td>ᴀ</td><td>I</td><td>ᴘ</td><td>the</td><td>such-that</td><td>be-sand</td><td>ɢᴇɴ</td><td>fortify</td><td>result</td><td>ᴘғᴠ</td><td>destroy</td></tr><tr><td colspan="104">“I destroyed the sand castle (intentionally).”</td></tr></table>
 <p>In contrast to an agent, a <strong>cause</strong> (ᴄᴀᴜs) is involuntary.</p>
-<table class='gloss'><tr><td><naj>je</naj></td><td><naj>slo</naj></td><td><naj>ko</naj></td><td><naj>rʊ</naj></td><td><naj>gi</naj></td><td><naj>nʊ</naj></td><td><naj>ganθ</naj></td><td><naj>vʊ</naj></td><td><naj>tce</naj></td><td><naj>kwon</naj></td><td><naj>θe</naj></td><td><naj>fleh</naj></td></tr><tr><td><i>je</i></td><td><i>slo</i></td><td><i>ko</i></td><td><i>rʊ</i></td><td><i>gi</i></td><td><i>nʊ</i></td><td><i>ganθ</i></td><td><i>vʊ</i></td><td><i>tce</i></td><td><i>kwon</i></td><td><i>θe</i></td><td><i>fleh</i></td></tr><tr><td>ɪɴᴅ</td><td>ᴄᴀᴜs</td><td>I</td><td>ᴘ</td><td>the</td><td>such-that</td><td>be-sand</td><td>sᴛᴀᴛ</td><td>ʀᴇs</td><td>fortify</td><td>ᴘғᴠ</td><td>destroy</td></tr><tr><td colspan="113">“I destroyed the sand castle (unintentionally).”</td></tr></table>
+<table class='gloss'><tr><td><naj>je</naj></td><td><naj>slo</naj></td><td><naj>ko</naj></td><td><naj>rʊ</naj></td><td><naj>gi</naj></td><td><naj>nʊ</naj></td><td><naj>ganθ</naj></td><td><naj>qa</naj></td><td><naj>kwon</naj></td><td><naj>tceh</naj></td><td><naj>θe</naj></td><td><naj>fleh</naj></td></tr><tr><td><i>je</i></td><td><i>slo</i></td><td><i>ko</i></td><td><i>rʊ</i></td><td><i>gi</i></td><td><i>nʊ</i></td><td><i>ganθ</i></td><td><i>qa</i></td><td><i>kwon</i></td><td><i>tceh</i></td><td><i>θe</i></td><td><i>fleh</i></td></tr><tr><td>ɪɴᴅ</td><td>ᴄᴀᴜs</td><td>I</td><td>ᴘ</td><td>the</td><td>such-that</td><td>be-sand</td><td>ɢᴇɴ</td><td>fortify</td><td>result</td><td>ᴘғᴠ</td><td>destroy</td></tr><tr><td colspan="110">“I destroyed the sand castle (unintentionally).”</td></tr></table>
 <p>A cause can also be inanimate.</p>
-<table class='gloss'><tr><td><naj>je</naj></td><td><naj>slo</naj></td><td><naj>gi</naj></td><td><naj>vucul</naj></td><td><naj>rʊ</naj></td><td><naj>gi</naj></td><td><naj>nʊ</naj></td><td><naj>ganθ</naj></td><td><naj>vʊ</naj></td><td><naj>tce</naj></td><td><naj>kwon</naj></td><td><naj>θe</naj></td><td><naj>fleh</naj></td></tr><tr><td><i>je</i></td><td><i>slo</i></td><td><i>gi</i></td><td><i>vucul</i></td><td><i>rʊ</i></td><td><i>gi</i></td><td><i>nʊ</i></td><td><i>ganθ</i></td><td><i>vʊ</i></td><td><i>tce</i></td><td><i>kwon</i></td><td><i>θe</i></td><td><i>fleh</i></td></tr><tr><td>ɪɴᴅ</td><td>ᴄᴀᴜs</td><td>the</td><td>sea</td><td>ᴘ</td><td>the</td><td>such-that</td><td>be-sand</td><td>sᴛᴀᴛ</td><td>ʀᴇs</td><td>fortify</td><td>ᴘғᴠ</td><td>destroy</td></tr><tr><td colspan="122">“The sea destroyed the sand castle.”</td></tr></table>
+<table class='gloss'><tr><td><naj>je</naj></td><td><naj>slo</naj></td><td><naj>gi</naj></td><td><naj>vucul</naj></td><td><naj>rʊ</naj></td><td><naj>gi</naj></td><td><naj>nʊ</naj></td><td><naj>ganθ</naj></td><td><naj>qa</naj></td><td><naj>kwon</naj></td><td><naj>tceh</naj></td><td><naj>θe</naj></td><td><naj>fleh</naj></td></tr><tr><td><i>je</i></td><td><i>slo</i></td><td><i>gi</i></td><td><i>vucul</i></td><td><i>rʊ</i></td><td><i>gi</i></td><td><i>nʊ</i></td><td><i>ganθ</i></td><td><i>qa</i></td><td><i>kwon</i></td><td><i>tceh</i></td><td><i>θe</i></td><td><i>fleh</i></td></tr><tr><td>ɪɴᴅ</td><td>ᴄᴀᴜs</td><td>the</td><td>sea</td><td>ᴘ</td><td>the</td><td>such-that</td><td>be-sand</td><td>ɢᴇɴ</td><td>fortify</td><td>result</td><td>ᴘғᴠ</td><td>destroy</td></tr><tr><td colspan="119">“The sea destroyed the sand castle.”</td></tr></table>
 <p>The <strong>semblative</strong> (sᴇᴍʙʟ) case marks something the verb is similar to. The
 semblative particle <naj>kɪ</naj> ⟨kɪ⟩ means “as”, “like”, or “in the manner of”.</p>
 <table class='gloss'><tr><td><naj>hon</naj></td><td><naj>kɪ</naj></td><td><naj>ðu</naj></td><td><naj>lec</naj></td><td><naj>pɪf</naj></td></tr><tr><td><i>hon</i></td><td><i>kɪ</i></td><td><i>ðu</i></td><td><i>lec</i></td><td><i>pɪf</i></td></tr><tr><td>ɢɴᴏ</td><td>sᴇᴍʙʟ</td><td>ɢɴʀ</td><td>water</td><td>soothe</td></tr><tr><td colspan="47">“[It] soothes like water.”</td></tr></table>
@@ -385,13 +557,11 @@ muð dan⟩, “a chair at a table”.</p>
 relationship, but to add clarity or expressiveness, one can replace the object
 of the case preposition with a more specific expression. For example, since the
 lative case particle <naj>we</naj> ⟨we⟩ (“to”) is always inclusive of the specified
-destination, <naj>we gi ta</naj> ⟨we gi ta⟩ (lit. “to the present”) means that the verb phrase holds
-true up to and including now. To convey that the verb phrase held true up to
-some time before the present (but not necessarily including the present), one
-could say <naj>we za qa gi ta myo</naj> ⟨we za qa gi ta myo⟩, lit. “to a [point] anterior to the present”.</p>
-<p>Note that, as in English, Najan conceives of the timeline as projecting
-“forward” in time, from the past to the present and onward to the future. Thus
-past events are “behind” future events.</p>
+destination, <naj>we gi vatθ</naj> ⟨we gi vatθ⟩ (“to the end”) means that the verb phrase holds true
+up to and including the end. To convey that the verb phrase held true up to (but
+not necessarily including) some time before the end, one could say <naj>we za qa gi
+vatθ kle</naj> ⟨we za qa gi
+vatθ kle⟩, lit. “to a past [time] of the end”.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="noun-phrases"><a class="header" href="#noun-phrases">Noun Phrases</a></h1>
 <p>Any verb phrase can also function as a noun phrase, signifying an abstract state
 or action (e.g. “being human”, “running”, “love”). To talk about concrete
@@ -421,10 +591,9 @@ speaker and at least one third person but excludes those addressed.</p>
 <tr><td style="text-align: left"><naj>to</naj> ⟨to⟩</td><td style="text-align: left"><naj>ŋak</naj> ⟨ŋak⟩</td></tr>
 </tbody></table>
 </div>
-<p>The interrogative pronoun <naj>velk</naj> ⟨velk⟩ stands for something unknown and is essential
-to the formation of interrogative sentences, where it indicates any missing
-information that the asker wishes to know.</p>
-<h2 id="assignable-pronouns"><a class="header" href="#assignable-pronouns">Assignable Pronouns</a></h2>
+<p>The interrogative pronoun <naj>vel</naj> ⟨vel⟩ stands for something unknown and is essential to
+the formation of <a href="./modality.html#interrogative-moods">content questions</a>, where
+it indicates the missing information that the asker wishes to know.</p>
 <p>The assignable pronouns <naj>jow</naj> ⟨jow⟩, <naj>með</naj> ⟨með⟩, <naj>paŋ</naj> ⟨paŋ⟩, and <naj>tsut</naj> ⟨tsut⟩ have no fixed
 properties, such as person, number, or gender. They can be bound (or rebound) to
 any unquantified noun phrase, via determiner phrases.</p>

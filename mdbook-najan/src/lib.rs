@@ -13,8 +13,8 @@ pub struct Najan {
 
 impl Najan {
 	pub fn new() -> Najan {
-		let najan_xlit_regex = Regex::new(r#"\{([^{}]*)}"#).unwrap();
-		let najan_regex = Regex::new(r#"\{\{([^{}]*)}}"#).unwrap();
+		let najan_xlit_regex = Regex::new(r"\{([^{}]*)}").unwrap();
+		let najan_regex = Regex::new(r"\{\{([^{}]*)}}").unwrap();
 		Najan {
 			najan_xlit_regex,
 			najan_regex,

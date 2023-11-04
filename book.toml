@@ -5,9 +5,6 @@ multilingual = false
 src = "src"
 title = "Najan"
 
-[build]
-build-dir = "docs"
-
 [preprocessor.najan]
 
 [output.html]

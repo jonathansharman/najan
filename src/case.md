@@ -15,13 +15,14 @@ corresponding case preposition {ci} marks the agentive case.
 | Instrumental | ɪɴs   | {da}        | {dan}        |
 | Possessive   | ᴘᴏs   | {me}        | {mep}        |
 | Partitive    | ᴘᴛᴠ   | {bo}        | {bol}        |
+| Resultative  | ʀᴇs   | {tce}       | {tceh}       |
+| Identical    | ɪᴅᴇɴᴛ | {kʊ}        | {kʊv}        |
+| Semblative   | sᴇᴍʙʟ | {kɪ}        | {kɪr}        |
+| Comparative  | ᴄᴏᴍᴘ  | {ve}        | {vek}        |
 | Locative     | ʟᴏᴄ   | {lɪ}        | {lɪf}        |
 | Lative       | ʟᴀᴛ   | {we}        | {wef}        |
 | Ablative     | ᴀʙʟ   | {xu}        | {xun}        |
 | Perlative    | ᴘᴇʀ   | {zi}        | {zij}        |
-| Resultative  | ʀᴇs   | {tce}       | {tceh}       |
-| Identical    | ɪᴅᴇɴᴛ | {kʊ}        | {kʊv}        |
-| Semblative   | sᴇᴍʙʟ | {kɪ}        | {kɪr}        |
 
 Within a stative verb phrase, a **subject** (sʙᴊ) is something that is in that
 state. Many stative verb phrases also permit a genitive (ɢᴇɴ) argument, which
@@ -68,6 +69,29 @@ semblative particle {kɪ} means "as", "like", or "in the manner of".
 hon | kɪ    | ðu  | lec   | pɪf
 ɢɴᴏ | sᴇᴍʙʟ | ɢɴʀ | water | soothe
 [It] soothes like water.
+</gloss>
+
+The **comparative** (ᴄᴏᴍᴘ) case marks a point of comparison or reference, within
+a stative verb phrase of degree.
+
+<gloss>
+je  | ve   | to  | ŋɪ  | ko | ruθ
+ɪɴᴅ | ᴄᴏᴍᴘ | you | sʙᴊ | I  | small
+I am smaller than you. (I am small in comparison to you.)
+</gloss>
+
+The comparative particle {ve} means roughly *than* or *in comparison to*, but
+unlike these English terms, the comparison is always against the subject of the
+verb. This avoids ambiguous comparisons such as *I like cheesecake more than
+you*---*more than you like cheesecake* or *more than I like you*?
+
+A comparative argument can be combined with the [distributive
+determiner](./determiner-phrases.md) {su} to form a superlative:
+
+<gloss>
+je  | ve   | su   | tez   | ŋɪ  | ko | ruθ
+ɪɴᴅ | ᴄᴏᴍᴘ | each | other | sʙᴊ | I  | small
+I am the smallest. (I am small in comparison to all others.)
 </gloss>
 
 ## Spatio-temporal Cases

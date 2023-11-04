@@ -1,7 +1,7 @@
 [package]
 description = "Preprocessor for the Najan mdBook"
 edition = "2021"
-license = "LICENSE.txt"
+license = "MIT"
 name = "mdbook-najan"
 readme = "README.md"
 repository = "https://github.com/jonathansharman/najan/tree/main/mdbook-najan"

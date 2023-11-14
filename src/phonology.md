@@ -1,20 +1,17 @@
 # Phonology
 
-Stress falls on the first syllable of a word. However, stress never
-distinguishes words and can be altered for emphasis. Najan is stress-timed.
-
 <div class="caption">Consonants</div>
 
-| | Bilabial | Labio-dental | Dental | Alveolar | Post-alveolar | Palatal | Velar |
-| --: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Nasal | m | | | n | | | ŋ |
-| Plosive | pʰ b | | | tʰ d | | | kʰ g |
-| Affricate | | | t̪͡θʰ d̪͡ð | t͡sʰ d͡z | t̠͡ʃʰ d̠͡ʒ | | kxʰ gɣ |
-| Fricative | | f v | θ ð | s z | ʃ ʒ | | x ɣ |
-| Approximant | | | | l | | j | w[^1] |
-| Tap | | | | ɾ̥ʰ ɾ | | | |
-| Lateral affricate | | | | t͡ɬ d͡ɮ | | | |
-| Lateral fricative | | | | (ɬ) (ɮ) | | | |
+|                   | Bilabial | Labio-dental | Dental | Alveolar | Post-alveolar | Palatal | Velar  |
+| ----------------: | :------: | :----------: | :----: | :------: | :-----------: | :-----: | :----: |
+| Nasal             | m        |              |        | n        |               |         | ŋ      |
+| Plosive           | pʰ b     |              |        | tʰ d     |               |         | kʰ g   |
+| Affricate         |          |              | t̪͡θʰ d̪͡ð | t͡sʰ d͡z   | t̠͡ʃʰ d̠͡ʒ        |         | kxʰ gɣ |
+| Fricative         |          | f v          | θ ð    | s z      | ʃ ʒ           |         | x ɣ    |
+| Approximant       |          |              |        | l        |               | j       | w[^1]  |
+| Tap               |          |              |        | ɾ̥ʰ ɾ     |               |         |        |
+| Lateral affricate |          |              |        | t͡ɬ d͡ɮ    |               |         |        |
+| Lateral fricative |          |              |        | (ɬ) (ɮ)  |               |         |        |
 
 [^1]: Specifically, labial-velar
 
@@ -34,14 +31,48 @@ lateral fricatives \[ɬ\] and \[ɮ\].
 
 <div class="caption">Vowels</div>
 
-| | Front | Near-front | Central | Near-back | Back |
-| --: | :-: | :-: | :-: | :-: | :-: |
-| Close | i | | | | u |
-| Near-close | | ɪ | | ʊ | |
-| Mid | | | | | o̞ |
-| Open-mid | ɛ | | | | |
-| Open | | | ä | | |
+|            | Front | Near-front | Central | Near-back | Back |
+| ---------: | :---: | :--------: | :-----: | :-------: | :--: |
+| Close      | i     |            |         |           | u    |
+| Near-close |       | ɪ          |         | ʊ         |      |
+| Mid        |       |            |         |           | o̞    |
+| Open-mid   | ɛ     |            |         |           |      |
+| Open       |       |            | ä       |           |      |
 
 ## Phonotactics
 
-TODO
+Najan is monosyllabic, with C(C)V(C)(C) structure. Within an onset or coda, the
+plosives, fricatives, taps, and glides must all be voiced or all be voiceless.
+For example, ⟨ts-⟩ and ⟨tl-⟩ are valid, but ⟨tz-⟩ is not.
+
+<div class="caption">Onset</div>
+
+| First consonant | Optional second consonant            |
+| :-------------- | :----------------------------------- |
+| plosive         | fricative[^2], liquid, tap, or glide |
+| fricative       | liquid, tap, or glide                |
+| nasal           | glide                                |
+| liquid          |                                      |
+| tap             |                                      |
+| glide           |                                      |
+
+<div class="caption">Coda</div>
+
+| Optional first consonant | Optional second consonant                 |
+| :----------------------- | :---------------------------------------- |
+| plosive                  | fricative[^2]                             |
+| fricative                | plosive[^2]                               |
+| nasal                    | plosive with same point of articulation   |
+| liquid                   | plosive, fricative, or nasal              |
+| tap                      |                                           |
+| glide                    | plosive, fricative, nasal, liquid, or tap |
+
+[^2]: Plosive-fricative and fricative-plosive clusters never combine a velar
+fricative with a non-velar plosive.
+
+## Stress
+
+Najan uses a stress accent system, with stressed words receiving greater volume,
+a longer vowel, and higher tone. Najan is also stress-timed, with stressed words
+occurring at relatively constant intervals. Typically, verbs are stressed and
+particles unstressed, except for emphasis.

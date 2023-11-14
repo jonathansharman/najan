@@ -1,12 +1,12 @@
 # Orthography
 
-In the table below, each Najan glyph is labeled with the transliteration of
-its grapheme's Najan name (in angle brackets), along with its most common
-associated phone (in square brackets). Each grapheme name begins with the
-grapheme itself. Since Najan is perfectly phonemic, this table also represents
-all the Najan phonemes. Note however, that these phonemes are not always
-pronounced exactly as the example phones, due to the allophonic variations
-described in [Phonology](./ch01-phonology.md).
+In the table below, each Najan glyph is labeled with the transliteration of its
+grapheme's Najan name (in angle brackets), along with its most common associated
+phone (in square brackets). Each grapheme name begins with the grapheme itself.
+Since Najan is perfectly phonemic, this table also represents all the Najan
+phonemes. Note however that these phonemes are not always pronounced exactly as
+the example phones, due to the allophonic variations described in
+[Phonology](./ch01-phonology.md).
 
 <div class="caption">The Najan Alphabet</div>
 

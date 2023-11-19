@@ -3,6 +3,10 @@
 	src: url('../Najan.ttf');
 }
 
+:root {
+	--content-max-width: 850px;
+}
+
 naj {
 	font-family: Najan;
 }

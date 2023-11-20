@@ -1,4 +1,4 @@
-language: kʊv naj vɪx
+title: kʊv naj vɪx # TODO: should be "dictionary" in Najan
 
 classes: # TODO: translate to Najan
 - state
@@ -14,8 +14,8 @@ sort: [k, g, t, d, p, b, h, q, s, z, f, v, θ, ð, c, j, x, r, ŋ, 'n', m, 'y', 
 lexemes:
 - lemma: cay
   class: action
-  definition: become # TODO: translate to Najan
-  translations: {english: [become]}
+  definition: change # TODO: translate to Najan
+  translations: {english: [change, evolve]}
 - lemma: ci
   class: preposition
   definition: marks the complement as a subject # TODO: translate to Najan

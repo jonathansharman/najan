@@ -14,3 +14,4 @@
 	- [Pronouns](./pronouns.md)
 	- [Determiner Phrases](./determiner-phrases.md)
 	- [Quotations](./quotations.md)
+- [Dictionary](./dictionary.md)

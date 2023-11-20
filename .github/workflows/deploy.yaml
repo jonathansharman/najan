@@ -26,7 +26,13 @@ jobs:
         uses: baptiste0928/cargo-install@v2
         with:
           crate: mdbook-najan
-      - name: Build Book
+      - name: Install lexi
+        uses: baptiste0928/cargo-install@v2
+        with:
+          crate: lexi
+      - name: Build dictionary
+        run: lexi lexicon.yaml -o src/dictionary.md
+      - name: Build book
         run: mdbook build
       - name: Setup Pages
         uses: actions/configure-pages@v2

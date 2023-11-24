@@ -153,20 +153,14 @@ A content question may request multiple pieces of information.
 
 <gloss>
 gwɪ | tce | vel  | ci | vel | θe  | pɪn
-ᴄᴏ̨  | ʀᴇs | what | ᴀ  | who | ᴘғᴠ | do
+ᴄᴏ̨  | ғɪɴ | what | ᴀ  | who | ᴘғᴠ | do
 Who did what?
 </gloss>
 
 This questioner has asked for two pieces of information here: who did it and
 what they did. Note that {vel} is a pronoun, so it can't stand in for a verb
 directly. However, using {pɪn} (*do*) as the verb allows asking about actions,
-by using {vel} as a resultative argument.
-
-<gloss>
-fo   | ci | tlek | θe  | tah
-ʀᴘʀᴛ | ᴀ  | Tlek | ᴘғᴠ | sob
-I've heard that Tlek sobbed.
-</gloss>
+by using {vel} as a causal-final argument.
 
 A **polar question** (ᴘᴏ̨) prompts for a yes-or-no answer, confirming or denying
 the clause.

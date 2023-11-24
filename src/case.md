@@ -15,7 +15,7 @@ corresponding case preposition {ci} marks the agentive case.
 | Instrumental | ɪɴs   | {da}        | {dan}        |
 | Possessive   | ᴘᴏs   | {me}        | {mep}        |
 | Partitive    | ᴘᴛᴠ   | {bo}        | {bol}        |
-| Resultative  | ʀᴇs   | {tce}       | {tceh}       |
+| Causal-final | ғɪɴ   | {tce}       | {tceh}       |
 | Identical    | ɪᴅᴇɴᴛ | {kʊ}        | {kʊv}        |
 | Semblative   | sᴇᴍʙʟ | {kɪ}        | {kɪr}        |
 | Comparative  | ᴄᴏᴍᴘ  | {ve}        | {vek}        |

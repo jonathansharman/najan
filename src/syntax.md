@@ -11,6 +11,8 @@ extended Backus-Naur form as follows:
 > <br>
 > <lhs>|</lhs> ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩ ⟨**VP**⟩
 > <br>
+> <lhs>|</lhs> "{txa}" ⟨**VP**⟩
+> <br>
 > <lhs>|</lhs> ⟨**ᴄᴏɴᴊ**⟩ ⟨**VP**⟩ ⟨**VP**⟩
 >
 > <lhs>**stative VP** ⇒</lhs> [ ⟨**aspect ᴘᴛᴄʟ**⟩ ] ⟨**stative verb**⟩
@@ -19,9 +21,21 @@ extended Backus-Naur form as follows:
 > <br>
 > <lhs>|</lhs> ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩ ⟨**stative VP**⟩
 > <br>
+> <lhs>|</lhs> "{txa}" ⟨**stative VP**⟩
+> <br>
 > <lhs>|</lhs> ⟨**ᴄᴏɴᴊ**⟩ ⟨**stative VP**⟩ ⟨**stative VP**⟩
 >
-> <lhs>**noun phrase (NP)** ⇒</lhs> ⟨**VP**⟩ | ⟨**ᴘʀᴏ**⟩ | ⟨**ᴅᴇᴛ phrase**⟩ | ⟨**quotation**⟩ | ⟨**ᴄᴏɴᴊ**⟩ ⟨**NP**⟩ ⟨**NP**⟩
+> <lhs>**noun phrase (NP)** ⇒</lhs> ⟨**VP**⟩
+> <br>
+> <lhs>|</lhs> ⟨**ᴘʀᴏ**⟩
+> <br>
+> <lhs>|</lhs> ⟨**ᴅᴇᴛ phrase**⟩
+> <br>
+> <lhs>|</lhs> ⟨**quotation**⟩
+> <br>
+> <lhs>|</lhs> "{txa}" ⟨**NP**⟩
+> <br>
+> <lhs>|</lhs> ⟨**ᴄᴏɴᴊ**⟩ ⟨**NP**⟩ ⟨**NP**⟩
 >
 > <lhs>**ᴅᴇᴛ phrase** ⇒</lhs> ⟨**ᴅᴇᴛ**⟩ [ ⟨**ᴘʀᴏ**⟩ ] ⟨**stative VP**⟩
 >

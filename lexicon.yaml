@@ -1,22 +1,34 @@
 title: kʊv naj vɪx # TODO: should be "dictionary" in Najan
 
-classes: # TODO: translate to Najan
-- state
-- action
-- determiner
-- pronoun
-- preposition
-- conjunction
-- particle
+classes:
+- loð # state (stative verb)
+- djʊ # action (dynamic verb)
+- qa saθ dan # means of instantiation (determiner)
+- nʊ zax kʊv # borrowed identity (pronoun)
+- qa qac dan # means of relation (preposition)
+- qa cob vom # logical operator (conjunction)
+- lʊg # particle
 
 sort: [k, g, t, d, p, b, h, q, s, z, f, v, θ, ð, c, j, x, r, ŋ, 'n', m, 'y', l, w, ʊ, a, e, ɪ, i, u, o]
 
 lexemes:
+- lemma: za
+  class: qa saθ dan
+  definition: fo qa ðu jow nʊ txa lɪ kle qa jow θe tɪz ŋɪθ dje kʊv # starts identifying entities previously unspoken of
+  translations: {english: [a, an]}
+- lemma: gi
+  class: qa saθ dan
+  definition: fo qa ðu jow nʊ lɪ kle qa jow θe tɪz ŋɪθ dje kʊv # starts identifying entities previously spoken of
+  translations: {english: [the]}
+- lemma: ðu
+  class: qa saθ dan
+  definition: fo qa ðu nʊ ðus ŋɪθ dje kʊv # starts identifying generic entities
+  translations: {english: [a, an, the]}
 - lemma: cay
-  class: action
+  class: djʊ
   definition: change # TODO: translate to Najan
   translations: {english: [change, evolve]}
 - lemma: ci
-  class: preposition
+  class: qa qac dan
   definition: marks the complement as a subject # TODO: translate to Najan
   translations: {english: [by]}

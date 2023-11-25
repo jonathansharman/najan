@@ -1,9 +1,10 @@
 # Case
 
-Each Najan case corresponds to a particular semantic role within the verb
-phrase, marked using a preposition. These case prepositions are clipped from
-corresponding stative verbs. For example, since {cim} means *agent*, the
-corresponding case preposition {ci} marks the agentive case.
+Each Najan case is marked using a preposition and corresponds to a particular
+semantic role within the complement of the preposition (a verb phrase or
+clause). These case prepositions are clipped from corresponding stative verbs.
+For example, since {cim} means *agent*, the corresponding case preposition {ci}
+marks the agentive case.
 
 | Case         | Gloss | Preposition | Stative Verb |
 | :----------- | :---- | :---------- | :----------- |
@@ -25,10 +26,11 @@ corresponding case preposition {ci} marks the agentive case.
 | Perlative    | ᴘᴇʀ   | {zi}        | {zij}        |
 
 Within a stative verb phrase, a **subject** (sʙᴊ) is something that is in that
-state. Many stative verb phrases also permit a genitive (ɢᴇɴ) argument, which
-relates that argument to the subject according to the particular semantics of
-the verb. The genitive preposition {qa} means "with respect to", "with regard
-to", or "in relation to".
+state. Many verbs (including some dynamic verbs) also permit a **genitive**
+(ɢᴇɴ) argument, which expresses some relation according to the particular
+semantics of the verb. The genitive preposition {qa} means *with respect to*,
+*with regard to*, or *in relation to*. For example, the genitive argument of the
+stative verb {zim} (*want*) is that which is wanted.
 
 <gloss>
 je  | qa  | ŋɪ  | ko | ŋɪθ   | ŋɪ  | ko | zim
@@ -36,9 +38,9 @@ je  | qa  | ŋɪ  | ko | ŋɪθ   | ŋɪ  | ko | zim
 I want to exist. (I want that I exist.)
 </gloss>
 
-An **agent** (ᴀ) of a dynamic verb phrase is an animate, voluntary cause of the
-action. A **patient** (ᴘ) is something that is acted upon or undergoes change as
-a result of the action.
+An **agent** (ᴀ) is an animate, voluntary cause of an action or state. A
+**patient** (ᴘ) is something that is acted upon or undergoes change as a result
+of an action.
 
 <gloss>
 je  | ci | ko | rʊ | gi  | nʊ        | ganθ    | qa  | kwon    | tceh   | θe  | fleh
@@ -62,8 +64,8 @@ je  | slo  | gi  | vucul | rʊ | gi  | nʊ        | ganθ    | qa  | kwon    | t
 The sea destroyed the sand castle.
 </gloss>
 
-The **semblative** (sᴇᴍʙʟ) case marks something the verb is similar to. The
-semblative particle {kɪ} means "as", "like", or "in the manner of".
+The **semblative** (sᴇᴍʙʟ) case marks something the complement is similar to.
+The semblative particle {kɪ} means *as*, *like*, or *in the manner of*.
 
 <gloss>
 hon | kɪ    | ðu  | lec   | pɪf
@@ -71,7 +73,7 @@ hon | kɪ    | ðu  | lec   | pɪf
 [It] soothes like water.
 </gloss>
 
-The **comparative** (ᴄᴏᴍᴘ) case marks a point of comparison or reference, within
+The **comparative** (ᴄᴏᴍᴘ) case marks a point of comparison or reference within
 a stative verb phrase of degree.
 
 <gloss>
@@ -96,15 +98,14 @@ I am the smallest. (I am small in comparison to all others.)
 
 ## Spatio-temporal Cases
 
-Najan has four cases for characterizing a verb's place and time. The
-**locative** (ʟᴏᴄ) particle {lɪ} marks being or occurring at or within a point
-or region of space or time. The **lative** (ʟᴀᴛ) {we} indicates direction to or
-into a point or region, while its inverse, the **ablative** (ᴀʙʟ) {xu},
-indicates from, away from, or out of. Finally, the **perlative** (ᴘᴇʀ) {zi}
-indicates movement (again, in space or time) through, throughout, or across.
-Each of these prepositions is inclusive: {we} includes the destination; {xu}
-includes the origin; and {zi} includes the entirety of the path, region, or
-duration.
+Najan has four cases for characterizing place and time. The **locative** (ʟᴏᴄ)
+particle {lɪ} marks being or occurring at or within a point or region of space
+or time. The **lative** (ʟᴀᴛ) {we} indicates direction to or into a point or
+region, while its inverse, the **ablative** (ᴀʙʟ) {xu}, indicates from, away
+from, or out of. Finally, the **perlative** (ᴘᴇʀ) {zi} indicates movement
+(again, in space or time) through, throughout, or across. Each of these
+prepositions is inclusive: {we} includes the destination; {xu} includes the
+origin; and {zi} includes the entirety of the path, region, or duration.
 
 The objects of these case prepositions may be explicit places or times, but they
 could also be something else, such as a person or event. In that case, the
@@ -120,7 +121,7 @@ The case marker alone is often sufficient in context to convey the full
 relationship, but to add clarity or expressiveness, one can replace the object
 of the case preposition with a more specific expression. For example, since the
 lative case particle {we} ("to") is always inclusive of the specified
-destination, {we gi vatθ} ("to the end") means that the verb phrase holds true
-up to and including the end. To convey that the verb phrase held true up to (but
-not necessarily including) some time before the end, one could say {we za qa gi
-vatθ kle}, lit. "to a past [time] of the end".
+destination, {we gi vatθ} ("to the end") means that the expression holds true up
+to and including the end. To convey that the expression held true up to (but not
+necessarily including) some time before the end, one could say {we za qa gi vatθ
+kle}, lit. "to a past [time] of the end".

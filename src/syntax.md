@@ -1,9 +1,28 @@
 # Syntax
 
-Najan is a deterministic context-free language whose grammar can be expressed in
-extended Backus-Naur form as follows:
+Najan has the following word classes:
+
+- Stative verbs ({loð}, *state*)
+- Dynamic verbs ({djʊ}, *action*)
+- Determiners ({qa saθ dan}, *means of instantiation*)
+- Pronouns ({nʊ zax kʊv}, *borrowed identity*)
+- Prepositions ({qa qac dan}, *means of relation*)
+- Conjunctions ({qa cob vom}, *logical operator*)
+- Particles ({lʊg}, *particle*)
+
+Najan has no nouns, adverbs, or adjectives. Verb phrases, pronouns, and
+[determiner phrases](./determiner-phrases.md) can all function as noun phrases.
+(A verb phrase may be used as a verbal noun phrase without any inflection or
+other marking.) Prepositional phrases fill the roles of adverbs and adjectives.
+
+## Formal Grammar
+
+Najan is a deterministic context-free language whose formal grammar can be
+expressed in extended Backus-Naur form as follows:
 
 > <lhs>**clause** ⇒</lhs> ⟨**mood ᴘᴛᴄʟ**⟩ [ ⟨**epistemic mood ᴘᴛᴄʟ**⟩ ] ⟨**VP**⟩
+> <br>
+> <lhs>|</lhs> ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩ ⟨**clause**⟩
 >
 > <lhs>**verb phrase (VP)** ⇒</lhs> [ ⟨**aspect ᴘᴛᴄʟ**⟩ ] ⟨**dynamic verb**⟩
 > <br>

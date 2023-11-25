@@ -4,7 +4,7 @@ Arguments to a verb are expressed using optional modifiers, each marked for
 [case](./case.md). As a result, arguments have no fixed order, and a single verb
 can take multiple arguments of the same semantic role.
 
-In the following, "you" and "I" are joint agents of the eating of a single
+In the following, *you* and *I* are joint agents of the eating of a single
 orange:
 
 <gloss>

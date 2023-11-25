@@ -1,10 +1,10 @@
 # Case
 
-Each Najan case is marked using a preposition and corresponds to a particular
-semantic role within the complement of the preposition (a verb phrase or
-clause). These case prepositions are clipped from corresponding stative verbs.
-For example, since {cim} means *agent*, the corresponding case preposition {ci}
-marks the agentive case.
+Prepositions are also used to mark case, with the complement of the preposition
+serving a particular semantic role within the expression. These case
+prepositions are clipped from corresponding stative verbs. For example, since
+{cim} means *agent*, the corresponding case preposition {ci} marks the agentive
+case.
 
 | Case         | Gloss | Preposition | Stative Verb |
 | :----------- | :---- | :---------- | :----------- |

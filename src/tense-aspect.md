@@ -26,21 +26,21 @@ a continuous verb phrase may be assumed to be in present tense.
 
 The **perfective** (ᴘғᴠ) aspect views a verb in its entirety, as a complete
 action or state. Without other clues, a perfective verb phrase is most likely to
-be in past tense. For example, {je ci ko θe tcet} is more likely to mean "I ate"
-(simple past) or "I have eaten" (past perfect) than "I will eat" (simple
+be in past tense. For example, {je ci ko θe tcet} is more likely to mean *I ate*
+(simple past) or *I have eaten* (past perfect) than *I will eat* (simple
 future).
 
 The **inchoative** (ɪɴᴄʜ) aspect views a verb as beginning, as in {je dje sic},
-"[he] starts to cry". Inversely, the **cessative** (ᴄᴇss) aspect views a verb as
-ending: {je vat sic}, "[he] stops crying". By default, verbs in these aspects
+*[he] starts to cry*. Inversely, the **cessative** (ᴄᴇss) aspect views a verb as
+ending: {je vat sic}, *[he] stops crying*. By default, verbs in these aspects
 are in present tense.
 
 The **habitual** (ʜᴀʙ) aspect views a verb as occurring regularly over some
 period of time, centered on the present by default. If {je ci to vɪg} is in
-present tense, it means "you are going", and the corresponding habitual phrase,
-{je ci to fxe vɪg}, means "you go [regularly]". If we instead assume past tense,
-then they translate respectively to "you were going" and either "you would go"
-or "you used to go".
+present tense, it means *you are going*, and the corresponding habitual phrase,
+{je ci to fxe vɪg}, means *you go [regularly]*. If we instead assume past tense,
+then they translate respectively to *you were going* and either *you would go*
+or *you used to go*.
 
 The **gnomic** (ɢɴᴏ) aspect views a verb as a general truth with little or no
 temporal structure. As such, the concept of tense is usually inapplicable.
@@ -75,8 +75,8 @@ I will go tomorrow.
 At this point I have established tomorrow (i.e. the future) as the time period
 under discussion, using a [temporal argument](./case.md#spatio-temporal-cases).
 Suppose I then say {je ci ko θe tɪz}. In isolation, since this sentence is in
-perfective aspect, one might interpret it to mean "I have spoken" (present
-perfect) or "I spoke" (simple past). However, since the context has already been
+perfective aspect, one might interpret it to mean *I have spoken* (present
+perfect) or *I spoke* (simple past). However, since the context has already been
 established as in the future (thanks to the locative argument), one should
-instead translate the second clause as "I will speak" or "I will have spoken"
+instead translate the second clause as *I will speak* or *I will have spoken*
 sometime after I have gone tomorrow.

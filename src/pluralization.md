@@ -7,7 +7,7 @@ one.
 
 Unlike plurals in English, instantiating the {ma} plural form requires the use
 of a [determiner](./determiner-phrases.md). The following attempted translation
-of "I hear people over there" is incorrect (and nonsensical):
+of *I hear people over there* is incorrect (and nonsensical):
 
 <gloss>
 je  | ŋɪ  | ko | qa  | nʊ   | dwa     | ma | mɪl    | noy

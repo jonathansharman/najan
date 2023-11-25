@@ -43,7 +43,7 @@ je  | ŋɪ  | ko | djanʊθʊn
 I am Jonathan.
 </gloss>
 
-Or, since "I" is the expected subject:
+Or, since *I* is the expected subject:
 
 <gloss>
 je  | djanʊθʊn

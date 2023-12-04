@@ -16,4 +16,5 @@
 	- [Pronouns](./pronouns.md)
 	- [Determiner Phrases](./determiner-phrases.md)
 	- [Quotations](./quotations.md)
+- [Causal & Conditional Sentences](./causal-and-conditional-sentences.md)
 - [Dictionary](./dictionary.md)

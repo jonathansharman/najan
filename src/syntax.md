@@ -44,9 +44,7 @@ expressed in extended Backus-Naur form as follows:
 > <br>
 > <lhs>|</lhs> ⟨**ᴄᴏɴᴊ**⟩ ⟨**stative VP**⟩ ⟨**stative VP**⟩
 >
-> <lhs>**noun phrase (NP)** ⇒</lhs> ⟨**clause**⟩
-> <br>
-> <lhs>|</lhs> ⟨**VP**⟩
+> <lhs>**noun phrase (NP)** ⇒</lhs> ⟨**VP**⟩
 > <br>
 > <lhs>|</lhs> ⟨**ᴘʀᴏ**⟩
 > <br>

@@ -20,6 +20,7 @@ case.
 | Identical    | ɪᴅᴇɴᴛ | {kʊ}        | {kʊv}        |
 | Semblative   | sᴇᴍʙʟ | {kɪ}        | {kɪr}        |
 | Comparative  | ᴄᴏᴍᴘ  | {ve}        | {vek}        |
+| Conditional  | ᴄᴏɴᴅ  | {xo}        | {xotθ}       |
 | Locative     | ʟᴏᴄ   | {lɪ}        | {lɪf}        |
 | Lative       | ʟᴀᴛ   | {we}        | {wef}        |
 | Ablative     | ᴀʙʟ   | {xu}        | {xun}        |

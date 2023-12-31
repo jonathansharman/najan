@@ -1,8 +1,7 @@
 # Modality
 
-Every clause in Najan begins with one to two particles expressing that clause's
-modality, how the clause relates to the world or to other possible worlds. The
-first particle is required and establishes the clause's basic **mood**.
+Every clause in Najan begins with a mood particle expressing how the speaker
+relates the clause to the world or to other possible worlds.
 
 <table>
 	<thead>
@@ -65,45 +64,9 @@ first particle is required and establishes the clause's basic **mood**.
 	</tbody>
 </table>
 
-The second, optional particle conveys the clause's **epistemtic mood**, a
-refinement of the mood that specifies the degree of certainty associated with
-the clause.
-
-| Epistemic Mood  | Gloss | Particle |
-| :-------------- | :---- | :------- |
-| Dubitative      | ᴅᴜʙ   | {dze}    |
-| Speculative     | sᴘᴇᴄ  | {glu}    |
-| Probabilitative | ᴘʀᴏʙ  | {kis}    |
-| Assertive       | ᴀss   | ---      |
-| Certaintative   | ᴄᴇʀᴛ  | {bji}    |
-
-The following paragraphs outline how the epistemic moods interact with the
-indicative moods, to give a general sense of their semantics. Note however that
-the semantics differ somewhat when combined with other mood categories.
-
-The **dubatative epistemic mood** (ᴅᴜʙ) indicates that there's some evidence for
-the claim, but the speaker disbelieves it or at least has doubts about it. This
-mood has a similar connotation to *purportedly*, *supposedly*, etc.
-
-The **speculative epistemic mood** (sᴘᴇᴄ) conveys that the claim is merely
-possible; it may have some supporting evidence but not enough to deem it likely.
-
-The **probabilitative epistemic mood** (ᴘʀᴏʙ) is for claims that the speaker
-deems most likely true but without firm conviction.
-
-The **assertive epistemic mood** (ᴀss) is the default when no epistemic particle
-is given and simply means the speaker holds the claim to be true.
-
-The **certaintative epistemic mood** (ᴄᴇʀᴛ) means the speaker is unreservedly
-convinced. The omission of this marker does not necessarily indicate a degree of
-doubt. Rather, its inclusion serves as emphatic assurance when the audience
-might otherwise hold some doubt. One wouldn't typically bother using this marker
-for uncontroversial, commonplace claims, even if the degree of certainty is
-high.
-
 ## Indicative Moods
 
-The indicative moods are used to make a claim about how the world actually is.
+The indicative moods are used to assert a claim about how the world actually is.
 These moods are distinguished by evidentiality, i.e. the speaker's source of
 information supporting the claim.
 
@@ -186,21 +149,6 @@ Any question may be predicated on faulty premises, whether implicit or explicit.
 In that case, the respondent may choose to contradict these assumptions rather
 than answer the question on its own terms.
 
-### Interrogative Epistemic Mood
-
-The epistemic mood of a question indicates the asker's degree of confidence in
-the underlying proposition. In the case of content or alternative questions,
-this refers to the proposition after the respondent has filled in the blanks.
-
-<gloss>
-gwɪ | bji  | bo  | ŋak    | vel   | θe  | pɪn
-ᴄᴏ̨  | ᴄᴇʀᴛ | ᴘᴛᴠ | you-ᴘʟ | which | ᴘғᴠ | do
-Which of you did it? (I know it was one of you!)
-</gloss>
-
-Polar questions often specify the epistemic mood for rhetorical effect or to
-function similarly to a tag question.
-
 ## Deontic Moods
 
 The deontic moods are for asserting how the world shall be or ought to be.
@@ -214,17 +162,6 @@ to make or keep the clause true.
 The **volitive mood** (ᴠᴏʟ) expresses a wish or desire of the speaker. Unlike
 the commissive or imperative moods, it does not imply that the speaker or
 listener is responsible for actualizing that wish.
-
-### Deontic Epistemic Mood
-
-The epistemic mood of a deontic clause indicates how likely the speaker thinks
-the clause is to become or remain true. For a commissive clause, this factors in
-the speaker's own commitment to following through on the promise. For an
-imperative clause, it factors in the listener's willingness to carry out the
-request or command, as perceived by the speaker. Thus an epistemic mood particle
-can serve to weaken or strengthen a promise or command. For instance, a
-dubitative imperative clause could express a very polite request, whereas a
-certaintative imperative could be an urgent command or exhortation.
 
 ## Modal Clauses as Truth Propositions
 

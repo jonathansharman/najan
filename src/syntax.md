@@ -20,7 +20,7 @@ other marking.) Prepositional phrases fill the roles of adverbs and adjectives.
 Najan is a deterministic context-free language whose formal grammar can be
 expressed in extended Backus-Naur form as follows:
 
-> <lhs>**clause** ⇒</lhs> ⟨**mood ᴘᴛᴄʟ**⟩ [ ⟨**epistemic mood ᴘᴛᴄʟ**⟩ ] ⟨**VP**⟩
+> <lhs>**clause** ⇒</lhs> ⟨**mood ᴘᴛᴄʟ**⟩ ⟨**VP**⟩
 > <br>
 > <lhs>|</lhs> ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩ ⟨**clause**⟩
 >

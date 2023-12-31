@@ -225,3 +225,20 @@ request or command, as perceived by the speaker. Thus an epistemic mood particle
 can serve to weaken or strengthen a promise or command. For instance, a
 dubitative imperative clause could express a very polite request, whereas a
 certaintative imperative could be an urgent command or exhortation.
+
+## Modal Clauses as Truth Propositions
+
+It's possible to analyze clauses in any mood as corresponding to assertions
+about what is actually true. Though this correspondence is most obvious for the
+indicative moods, it's true for the others as well. For instance, a verb phrase
+_X_ belonging to a clause in the volitive mood asserts the proposition that the
+speaker wishes for _X_ to be true. Likewise, a clause in the polar interrogative
+mood signifies that the speaker wonders whether _X_ is true and would like the
+listener to provide an answer.
+
+This kind of analysis is unusual but can be useful for correctly interpreting
+logical operators or prepositional phrases applied to clauses. For example, {je
+txa gleð} means _I sense that it is not raining_, whereas {txa je gleð} means _I
+don't sense that it's raining_, which is a weaker claim. Similarly, {nʊ zʊm kca
+vɪg} literally means _regretfully, I request that you go_, whereas {kca nʊ zʊm
+vɪg} means _I request that you regretfully go_.

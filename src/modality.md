@@ -1,7 +1,9 @@
 # Modality
 
 Every clause in Najan begins with a mood particle expressing how the speaker
-relates the clause to the world or to other possible worlds.
+relates the clause to the world or to other possible worlds. The mood particles
+are clipped from corresponding dynamic verbs, e.g. {je} (sensory indicative
+mood) from {jec} (_sense_, _perceive_, or _intuit_).
 
 <table>
 	<thead>
@@ -10,6 +12,7 @@ relates the clause to the world or to other possible worlds.
 			<th>Mood</th>
 			<th>Gloss</th>
 			<th>Particle</th>
+			<th>Dynamic Verb</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -18,31 +21,37 @@ relates the clause to the world or to other possible worlds.
 			<td>Sensory</td>
 			<td>sɴs</td>
 			<td>{je}</td>
+			<td>{jec}</td>
 		</tr>
 		<tr>
 			<td>Deductive</td>
 			<td>ᴅᴇᴅ</td>
 			<td>{ŋo}</td>
+			<td>{ŋoy}</td>
 		</tr>
 		<tr>
 			<td>Reportative</td>
 			<td>ʀᴘʀᴛ</td>
 			<td>{fo}</td>
+			<td>{fod}</td>
 		</tr>
 		<tr>
 			<td rowspan="3">Interrogative</td>
 			<td>Content</td>
 			<td>ᴄᴏ̨</td>
 			<td>{gwɪ}</td>
+			<td>{gwɪm}</td>
 		</tr>
 		<tr>
 			<td>Polar</td>
 			<td>ᴘᴏ̨</td>
+			<td>{ne}</td>
 			<td>{ner}</td>
 		</tr>
 		<tr>
 			<td>Alternative</td>
 			<td>ᴀᴏ̨</td>
+			<td>{ðɪ}</td>
 			<td>{ðɪv}</td>
 		</tr>
 		<tr>
@@ -50,16 +59,19 @@ relates the clause to the world or to other possible worlds.
 			<td>Commissive</td>
 			<td>ᴄᴍs</td>
 			<td>{lay}</td>
+			<td>{layr}</td>
 		</tr>
 		<tr>
 			<td>Imperative</td>
 			<td>ɪᴍᴘᴇʀ</td>
 			<td>{kca}</td>
+			<td>{kcap}</td>
 		</tr>
 		<tr>
 			<td>Volitive</td>
 			<td>ᴠᴏʟ</td>
-			<td>{max}</td>
+			<td>{mya}</td>
+			<td>{myax}</td>
 		</tr>
 	</tbody>
 </table>
@@ -107,10 +119,10 @@ gwɪ | ŋɪ  | vel  | qa  | to  | kʊv
 What names you? (What is your name?)
 </gloss>
 
-...I could respond {je djan} (*It's Jon*).
+...I could respond {je djan} (_It's Jon_).
 
 Informally, one can omit {vel}, if it's apparent what's being asked: {gwi kʊv}
-(*Name?*).
+(_Name?_).
 
 A content question may request multiple pieces of information.
 
@@ -122,20 +134,20 @@ Who did what?
 
 This questioner has asked for two pieces of information here: who did it and
 what they did. Note that {vel} is a pronoun, so it can't stand in for a verb
-directly. However, using {pɪn} (*do*) as the verb allows asking about actions,
+directly. However, using {pɪn} (_do_) as the verb allows asking about actions,
 by using {vel} as a causal-final argument.
 
 A **polar question** (ᴘᴏ̨) prompts for a yes-or-no answer, confirming or denying
 the clause.
 
 <gloss>
-ner | ci | to     | vɪg
-ᴘᴏ̨  | ᴀ  | you-sɢ | go
+ne | ci | to     | vɪg
+ᴘᴏ̨ | ᴀ  | you-sɢ | go
 Are you going?
 </gloss>
 
-The reponse can usually be very brief, e.g. {je ksi} (*it's true*) or {je gle}
-(*it's false*).
+The reponse can usually be very brief, e.g. {je ksi} (_it's true_) or {je gle}
+(_it's false_).
 
 An **alternative question** (ᴀᴏ̨) should pose a series of mutually exclusive
 options, only one of which makes the overall clause true. Typically this
@@ -143,7 +155,7 @@ involves an exclusive logical disjunction. It's possible but very uncommon for
 an alternative question to contain multiple sets of options, prompting multiple
 selections from the respondent. A question with two opposite possibilities would
 typically be expressed as a polar question but could be expressed as an
-alternative question for emphassis: *are you or are you not my people?*
+alternative question for emphassis: _are you or are you not my people?_
 
 Any question may be predicated on faulty premises, whether implicit or explicit.
 In that case, the respondent may choose to contradict these assumptions rather

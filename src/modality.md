@@ -73,6 +73,13 @@ mood) from {jec} (_sense_, _perceive_, or _intuit_).
 			<td>{mya}</td>
 			<td>{myax}</td>
 		</tr>
+		<tr>
+			<td>Hypothetical</td>
+			<td>Hypothetical</td>
+			<td>ʜʏᴘ</td>
+			<td>{tu}</td>
+			<td>{tus}</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -175,6 +182,19 @@ The **volitive mood** (ᴠᴏʟ) expresses a wish or desire of the speaker. Unli
 the commissive or imperative moods, it does not imply that the speaker or
 listener is responsible for actualizing that wish.
 
+## Hypothetical Mood
+
+The hypothetical mood is for expressing counterfactuals. A hypothetical clause
+posits that though the claim is not actually true, it would be true under other
+conditions. Clauses in this mood generally involve a [conditional
+argument](./causes-conditions.md) to clarify under which counterfactual
+circumstances the claim would be true. Note that the conditional argument should
+apply to the verb phrase within the hypothetical clause, not to the entire
+hypothetical clause itself.
+
+Conditional claims where the consequent could actually be or become true should
+instead use the indicative mood with a conditional argument to the verb.
+
 ## Modal Clauses as Truth Propositions
 
 It's possible to analyze clauses in any mood as corresponding to assertions
@@ -187,7 +207,7 @@ listener to provide an answer.
 
 This kind of analysis is unusual but can be useful for correctly interpreting
 logical operators or prepositional phrases applied to clauses. For example, {je
-txa gleð} means _I sense that it is not raining_, whereas {txa je gleð} means _I
+txa gleð} means _I sense that it's not raining_, whereas {txa je gleð} means _I
 don't sense that it's raining_, which is a weaker claim. Similarly, {nʊ zʊm kca
 vɪg} literally means _regretfully, I request that you go_, whereas {kca nʊ zʊm
 vɪg} means _I request that you regretfully go_.

@@ -10,6 +10,7 @@ the example phones, due to the allophonic variations described in
 
 <div class="caption">The Najan Alphabet</div>
 
+<!-- prettier-ignore-start -->
 | | | | | | |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | <naj-xxl>k</naj-xxl> <br> ⟨kθat⟩ \[kʰ\] | <naj-xxl>g</naj-xxl> <br> ⟨glew⟩ \[g\] | <naj-xxl>t</naj-xxl> <br> ⟨tedð⟩ \[tʰ\] | <naj-xxl>d</naj-xxl> <br> ⟨dewr⟩ \[d\] | <naj-xxl>p</naj-xxl> <br> ⟨pul⟩ \[pʰ\] | <naj-xxl>b</naj-xxl> <br> ⟨byas⟩ \[b\] |
@@ -20,6 +21,7 @@ the example phones, due to the allophonic variations described in
 | | | | | | | |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | <naj-xxl>ʊ</naj-xxl> <br> ⟨ʊlf⟩ \[ʊ\] | <naj-xxl>a</naj-xxl> <br> ⟨adz⟩ \[ä\] | <naj-xxl>e</naj-xxl> <br> ⟨eŋg⟩ \[ɛ\] | <naj-xxl>ɪ</naj-xxl> <br> ⟨ɪpθ⟩ \[ɪ\] | <naj-xxl>i</naj-xxl> <br> ⟨idj⟩ \[i\] | <naj-xxl>u</naj-xxl> <br> ⟨uc⟩ \[u\] | <naj-xxl>o</naj-xxl> <br> ⟨oz⟩ \[o̞\] |
+<!-- prettier-ignore-end -->
 
 Sentences are written left-to-right, then top-to-bottom. Najan has no
 punctuation except spaces between words.

@@ -13,8 +13,8 @@ determiners:
 | {ðu}       | Generic      | in general |
 
 > **Note:** Dynamic verb phrases cannot be used directly in determiner phrases,
-but it is possible to use a dynamic verb as an argument to a stative verb
-phrase. For example a fire is "an act of burning": {za qa tθoc djʊ}.
+> but it is possible to use a dynamic verb as an argument to a stative verb
+> phrase. For example a fire is "an act of burning": {za qa tθoc djʊ}.
 
 The **indefinite determiner** {za} introduces a new specific instance of the
 complement. It corresponds to existential quantification in logic.
@@ -35,8 +35,8 @@ je  | ci | gi  | θxɪl | fiq
 The sun is shining.
 </gloss>
 
-We can express a demonstrative (*this* or *that*) by modifying the complement of
-a definite determiner with {nʊ tlɪ} (*here*) or {nʊ dwa} (*there*).
+We can express a demonstrative (_this_ or _that_) by modifying the complement of
+a definite determiner with {nʊ tlɪ} (_here_) or {nʊ dwa} (_there_).
 
 The **distributive determiner** {su} expresses that the clauses containing the
 determiner phrase (and its pronoun, if any) hold true for each instance of the
@@ -51,8 +51,8 @@ Every language changes.
 The **generic determiner** {ðu} refers to the complement in a general,
 nonspecific sense. It's often used with the [gnomic aspect](./tense-aspect).
 This determiner doesn't map cleanly to any one determiner in English; for
-instance, *a man's gotta eat*, *cats are cute*, and *the giraffe is an African
-species* all have a generic subject.
+instance, _a man's gotta eat_, _cats are cute_, and _the giraffe is an African
+species_ all have a generic subject.
 
 <gloss>
 je  | ŋɪ  | ko | ðu  | dwav | kem
@@ -60,8 +60,8 @@ je  | ŋɪ  | ko | ðu  | dwav | kem
 I like books.
 </gloss>
 
-In English, the indefinite articles *a* and *an* do not encode specificity. For
-instance, *I'm looking for a book* could mean I have or don't have a specific
+In English, the indefinite articles _a_ and _an_ do not encode specificity. For
+instance, _I'm looking for a book_ could mean I have or don't have a specific
 book in mind. In Najan, the indefinite determiner is always specific:
 
 <gloss>
@@ -103,10 +103,10 @@ je  | qa  | ðu  | me | rabʊm  | qa  | ðu  | lec   | can
 
 In fact, Najan does not distinguish between countable and uncountable determiner
 phrases since determiner phrases always identify discrete entities. In English,
-*rock* is countable in *a small rock* but uncountable in *a hunk of rock*. In
-Najan, the word for *rock*, {kut}, means *to be made of stone*. Thus {za kut},
-literally *a thing that is made of stone*, could be translated into English
-either as *a rock* (countable) or as *some rock* (uncountable).
+_rock_ is countable in _a small rock_ but uncountable in _a hunk of rock_. In
+Najan, the word for _rock_, {kut}, means _to be made of stone_. Thus {za kut},
+literally _a thing that is made of stone_, could be translated into English
+either as _a rock_ (countable) or as _some rock_ (uncountable).
 
 ## Ordering Determiner Phrases
 

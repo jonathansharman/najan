@@ -7,6 +7,6 @@ particle should be interpreted as part of the quotation, not as a particle
 within the sentence containing the quotation.
 
 > **Note:** Determiner phrases within quotations cannot affect the bindings of
-surrounding pronouns. Assignable pronouns contained in a quotation may have
-completely different referents than in the surrounding context—or even none at
-all, when using a quotation to talk about the pronouns themselves.
+> surrounding pronouns. Assignable pronouns contained in a quotation may have
+> completely different referents than in the surrounding context—or even none at
+> all, when using a quotation to talk about the pronouns themselves.

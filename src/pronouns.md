@@ -13,9 +13,9 @@ speaker and at least one third person but excludes those addressed.
 
 <div class="caption">Second-person Pronouns</div>
 
-| Singular | Plural  |
-| :------- | :------ |
-| {to}     | {ŋak}   |
+| Singular | Plural |
+| :------- | :----- |
+| {to}     | {ŋak}  |
 
 The interrogative pronoun {vel} stands for something unknown and is essential to
 the formation of [content questions](./modality.md#interrogative-moods), where

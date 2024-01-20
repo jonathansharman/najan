@@ -30,6 +30,16 @@ The sea destroyed the sand castle.
 When the complement of a causal argument is a verb phrase, {slo} functions like
 the English subordinating conjunction _because_.
 
+The **causal-final** (ғɪɴ) case identifies a final cause: a purpose, outcome, or
+product of some state or action. The causal-final particle {tce} can translate
+to _for_ or _so that_. A final cause may be a verb phrase or noun phrase.
+
+<gloss>
+je  | tce | txa | qex    | hon | tcet
+sɴs | so  | not | hunger | ɢɴᴏ | eat
+One eats so that one doesn't hunger.
+</gloss>
+
 The **conditional** (ᴄᴏɴᴅ) case specifies a condition or dependency required in
 order for the modified expression to apply. The conditional particle {xo} most
 closely translates to _depending on_.

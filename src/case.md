@@ -13,14 +13,14 @@ case.
 | Agentive     | ᴀ     | {ci}        | {cim}        |
 | Causal       | ᴄᴀᴜs  | {slo}       | {slon}       |
 | Patientive   | ᴘ     | {rʊ}        | {rʊk}        |
+| Causal-final | ғɪɴ   | {tce}       | {tceh}       |
+| Conditional  | ᴄᴏɴᴅ  | {xo}        | {xotθ}       |
 | Instrumental | ɪɴs   | {da}        | {dan}        |
 | Possessive   | ᴘᴏs   | {me}        | {mep}        |
 | Partitive    | ᴘᴛᴠ   | {bo}        | {bol}        |
-| Causal-final | ғɪɴ   | {tce}       | {tceh}       |
 | Identical    | ɪᴅᴇɴᴛ | {kʊ}        | {kʊv}        |
 | Semblative   | sᴇᴍʙʟ | {kɪ}        | {kɪr}        |
 | Comparative  | ᴄᴏᴍᴘ  | {ve}        | {vek}        |
-| Conditional  | ᴄᴏɴᴅ  | {xo}        | {xotθ}       |
 | Locative     | ʟᴏᴄ   | {lɪ}        | {lɪf}        |
 | Lative       | ʟᴀᴛ   | {we}        | {wef}        |
 | Ablative     | ᴀʙʟ   | {xu}        | {xun}        |

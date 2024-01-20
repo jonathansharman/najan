@@ -11,7 +11,7 @@ of _I hear people over there_ is incorrect (and nonsensical):
 
 <gloss>
 je  | ŋɪ  | ko | qa  | nʊ   | dwa     | ma | mɪl    | noy
-ɪɴᴅ | sʙᴊ | I  | ɢᴇɴ | that | distant | ᴘʟ | person | hear
+sɴs | sʙᴊ | I  | ɢᴇɴ | that | distant | ᴘʟ | person | hear
 I hear to be distant people.
 </gloss>
 
@@ -19,6 +19,6 @@ Adding the indefinite determiner gives the intended meaning:
 
 <gloss>
 je  | ŋɪ  | ko | qa  | za   | nʊ   | dwa     | ma | mɪl    | noy
-ɪɴᴅ | sʙᴊ | I  | ɢᴇɴ | some | that | distant | ᴘʟ | person | hear
+sɴs | sʙᴊ | I  | ɢᴇɴ | some | that | distant | ᴘʟ | person | hear
 I hear people over there. (I hear some people that are distant.)
 </gloss>

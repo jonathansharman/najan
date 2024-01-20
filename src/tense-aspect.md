@@ -49,8 +49,8 @@ phrases](./determiner-phrases.md) as arguments and express an aphorism, a
 mathematical truth, etc.
 
 <gloss>
-je  | ŋɪ  | ðu  | zʊn | qa  | ðu  | djʊr | hon | dzul
-ɪɴᴅ | sʙᴊ | ɢɴʀ | two | ɢᴇɴ | ɢɴʀ | one  | ɢɴᴏ | is-greater-than
+ŋo  | ŋɪ  | ðu  | zʊn | qa  | ðu  | djʊr | hon | dzul
+ᴅᴇᴅ | sʙᴊ | ɢɴʀ | two | ɢᴇɴ | ɢɴʀ | one  | ɢɴᴏ | is-greater-than
 Two is greater than one. (Things of size two are greater than things of size one.)
 </gloss>
 
@@ -67,8 +67,8 @@ information. For example, perfective aspect often implies past tense. However,
 these associations are secondary to context. Suppose I first say:
 
 <gloss>
-je  | lɪ  | ŋodl     | ci | ko | θe  | vɪg
-ɪɴᴅ | ʟᴏᴄ | tomorrow | ᴀ  | I  | ᴘғᴠ | go
+lay | lɪ  | ŋodl     | ci | ko | θe  | vɪg
+ᴄᴍs | ʟᴏᴄ | tomorrow | ᴀ  | I  | ᴘғᴠ | go
 I will go tomorrow.
 </gloss>
 

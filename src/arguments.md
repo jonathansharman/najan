@@ -9,7 +9,7 @@ orange:
 
 <gloss>
 je  | ci | ko | ci | to  | rʊ | za | rabʊm  | tcet
-ɪɴᴅ | ᴀ  | I  | ᴀ  | you | ᴘ  | an | orange | eat
+sɴs | ᴀ  | I  | ᴀ  | you | ᴘ  | an | orange | eat
 You and I are eating an orange.
 </gloss>
 
@@ -17,7 +17,7 @@ Reversing the order of the arguments usually does not affecting the meaning:
 
 <gloss>
 je  | rʊ | za | rabʊm  | ci | ko | ci | to  | tcet
-ɪɴᴅ | ᴘ  | an | orange | ᴀ  | I  | ᴀ  | you | eat
+sɴs | ᴘ  | an | orange | ᴀ  | I  | ᴀ  | you | eat
 An orange is being eaten by you and me.
 </gloss>
 
@@ -29,7 +29,7 @@ In this example, the ball and glove are thrown as part of the same action:
 
 <gloss>
 je  | rʊ | gi  | ðaz  | rʊ | gi  | xovneθ | ci | ko | θe  | wis
-ɪɴᴅ | ᴘ  | the | ball | ᴘ  | the | glove  | ᴀ  | I  | ᴘғᴠ | throw
+sɴs | ᴘ  | the | ball | ᴘ  | the | glove  | ᴀ  | I  | ᴘғᴠ | throw
 I threw the ball and glove.
 </gloss>
 
@@ -39,7 +39,7 @@ could reply:
 
 <gloss>
 je  | ŋɪ  | ko | djanʊθʊn
-ɪɴᴅ | sʙᴊ | I  | Jonathan
+sɴs | sʙᴊ | I  | Jonathan
 I am Jonathan.
 </gloss>
 
@@ -47,6 +47,6 @@ Or, since _I_ is the expected subject:
 
 <gloss>
 je  | djanʊθʊn
-ɪɴᴅ | Jonathan
+sɴs | Jonathan
 [I] am Jonathan.
 </gloss>

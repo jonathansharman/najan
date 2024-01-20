@@ -6,7 +6,7 @@ of an action.
 
 <gloss>
 je  | ci | ko | rʊ | gi  | nʊ        | ganθ    | qa  | kwon    | tceh   | θe  | fleh
-ɪɴᴅ | ᴀ  | I  | ᴘ  | the | such-that | be-sand | ɢᴇɴ | fortify | result | ᴘғᴠ | destroy
+sɴs | ᴀ  | I  | ᴘ  | the | such-that | be-sand | ɢᴇɴ | fortify | result | ᴘғᴠ | destroy
 I destroyed the sand castle (intentionally).
 </gloss>
 
@@ -15,7 +15,7 @@ translates to _because of_.
 
 <gloss>
 je  | slo  | ko | rʊ | gi  | nʊ        | ganθ    | qa  | kwon    | tceh   | θe  | fleh
-ɪɴᴅ | ᴄᴀᴜs | I  | ᴘ  | the | such-that | be-sand | ɢᴇɴ | fortify | result | ᴘғᴠ | destroy
+sɴs | ᴄᴀᴜs | I  | ᴘ  | the | such-that | be-sand | ɢᴇɴ | fortify | result | ᴘғᴠ | destroy
 The sand castle was destroyed because of me. (I destroyed the sand castle unintentionally.)
 </gloss>
 
@@ -23,7 +23,7 @@ A cause can also be inanimate.
 
 <gloss>
 je  | slo  | gi  | vucul | rʊ | gi  | nʊ        | ganθ    | qa  | kwon    | tceh   | θe  | fleh
-ɪɴᴅ | ᴄᴀᴜs | the | sea   | ᴘ  | the | such-that | be-sand | ɢᴇɴ | fortify | result | ᴘғᴠ | destroy
+sɴs | ᴄᴀᴜs | the | sea   | ᴘ  | the | such-that | be-sand | ɢᴇɴ | fortify | result | ᴘғᴠ | destroy
 The sea destroyed the sand castle.
 </gloss>
 

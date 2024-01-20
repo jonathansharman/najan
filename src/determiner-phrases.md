@@ -21,7 +21,7 @@ complement. It corresponds to existential quantification in logic.
 
 <gloss>
 je  | qa  | za | lak  | cɪŋ
-ɪɴᴅ | ɢᴇɴ | a  | bird | see
+sɴs | ɢᴇɴ | a  | bird | see
 A bird is seen.
 </gloss>
 
@@ -31,7 +31,7 @@ context. There is only one entity that is the sun:
 
 <gloss>
 je  | ci | gi  | θxɪl | fiq
-ɪɴᴅ | ᴀ  | the | sun  | shine
+sɴs | ᴀ  | the | sun  | shine
 The sun is shining.
 </gloss>
 
@@ -43,8 +43,8 @@ determiner phrase (and its pronoun, if any) hold true for each instance of the
 complement. It corresponds to universal quantification in logic.
 
 <gloss>
-je  | rʊ | su   | vɪx      | fxe | cay
-ɪɴᴅ | ᴘ  | each | language | ʜᴀʙ | change
+fo   | rʊ | su   | vɪx      | fxe | cay
+ʀᴘʀᴛ | ᴘ  | each | language | ʜᴀʙ | change
 Every language changes.
 </gloss>
 
@@ -56,7 +56,7 @@ species_ all have a generic subject.
 
 <gloss>
 je  | ŋɪ  | ko | ðu  | dwav | kem
-ɪɴᴅ | sʙᴊ | I  | ɢɴʀ | book | like
+sɴs | sʙᴊ | I  | ɢɴʀ | book | like
 I like books.
 </gloss>
 
@@ -66,7 +66,7 @@ book in mind. In Najan, the indefinite determiner is always specific:
 
 <gloss>
 je  | ŋɪ  | ko | za | dwav | moθ
-ɪɴᴅ | sʙᴊ | I  | a  | book | need
+sɴs | sʙᴊ | I  | a  | book | need
 I need a (particular) book.
 </gloss>
 
@@ -74,7 +74,7 @@ The generic determiner is always nonspecific.
 
 <gloss>
 je  | ŋɪ  | ko | ðu  | dwav | moθ
-ɪɴᴅ | sʙᴊ | I  | ɢɴʀ | book | need
+sɴs | sʙᴊ | I  | ɢɴʀ | book | need
 I need a book (any book).
 </gloss>
 
@@ -85,7 +85,7 @@ concise and unambiguous way.
 
 <gloss>
 je  | ci | gi  | paŋ | dzað  | rʊ | paŋ | θe  | khɪtc
-ɪɴᴅ | ᴀ  | the | it  | child | ᴘ  | it  | ᴘғᴠ | hurt
+sɴs | ᴀ  | the | it  | child | ᴘ  | it  | ᴘғᴠ | hurt
 The child hurt itself.
 </gloss>
 
@@ -97,7 +97,7 @@ determiner phrase is a set or quantity.
 
 <gloss>
 je  | qa  | ðu  | me | rabʊm  | qa  | ðu  | lec   | can
-ɪɴᴅ | ɢᴇɴ | ɢɴʀ | ᴘʟ | orange | ɢᴇɴ | ɢɴʀ | water | want
+sɴs | ɢᴇɴ | ɢɴʀ | ᴘʟ | orange | ɢᴇɴ | ɢɴʀ | water | want
 (I) want some oranges and some water.
 </gloss>
 
@@ -117,15 +117,15 @@ are not commutative with each other.
 It's true that every human has a human mother:
 
 <gloss>
-je  | qa  | su   | ðap   | ŋɪ  | za | ðap   | θaf
-ɪɴᴅ | ɢᴇɴ | each | human | sʙᴊ | a  | human | mother
+ŋo  | qa  | su   | ðap   | ŋɪ  | za | ðap   | θaf
+ᴅᴇᴅ | ɢᴇɴ | each | human | sʙᴊ | a  | human | mother
 Every human is mothered by a human.
 </gloss>
 
 It is however not true that all humans share a single universal mother:
 
 <gloss>
-je  | ŋɪ  | za | ðap   | qa  | su   | ðap   | θaf
-ɪɴᴅ | sʙᴊ | a  | human | ɢᴇɴ | each | human | mother
+ŋo  | ŋɪ  | za | ðap   | qa  | su   | ðap   | θaf
+ᴅᴇᴅ | sʙᴊ | a  | human | ɢᴇɴ | each | human | mother
 There is a human that is mother to every human.
 </gloss>

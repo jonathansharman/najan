@@ -35,7 +35,7 @@ stative verb {zim} (_want_) is that which is wanted.
 
 <gloss>
 je  | qa  | ŋɪ  | ko | ŋɪθ   | ŋɪ  | ko | zim
-ɪɴᴅ | ɢᴇɴ | sʙᴊ | I  | exist | sʙᴊ | I  | want
+sɴs | ɢᴇɴ | sʙᴊ | I  | exist | sʙᴊ | I  | want
 I want to exist. (I want that I exist.)
 </gloss>
 
@@ -53,7 +53,7 @@ a stative verb phrase of degree.
 
 <gloss>
 je  | ve   | to  | ŋɪ  | ko | ruθ
-ɪɴᴅ | ᴄᴏᴍᴘ | you | sʙᴊ | I  | small
+sɴs | ᴄᴏᴍᴘ | you | sʙᴊ | I  | small
 I am smaller than you. (I am small in comparison to you.)
 </gloss>
 
@@ -67,6 +67,6 @@ determiner](./determiner-phrases.md) {su} to form a superlative:
 
 <gloss>
 je  | ve   | su   | tez   | ŋɪ  | ko | ruθ
-ɪɴᴅ | ᴄᴏᴍᴘ | each | other | sʙᴊ | I  | small
+sɴs | ᴄᴏᴍᴘ | each | other | sʙᴊ | I  | small
 I am the smallest. (I am small in comparison to all others.)
 </gloss>

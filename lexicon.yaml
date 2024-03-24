@@ -1,5 +1,3 @@
-title: kʊ naj vɪx # TODO: should be "dictionary" in Najan
-
 classes:
 - loð # state (stative verb)
 - djʊ # action (dynamic verb)
@@ -9,26 +7,39 @@ classes:
 - qa cob vom # logical operator (conjunction)
 - lʊg # particle
 
-sort: [k, g, t, d, p, b, h, q, s, z, f, v, θ, ð, c, j, x, r, ŋ, 'n', m, 'y', l, w, ʊ, a, e, ɪ, i, u, o]
+format:
+  native:
+    title: ... kʊ naj vɪx # TODO: "dictionary" in Najan
+    sort: [k, g, t, d, p, b, h, q, s, z, f, v, θ, ð, c, j, x, r, ŋ, 'n', m, 'y', l, w, ʊ, a, e, ɪ, i, u, o]
+    prefix: '{'
+    suffix: '}'
+  native_foreign:
+    title: Najan-English Dictionary
+  foreign_native:
+    title: English-Najan Dictionary
 
 lexemes:
 - lemma: za
   class: qa saθ dan
   definition: fo qa ðu jow nʊ txa lɪ kle qa jow θe tɪz ŋɪθ dje kʊv # starts identifying entities previously unspoken of
-  translations: {english: [a, an]}
+  translation: indefinite determiner
+  glosses: [a, an]
 - lemma: gi
   class: qa saθ dan
   definition: fo qa ðu jow nʊ lɪ kle qa jow θe tɪz ŋɪθ dje kʊv # starts identifying entities previously spoken of
-  translations: {english: [the]}
+  translation: definite determiner
+  glosses: [the]
 - lemma: ðu
   class: qa saθ dan
   definition: fo qa ðu nʊ ðus ŋɪθ dje kʊv # starts identifying generic entities
-  translations: {english: [a, an, the]}
+  translation: generic determiner, used to refer to a complement in a general, nonspecific sense
+  glosses: [a, an, the]
 - lemma: cay
   class: djʊ
-  definition: change # TODO: translate to Najan
-  translations: {english: [change, evolve]}
+  definition: # TODO
+  glosses: [change, evolve]
 - lemma: ci
   class: qa qac dan
-  definition: marks the complement as a subject # TODO: translate to Najan
-  translations: {english: [by]}
+  definition: # TODO
+  translation: marks the complement as an agent
+  glosses: [by]

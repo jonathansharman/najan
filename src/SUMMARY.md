@@ -18,4 +18,6 @@
   - [Pronouns](./pronouns.md)
   - [Determiner Phrases](./determiner-phrases.md)
   - [Quotations](./quotations.md)
-- [Dictionary](./dictionary.md)
+- [Najan Dictionary](./dictionary.md)
+- [English-Najan Dictionary](./from-english.md)
+- [Najan-English Dictionary](./to-english.md)

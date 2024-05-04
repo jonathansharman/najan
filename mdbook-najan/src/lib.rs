@@ -1,3 +1,6 @@
+use std::collections::HashMap;
+
+use lexi::lexicon::{Lexeme, Lexicon};
 use mdbook::{
 	book::{Book, Chapter},
 	errors::Error,
@@ -7,32 +10,64 @@ use mdbook::{
 use regex::Regex;
 
 pub struct Najan {
-	najan_xlit_regex: Regex,
 	najan_regex: Regex,
+	lexemes_by_lemma: HashMap<String, Lexeme>,
 }
 
 impl Najan {
 	pub fn new() -> Najan {
-		let najan_xlit_regex = Regex::new(r"\{([^{}]*)}").unwrap();
-		let najan_regex = Regex::new(r"\{\{([^{}]*)}}").unwrap();
-		Najan {
-			najan_xlit_regex,
-			najan_regex,
-		}
-	}
+		// Compile regex for custom markup.
+		let najan_regex = Regex::new(r"\{([^{}]*)}").unwrap();
 
-	fn expand_najan_xlit(&self, ch: &mut Chapter) {
-		ch.content = self
-			.najan_xlit_regex
-			.replace_all(&ch.content, "<naj>${1}</naj> ⟨${1}⟩")
-			.to_string();
+		// Get lexemes indexed by lemma.
+		let lexicon_bytes = include_str!("../../lexicon.yaml").as_bytes();
+		let lexicon = Lexicon::open(lexicon_bytes).unwrap();
+		let lexemes_by_lemma = lexicon
+			.lexemes
+			.into_iter()
+			.map(|lexeme| (lexeme.lemma.clone(), lexeme))
+			.collect();
+
+		Najan {
+			najan_regex,
+			lexemes_by_lemma,
+		}
 	}
 
 	fn expand_najan(&self, ch: &mut Chapter) {
 		ch.content = self
 			.najan_regex
-			.replace_all(&ch.content, "<naj>${1}</naj>")
+			.replace_all(&ch.content, |captures: &regex::Captures| -> String {
+				captures[1]
+					.split_whitespace()
+					.map(|word| self.expand_najan_word(word))
+					.collect::<Vec<_>>()
+					.join(" ")
+			})
 			.to_string();
+	}
+
+	fn expand_najan_word(&self, word: &str) -> String {
+		match self.lexemes_by_lemma.get(word) {
+			Some(lexeme) => {
+				let glosses = if lexeme.glosses.is_empty() {
+					String::new()
+				} else {
+					format!(" — {}", lexeme.glosses.join("; "))
+				};
+				let translation = lexeme
+					.translation
+					.as_ref()
+					.map(|translation| format!("<br>{translation}"))
+					.unwrap_or_default();
+				format!(
+					r#"<span class="najan-tooltip"><span class="najan"><a href="/dictionary.html#{word}" target="_blank">{word}</a></span><span class="najan-tooltip-text"><span class="najan">{word}</span> ⟨{word}⟩{glosses}{translation}</span></span>"#
+				)
+			}
+			None => format!(
+				r#"<span class="najan" style="text-decoration: wavy red underline">{word}</span>"#
+			),
+		}
 	}
 
 	fn expand_interlinear_gloss(&self, ch: &mut Chapter) {
@@ -61,9 +96,9 @@ impl Najan {
 fn generate_gloss(gloss: &[String]) -> String {
 	let mut result = "<table class='gloss'>".to_string();
 	// The first line is assumed to be a raw Najan transcription. Output it
-	// first in Najan script (by wrapping in {{}}) and then italicized.
+	// first in Najan script (by wrapping in {}) and then italicized.
 	let mut colspan = gloss[0].len();
-	result.push_str(&generate_gloss_row(&gloss[0], "{{", "}}"));
+	result.push_str(&generate_gloss_row(&gloss[0], "{", "}"));
 	result.push_str(&generate_gloss_row(&gloss[0], "<i>", "</i>"));
 	// Middle rows should be glosses, which can be output as-is.
 	for row in gloss[1..gloss.len() - 1].iter() {
@@ -108,7 +143,6 @@ impl Preprocessor for Najan {
 			if let BookItem::Chapter(ch) = item {
 				self.expand_interlinear_gloss(ch);
 				self.expand_najan(ch);
-				self.expand_najan_xlit(ch);
 			}
 		});
 		Ok(book)

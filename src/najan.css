@@ -7,8 +7,16 @@
 	--content-max-width: 850px;
 }
 
-naj {
+.najan {
 	font-family: Najan;
+}
+
+/* Remove Najan link coloring and underline. */
+.najan a {
+	color: inherit;
+}
+.najan a:hover {
+	text-decoration: none;
 }
 
 naj-xxl {
@@ -41,4 +49,100 @@ table.gloss td {
 
 table td[rowspan] {
 	background: var(--bg);
+}
+
+dt {
+	margin-top: 10pt;
+}
+
+/* Lexi Dictionary Settings */
+
+.lexi-entry {
+	position: relative;
+	display: flex;
+	white-space: pre;
+}
+
+.lexi-lexeme {
+	font-weight: bold;
+}
+
+/* Use pseudo-elements to separate lexemes/classes/glosses using custom text. */
+.lexi-lexeme + .lexi-class::before {
+	content: ' · ';
+}
+.lexi-lexeme + .lexi-gloss::before {
+	content: ' — ';
+}
+.lexi-gloss + .lexi-gloss::before {
+	content: '; ';
+}
+
+/* Show links in the margin when a dictionary entry is hovered. */
+
+.lexi-entry-link {
+	opacity: 0;
+	font-size: small;
+	text-decoration: none;
+	position: absolute;
+	transform: translateX(-100%);
+}
+dt:hover .lexi-entry-link {
+	opacity: 1;
+}
+
+/* Tooltip Settings */
+
+/* Prevent tooltips from getting clipped by containers. */
+.content, .table-wrapper {
+	overflow: visible;
+}
+
+/* Prevent lexi entry styling from clobbering najan-tooltip styling when a Najan
+tooltip is inside an entry. A couple important notes:
+
+1. These should be after the lexi settings to ensure correct precedence.
+2. These settings may need to be updated whenever the lexi rules are updated, in
+   case there are new conflicts. */
+.najan-tooltip {
+	position: relative;
+	display: inline-block;
+	white-space: initial;
+}
+.lexi-entry .najan-tooltip-text {
+	font-weight: initial;
+}
+
+.najan-tooltip > .najan {
+	border-bottom: 1px dotted;
+}
+
+.najan-tooltip-text {
+	width: 250px;
+	color: #fff;
+	background-color: #333;
+	border-radius: 6px;
+	padding: 10px;
+
+	/* Hide tooltip text by default, and animate visibility. */
+	visibility: hidden;
+	opacity: 0;
+	transition:visibility 0.2s linear, opacity 0.2s linear;
+
+	/* Position tooltip text above the Najan word. */
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -125px;
+}
+
+/* When the first Najan element in a tooltip is hovered, show the sibling
+tooltip text. Showing the tooltip text based on its sibling's hover status
+rather than the hover status of the tooltip text itself prevents the tooltip
+from getting stuck open when the mouse leaves the original word. That's
+especially important when trying to scan up the page for tooltips. */
+.najan-tooltip > .najan:hover + .najan-tooltip-text {
+	visibility: visible;
+	opacity: 1;
 }

@@ -36,10 +36,10 @@ lexemes:
   glosses: [a, an, the]
 - lemma: cay
   class: djʊ
-  definition: # TODO
+  definition: ... # TODO
   glosses: [change, evolve]
 - lemma: ci
   class: qa qac dan
-  definition: # TODO
+  definition: ... # TODO
   translation: marks the complement as an agent
   glosses: [by]

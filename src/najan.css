@@ -119,8 +119,8 @@ tooltip is inside an entry. A couple important notes:
 
 .najan-tooltip-text {
 	width: 250px;
-	color: #fff;
-	background-color: #333;
+	color: var(--fg);
+	background-color: var(--quote-bg);
 	border-radius: 6px;
 	padding: 10px;
 

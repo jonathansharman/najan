@@ -94,7 +94,7 @@ dt:hover .lexi-entry-link {
 /* Tooltip Settings */
 
 /* Prevent tooltips from getting clipped by containers. */
-.content, .table-wrapper {
+.menu-bar, .content, .table-wrapper {
 	overflow: visible;
 }
 
@@ -121,7 +121,9 @@ tooltip is inside an entry. A couple important notes:
 	width: 250px;
 	color: var(--fg);
 	background-color: var(--quote-bg);
+	border: 1px solid var(--quote-border);
 	border-radius: 6px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
 	padding: 10px;
 
 	/* Hide tooltip text by default, and animate visibility. */
@@ -131,10 +133,15 @@ tooltip is inside an entry. A couple important notes:
 
 	/* Position tooltip text above the Najan word. */
 	position: absolute;
-	z-index: 1;
+	z-index: calc(infinity);
 	bottom: 100%;
 	left: 50%;
 	margin-left: -125px;
+}
+
+.najan-tooltip-heading {
+	font-weight: bold;
+	font-size: 115%;
 }
 
 /* When the first Najan element in a tooltip is hovered, show the sibling

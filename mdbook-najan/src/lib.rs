@@ -58,10 +58,14 @@ impl Najan {
 				let translation = lexeme
 					.translation
 					.as_ref()
-					.map(|translation| format!("<br>{translation}"))
+					.map(|translation| {
+						format!(
+							r#"<div class="najan-tooltip-translation">{translation}</div>"#
+						)
+					})
 					.unwrap_or_default();
 				format!(
-					r#"<span class="najan-tooltip"><span class="najan"><a href="/dictionary.html#{word}" target="_blank">{word}</a></span><span class="najan-tooltip-text"><span class="najan">{word}</span> ⟨{word}⟩{glosses}{translation}</span></span>"#
+					r#"<span class="najan-tooltip"><span class="najan"><a href="/dictionary.html#{word}" target="_blank">{word}</a></span><span class="najan-tooltip-text"><div class="najan-tooltip-heading"><span class="najan">{word}</span> ⟨{word}⟩{glosses}</div>{translation}</span></span>"#
 				)
 			}
 			None => format!(

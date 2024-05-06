@@ -148,6 +148,10 @@ tooltip is inside an entry. A couple important notes:
 	font-size: 115%;
 }
 
+.najan-tooltip-translation {
+	display: block;
+}
+
 /* When the first Najan element in a tooltip is hovered, show the sibling
 tooltip text. Showing the tooltip text based on its sibling's hover status
 rather than the hover status of the tooltip text itself prevents the tooltip

@@ -63,6 +63,10 @@ dt {
 	white-space: pre;
 }
 
+.lexi-entry:target {
+	color: var(--sidebar-active);
+}
+
 .lexi-lexeme {
 	font-weight: bold;
 }

@@ -1,35 +1,41 @@
-use anyhow::Error;
-use clap::{Arg, ArgMatches, Command};
+use anyhow::Result;
+use clap::{Arg, Command};
 use mdbook::preprocess::{CmdPreprocessor, Preprocessor};
 use mdbook_najan::Najan;
 use semver::Version;
 use semver::VersionReq;
 
+use std::fs::File;
 use std::io;
-use std::process;
+
+const LEXICON_ARG: &str = "lexicon";
+const SUPPORTS_COMMAND: &str = "supports";
 
 pub fn make_app() -> Command {
 	Command::new("mdbook-najan")
-		.about("A mdbook preprocessor to add some shortcuts for the Najan book")
+		.about("A mdBook preprocessor to add some shortcuts for the Najan book")
+		.arg(Arg::new(LEXICON_ARG).index(1).required(true))
 		.subcommand(
-			Command::new("supports")
+			Command::new(SUPPORTS_COMMAND)
 				.arg(Arg::new("renderer").required(true))
 				.about("Check whether a renderer is supported by this preprocessor"),
 		)
 }
 
-fn main() {
+fn main() -> Result<()> {
 	let matches = make_app().get_matches();
-	let preprocessor = Najan::new();
-	if let Some(sub_args) = matches.subcommand_matches("supports") {
-		handle_supports(&preprocessor, sub_args);
-	} else if let Err(e) = handle_preprocessing(&preprocessor) {
-		eprintln!("{e}");
-		process::exit(1);
+
+	// Support all renderers implicitly.
+	if matches.subcommand_matches(SUPPORTS_COMMAND).is_some() {
+		return Ok(());
 	}
+
+	let lexicon_filename = matches.get_one::<String>(LEXICON_ARG).unwrap();
+	let preprocessor = Najan::new(File::open(lexicon_filename)?);
+	handle_preprocessing(&preprocessor)
 }
 
-fn handle_preprocessing(pre: &dyn Preprocessor) -> Result<(), Error> {
+fn handle_preprocessing(pre: &dyn Preprocessor) -> Result<()> {
 	let (ctx, book) = CmdPreprocessor::parse_input(io::stdin())?;
 
 	let book_version = Version::parse(&ctx.mdbook_version)?;
@@ -49,18 +55,4 @@ fn handle_preprocessing(pre: &dyn Preprocessor) -> Result<(), Error> {
 	serde_json::to_writer(io::stdout(), &processed_book)?;
 
 	Ok(())
-}
-
-fn handle_supports(pre: &dyn Preprocessor, sub_args: &ArgMatches) -> ! {
-	let renderer = sub_args
-		.get_one::<String>("renderer")
-		.expect("Required argument");
-	let supported = pre.supports_renderer(renderer);
-
-	// Signal whether the renderer is supported by exiting with 1 or 0.
-	if supported {
-		process::exit(0);
-	} else {
-		process::exit(1);
-	}
 }

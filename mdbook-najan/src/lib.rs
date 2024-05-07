@@ -1,4 +1,4 @@
-use std::collections::HashMap;
+use std::{collections::HashMap, io::Read};
 
 use lexi::lexicon::{Lexeme, Lexicon};
 use mdbook::{
@@ -15,13 +15,12 @@ pub struct Najan {
 }
 
 impl Najan {
-	pub fn new() -> Najan {
+	pub fn new<R: Read>(lexicon_reader: R) -> Najan {
 		// Compile regex for custom markup.
 		let najan_regex = Regex::new(r"\{([^{}]*)}").unwrap();
 
 		// Get lexemes indexed by lemma.
-		let lexicon_bytes = include_str!("../../lexicon.yaml").as_bytes();
-		let lexicon = Lexicon::open(lexicon_bytes).unwrap();
+		let lexicon = Lexicon::open(lexicon_reader).unwrap();
 		let lexemes_by_lemma = lexicon
 			.lexemes
 			.into_iter()
@@ -125,12 +124,6 @@ fn generate_gloss_row(row: &str, left: &str, right: &str) -> String {
 			.collect::<Vec<String>>()
 			.join("")
 	)
-}
-
-impl Default for Najan {
-	fn default() -> Self {
-		Self::new()
-	}
 }
 
 impl Preprocessor for Najan {

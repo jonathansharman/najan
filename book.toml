@@ -6,6 +6,7 @@ src = "src"
 title = "Najan"
 
 [preprocessor.najan]
+command = "mdbook-najan lexicon.yaml"
 
 [output.html]
 additional-css = ["src/najan.css"]

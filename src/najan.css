@@ -11,8 +11,10 @@
 	font-family: Najan;
 }
 
-/* Remove Najan link coloring and underline. */
-.najan a {
+/* Remove Najan link coloring and underline. This uses :not(#dummy) to
+artificially increase the specificity of the selector so that it wins vs. the
+default link color styling of mdBook. */
+.najan a:not(#dummy) {
 	color: inherit;
 }
 .najan a:hover {

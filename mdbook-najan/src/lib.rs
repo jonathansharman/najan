@@ -64,7 +64,7 @@ impl Najan {
 					})
 					.unwrap_or_default();
 				format!(
-					r#"<span class="najan-tooltip"><span class="najan"><a href="/dictionary.html#{word}" target="_blank">{word}</a></span><span class="najan-tooltip-text"><span class="najan-tooltip-heading"><span class="najan">{word}</span> ⟨{word}⟩{glosses}</span>{translation}</span></span>"#
+					r#"<span class="najan-tooltip"><span class="najan"><a href="./dictionary.html#{word}" target="_blank">{word}</a></span><span class="najan-tooltip-text"><span class="najan-tooltip-heading"><span class="najan">{word}</span> ⟨{word}⟩{glosses}</span>{translation}</span></span>"#
 				)
 			}
 			None => format!(

@@ -31,17 +31,17 @@ expressed in extended Backus-Naur form as follows:
 > <br>
 > <lhs>|</lhs> ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩ ⟨**VP**⟩
 > <br>
-> <lhs>|</lhs> "{txa}" ⟨**VP**⟩
+> <lhs>|</lhs> {txa} ⟨**VP**⟩
 > <br>
 > <lhs>|</lhs> ⟨**ᴄᴏɴᴊ**⟩ ⟨**VP**⟩ ⟨**VP**⟩
 >
 > <lhs>**stative VP** ⇒</lhs> [ ⟨**aspect ᴘᴛᴄʟ**⟩ ] ⟨**stative verb**⟩
 > <br>
-> <lhs>|</lhs> "{ma}" ⟨**stative VP**⟩
+> <lhs>|</lhs> {ma} ⟨**stative VP**⟩
 > <br>
 > <lhs>|</lhs> ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩ ⟨**stative VP**⟩
 > <br>
-> <lhs>|</lhs> "{txa}" ⟨**stative VP**⟩
+> <lhs>|</lhs> {txa} ⟨**stative VP**⟩
 > <br>
 > <lhs>|</lhs> ⟨**ᴄᴏɴᴊ**⟩ ⟨**stative VP**⟩ ⟨**stative VP**⟩
 >
@@ -53,12 +53,12 @@ expressed in extended Backus-Naur form as follows:
 > <br>
 > <lhs>|</lhs> ⟨**quotation**⟩
 > <br>
-> <lhs>|</lhs> "{txa}" ⟨**NP**⟩
+> <lhs>|</lhs> {txa} ⟨**NP**⟩
 > <br>
 > <lhs>|</lhs> ⟨**ᴄᴏɴᴊ**⟩ ⟨**NP**⟩ ⟨**NP**⟩
 >
 > <lhs>**ᴅᴇᴛ phrase** ⇒</lhs> ⟨**ᴅᴇᴛ**⟩ [ ⟨**ᴘʀᴏ**⟩ ] ⟨**stative VP**⟩
 >
-> <lhs>**quotation** ⇒</lhs> "{tca}" ⟨**quoted word**⟩+ "{tca}"
+> <lhs>**quotation** ⇒</lhs> {tca} ⟨**quoted word**⟩+ {tca}
 >
-> <lhs>**quoted word** ⇒</lhs> ⟨**word**⟩ - "{tca}" - "{tsa}" | "{tsa tca}" | "{tsa tsa}"
+> <lhs>**quoted word** ⇒</lhs> ⟨**word**⟩ - {tca} - {tsa} | {tsa tca} | {tsa tsa}

@@ -59,6 +59,6 @@ expressed in extended Backus-Naur form as follows:
 >
 > <lhs>**ᴅᴇᴛ phrase** ⇒</lhs> ⟨**ᴅᴇᴛ**⟩ [ ⟨**ᴘʀᴏ**⟩ ] ⟨**stative VP**⟩
 >
-> <lhs>**quotation** ⇒</lhs> "{tca}" ⟨**quoted word**⟩ "{tca}"
+> <lhs>**quotation** ⇒</lhs> "{tca}" ⟨**quoted word**⟩+ "{tca}"
 >
 > <lhs>**quoted word** ⇒</lhs> ⟨**word**⟩ - "{tca}" - "{tsa}" | "{tsa tca}" | "{tsa tsa}"

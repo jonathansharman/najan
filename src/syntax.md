@@ -2,13 +2,12 @@
 
 Najan has the following word classes:
 
-- Stative verbs ({loð}, _state_)
-- Dynamic verbs ({djʊ}, _action_)
+- Verbs ({fyas})
 - Determiners ({qa saθ dan}, _means of instantiation_)
 - Pronouns ({nʊ zax kʊv}, _borrowed identity_)
 - Prepositions ({qa qac dan}, _means of relation_)
 - Conjunctions ({qa cob vom}, _logical operator_)
-- Particles ({lʊg}, _particle_)
+- Particles ({lʊg})
 
 Najan has no nouns, adverbs, or adjectives. Verb phrases, pronouns, and
 [determiner phrases](./determiner-phrases.md) can all function as noun phrases.
@@ -25,25 +24,15 @@ expressed in extended Backus-Naur form as follows:
 > <br>
 > <lhs>|</lhs> ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩ ⟨**clause**⟩
 >
-> <lhs>**verb phrase (VP)** ⇒</lhs> [ ⟨**aspect ᴘᴛᴄʟ**⟩ ] ⟨**dynamic verb**⟩
+> <lhs>**verb phrase (VP)** ⇒</lhs> [ ⟨**aspect ᴘᴛᴄʟ**⟩ ] ⟨**verb**⟩
 > <br>
-> <lhs>|</lhs> ⟨**stative VP**⟩
+> <lhs>|</lhs> {ma} ⟨**VP**⟩
 > <br>
 > <lhs>|</lhs> ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩ ⟨**VP**⟩
 > <br>
 > <lhs>|</lhs> {txa} ⟨**VP**⟩
 > <br>
 > <lhs>|</lhs> ⟨**ᴄᴏɴᴊ**⟩ ⟨**VP**⟩ ⟨**VP**⟩
->
-> <lhs>**stative VP** ⇒</lhs> [ ⟨**aspect ᴘᴛᴄʟ**⟩ ] ⟨**stative verb**⟩
-> <br>
-> <lhs>|</lhs> {ma} ⟨**stative VP**⟩
-> <br>
-> <lhs>|</lhs> ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩ ⟨**stative VP**⟩
-> <br>
-> <lhs>|</lhs> {txa} ⟨**stative VP**⟩
-> <br>
-> <lhs>|</lhs> ⟨**ᴄᴏɴᴊ**⟩ ⟨**stative VP**⟩ ⟨**stative VP**⟩
 >
 > <lhs>**noun phrase (NP)** ⇒</lhs> ⟨**VP**⟩
 > <br>
@@ -57,7 +46,7 @@ expressed in extended Backus-Naur form as follows:
 > <br>
 > <lhs>|</lhs> ⟨**ᴄᴏɴᴊ**⟩ ⟨**NP**⟩ ⟨**NP**⟩
 >
-> <lhs>**ᴅᴇᴛ phrase** ⇒</lhs> ⟨**ᴅᴇᴛ**⟩ [ ⟨**ᴘʀᴏ**⟩ ] ⟨**stative VP**⟩
+> <lhs>**ᴅᴇᴛ phrase** ⇒</lhs> ⟨**ᴅᴇᴛ**⟩ [ ⟨**ᴘʀᴏ**⟩ ] ⟨**VP**⟩
 >
 > <lhs>**quotation** ⇒</lhs> {tca} ⟨**quoted word**⟩+ {tca}
 >

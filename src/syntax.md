@@ -22,29 +22,45 @@ expressed in extended Backus-Naur form as follows:
 <!-- prettier-ignore -->
 > <lhs>**clause** ⇒</lhs> ⟨**mood ᴘᴛᴄʟ**⟩ ⟨**VP**⟩
 > <br>
-> <lhs>|</lhs> ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩ ⟨**clause**⟩
+> <lhs>|</lhs> ⟨**PP**⟩ ⟨**clause**⟩
+> <br>
+> <lhs>|</lhs> ⟨**restrictive clause**⟩ ⟨**clause**⟩
+> <br>
+> <lhs>|</lhs> ⟨**non-restrictive clause**⟩ ⟨**clause**⟩
+>
+> <lhs>**ᴘʀᴇᴘ phrase (PP)** ⇒</lhs> ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩
+>
+> <lhs>**restrictive clause** ⇒</lhs> {nʊ} ⟨**VP**⟩
+>
+> <lhs>**non-restrictive clause** ⇒</lhs> {vew} ⟨**VP**⟩
 >
 > <lhs>**verb phrase (VP)** ⇒</lhs> [ ⟨**aspect ᴘᴛᴄʟ**⟩ ] ⟨**verb**⟩
 > <br>
 > <lhs>|</lhs> {ma} ⟨**VP**⟩
 > <br>
-> <lhs>|</lhs> ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩ ⟨**VP**⟩
+> <lhs>|</lhs> ⟨**PP**⟩ ⟨**VP**⟩
+> <br>
+> <lhs>|</lhs> ⟨**restrictive clause**⟩ ⟨**VP**⟩
+> <br>
+> <lhs>|</lhs> ⟨**non-restrictive clause**⟩ ⟨**VP**⟩
 > <br>
 > <lhs>|</lhs> {txa} ⟨**VP**⟩
 > <br>
 > <lhs>|</lhs> ⟨**ᴄᴏɴᴊ**⟩ ⟨**VP**⟩ ⟨**VP**⟩
 >
-> <lhs>**noun phrase (NP)** ⇒</lhs> ⟨**VP**⟩
-> <br>
-> <lhs>|</lhs> ⟨**ᴘʀᴏ**⟩
+> <lhs>**noun phrase (NP)** ⇒</lhs> ⟨**VP**⟩ | ⟨**restricted NP**⟩
+>
+> <lhs>**restricted NP** ⇒</lhs> ⟨**ᴘʀᴏ**⟩
 > <br>
 > <lhs>|</lhs> ⟨**ᴅᴇᴛ phrase**⟩
 > <br>
 > <lhs>|</lhs> ⟨**quotation**⟩
 > <br>
-> <lhs>|</lhs> {txa} ⟨**NP**⟩
+> <lhs>|</lhs> ⟨**non-restrictive clause**⟩ ⟨**restricted NP**⟩
 > <br>
-> <lhs>|</lhs> ⟨**ᴄᴏɴᴊ**⟩ ⟨**NP**⟩ ⟨**NP**⟩
+> <lhs>|</lhs> {txa} ⟨**restricted NP**⟩
+> <br>
+> <lhs>|</lhs> ⟨**ᴄᴏɴᴊ**⟩ ⟨**restricted NP**⟩ ⟨**restricted NP**⟩
 >
 > <lhs>**ᴅᴇᴛ phrase** ⇒</lhs> ⟨**ᴅᴇᴛ**⟩ [ ⟨**ᴘʀᴏ**⟩ ] ⟨**VP**⟩
 >

@@ -21,11 +21,6 @@ default link color styling of mdBook. */
 	text-decoration: none;
 }
 
-naj-xxl {
-	font-family: Najan;
-	font-size: xx-large;
-}
-
 lhs {
 	display: inline-block;
 	width: 200px;
@@ -55,6 +50,30 @@ table td[rowspan] {
 
 dt {
 	margin-top: 10pt;
+}
+
+/* Alphabet Table Settings */
+
+.alphabet td {
+	display: flex;
+	width: 700px;
+}
+
+.alphabet span {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.alphabet div {
+	display: flex;
+	justify-content: center;
+}
+
+.alphabet div:first-child {
+	font-family: Najan;
+	font-size: xx-large;
 }
 
 /* Lexi Dictionary Settings */

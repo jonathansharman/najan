@@ -10,18 +10,142 @@ the example phones, due to the allophonic variations described in
 
 <div class="caption">The Najan Alphabet</div>
 
-<!-- prettier-ignore-start -->
-| | | | | | |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| <naj-xxl>k</naj-xxl> <br> ⟨kθat⟩ \[kʰ\] | <naj-xxl>g</naj-xxl> <br> ⟨glew⟩ \[g\] | <naj-xxl>t</naj-xxl> <br> ⟨tedð⟩ \[tʰ\] | <naj-xxl>d</naj-xxl> <br> ⟨dewr⟩ \[d\] | <naj-xxl>p</naj-xxl> <br> ⟨pul⟩ \[pʰ\] | <naj-xxl>b</naj-xxl> <br> ⟨byas⟩ \[b\] |
-| <naj-xxl>h</naj-xxl> <br> ⟨hak⟩ \[x\] | <naj-xxl>q</naj-xxl> <br> ⟨qot⟩ \[ɣ\] | <naj-xxl>s</naj-xxl> <br> ⟨sɪj⟩ \[s\] | <naj-xxl>z</naj-xxl> <br> ⟨zaw⟩ \[z\] | <naj-xxl>f</naj-xxl> <br> ⟨foj⟩ \[f\] | <naj-xxl>v</naj-xxl> <br> ⟨vis⟩ \[v\] |
-| <naj-xxl>θ</naj-xxl> <br> ⟨θatc⟩ \[θ\] | <naj-xxl>ð</naj-xxl> <br> ⟨ðʊc⟩ \[ð\] | <naj-xxl>c</naj-xxl> <br> ⟨ceŋ⟩ \[ʃ\] | <naj-xxl>j</naj-xxl> <br> ⟨jok⟩ \[ʒ\] | <naj-xxl>x</naj-xxl> <br> ⟨xotθ⟩ \[ɾ̥ʰ\] | <naj-xxl>r</naj-xxl> <br> ⟨rayŋ⟩ \[ɾ\] |
-| <naj-xxl>ŋ</naj-xxl> <br> ⟨ŋʊp⟩ \[ŋ\] | <naj-xxl>n</naj-xxl> <br> ⟨nekθ⟩ \[n\] | <naj-xxl>m</naj-xxl> <br> ⟨muts⟩ \[m\] | <naj-xxl>y</naj-xxl> <br> ⟨yan⟩ \[j\] | <naj-xxl>l</naj-xxl> <br> ⟨lɪn⟩ \[l\] | <naj-xxl>w</naj-xxl> <br> ⟨woð⟩ \[w\] |
-
-| | | | | | | |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| <naj-xxl>ʊ</naj-xxl> <br> ⟨ʊlf⟩ \[ʊ\] | <naj-xxl>a</naj-xxl> <br> ⟨adz⟩ \[ä\] | <naj-xxl>e</naj-xxl> <br> ⟨eŋg⟩ \[ɛ\] | <naj-xxl>ɪ</naj-xxl> <br> ⟨ɪpθ⟩ \[ɪ\] | <naj-xxl>i</naj-xxl> <br> ⟨idj⟩ \[i\] | <naj-xxl>u</naj-xxl> <br> ⟨uc⟩ \[u\] | <naj-xxl>o</naj-xxl> <br> ⟨oz⟩ \[o̞\] |
-<!-- prettier-ignore-end -->
+<table class="alphabet">
+	<tr><td>
+		<span>
+			<div>k</div>
+			<div>⟨kθat⟩ [kʰ]</div>
+		</span>
+		<span>
+			<div>g</div>
+			<div>⟨glew⟩ [g]</div>
+		</span>
+		<span>
+			<div>t</div>
+			<div>⟨tedð⟩ [tʰ]</div>
+		</span>
+		<span>
+			<div>d</div>
+			<div>⟨dewr⟩ [d]</div>
+		</span>
+		<span>
+			<div>p</div>
+			<div>⟨pul⟩ [pʰ]</div>
+		</span>
+		<span>
+			<div>b</div>
+			<div>⟨byas⟩ [b]</div>
+		</span>
+	</td></tr>
+	<tr><td>
+		<span>
+			<div>h</div>
+			<div>⟨hak⟩ [x]</div>
+		</span>
+		<span>
+			<div>q</div>
+			<div>⟨qot⟩ [ɣ]</div>
+		</span>
+		<span>
+			<div>s</div>
+			<div>⟨sɪj⟩ [s]</div>
+		</span>
+		<span>
+			<div>z</div>
+			<div>⟨zaw⟩ [z]</div>
+		</span>
+		<span>
+			<div>f</div>
+			<div>⟨foj⟩ [f]</div>
+		</span>
+		<span>
+			<div>v</div>
+			<div>⟨vis⟩ [v]</div>
+		</span>
+	</td></tr>
+	<tr><td>
+		<span>
+			<div>θ</div>
+			<div>⟨θatc⟩ [θ]</div>
+		</span>
+		<span>
+			<div>ð</div>
+			<div>⟨ðʊc⟩ [ð]</div>
+		</span>
+		<span>
+			<div>c</div>
+			<div>⟨ceŋ⟩ [ʃ]</div>
+		</span>
+		<span>
+			<div>j</div>
+			<div>⟨jok⟩ [ʒ] </div>
+		</span>
+		<span>
+			<div>x</div>
+			<div>⟨xotθ⟩ [ɾ̥ʰ]</div>
+		</span>
+		<span>
+			<div>r</div>
+			<div>⟨rayŋ⟩ [ɾ]</div>
+		</span>
+	</td></tr>
+	<tr><td>
+		<span>
+			<div>ŋ</div>
+			<div>⟨ŋʊp⟩ [ŋ]</div>
+		</span>
+		<span>
+			<div>n</div>
+			<div>⟨nekθ⟩ [n]</div>
+		</span>
+		<span>
+			<div>m</div>
+			<div>⟨muts⟩ [m]</div>
+		</span>
+		<span>
+			<div>y</div>
+			<div>⟨yan⟩ [j]</div>
+		</span>
+		<span>
+			<div>l</div>
+			<div>⟨lɪn⟩ [l]</div>
+		</span>
+		<span>
+			<div>w</div>
+			<div>⟨woð⟩ [w]</div>
+		</span>
+	</td></tr>
+	<tr><td>
+		<span>
+			<div>ʊ</div>
+			<div>⟨ʊlf⟩ [ʊ]</div>
+		</span>
+		<span>
+			<div>a</div>
+			<div>⟨adz⟩ [ä]</div>
+		</span>
+		<span>
+			<div>e</div>
+			<div>⟨eŋg⟩ [ɛ]</div>
+		</span>
+		<span>
+			<div>ɪ</div>
+			<div>⟨ɪpθ⟩ [ɪ]</div>
+		</span>
+		<span>
+			<div>i</div>
+			<div>⟨idj⟩ [i]</div>
+		</span>
+		<span>
+			<div>u</div>
+			<div>⟨uc⟩ [u]</div>
+		</span>
+		<span>
+			<div>o</div>
+			<div>⟨oz⟩ [o̞]</div>
+		</span>
+	</td></tr>
+</table>
 
 Sentences are written left-to-right, then top-to-bottom. Najan has no
 punctuation except spaces between words.

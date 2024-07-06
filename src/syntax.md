@@ -20,50 +20,50 @@ Najan is a deterministic context-free language whose formal grammar can be
 expressed in extended Backus-Naur form as follows:
 
 <!-- prettier-ignore -->
-> <lhs>**clause** ⇒</lhs> ⟨**mood ᴘᴛᴄʟ**⟩ ⟨**VP**⟩
+> <span class="lhs">**clause** ⇒</span> ⟨**mood ᴘᴛᴄʟ**⟩ ⟨**VP**⟩
 > <br>
-> <lhs>|</lhs> ⟨**PP**⟩ ⟨**clause**⟩
+> <span class="lhs">|</span> ⟨**PP**⟩ ⟨**clause**⟩
 > <br>
-> <lhs>|</lhs> ⟨**restrictive clause**⟩ ⟨**clause**⟩
+> <span class="lhs">|</span> ⟨**restrictive clause**⟩ ⟨**clause**⟩
 > <br>
-> <lhs>|</lhs> ⟨**non-restrictive clause**⟩ ⟨**clause**⟩
+> <span class="lhs">|</span> ⟨**non-restrictive clause**⟩ ⟨**clause**⟩
 >
-> <lhs>**ᴘʀᴇᴘ phrase (PP)** ⇒</lhs> ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩
+> <span class="lhs">**ᴘʀᴇᴘ phrase (PP)** ⇒</span> ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩
 >
-> <lhs>**restrictive clause** ⇒</lhs> {nʊ} ⟨**VP**⟩
+> <span class="lhs">**restrictive clause** ⇒</span> {nʊ} ⟨**VP**⟩
 >
-> <lhs>**non-restrictive clause** ⇒</lhs> {vew} ⟨**VP**⟩
+> <span class="lhs">**non-restrictive clause** ⇒</span> {vew} ⟨**VP**⟩
 >
-> <lhs>**verb phrase (VP)** ⇒</lhs> [ ⟨**aspect ᴘᴛᴄʟ**⟩ ] ⟨**verb**⟩
+> <span class="lhs">**verb phrase (VP)** ⇒</span> [ ⟨**aspect ᴘᴛᴄʟ**⟩ ] ⟨**verb**⟩
 > <br>
-> <lhs>|</lhs> {ma} ⟨**VP**⟩
+> <span class="lhs">|</span> {ma} ⟨**VP**⟩
 > <br>
-> <lhs>|</lhs> ⟨**PP**⟩ ⟨**VP**⟩
+> <span class="lhs">|</span> ⟨**PP**⟩ ⟨**VP**⟩
 > <br>
-> <lhs>|</lhs> ⟨**restrictive clause**⟩ ⟨**VP**⟩
+> <span class="lhs">|</span> ⟨**restrictive clause**⟩ ⟨**VP**⟩
 > <br>
-> <lhs>|</lhs> ⟨**non-restrictive clause**⟩ ⟨**VP**⟩
+> <span class="lhs">|</span> ⟨**non-restrictive clause**⟩ ⟨**VP**⟩
 > <br>
-> <lhs>|</lhs> {txa} ⟨**VP**⟩
+> <span class="lhs">|</span> {txa} ⟨**VP**⟩
 > <br>
-> <lhs>|</lhs> ⟨**ᴄᴏɴᴊ**⟩ ⟨**VP**⟩ ⟨**VP**⟩
+> <span class="lhs">|</span> ⟨**ᴄᴏɴᴊ**⟩ ⟨**VP**⟩ ⟨**VP**⟩
 >
-> <lhs>**noun phrase (NP)** ⇒</lhs> ⟨**VP**⟩ | ⟨**restricted NP**⟩
+> <span class="lhs">**noun phrase (NP)** ⇒</span> ⟨**VP**⟩ | ⟨**restricted NP**⟩
 >
-> <lhs>**restricted NP** ⇒</lhs> ⟨**ᴘʀᴏ**⟩
+> <span class="lhs">**restricted NP** ⇒</span> ⟨**ᴘʀᴏ**⟩
 > <br>
-> <lhs>|</lhs> ⟨**ᴅᴇᴛ phrase**⟩
+> <span class="lhs">|</span> ⟨**ᴅᴇᴛ phrase**⟩
 > <br>
-> <lhs>|</lhs> ⟨**quotation**⟩
+> <span class="lhs">|</span> ⟨**quotation**⟩
 > <br>
-> <lhs>|</lhs> ⟨**non-restrictive clause**⟩ ⟨**restricted NP**⟩
+> <span class="lhs">|</span> ⟨**non-restrictive clause**⟩ ⟨**restricted NP**⟩
 > <br>
-> <lhs>|</lhs> {txa} ⟨**restricted NP**⟩
+> <span class="lhs">|</span> {txa} ⟨**restricted NP**⟩
 > <br>
-> <lhs>|</lhs> ⟨**ᴄᴏɴᴊ**⟩ ⟨**restricted NP**⟩ ⟨**restricted NP**⟩
+> <span class="lhs">|</span> ⟨**ᴄᴏɴᴊ**⟩ ⟨**restricted NP**⟩ ⟨**restricted NP**⟩
 >
-> <lhs>**ᴅᴇᴛ phrase** ⇒</lhs> ⟨**ᴅᴇᴛ**⟩ [ ⟨**ᴘʀᴏ**⟩ ] ⟨**VP**⟩
+> <span class="lhs">**ᴅᴇᴛ phrase** ⇒</span> ⟨**ᴅᴇᴛ**⟩ [ ⟨**ᴘʀᴏ**⟩ ] ⟨**VP**⟩
 >
-> <lhs>**quotation** ⇒</lhs> {tca} ⟨**quoted word**⟩+ {tca}
+> <span class="lhs">**quotation** ⇒</span> {tca} ⟨**quoted word**⟩+ {tca}
 >
-> <lhs>**quoted word** ⇒</lhs> ⟨**word**⟩ - {tca} - {tsa} | {tsa tca} | {tsa tsa}
+> <span class="lhs">**quoted word** ⇒</span> ⟨**word**⟩ - {tca} - {tsa} | {tsa tca} | {tsa tsa}

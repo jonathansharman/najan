@@ -21,7 +21,7 @@ default link color styling of mdBook. */
 	text-decoration: none;
 }
 
-lhs {
+.lhs {
 	display: inline-block;
 	width: 200px;
 	text-align: right;

@@ -1,35 +1,34 @@
 # Arguments
 
-Arguments to a verb are expressed using optional modifiers, each marked for
-[case](./case.md). As a result, arguments have no fixed order, and a single verb
-can take multiple arguments of the same semantic role.
+Arguments to a verb are expressed as optional [prepositional
+phrases](./prepositional-phrases.md). As a result, arguments have no fixed
+order, and a single verb can take multiple arguments of the same semantic role.
 
-In the following, _you_ and _I_ are joint agents of the eating of a single
-orange:
+In the following, _you_ and _I_ are both eating the same fruit:
 
 <gloss>
-je  | ci | ko | ci | to  | rʊ | za | rabʊm  | tcet
-sɴs | ᴀ  | I  | ᴀ  | you | ᴘ  | an | orange | eat
-You and I are eating an orange.
+je  | qa | ko | qa | to  | ŋɪ  | za | blʊθ  | tcet
+sɴs | by | me | by | you | sʙᴊ | an | fruit | is eaten
+You and I are eating a fruit.
 </gloss>
 
-Reversing the order of the arguments usually does not affecting the meaning:
+Reversing the order of the arguments usually does not affect the meaning:
 
 <gloss>
-je  | rʊ | za | rabʊm  | ci | ko | ci | to  | tcet
-sɴs | ᴘ  | an | orange | ᴀ  | I  | ᴀ  | you | eat
-An orange is being eaten by you and me.
+je  | ŋɪ  | za | blʊθ  | qa | ko | qa | to  | tcet
+sɴs | sʙᴊ | an | fruit | by | me | by | you | is eaten
+A fruit is being eaten by you and me.
 </gloss>
 
 However, sometimes order does matter, for instance when [universal and
 existential quantification](./determiner-phrases.md#ordering-determiner-phrases)
 are involved.
 
-In this example, the ball and glove are thrown as part of the same action:
+In the next example, the ball and glove are thrown as part of the same action:
 
 <gloss>
-je  | rʊ | gi  | ðaz  | rʊ | gi  | xovneθ | ci | ko | θe  | wis
-sɴs | ᴘ  | the | ball | ᴘ  | the | glove  | ᴀ  | I  | ᴘғᴠ | throw
+je  | ŋɪ  | gi  | ðaz  | ŋɪ  | gi  | xopf  | ci | ko | θe  | wis
+sɴs | sʙᴊ | the | ball | sʙᴊ | the | glove | ᴀ  | I  | ᴘғᴠ | throw
 I threw the ball and glove.
 </gloss>
 

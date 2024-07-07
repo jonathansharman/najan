@@ -2,8 +2,8 @@
 
 Every clause in Najan begins with a mood particle expressing how the speaker
 relates the clause to the world or to other possible worlds. The mood particles
-are clipped from corresponding dynamic verbs, e.g. {je} (sensory indicative
-mood) from {jec} (_sense_, _perceive_, or _intuit_).
+are clipped from corresponding verbs, e.g. {je} (sensory indicative mood) from
+{jec} (_sense_, _perceive_, or _intuit_).
 
 <table>
 	<thead>
@@ -12,7 +12,7 @@ mood) from {jec} (_sense_, _perceive_, or _intuit_).
 			<th>Mood</th>
 			<th>Gloss</th>
 			<th>Particle</th>
-			<th>Dynamic Verb</th>
+			<th>Verb</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -121,8 +121,8 @@ missing information that would make the complete clause true. To this
 question...
 
 <gloss>
-gwɪ | ŋɪ  | vel  | qa  | to  | kʊv
-ᴄᴏ̨  | sʙᴊ | what | ɢᴇɴ | you | names
+gwɪ | ŋɪ  | vel  | qa | to  | kʊv
+ᴄᴏ̨  | sʙᴊ | what | of | you | names
 What names you? (What is your name?)
 </gloss>
 

@@ -1,6 +1,5 @@
 classes:
-- loð # state (stative verb)
-- djʊ # action (dynamic verb)
+- loð # state (verb)
 - qa saθ dan # means of instantiation (determiner)
 - nʊ zax kʊv # borrowed identity (pronoun)
 - qa qac dan # means of relation (preposition)
@@ -35,7 +34,7 @@ lexemes:
   translation: generic determiner, used to refer to a complement in a general, nonspecific sense
   glosses: [a, an, the]
 - lemma: cay
-  class: djʊ
+  class: loð
   definition: ... # TODO
   glosses: [change, evolve]
 - lemma: ci

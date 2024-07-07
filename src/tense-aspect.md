@@ -18,11 +18,11 @@ assumed from the verb's aspect.
 | Habitual   | ʜᴀʙ   | {fxe}    |
 | Gnomic     | ɢɴᴏ   | {hon}    |
 
-The **continuous** (ᴄᴏɴᴛ) aspect views a verb as ongoing or in progress. It can
-apply to both stative and dynamic verbs (Najan does not distinguish between
-continuous and progressive aspects), and it is the default aspect, in the
-absence of an aspect particle. Without temporal arguments or additional context,
-a continuous verb phrase may be assumed to be in present tense.
+The **continuous** (ᴄᴏɴᴛ) aspect views a verb as ongoing or in progress. It is
+the default aspect, in the absence of an aspect particle. Without temporal
+arguments or additional context, a continuous verb phrase may be assumed to be
+in present tense. Najan does not distinguish between continuous and progressive
+aspects.
 
 The **perfective** (ᴘғᴠ) aspect views a verb in its entirety, as a complete
 action or state. Without other clues, a perfective verb phrase is most likely to
@@ -49,34 +49,31 @@ phrases](./determiner-phrases.md) as arguments and express an aphorism, a
 mathematical truth, etc.
 
 <gloss>
-ŋo  | ŋɪ  | ðu  | zʊn | qa  | ðu  | djʊr | hon | dzul
-ᴅᴇᴅ | sʙᴊ | ɢɴʀ | two | ɢᴇɴ | ɢɴʀ | one  | ɢɴᴏ | is-greater-than
+ŋo  | ŋɪ  | ðu  | zʊn | ve   | ðu  | djʊr | hon | dzul
+ᴅᴇᴅ | sʙᴊ | ɢɴʀ | two | than | ɢɴʀ | one  | ɢɴᴏ | is large
 Two is greater than one. (Things of size two are greater than things of size one.)
 </gloss>
 
-For a stative gnomic verb phrase, such as in the preceding example, the
-distinction from the continuous aspect is subtle. Whereas the given gnomic
-version expresses a general mathematical fact, the continuous version (without
-{hon}) would leave open the possibility that two might not have always been or
-might not always be greater than one.
+The gnomic verb phrase above expresses a general mathematical fact. If it were
+written in the continuous aspect instead (without {hon}), it would leave open
+the possibility that two might not have always been or might not always be
+greater than one.
 
 ## Inferring Tense from Context
 
 As described above, aspect markers can also carry a small amount of tense
 information. For example, perfective aspect often implies past tense. However,
-these associations are secondary to context. Suppose I first say:
+these associations are secondary to context. Suppose a speaker first says:
 
 <gloss>
-lay | lɪ  | ŋodl     | ci | ko | θe  | vɪg
-ᴄᴍs | ʟᴏᴄ | tomorrow | ᴀ  | I  | ᴘғᴠ | go
+lay | lɪ | ŋodl     | ŋɪ  | ko | θe  | vɪg
+ᴄᴍs | at | tomorrow | sʙᴊ | I  | ᴘғᴠ | go
 I will go tomorrow.
 </gloss>
 
-At this point I have established tomorrow (i.e. the future) as the time period
-under discussion, using a [temporal argument](./case.md#spatio-temporal-cases).
-Suppose I then say {je ci ko θe tɪz}. In isolation, since this sentence is in
-perfective aspect, one might interpret it to mean _I have spoken_ (present
-perfect) or _I spoke_ (simple past). However, since the context has already been
-established as in the future (thanks to the locative argument), one should
-instead translate the second clause as _I will speak_ or _I will have spoken_
-sometime after I have gone tomorrow.
+By using the preposition {lɪ}, the speaker has established a context in the
+future. Suppose the speaker then says {je ci ko θe tɪz}. In isolation, since
+this sentence is in perfective aspect, one might interpret it as _I have spoken_
+(present perfect) or _I spoke_ (simple past). However, since future tense has
+already been established, one should instead translate the second clause as _I
+will speak_ or _I will have spoken_ (sometime tomorrow, after having gone).

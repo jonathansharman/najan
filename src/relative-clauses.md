@@ -1,6 +1,6 @@
-# Adverbial Clauses
+# Relative Clauses
 
-An adverbial clause modifies a verb phrase, noun phrase, or clause using a verb
+A relative clause modifies a verb phrase, noun phrase, or clause using a verb
 phrase complement whose implicit subject is the modified head.
 
 A **restrictive clause**, beginning with {nʊ} (_that_), restricts its head to
@@ -13,7 +13,7 @@ the | that | is good | dog
 the good dog
 </gloss>
 
-Here, the adverbial clause {nʊ tir} helps define the entity the speaker is
+Here, the relative clause {nʊ tir} helps define the entity the speaker is
 referring to: one belonging to the set of excellent dogs. Perhaps there are also
 some not so good dogs under consideration. The use of the restrictive clause
 rules these dogs out as referents of this noun phrase.

@@ -1,126 +1,128 @@
 @font-face {
-	font-family: Najan;
-	src: url('../Najan.ttf');
+  font-family: Najan;
+  src: url("../Najan.ttf");
 }
 
 :root {
-	--content-max-width: 850px;
+  --content-max-width: 850px;
 }
 
 .najan {
-	font-family: Najan;
+  font-family: Najan;
 }
 
 /* Remove Najan link coloring and underline. This uses :not(#dummy) to
 artificially increase the specificity of the selector so that it wins vs. the
 default link color styling of mdBook. */
 .najan a:not(#dummy) {
-	color: inherit;
+  color: inherit;
 }
 .najan a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .lhs {
-	display: inline-block;
-	width: 200px;
-	text-align: right;
+  display: inline-block;
+  width: 200px;
+  text-align: right;
 }
 
 div.caption {
-	margin: auto;
-	text-align: center;
-	width: 50%;
-	padding: 10px;
-	font-weight: bold;
-	font-size: large;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  font-weight: bold;
+  font-size: large;
 }
 
 table.gloss {
-	margin-left: 0;
+  margin-left: 0;
 }
 
 table.gloss td {
-	padding: 2pt 5pt;
+  padding: 2pt 5pt;
 }
 
 table td[rowspan] {
-	background: var(--bg);
+  background: var(--bg);
 }
 
 dt {
-	margin-top: 10pt;
+  margin-top: 10pt;
 }
 
 /* Alphabet Table Settings */
 
 .alphabet td {
-	display: flex;
-	width: 700px;
+  display: flex;
+  width: 700px;
 }
 
 .alphabet span {
-	flex: 1;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .alphabet div {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .alphabet div:first-child {
-	font-family: Najan;
-	font-size: xx-large;
+  font-family: Najan;
+  font-size: xx-large;
 }
 
 /* Lexi Dictionary Settings */
 
 .lexi-entry {
-	position: relative;
-	display: flex;
-	white-space: pre;
+  position: relative;
+  display: flex;
+  white-space: pre;
 }
 
 .lexi-entry:target {
-	color: var(--sidebar-active);
+  color: var(--sidebar-active);
 }
 
 .lexi-lexeme {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 /* Use pseudo-elements to separate lexemes/classes/glosses using custom text. */
 .lexi-lexeme + .lexi-class::before {
-	content: ' · ';
+  content: " · ";
 }
 .lexi-lexeme + .lexi-gloss::before {
-	content: ' — ';
+  content: " — ";
 }
 .lexi-gloss + .lexi-gloss::before {
-	content: '; ';
+  content: "; ";
 }
 
 /* Show links in the margin when a dictionary entry is hovered. */
 
 .lexi-entry-link {
-	opacity: 0;
-	font-size: small;
-	text-decoration: none;
-	position: absolute;
-	transform: translateX(-100%);
+  opacity: 0;
+  font-size: small;
+  text-decoration: none;
+  position: absolute;
+  transform: translateX(-100%);
 }
 dt:hover .lexi-entry-link {
-	opacity: 1;
+  opacity: 1;
 }
 
 /* Tooltip Settings */
 
 /* Prevent tooltips from getting clipped by containers. */
-.menu-bar, .content, .table-wrapper {
-	overflow: visible;
+.menu-bar,
+.content,
+.table-wrapper {
+  overflow: visible;
 }
 
 /* Prevent lexi entry styling from clobbering najan-tooltip styling when a Najan
@@ -130,47 +132,47 @@ tooltip is inside an entry. A couple important notes:
 2. These settings may need to be updated whenever the lexi rules are updated, in
    case there are new conflicts. */
 .najan-tooltip {
-	position: relative;
-	display: inline-block;
-	white-space: initial;
+  position: relative;
+  display: inline-block;
+  white-space: initial;
 }
 .lexi-entry .najan-tooltip-text {
-	font-weight: initial;
+  font-weight: initial;
 }
 
 .najan-tooltip > .najan {
-	border-bottom: 1px dotted;
+  border-bottom: 1px dotted;
 }
 
 .najan-tooltip-text {
-	width: 250px;
-	color: var(--fg);
-	background-color: var(--quote-bg);
-	border: 1px solid var(--quote-border);
-	border-radius: 6px;
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
-	padding: 10px;
+  width: 250px;
+  color: var(--fg);
+  background-color: var(--quote-bg);
+  border: 1px solid var(--quote-border);
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  padding: 10px;
 
-	/* Hide tooltip text by default, and animate visibility. */
-	visibility: hidden;
-	opacity: 0;
-	transition:visibility 0.2s linear, opacity 0.2s linear;
+  /* Hide tooltip text by default, and animate visibility. */
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.2s linear, opacity 0.2s linear;
 
-	/* Position tooltip text above the Najan word. */
-	position: absolute;
-	z-index: calc(infinity);
-	bottom: 100%;
-	left: 50%;
-	margin-left: -125px;
+  /* Position tooltip text above the Najan word. */
+  position: absolute;
+  z-index: calc(infinity);
+  bottom: 100%;
+  left: 50%;
+  margin-left: -125px;
 }
 
 .najan-tooltip-heading {
-	font-weight: bold;
-	font-size: 115%;
+  font-weight: bold;
+  font-size: 115%;
 }
 
 .najan-tooltip-translation {
-	display: block;
+  display: block;
 }
 
 /* When the first Najan element in a tooltip is hovered, show the sibling
@@ -179,6 +181,6 @@ rather than the hover status of the tooltip text itself prevents the tooltip
 from getting stuck open when the mouse leaves the original word. That's
 especially important when trying to scan up the page for tooltips. */
 .najan-tooltip > .najan:hover + .najan-tooltip-text {
-	visibility: visible;
-	opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }

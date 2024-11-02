@@ -967,6 +967,7 @@ dependencies = [
  "clap",
  "lexi",
  "mdbook",
+ "rand",
  "regex",
  "semver",
  "serde_json",

@@ -1,3 +1,5 @@
+mod lex;
+
 use std::{collections::HashMap, io::Read};
 
 use lexi::lexicon::{Lexeme, Lexicon};
@@ -37,8 +39,7 @@ impl Najan {
 		ch.content = self
 			.najan_regex
 			.replace_all(&ch.content, |captures: &regex::Captures| -> String {
-				captures[1]
-					.split_whitespace()
+				lex::lex(&captures[1])
 					.map(|word| self.expand_najan_word(word))
 					.collect::<Vec<_>>()
 					.join(" ")

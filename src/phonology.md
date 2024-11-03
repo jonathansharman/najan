@@ -16,17 +16,17 @@
 [^1]: Specifically, labial-velar
 
 Consonant clusters with a single point of articulation are geminated. For
-instance, a word-final {k} followed by a word-initial {g} would be pronounced
+instance, a word-final /k/ followed by a word-initial /g/ would be pronounced
 \[kːg\] (note the lack of the usual aspiration) since both are velar. In
-contrast, the ⟨k⟩ in ⟨-k t-⟩ is aspirated since ⟨t⟩ is alveolar.
+contrast, the /k/ in ⟨-k t-⟩ is aspirated since /t/ is alveolar.
 
 A plosive-fricative cluster with a single point of articulation becomes an
-affricate. {t} and {d}, which normally denote alveolar plosives, shift their
-point of articulation before dental or post-alveolar fricatives to assimilate
-with the fricative.
+affricate. /t/ and /d/, which are normally realized as alveolar plosives, shift
+their point of articulation before dental or post-alveolar fricatives to
+assimilate with the fricative.
 
-The clusters {tl} and {dl} become the lateral affricates \[t͡ɬ\] and \[d͡ɮ\],
-respectively. Similarly, in some dialects, {sl} and {zl} become the lateral
+The clusters /tl/ and /dl/ become the lateral affricates \[t͡ɬ\] and \[d͡ɮ\],
+respectively. Similarly, in some dialects, /sl/ and /zl/ become the lateral
 fricatives \[ɬ\] and \[ɮ\].
 
 <div class="caption">Vowels</div>
@@ -35,45 +35,37 @@ fricatives \[ɬ\] and \[ɮ\].
 | ---------: | :---: | :--------: | :-----: | :-------: | :--: |
 |      Close |   i   |            |         |           |  u   |
 | Near-close |       |     ɪ      |         |     ʊ     |      |
-|        Mid |       |            |         |           |  o̞   |
+|        Mid |       |            |    ə    |           |  o̞   |
 |   Open-mid |   ɛ   |            |         |           |      |
 |       Open |       |            |    ä    |           |      |
 
 ## Phonotactics
 
-Najan is monosyllabic, with C(C)V(C)(C) structure. Within an onset or coda, any
-plosives, fricatives, and taps must all be voiced or all be voiceless. For
-example, ⟨ts-⟩ and ⟨tl-⟩ are valid, but ⟨tz-⟩ is not.
+Najan is monosyllabic, with C(C)V(C) structure. The onset must have consistent
+voicing: any plosives, fricatives, and taps must either all be voiced or all be
+voiceless. For example, ⟨ts-⟩ and ⟨tl-⟩ are valid, but ⟨tz-⟩ is not.
 
 <div class="caption">Onset</div>
 
 | First consonant | Optional second consonant            |
 | :-------------- | :----------------------------------- |
 | plosive         | fricative[^2], liquid, tap, or glide |
+| affricate       |                                      |
 | fricative       | liquid, tap, or glide                |
-| nasal           | glide                                |
+| nasal           |                                      |
 | liquid          |                                      |
 | tap             |                                      |
 | glide           |                                      |
 
-<div class="caption">Coda</div>
+[^2]: A non-velar plosive is never followed by a velar fricative.
 
-| Optional first consonant | Optional second consonant                 |
-| :----------------------- | :---------------------------------------- |
-| plosive                  | fricative[^2]                             |
-| fricative                | plosive[^2]                               |
-| nasal                    | plosive with same point of articulation   |
-| liquid                   | plosive, fricative, or nasal              |
-| tap                      |                                           |
-| glide                    | plosive, fricative, nasal, liquid, or tap |
-
-[^2]:
-    Plosive-fricative and fricative-plosive clusters never combine a velar
-    fricative with a non-velar plosive.
+If the nucleus is a peripheral vowel (/a/, /e/, /i/, /u/, or /o/), the coda is
+required. If the nucleus is a mid-central vowel (/ə/, /ɪ/, or /ʊ/), the coda is
+optional; if present, it must be a nasal, liquid, tap, or glide.
 
 ## Stress
 
 Najan uses a stress accent system, with stressed words receiving greater volume,
 a longer vowel, and higher tone. Najan is also stress-timed, with stressed words
-occurring at relatively constant intervals. Typically, verbs are stressed and
-particles unstressed, except for emphasis.
+occurring at relatively constant intervals. Typically, only verbs and pronouns
+are stressed, except for emphasis.

@@ -6,7 +6,7 @@ phone (in square brackets). Each grapheme name begins with the grapheme itself.
 Since Najan is perfectly phonemic, this table also represents all the Najan
 phonemes. Note however that these phonemes are not always pronounced exactly as
 the example phones, due to the allophonic variations described in
-[Phonology](./ch01-phonology.md).
+[Phonology](./phonology.md).
 
 <div class="caption">The Najan Alphabet</div>
 
@@ -36,6 +36,14 @@ the example phones, due to the allophonic variations described in
 			<div>b</div>
 			<div>⟨byas⟩ [b]</div>
 		</span>
+		<span>
+			<div>c</div>
+			<div>⟨ceŋ⟩ [ʃ]</div>
+		</span>
+		<span>
+			<div>j</div>
+			<div>⟨jok⟩ [ʒ] </div>
+		</span>
 	</td></tr>
 	<tr><td>
 		<span>
@@ -62,8 +70,6 @@ the example phones, due to the allophonic variations described in
 			<div>v</div>
 			<div>⟨vis⟩ [v]</div>
 		</span>
-	</td></tr>
-	<tr><td>
 		<span>
 			<div>θ</div>
 			<div>⟨θatc⟩ [θ]</div>
@@ -72,14 +78,8 @@ the example phones, due to the allophonic variations described in
 			<div>ð</div>
 			<div>⟨ðʊc⟩ [ð]</div>
 		</span>
-		<span>
-			<div>c</div>
-			<div>⟨ceŋ⟩ [ʃ]</div>
-		</span>
-		<span>
-			<div>j</div>
-			<div>⟨jok⟩ [ʒ] </div>
-		</span>
+	</td></tr>
+	<tr><td>
 		<span>
 			<div>x</div>
 			<div>⟨xotθ⟩ [ɾ̥ʰ]</div>
@@ -88,8 +88,6 @@ the example phones, due to the allophonic variations described in
 			<div>r</div>
 			<div>⟨rayŋ⟩ [ɾ]</div>
 		</span>
-	</td></tr>
-	<tr><td>
 		<span>
 			<div>ŋ</div>
 			<div>⟨ŋʊp⟩ [ŋ]</div>
@@ -117,20 +115,12 @@ the example phones, due to the allophonic variations described in
 	</td></tr>
 	<tr><td>
 		<span>
-			<div>ʊ</div>
-			<div>⟨ʊlf⟩ [ʊ]</div>
-		</span>
-		<span>
 			<div>a</div>
 			<div>⟨adz⟩ [ä]</div>
 		</span>
 		<span>
 			<div>e</div>
 			<div>⟨eŋg⟩ [ɛ]</div>
-		</span>
-		<span>
-			<div>ɪ</div>
-			<div>⟨ɪpθ⟩ [ɪ]</div>
 		</span>
 		<span>
 			<div>i</div>
@@ -144,8 +134,20 @@ the example phones, due to the allophonic variations described in
 			<div>o</div>
 			<div>⟨oz⟩ [o̞]</div>
 		</span>
+		<span>
+			<div>ə</div>
+			<div>⟨ə??⟩ [ə]</div>
+		</span>
+		<span>
+			<div>ɪ</div>
+			<div>⟨ɪpθ⟩ [ɪ]</div>
+		</span>
+		<span>
+			<div>ʊ</div>
+			<div>⟨ʊlf⟩ [ʊ]</div>
+		</span>
 	</td></tr>
 </table>
 
-Sentences are written left-to-right, then top-to-bottom. Najan has no
-punctuation except spaces between words.
+Najan is written left-to-right, top-to-bottom, in _scriptio continua_. That is,
+Najan has no punctuation marks, not even spaces between words.

@@ -81,14 +81,6 @@ the example phones, due to the allophonic variations described in
 	</td></tr>
 	<tr><td>
 		<span>
-			<div>x</div>
-			<div>⟨xotθ⟩ [ɾ̥ʰ]</div>
-		</span>
-		<span>
-			<div>r</div>
-			<div>⟨rayŋ⟩ [ɾ]</div>
-		</span>
-		<span>
 			<div>ŋ</div>
 			<div>⟨ŋʊp⟩ [ŋ]</div>
 		</span>
@@ -111,6 +103,14 @@ the example phones, due to the allophonic variations described in
 		<span>
 			<div>w</div>
 			<div>⟨woð⟩ [w]</div>
+		</span>
+		<span>
+			<div>x</div>
+			<div>⟨xotθ⟩ [ɾ̥ʰ]</div>
+		</span>
+		<span>
+			<div>r</div>
+			<div>⟨rayŋ⟩ [ɾ]</div>
 		</span>
 	</td></tr>
 	<tr><td>

@@ -59,7 +59,7 @@ impl<'a> Iterator for Lexer<'a> {
 						// belong to the next word since a vowel is not a valid
 						// onset.
 						let next_is_vowel =
-							char_indices.peek().map_or(false, |(_, next_c)| {
+							char_indices.peek().is_some_and(|(_, next_c)| {
 								Token::from(*next_c).is_vowel()
 							});
 						if !next_is_vowel {

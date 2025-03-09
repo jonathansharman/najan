@@ -42,7 +42,10 @@ impl Najan {
 				lex::lex(&captures[1])
 					.map(|word| self.expand_najan_word(word))
 					.collect::<Vec<_>>()
-					.join(" ")
+					// Join words with zero-width spaces to prevent kerning and
+					// ligatures between words and to mark potential line break
+					// points.
+					.join("\u{200B}")
 			})
 			.to_string();
 	}

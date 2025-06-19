@@ -38,7 +38,7 @@
      showgrid="true"
      showguides="true">
     <inkscape:grid
-       id="grid3"
+       id="letter"
        units="px"
        originx="0"
        originy="0"
@@ -55,7 +55,7 @@
        visible="true" />
     <inkscape:grid
        visible="true"
-       id="grid4"
+       id="t-height"
        units="px"
        originx="0"
        originy="28.862073"
@@ -71,7 +71,7 @@
        gridanglez="30" />
     <inkscape:grid
        visible="true"
-       id="grid5"
+       id="baseline"
        units="px"
        originx="0"
        originy="242.07126"

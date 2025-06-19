@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="1000"
-   height="1000"
-   viewBox="0 0 264.58333 264.58333"
+   width="1024"
+   height="1024"
+   viewBox="0 0 270.93333 270.93333"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
@@ -26,23 +26,24 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="0.90231662"
-     inkscape:cx="334.13992"
-     inkscape:cy="1046.7501"
+     inkscape:zoom="0.90509668"
+     inkscape:cx="174.56699"
+     inkscape:cy="739.69998"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     showgrid="true">
+     showgrid="true"
+     showguides="true">
     <inkscape:grid
-       id="grid3"
+       id="letter"
        units="px"
        originx="0"
        originy="0"
        spacingx="317.50001"
-       spacingy="264.58333"
+       spacingy="270.93333"
        empcolor="#000000"
        empopacity="0.14901961"
        color="#0099e5"
@@ -54,12 +55,12 @@
        visible="true" />
     <inkscape:grid
        visible="true"
-       id="grid4"
+       id="t-height"
        units="px"
        originx="0"
-       originy="22.980253"
+       originy="28.862073"
        spacingx="317.50001"
-       spacingy="264.58334"
+       spacingy="270.93333"
        empcolor="#0099e5"
        empopacity="0.14901961"
        color="#0099e5"
@@ -70,12 +71,12 @@
        gridanglez="30" />
     <inkscape:grid
        visible="true"
-       id="grid5"
+       id="baseline"
        units="px"
        originx="0"
-       originy="241.60307"
+       originy="242.07126"
        spacingx="317.50001"
-       spacingy="264.58334"
+       spacingy="270.93333"
        empcolor="#0099e5"
        empopacity="0.14901961"
        color="#0099e5"
@@ -92,8 +93,8 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:#000000;stroke-width:1.31464"
-       d="M 29.8122,221.72827 V 22.980076 L 0,42.854876 V 241.60307 Z"
+       style="fill:#000000;stroke-width:1.28209"
+       d="M 29.074,222.68856 V 28.861759 L 0,48.244459 V 242.07126 Z"
        id="path6-0-4-62-2"
        sodipodi:nodetypes="ccccc" />
   </g>

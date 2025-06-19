@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="1000"
-   height="1000"
-   viewBox="0 0 264.58333 264.58333"
+   width="1024"
+   height="1024"
+   viewBox="0 0 270.93333 270.93333"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
@@ -26,23 +26,24 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="0.25517778"
-     inkscape:cx="1663.5461"
-     inkscape:cy="1436.2536"
+     inkscape:zoom="1.28"
+     inkscape:cx="426.5625"
+     inkscape:cy="875.39063"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     showgrid="true">
+     showgrid="true"
+     showguides="true">
     <inkscape:grid
-       id="grid3"
+       id="letter"
        units="px"
        originx="0"
        originy="0"
        spacingx="317.50001"
-       spacingy="264.58333"
+       spacingy="270.93333"
        empcolor="#000000"
        empopacity="0.14901961"
        color="#0099e5"
@@ -54,12 +55,12 @@
        visible="true" />
     <inkscape:grid
        visible="true"
-       id="grid4"
+       id="t-height"
        units="px"
        originx="0"
-       originy="22.980253"
+       originy="28.862073"
        spacingx="317.50001"
-       spacingy="264.58334"
+       spacingy="270.93333"
        empcolor="#0099e5"
        empopacity="0.14901961"
        color="#0099e5"
@@ -70,12 +71,12 @@
        gridanglez="30" />
     <inkscape:grid
        visible="true"
-       id="grid5"
+       id="baseline"
        units="px"
        originx="0"
-       originy="241.60307"
+       originy="242.07126"
        spacingx="317.50001"
-       spacingy="264.58334"
+       spacingy="270.93333"
        empcolor="#0099e5"
        empopacity="0.14901961"
        color="#0099e5"
@@ -93,8 +94,8 @@
      id="layer1">
     <path
        id="path6-0-4-1-7-7-0"
-       style="fill:#000000;stroke-width:1.31464"
-       d="M 29.8106,22.980773 0,42.857073 V 241.60307 l 76.6444,-51.0961 v 51.0961 l 29.8132,-19.8732 46.8338,-31.2229 v 51.0987 l 29.8132,-19.8732 v -68.0532 l -76.647,51.0961 v -48.3924 l 76.647,-51.0987 V 22.980773 l -29.8132,19.8763 v 65.348997 l -46.8338,31.2203 V 22.980773 l -29.8132,19.8763 V 173.55297 l -46.8338,31.2198 z"
+       style="fill:#000000;stroke-width:1.28209"
+       d="M 29.0725,28.862459 0,48.246559 V 242.07126 l 74.7466,-49.8309 v 49.8309 l 29.0749,-19.3811 45.6741,-30.4498 v 49.8334 l 29.075,-19.3811 v -66.3681 l -74.7491,49.8309 v -47.1941 l 74.7491,-49.8334 V 28.862459 l -29.075,19.3841 v 63.730801 l -45.6741,30.4473 V 28.862459 l -29.0749,19.3841 V 175.70616 l -45.6741,30.4468 z"
        sodipodi:nodetypes="cccccccccccccccccccccc" />
   </g>
 </svg>

@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="1000"
-   height="1000"
-   viewBox="0 0 264.58333 264.58333"
+   width="1024"
+   height="1024"
+   viewBox="0 0 270.93333 270.93333"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
@@ -26,23 +26,24 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="0.01970934"
-     inkscape:cx="24024.143"
-     inkscape:cy="11390.539"
+     inkscape:zoom="0.45254834"
+     inkscape:cx="589.99222"
+     inkscape:cy="573.41941"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     showgrid="true">
+     showgrid="true"
+     showguides="true">
     <inkscape:grid
-       id="grid3"
+       id="letter"
        units="px"
        originx="0"
        originy="0"
        spacingx="317.50001"
-       spacingy="264.58333"
+       spacingy="270.93333"
        empcolor="#000000"
        empopacity="0.14901961"
        color="#0099e5"
@@ -54,12 +55,12 @@
        visible="true" />
     <inkscape:grid
        visible="true"
-       id="grid4"
+       id="t-height"
        units="px"
        originx="0"
-       originy="22.980253"
+       originy="28.862073"
        spacingx="317.50001"
-       spacingy="264.58334"
+       spacingy="270.93333"
        empcolor="#0099e5"
        empopacity="0.14901961"
        color="#0099e5"
@@ -70,12 +71,12 @@
        gridanglez="30" />
     <inkscape:grid
        visible="true"
-       id="grid5"
+       id="baseline"
        units="px"
        originx="0"
-       originy="241.60307"
+       originy="242.07126"
        spacingx="317.50001"
-       spacingy="264.58334"
+       spacingy="270.93333"
        empcolor="#0099e5"
        empopacity="0.14901961"
        color="#0099e5"
@@ -91,21 +92,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <text
-       xml:space="preserve"
-       style="font-size:126.205px;fill:#000000;stroke-width:1.31464"
-       x="733.42474"
-       y="-555.61481"
-       id="text17"><tspan
-         sodipodi:role="line"
-         id="tspan17"
-         style="stroke-width:1.31464"
-         x="733.42474"
-         y="-555.61481" /></text>
     <path
        id="path6-3-4-6-4-6"
-       style="fill:#000000;stroke-width:1.31464"
-       d="m 42.1736,264.58333 64.2863,-42.85661 V 22.98032 l -29.8131,19.8736 v 130.69597 l -46.8339,31.2226 V 22.98032 L 0,42.85392 v 181.79473 16.95423 l 76.6468,-51.0962 v 34.13941 l -34.4732,22.98309 z"
+       style="fill:#000000;stroke-width:1.28209"
+       d="m 41.1293,264.48267 62.6945,-41.7954 V 28.862207 l -29.0749,19.3815 V 175.70339 L 29.0747,206.15286 V 28.862207 L 0,48.243707 V 225.53685 242.07126 L 74.7489,192.2403 v 33.29405 l -33.6196,22.41399 z"
        sodipodi:nodetypes="cccccccccccccc" />
   </g>
 </svg>

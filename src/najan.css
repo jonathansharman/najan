@@ -1,6 +1,15 @@
 @font-face {
   font-family: Najan;
   src: url("../Najan.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Najan";
+  src: url("../Najan-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
 }
 
 :root {

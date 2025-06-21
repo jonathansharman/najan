@@ -106,7 +106,7 @@ the example phones, due to the allophonic variations described in
 		</span>
 		<span>
 			<div>x</div>
-			<div>⟨xotθ⟩ [ɾ̥ʰ]</div>
+			<div>⟨xotθ⟩ [ɾ̥]</div>
 		</span>
 		<span>
 			<div>r</div>

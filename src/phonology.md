@@ -2,32 +2,27 @@
 
 <div class="caption">Consonants</div>
 
-|                   | Labial | Dental | Alveolar | Post-alveolar | Palatal | Velar  |
-| ----------------: | :----: | :----: | :------: | :-----------: | :-----: | :----: |
-|             Nasal |   m    |        |    n     |               |         |   ŋ    |
-|           Plosive |  pʰ b  |        |   tʰ d   |               |         |  kʰ g  |
-|         Affricate |        | t̪͡θʰ d̪͡ð |  t͡sʰ d͡z  |    t̠͡ʃʰ d̠͡ʒ     |         | kxʰ gɣ |
-|         Fricative |  f v   |  θ ð   |   s z    |      ʃ ʒ      |         |  x ɣ   |
-|       Approximant |        |        |    l     |               |    j    | w[^1]  |
-|               Tap |        |        |   ɾ̥ʰ ɾ   |               |         |        |
-| Lateral affricate |        |        |  t͡ɬ d͡ɮ   |               |         |        |
-| Lateral fricative |        |        | (ɬ) (ɮ)  |               |         |        |
+|                   | Labial | Dental | Alveolar | Postalveolar / Palatal | Velar |
+| ----------------: | :----: | :----: | :------: | :--------------------: | :---: |
+|             Nasal |   m    |        |    n     |                        |   ŋ   |
+|           Plosive |  pʰ b  |        |   tʰ d   |                        | kʰ g  |
+|         Affricate | p̪͡f b̪v  | t̪͡θ d̪͡ð  |  t͡s d͡z   |         t̠͡ʃ d̠͡ʒ          | kx gɣ |
+|         Fricative |  f v   |  θ ð   |   s z    |          ʃ ʒ           |  x ɣ  |
+|       Approximant |   w    |        |    l     |           j            |       |
+|               Tap |        |        |   ɾ̥ ɾ    |                        |       |
+| Lateral affricate |        |        |  t͡ɬ d͡ɮ   |                        |       |
 
-[^1]: Specifically, labial-velar
+Within a word, a homorganic plosive-fricative or plosive-liquid cluster becomes
+an affricate. /t/ and /d/, which are normally realized as alveolar plosives,
+shift their point of articulation before dental or postalveolar fricatives to
+assimilate with the fricative. Likewise, /p/ and /b/ become labiodental before
+/f/ or /v/. The clusters /tl/ and /dl/ are pronounced as lateral affricates,
+\[t͡ɬ\] and \[d͡ɮ\].
 
-Consonant clusters with a single point of articulation are geminated. For
-instance, a word-final /k/ followed by a word-initial /g/ would be pronounced
-\[kːg\] (note the lack of the usual aspiration) since both are velar. In
-contrast, the /k/ in ⟨-k t-⟩ is aspirated since /t/ is alveolar.
-
-A plosive-fricative cluster with a single point of articulation becomes an
-affricate. /t/ and /d/, which are normally realized as alveolar plosives, shift
-their point of articulation before dental or post-alveolar fricatives to
-assimilate with the fricative.
-
-The clusters /tl/ and /dl/ become the lateral affricates \[t͡ɬ\] and \[d͡ɮ\],
-respectively. Similarly, in some dialects, /sl/ and /zl/ become the lateral
-fricatives \[ɬ\] and \[ɮ\].
+All other homorganic consonant clusters are geminated. For instance, a
+word-final /k/ followed by a word-initial /g/ would be pronounced \[kːg\] (note
+the lack of the usual aspiration on the /k/) since both are velar. In contrast,
+the /k/ in ⟨-k t-⟩ is aspirated as usual since /t/ is alveolar.
 
 <div class="caption">Vowels</div>
 

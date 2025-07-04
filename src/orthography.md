@@ -162,3 +162,17 @@ are always homorganic; therefore, there is no risk of misinterpreting
 [^1]:
     Although the /kx/ cluster is always affricated, ligatures may never cross
     word boundaries.
+
+## Unicode Transliteration
+
+This site renders Najan text using a custom font applied to a transliteration of
+the Najan alphabet into Unicode. This transliteration uses lowercase English
+letters to represent the first twenty-six Najan letters. For the remaining six
+letters, it uses the IPA symbol corresponding to the letter's phoneme. (The
+transliteration system could have used the IPA symbol for every letter, but this
+would have left many English letters unused, making Najan more difficult than
+necessarily to type on a QWERTY keyboard.)
+
+The transliteration system is relevant when inputting Najan text or when
+rendering it where the font is unavailable. The mouseover bubble for each Najan
+word on this site includes the word's transliteration in angle brackets.

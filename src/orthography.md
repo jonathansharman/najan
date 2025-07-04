@@ -147,3 +147,18 @@ phoneme.
 		</span>
 	</td></tr>
 </table>
+
+## Ligatures
+
+An [affricate](./phonology.md#allophones) within a word is represented as a
+ligature. For example, the letters <span class="najan">k</span> and
+<span class="najan">h</span> combine to form <span class="najan">kh</span> when
+they occur in onset position.[^1] Notice that the <span class="najan">kh</span>
+ligature only has one ascender (indicating a velar consonant) since affricates
+are always homorganic; therefore, there is no risk of misinterpreting
+<span class="najan">kh</span> as a ligature of <span class="najan">k</span> and
+<span class="najan">s</span>.
+
+[^1]:
+    Although the /kx/ cluster is always affricated, ligatures may never cross
+    word boundaries.

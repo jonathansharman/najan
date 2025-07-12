@@ -21,11 +21,11 @@ phoneme.
 		</span>
 		<span>
 			<div>t</div>
-			<div>{tedð} /t/</div>
+			<div>{teð} /t/</div>
 		</span>
 		<span>
 			<div>d</div>
-			<div>{dewr} /d/</div>
+			<div>{der} /d/</div>
 		</span>
 		<span>
 			<div>p</div>
@@ -55,7 +55,7 @@ phoneme.
 		</span>
 		<span>
 			<div>s</div>
-			<div>{sɪj} /s/</div>
+			<div>{sɪy} /s/</div>
 		</span>
 		<span>
 			<div>z</div>
@@ -71,25 +71,25 @@ phoneme.
 		</span>
 		<span>
 			<div>θ</div>
-			<div>{θatc} /θ/</div>
+			<div>{θac} /θ/</div>
 		</span>
 		<span>
 			<div>ð</div>
-			<div>{ðʊc} /ð/</div>
+			<div>{ðʊn} /ð/</div>
 		</span>
 	</td></tr>
 	<tr><td>
 		<span>
 			<div>ŋ</div>
-			<div>{ŋʊp} /ŋ/</div>
+			<div>{ŋʊx} /ŋ/</div>
 		</span>
 		<span>
 			<div>n</div>
-			<div>{nekθ} /n/</div>
+			<div>{nek} /n/</div>
 		</span>
 		<span>
 			<div>m</div>
-			<div>{muts} /m/</div>
+			<div>{mut} /m/</div>
 		</span>
 		<span>
 			<div>y</div>
@@ -105,45 +105,45 @@ phoneme.
 		</span>
 		<span>
 			<div>x</div>
-			<div>{xotθ} /ɾ̥/</div>
+			<div>{xon} /ɾ̥/</div>
 		</span>
 		<span>
 			<div>r</div>
-			<div>{rayŋ} /ɾ/</div>
+			<div>{raŋ} /ɾ/</div>
 		</span>
 	</td></tr>
 	<tr><td>
 		<span>
 			<div>a</div>
-			<div>{adz} /ä/</div>
+			<div>{waz} /ä/</div>
 		</span>
 		<span>
 			<div>e</div>
-			<div>{eŋg} /ɛ/</div>
+			<div>{ŋeg} /ɛ/</div>
 		</span>
 		<span>
 			<div>i</div>
-			<div>{idj} /i/</div>
+			<div>{dij} /i/</div>
 		</span>
 		<span>
 			<div>u</div>
-			<div>{uc} /u/</div>
+			<div>{huf} /u/</div>
 		</span>
 		<span>
 			<div>o</div>
-			<div>{oz} /o̞/</div>
+			<div>{cos} /o̞/</div>
 		</span>
 		<span>
 			<div>ə</div>
-			<div>{ə??} /ə/</div>
+			<div>{vəy} /ə/</div>
 		</span>
 		<span>
 			<div>ɪ</div>
-			<div>{ɪpθ} /ɪ/</div>
+			<div>{pɪθ} /ɪ/</div>
 		</span>
 		<span>
 			<div>ʊ</div>
-			<div>{ʊlf} /ʊ/</div>
+			<div>{lʊf} /ʊ/</div>
 		</span>
 	</td></tr>
 </table>

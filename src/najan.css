@@ -85,8 +85,9 @@ dt {
   font-size: xx-large;
 }
 
-.alphabet div:nth-child(2) > span {
-  padding-right: 0.5em;
+.alphabet div:nth-child(2) {
+  gap: 0.5em;
+  align-items: baseline;
 }
 
 /* Lexi Dictionary Settings */

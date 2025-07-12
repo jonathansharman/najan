@@ -68,7 +68,7 @@ dt {
   width: 750px;
 }
 
-.alphabet span {
+.alphabet td > span {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -83,6 +83,10 @@ dt {
 .alphabet div:first-child {
   font-family: Najan;
   font-size: xx-large;
+}
+
+.alphabet div:nth-child(2) > span {
+  padding-right: 0.5em;
 }
 
 /* Lexi Dictionary Settings */

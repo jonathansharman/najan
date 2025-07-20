@@ -139,11 +139,11 @@ phoneme.
 		</span>
 		<span>
 			<div>ɪ</div>
-			<div>{pɪθ} /ɪ/</div>
+			<div>{pɪl} /ɪ/</div>
 		</span>
 		<span>
 			<div>ʊ</div>
-			<div>{lʊf} /ʊ/</div>
+			<div>{lʊn} /ʊ/</div>
 		</span>
 	</td></tr>
 </table>

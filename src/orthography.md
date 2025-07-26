@@ -36,22 +36,22 @@ phoneme.
 			<div>{byas} /b/</div>
 		</span>
 		<span>
-			<div>c</div>
-			<div>{ceŋ} /ʃ/</div>
-		</span>
-		<span>
-			<div>j</div>
-			<div>{jok} /ʒ/</div>
-		</span>
-	</td></tr>
-	<tr><td>
-		<span>
 			<div>h</div>
 			<div>{hak} /x/</div>
 		</span>
 		<span>
 			<div>q</div>
 			<div>{qot} /ɣ/</div>
+		</span>
+	</td></tr>
+	<tr><td>
+		<span>
+			<div>c</div>
+			<div>{ceŋ} /ʃ/</div>
+		</span>
+		<span>
+			<div>j</div>
+			<div>{jok} /ʒ/</div>
 		</span>
 		<span>
 			<div>s</div>
@@ -62,20 +62,20 @@ phoneme.
 			<div>{zaw} /z/</div>
 		</span>
 		<span>
-			<div>f</div>
-			<div>{foj} /f/</div>
-		</span>
-		<span>
-			<div>v</div>
-			<div>{vis} /v/</div>
-		</span>
-		<span>
 			<div>θ</div>
 			<div>{θac} /θ/</div>
 		</span>
 		<span>
 			<div>ð</div>
 			<div>{ðʊn} /ð/</div>
+		</span>
+		<span>
+			<div>f</div>
+			<div>{foj} /f/</div>
+		</span>
+		<span>
+			<div>v</div>
+			<div>{vis} /v/</div>
 		</span>
 	</td></tr>
 	<tr><td>
@@ -114,32 +114,32 @@ phoneme.
 	</td></tr>
 	<tr><td>
 		<span>
-			<div>a</div>
-			<div>{waz} /ä/</div>
+			<div>i</div>
+			<div>{dij} /i/</div>
 		</span>
 		<span>
 			<div>e</div>
 			<div>{ŋeg} /ɛ/</div>
 		</span>
 		<span>
-			<div>i</div>
-			<div>{dij} /i/</div>
-		</span>
-		<span>
-			<div>u</div>
-			<div>{huf} /u/</div>
+			<div>a</div>
+			<div>{waz} /ä/</div>
 		</span>
 		<span>
 			<div>o</div>
 			<div>{cos} /o̞/</div>
 		</span>
 		<span>
-			<div>ə</div>
-			<div>{vəy} /ə/</div>
+			<div>u</div>
+			<div>{huf} /u/</div>
 		</span>
 		<span>
 			<div>ɪ</div>
 			<div>{pɪl} /ɪ/</div>
+		</span>
+		<span>
+			<div>ə</div>
+			<div>{vəy} /ə/</div>
 		</span>
 		<span>
 			<div>ʊ</div>

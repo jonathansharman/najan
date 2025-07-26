@@ -16,16 +16,16 @@ format:
       - d
       - p
       - b
-      - c
-      - j
       - h
       - q
+      - c
+      - j
       - s
       - z
-      - f
-      - v
       - θ
       - ð
+      - f
+      - v
       - ŋ
       - "n"
       - m
@@ -34,13 +34,13 @@ format:
       - w
       - x
       - r
-      - a
-      - e
       - i
-      - u
+      - e
+      - a
       - o
-      - ə
+      - u
       - ɪ
+      - ə
       - ʊ
     prefix: "{"
     suffix: "}"

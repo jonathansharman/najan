@@ -148,20 +148,36 @@ phoneme.
 	</td></tr>
 </table>
 
+Note the alphabet's featural elements:
+
+- Voiced consonants resemble their voiceless counterparts but with inverted
+  positioning of crossbars and apertures.
+- Velar consonants and front vowels have an upper-left ascender. Labial
+  consonants and back vowels have a lower-right descender. Alveolar (or nearby)
+  consonants and central vowels have neither ascenders nor descenders.
+- Consonant shape indicates manner of articulation. Plosives, nasals,
+  approximants, and taps form self-similar sets, ignoring ascenders and
+  descenders. Likewise, the fricatives form three sets, based on place of
+  articulation:
+  - Postalveolar
+  - Velar/alveolar (whose points of articulation exactly match their
+    corresponding plosives)
+  - Dental/labiodental
+- The glyphs for /i/ and /u/ closely resemble those of the corresponding glides,
+  /j/ and /w/.
+- Mid-central vowels resemble nearby peripheral vowels.
+
 ## Ligatures
 
 An [affricate](./phonology.md#allophones) within a word is represented as a
-ligature. For example, the letters <span class="najan">k</span> and
-<span class="najan">h</span> combine to form <span class="najan">kh</span> when
-they occur in onset position.[^1] Notice that the <span class="najan">kh</span>
-ligature only has one ascender (indicating a velar consonant) since affricates
-are always homorganic; therefore, there is no risk of misinterpreting
-<span class="najan">kh</span> as a ligature of <span class="najan">k</span> and
-<span class="najan">s</span>.
-
-[^1]:
-    Although the /kx/ cluster is always affricated, ligatures may never cross
-    word boundaries.
+ligature. For example, the letters <span class="najan">k</span> (/k/) and
+<span class="najan">h</span> (/h/) combine to form <span class="najan">kh</span>
+when they occur in onset position. (Although the /kx/ cluster is always
+affricated, ligatures may never cross word boundaries.) Notice that the
+<span class="najan">kh</span> ligature only has one ascender (indicating a velar
+consonant) since affricates are always homorganic and there is therefore no risk
+of misinterpreting <span class="najan">kh</span> as a ligature of
+<span class="najan">k</span> and <span class="najan">s</span>.
 
 ## Unicode Transliteration
 

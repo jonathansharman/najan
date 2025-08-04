@@ -16,6 +16,10 @@
   --content-max-width: 850px;
 }
 
+main {
+  overflow-x: auto;
+}
+
 .najan {
   font-family: Najan;
 }

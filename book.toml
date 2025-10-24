@@ -10,4 +10,4 @@ command = "mdbook-najan lexicon.yaml"
 
 [output.html]
 additional-css = ["src/najan.css"]
-curly-quotes = true
+smart-punctuation = true

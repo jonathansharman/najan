@@ -18,7 +18,9 @@ pub fn make_app() -> Command {
 		.subcommand(
 			Command::new(SUPPORTS_COMMAND)
 				.arg(Arg::new("renderer").required(true))
-				.about("Check whether a renderer is supported by this preprocessor"),
+				.about(
+					"Check whether a renderer is supported by this preprocessor",
+				),
 		)
 }
 

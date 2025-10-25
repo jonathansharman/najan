@@ -4,10 +4,10 @@ use std::{collections::HashMap, io::Read};
 
 use lexi::lexicon::{Lexeme, Lexicon};
 use mdbook::{
+	BookItem,
 	book::{Book, Chapter},
 	errors::Error,
 	preprocess::{Preprocessor, PreprocessorContext},
-	BookItem,
 };
 use regex::Regex;
 
@@ -51,30 +51,29 @@ impl Najan {
 	}
 
 	fn expand_najan_word(&self, word: &str) -> String {
-		match self.lexemes_by_lemma.get(word) {
-			Some(lexeme) => {
-				let glosses = if lexeme.glosses.is_empty() {
-					String::new()
-				} else {
-					format!(" — {}", lexeme.glosses.join("; "))
-				};
-				let translation = lexeme
-					.translation
-					.as_ref()
-					.map(|translation| {
-						format!(
-							r#"<span class="najan-tooltip-translation">{translation}</span>"#
-						)
-					})
-					.unwrap_or_default();
-				format!(
-					r#"<span class="najan-tooltip"><span class="najan"><a href="./dictionary.html#{word}" target="_blank">{word}</a></span><span class="najan-tooltip-text"><span class="najan-tooltip-heading"><span class="najan">{word}</span> ⟨{word}⟩{glosses}</span>{translation}</span></span>"#
-				)
-			}
-			None => format!(
+		let Some(lexeme) = self.lexemes_by_lemma.get(word) else {
+			return format!(
 				r#"<span class="najan" style="text-decoration: wavy red underline">{word}</span>"#
-			),
-		}
+			);
+		};
+
+		let glosses = if lexeme.glosses.is_empty() {
+			String::new()
+		} else {
+			format!(" — {}", lexeme.glosses.join("; "))
+		};
+		let translation = lexeme
+			.translation
+			.as_ref()
+			.map(|translation| {
+				format!(
+					r#"<span class="najan-tooltip-translation">{translation}</span>"#
+				)
+			})
+			.unwrap_or_default();
+		format!(
+			r#"<span class="najan-tooltip"><span class="najan"><a href="./dictionary.html#{word}" target="_blank">{word}</a></span><span class="najan-tooltip-text"><span class="najan-tooltip-heading"><span class="najan">{word}</span> ⟨{word}⟩{glosses}</span>{translation}</span></span>"#
+		)
 	}
 
 	fn expand_interlinear_gloss(&self, ch: &mut Chapter) {

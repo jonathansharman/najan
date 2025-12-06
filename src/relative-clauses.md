@@ -8,7 +8,7 @@ only those instances where the verb phrase complement is true (again, using the
 head as the subject).
 
 <gloss>
-gi  | nʊ   | tir     | ŋix
+gɪ  | nʊ   | tir     | ŋix
 the | that | is good | dog
 the good dog
 </gloss>
@@ -23,21 +23,21 @@ additional information about the head but does not narrow down the set of
 possible referents. In other words, it describes the head without defining it.
 
 <gloss>
-gi  | vew   | tir     | ŋix
+gɪ  | vew   | tir     | ŋix
 the | which | is good | dog
 the dog (dogs are good)
 </gloss>
 
 Here, {vew tir} asserts that all dogs are good. We could remove the
-non-restrictive modifier entirely, and the meaning of {gi ŋix} would not change.
+non-restrictive modifier entirely, and the meaning of {gɪ ŋix} would not change.
 
 Restricted noun phrases, such as determiner phrases and pronouns, cannot be
 further modified by restrictive clauses or prepositional phrases. For instance,
-{nʊ tayn ko} (_happy I_) is ungrammatical. Conversely, non-restrictive clauses
+{nʊ tay kwʊ} (_happy I_) is ungrammatical. Conversely, non-restrictive clauses
 can modify restricted noun phrases.
 
 <gloss>
-vew   | tir     | gi  | ŋix
+vew   | tir     | gɪ  | ŋix
 which | is good | the | dog
 the dog, which is good
 </gloss>

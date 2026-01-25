@@ -52,17 +52,17 @@ format:
 lexemes:
   - lemma: zə
     class: qə saθ dan
-    definition: fʊ qə ðʊ jow nʊ txə lɪ kle qə jow θɪ tɪz ŋiθ dje kuv # starts identifying entities previously unspoken of
+    definition: fʊ qə ðʊ jow nʊ txə lɪ klɪ qə jow θɪ tiz ŋiθ djə kuv # starts identifying entities previously unspoken of
     translation: indefinite determiner
     glosses: [a, an]
   - lemma: gɪ
     class: qə saθ dan
-    definition: fʊ qə ðʊ jow nʊ lɪ kle qə jow θɪ tɪz ŋiθ dje kuv # starts identifying entities previously spoken of
+    definition: fʊ qə ðʊ jow nʊ lɪ klɪ qə jow θɪ tiz ŋiθ djə kuv # starts identifying entities previously spoken of
     translation: definite determiner
     glosses: [the]
   - lemma: ðʊ
     class: qə saθ dan
-    definition: fʊ qə ðʊ nʊ ðus ŋiθ dje kuv # starts identifying generic entities
+    definition: fʊ qə ðʊ nʊ ðus ŋiθ djə kuv # starts identifying generic entities
     translation: >
       generic determiner, used to refer to a complement in a general,
       nonspecific sense

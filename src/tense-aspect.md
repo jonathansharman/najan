@@ -13,7 +13,7 @@ or else assumed from the verb's aspect.
 | :--------- | :---- | :------- |
 | Continuous | ᴄᴏɴᴛ  | ---      |
 | Perfective | ᴘғᴠ   | {θɪ}     |
-| Inchoative | ɪɴᴄʜ  | {dje}    |
+| Inchoative | ɪɴᴄʜ  | {djə}    |
 | Cessative  | ᴄᴇss  | {vat}    |
 | Habitual   | ʜᴀʙ   | {fxɪ}    |
 | Gnomic     | ɢɴᴏ   | {hon}    |
@@ -30,7 +30,7 @@ be in past tense. For example, {jə cɪ kwʊ θɪ tcet} is more likely to mean _
 ate_ (simple past) or _I have eaten_ (past perfect) than _I will eat_ (simple
 future).
 
-The **inchoative** (ɪɴᴄʜ) aspect views a verb as beginning, as in {jə dje sic},
+The **inchoative** (ɪɴᴄʜ) aspect views a verb as beginning, as in {jə djə sic},
 _[he] starts to cry_. Inversely, the **cessative** (ᴄᴇss) aspect views a verb as
 ending: {jə vat sic}, _[he] stops crying_. By default, verbs in these aspects
 are in present tense.
@@ -66,13 +66,13 @@ information. For example, perfective aspect often implies past tense. However,
 these associations are secondary to context. Suppose a speaker first says:
 
 <gloss>
-lay | lɪ | ŋodl     | ŋɪ  | kwʊ | θɪ  | vig
+lay | lɪ | dloŋ     | ŋɪ  | kwʊ | θɪ  | vig
 ᴄᴍs | at | tomorrow | sʙᴊ | I   | ᴘғᴠ | go
 I will go tomorrow.
 </gloss>
 
 By using the preposition {lɪ}, the speaker has established a context in the
-future. Suppose the speaker then says {jə cɪ kwʊ θɪ tɪz}. In isolation, since
+future. Suppose the speaker then says {jə cɪ kwʊ θɪ tiz}. In isolation, since
 this sentence is in perfective aspect, one might interpret it as _I have spoken_
 (present perfect) or _I spoke_ (simple past). However, since future tense has
 already been established, one should instead translate the second clause as _I

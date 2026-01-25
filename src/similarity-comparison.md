@@ -4,7 +4,7 @@ The **semblative** (sᴇᴍʙʟ) preposition marks something the complement is s
 to. The semblative particle {kɪ} means _as_, _like_, or _in the manner of_.
 
 <gloss>
-hon | kɪ | ðʊ  | lec   | pɪf
+hon | kɪ | ðʊ  | lec   | pif
 ɢɴᴏ | as | ɢɴʀ | water | soothe
 [It] soothes like water.
 </gloss>

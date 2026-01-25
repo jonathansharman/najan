@@ -2,7 +2,7 @@
 
 Every clause in Najan begins with a mood particle expressing how the speaker
 relates the clause to the world or to other possible worlds. The mood particles
-are clipped from corresponding verbs, e.g. {jə} (sensory indicative mood) from
+are derived from corresponding verbs, e.g. {jə} (sensory indicative mood) from
 {jec} (_sense_, _perceive_, or _intuit_).
 
 <table>
@@ -52,14 +52,14 @@ are clipped from corresponding verbs, e.g. {jə} (sensory indicative mood) from
 			<td>Alternative</td>
 			<td>ᴀᴏ̨</td>
 			<td>{ðɪ}</td>
-			<td>{ðɪv}</td>
+			<td>{ðiv}</td>
 		</tr>
 		<tr>
 			<td rowspan="3">Deontic</td>
 			<td>Commissive</td>
 			<td>ᴄᴍs</td>
 			<td>{lay}</td>
-			<td>{layr}</td>
+			<td>{lar}</td>
 		</tr>
 		<tr>
 			<td>Imperative</td>
@@ -70,14 +70,14 @@ are clipped from corresponding verbs, e.g. {jə} (sensory indicative mood) from
 		<tr>
 			<td>Volitive</td>
 			<td>ᴠᴏʟ</td>
-			<td>{myə}</td>
-			<td>{myax}</td>
+			<td>{yə}</td>
+			<td>{yax}</td>
 		</tr>
 		<tr>
 			<td>Hypothetical</td>
 			<td>Hypothetical</td>
 			<td>ʜʏᴘ</td>
-			<td>{tu}</td>
+			<td>{tuw}</td>
 			<td>{tus}</td>
 		</tr>
 	</tbody>

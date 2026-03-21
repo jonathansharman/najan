@@ -139,7 +139,8 @@ dt:hover .lexi-entry-link {
 /* Prevent tooltips from getting clipped by containers. */
 .menu-bar,
 .content,
-.table-wrapper {
+.table-wrapper,
+main {
   overflow: visible;
 }
 
@@ -174,7 +175,9 @@ tooltip is inside an entry. A couple important notes:
   /* Hide tooltip text by default, and animate visibility. */
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0.2s linear, opacity 0.2s linear;
+  transition:
+    visibility 0.2s linear,
+    opacity 0.2s linear;
 
   /* Position tooltip text above the Najan word. */
   position: absolute;

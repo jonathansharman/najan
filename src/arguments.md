@@ -38,7 +38,7 @@ may be omitted if they can be inferred from context. When asked who I am, I
 could reply:
 
 <gloss>
-jə  | ŋɪ  | kwʊ | djanəθɪn
+jə  | ŋɪ  | kwʊ | djannəθɪn
 sɴs | sʙᴊ | I   | Jonathan
 I am Jonathan.
 </gloss>
@@ -46,7 +46,7 @@ I am Jonathan.
 Or, since _I_ is the expected subject:
 
 <gloss>
-jə  | djanəθɪn
+jə  | djannəθɪn
 sɴs | Jonathan
 [I] am Jonathan.
 </gloss>

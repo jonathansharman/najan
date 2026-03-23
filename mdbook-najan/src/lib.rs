@@ -3,11 +3,10 @@ mod lex;
 use std::{collections::HashMap, io::Read};
 
 use lexi::lexicon::{Lexeme, Lexicon};
-use mdbook::{
-	BookItem,
-	book::{Book, Chapter},
+use mdbook_preprocessor::{
+	Preprocessor, PreprocessorContext,
+	book::{Book, BookItem, Chapter},
 	errors::Error,
-	preprocess::{Preprocessor, PreprocessorContext},
 };
 use regex::Regex;
 
@@ -146,9 +145,5 @@ impl Preprocessor for Najan {
 			}
 		});
 		Ok(book)
-	}
-
-	fn supports_renderer(&self, renderer: &str) -> bool {
-		renderer != "not-supported"
 	}
 }

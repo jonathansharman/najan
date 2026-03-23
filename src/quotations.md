@@ -1,8 +1,8 @@
 ## Quotation
 
-A quotation begins and ends with the particle {tca} and functions as a noun
-signifying the contained words themselves. The particle {tsa} is used within a
-quotation just before {tca} or another {tsa} to indicate that the second
+A quotation begins and ends with the particle {tcə} and functions as a noun
+signifying the contained words themselves. The particle {tsə} is used within a
+quotation just before {tcə} or another {tsə} to indicate that the second
 particle should be interpreted as part of the quotation, not as a particle
 within the sentence containing the quotation.
 

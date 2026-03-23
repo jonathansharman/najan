@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="1024"
+   viewBox="0 0 270.93333 270.93333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="tθ.svg"
+   inkscape:export-filename="ortho2.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.90509668"
+     inkscape:cx="311.56893"
+     inkscape:cy="712.07863"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     showguides="true">
+    <inkscape:grid
+       id="letter"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="317.50001"
+       spacingy="270.93333"
+       empcolor="#000000"
+       empopacity="0.14901961"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="1"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+    <inkscape:grid
+       visible="true"
+       id="t-height"
+       units="px"
+       originx="0"
+       originy="28.862073"
+       spacingx="317.50001"
+       spacingy="270.93333"
+       empcolor="#0099e5"
+       empopacity="0.14901961"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="1"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30" />
+    <inkscape:grid
+       visible="true"
+       id="baseline"
+       units="px"
+       originx="0"
+       originy="242.07126"
+       spacingx="317.50001"
+       spacingy="270.93333"
+       empcolor="#0099e5"
+       empopacity="0.14901961"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="1"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path6-0-4-1-0-20"
+       style="fill:#000000;stroke-width:1.28209"
+       d="M 29.0724,28.859959 0,48.244059 V 242.07126 l 29.0724,-19.3836 V 95.228059 l 45.6741,-30.4498 V 242.06876 l 29.0745,-19.3811 v -63.7314 l 45.6746,-30.4492 v 113.5617 l 29.0745,-19.3837 V 28.859959 l -74.7491,49.8334 v -49.8334 l -74.7486,49.8308 z m 120.4232,35.9183 v 47.194101 l -45.6746,30.4498 V 95.228059 Z"
+       sodipodi:nodetypes="cccccccccccccccccccccc" />
+  </g>
+</svg>

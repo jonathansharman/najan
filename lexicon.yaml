@@ -1,44 +1,78 @@
 classes:
-- loð # state (verb)
-- qa saθ dan # means of instantiation (determiner)
-- nʊ zax kʊv # borrowed identity (pronoun)
-- qa qac dan # means of relation (preposition)
-- qa cob vom # logical operator (conjunction)
-- lʊg # particle
+  - loð # state (verb)
+  - qə saθ dan # means of instantiation (determiner)
+  - nʊ zax kuv # borrowed identity (pronoun)
+  - qə qac dan # means of relation (preposition)
+  - qə cob vom # logical operator (conjunction)
+  - lug # particle
 
 format:
   native:
     title: ... kʊ naj vɪx # TODO: "dictionary" in Najan
-    sort: [k, g, t, d, p, b, h, q, s, z, f, v, θ, ð, c, j, x, r, ŋ, 'n', m, 'y', l, w, ʊ, a, e, ɪ, i, u, o]
-    prefix: '{'
-    suffix: '}'
+    sort:
+      - k
+      - g
+      - t
+      - d
+      - p
+      - b
+      - h
+      - q
+      - c
+      - j
+      - s
+      - z
+      - θ
+      - ð
+      - f
+      - v
+      - ŋ
+      - "n"
+      - m
+      - "y"
+      - l
+      - w
+      - x
+      - r
+      - i
+      - e
+      - a
+      - o
+      - u
+      - ɪ
+      - ə
+      - ʊ
+    prefix: "{"
+    suffix: "}"
   native_foreign:
     title: Najan-English Dictionary
   foreign_native:
     title: English-Najan Dictionary
 
 lexemes:
-- lemma: za
-  class: qa saθ dan
-  definition: fo qa ðu jow nʊ txa lɪ kle qa jow θe tɪz ŋɪθ dje kʊv # starts identifying entities previously unspoken of
-  translation: indefinite determiner
-  glosses: [a, an]
-- lemma: gi
-  class: qa saθ dan
-  definition: fo qa ðu jow nʊ lɪ kle qa jow θe tɪz ŋɪθ dje kʊv # starts identifying entities previously spoken of
-  translation: definite determiner
-  glosses: [the]
-- lemma: ðu
-  class: qa saθ dan
-  definition: fo qa ðu nʊ ðus ŋɪθ dje kʊv # starts identifying generic entities
-  translation: generic determiner, used to refer to a complement in a general, nonspecific sense
-  glosses: [a, an, the]
-- lemma: cay
-  class: loð
-  definition: ... # TODO
-  glosses: [change, evolve]
-- lemma: ci
-  class: qa qac dan
-  definition: ... # TODO
-  translation: marks the complement as an agent
-  glosses: [by]
+  - lemma: zə
+    class: qə saθ dan
+    definition: fʊ qə ðʊ jow nʊ txə lɪ klɪ qə jow θɪ tiz ŋiθ djə kuv # starts identifying entities previously unspoken of
+    translation: indefinite determiner
+    glosses: [a, an]
+  - lemma: gɪ
+    class: qə saθ dan
+    definition: fʊ qə ðʊ jow nʊ lɪ klɪ qə jow θɪ tiz ŋiθ djə kuv # starts identifying entities previously spoken of
+    translation: definite determiner
+    glosses: [the]
+  - lemma: ðʊ
+    class: qə saθ dan
+    definition: fʊ qə ðʊ nʊ ðus ŋiθ djə kuv # starts identifying generic entities
+    translation: >-
+      generic determiner, used to refer to a complement in a general,
+      nonspecific sense
+    glosses: [a, an, the]
+  - lemma: cay
+    class: loð
+    definition: ... # TODO
+    glosses: [change, evolve]
+  - lemma: cɪ
+    class: qə qac dan
+    definition: ... # TODO
+    translation: marks the complement as an agent
+    glosses: [by]

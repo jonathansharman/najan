@@ -12,7 +12,7 @@ jobs:
       pages: write
       id-token: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
       - name: Install latest mdbook
@@ -31,15 +31,16 @@ jobs:
         with:
           crate: lexi
       - name: Build dictionaries
-        run: lexi lexicon.yaml -d src/dictionary.md -n src/to-english.md -f src/from-english.md
+        run: |
+          lexi lexicon.yaml -d src/dictionary.md -n src/to-english.md -f src/from-english.md
       - name: Build book
         run: mdbook build
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
-          path: 'book'
+          path: book
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

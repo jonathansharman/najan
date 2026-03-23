@@ -1,11 +1,12 @@
+mod lex;
+
 use std::{collections::HashMap, io::Read};
 
 use lexi::lexicon::{Lexeme, Lexicon};
-use mdbook::{
-	book::{Book, Chapter},
+use mdbook_preprocessor::{
+	Preprocessor, PreprocessorContext,
+	book::{Book, BookItem, Chapter},
 	errors::Error,
-	preprocess::{Preprocessor, PreprocessorContext},
-	BookItem,
 };
 use regex::Regex;
 
@@ -37,40 +38,41 @@ impl Najan {
 		ch.content = self
 			.najan_regex
 			.replace_all(&ch.content, |captures: &regex::Captures| -> String {
-				captures[1]
-					.split_whitespace()
+				lex::lex(&captures[1])
 					.map(|word| self.expand_najan_word(word))
 					.collect::<Vec<_>>()
-					.join(" ")
+					// Join words with zero-width spaces to prevent kerning and
+					// ligatures between words and to mark potential line break
+					// points.
+					.join("\u{200B}")
 			})
 			.to_string();
 	}
 
 	fn expand_najan_word(&self, word: &str) -> String {
-		match self.lexemes_by_lemma.get(word) {
-			Some(lexeme) => {
-				let glosses = if lexeme.glosses.is_empty() {
-					String::new()
-				} else {
-					format!(" — {}", lexeme.glosses.join("; "))
-				};
-				let translation = lexeme
-					.translation
-					.as_ref()
-					.map(|translation| {
-						format!(
-							r#"<span class="najan-tooltip-translation">{translation}</span>"#
-						)
-					})
-					.unwrap_or_default();
-				format!(
-					r#"<span class="najan-tooltip"><span class="najan"><a href="./dictionary.html#{word}" target="_blank">{word}</a></span><span class="najan-tooltip-text"><span class="najan-tooltip-heading"><span class="najan">{word}</span> ⟨{word}⟩{glosses}</span>{translation}</span></span>"#
-				)
-			}
-			None => format!(
+		let Some(lexeme) = self.lexemes_by_lemma.get(word) else {
+			return format!(
 				r#"<span class="najan" style="text-decoration: wavy red underline">{word}</span>"#
-			),
-		}
+			);
+		};
+
+		let glosses = if lexeme.glosses.is_empty() {
+			String::new()
+		} else {
+			format!(" — {}", lexeme.glosses.join("; "))
+		};
+		let translation = lexeme
+			.translation
+			.as_ref()
+			.map(|translation| {
+				format!(
+					r#"<span class="najan-tooltip-translation">{translation}</span>"#
+				)
+			})
+			.unwrap_or_default();
+		format!(
+			r#"<span class="najan-tooltip"><span class="najan"><a href="./dictionary.html#{word}" target="_blank">{word}</a></span><span class="najan-tooltip-text"><span class="najan-tooltip-heading"><span class="najan">{word}</span> ⟨{word}⟩{glosses}</span>{translation}</span></span>"#
+		)
 	}
 
 	fn expand_interlinear_gloss(&self, ch: &mut Chapter) {
@@ -143,9 +145,5 @@ impl Preprocessor for Najan {
 			}
 		});
 		Ok(book)
-	}
-
-	fn supports_renderer(&self, renderer: &str) -> bool {
-		renderer != "not-supported"
 	}
 }

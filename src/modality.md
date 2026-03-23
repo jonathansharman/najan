@@ -2,7 +2,7 @@
 
 Every clause in Najan begins with a mood particle expressing how the speaker
 relates the clause to the world or to other possible worlds. The mood particles
-are clipped from corresponding verbs, e.g. {je} (sensory indicative mood) from
+are derived from corresponding verbs, e.g. {jə} (sensory indicative mood) from
 {jec} (_sense_, _perceive_, or _intuit_).
 
 <table>
@@ -20,19 +20,19 @@ are clipped from corresponding verbs, e.g. {je} (sensory indicative mood) from
 			<td rowspan="3">Indicative</td>
 			<td>Sensory</td>
 			<td>sɴs</td>
-			<td>{je}</td>
+			<td>{jə}</td>
 			<td>{jec}</td>
 		</tr>
 		<tr>
 			<td>Deductive</td>
 			<td>ᴅᴇᴅ</td>
-			<td>{ŋo}</td>
+			<td>{ŋʊ}</td>
 			<td>{ŋoy}</td>
 		</tr>
 		<tr>
 			<td>Reportative</td>
 			<td>ʀᴘʀᴛ</td>
-			<td>{fo}</td>
+			<td>{fʊ}</td>
 			<td>{fod}</td>
 		</tr>
 		<tr>
@@ -45,39 +45,39 @@ are clipped from corresponding verbs, e.g. {je} (sensory indicative mood) from
 		<tr>
 			<td>Polar</td>
 			<td>ᴘᴏ̨</td>
-			<td>{ne}</td>
+			<td>{nɪ}</td>
 			<td>{ner}</td>
 		</tr>
 		<tr>
 			<td>Alternative</td>
 			<td>ᴀᴏ̨</td>
 			<td>{ðɪ}</td>
-			<td>{ðɪv}</td>
+			<td>{ðiv}</td>
 		</tr>
 		<tr>
 			<td rowspan="3">Deontic</td>
 			<td>Commissive</td>
 			<td>ᴄᴍs</td>
 			<td>{lay}</td>
-			<td>{layr}</td>
+			<td>{lar}</td>
 		</tr>
 		<tr>
 			<td>Imperative</td>
 			<td>ɪᴍᴘᴇʀ</td>
-			<td>{kca}</td>
+			<td>{kcə}</td>
 			<td>{kcap}</td>
 		</tr>
 		<tr>
 			<td>Volitive</td>
 			<td>ᴠᴏʟ</td>
-			<td>{mya}</td>
-			<td>{myax}</td>
+			<td>{yə}</td>
+			<td>{yax}</td>
 		</tr>
 		<tr>
 			<td>Hypothetical</td>
 			<td>Hypothetical</td>
 			<td>ʜʏᴘ</td>
-			<td>{tu}</td>
+			<td>{tuw}</td>
 			<td>{tus}</td>
 		</tr>
 	</tbody>
@@ -121,20 +121,20 @@ missing information that would make the complete clause true. To this
 question...
 
 <gloss>
-gwɪ | ŋɪ  | vel  | qa | to  | kʊv
+gwɪ | ŋɪ  | vel  | qə | tʊ  | kuv
 ᴄᴏ̨  | sʙᴊ | what | of | you | names
 What names you? (What is your name?)
 </gloss>
 
-...I could respond {je djan} (_It's Jon_).
+...I could respond {jə djan} (_It's Jon_).
 
-Informally, one can omit {vel}, if it's apparent what's being asked: {gwi kʊv}
+Informally, one can omit {vel}, if it's apparent what's being asked: {gwi kuv}
 (_Name?_).
 
 A content question may request multiple pieces of information.
 
 <gloss>
-gwɪ | tce | vel  | ci | vel | θe  | pɪn
+gwɪ | tcɪ | vel  | cɪ | vel | θɪ  | pɪn
 ᴄᴏ̨  | ғɪɴ | what | ᴀ  | who | ᴘғᴠ | do
 Who did what?
 </gloss>
@@ -148,12 +148,12 @@ A **polar question** (ᴘᴏ̨) prompts for a yes-or-no answer, confirming or de
 the clause.
 
 <gloss>
-ne | ci | to     | vɪg
+nɪ | cɪ | tʊ     | vig
 ᴘᴏ̨ | ᴀ  | you-sɢ | go
 Are you going?
 </gloss>
 
-The reponse can usually be very brief, e.g. {je ksi} (_it's true_) or {je gle}
+The reponse can usually be very brief, e.g. {jə ksim} (_it's true_) or {jə gler}
 (_it's false_).
 
 An **alternative question** (ᴀᴏ̨) should pose a series of mutually exclusive
@@ -186,11 +186,11 @@ listener is responsible for actualizing that wish.
 
 The hypothetical mood is for expressing counterfactuals. A hypothetical clause
 posits that though the claim is not actually true, it would be true under other
-conditions. Clauses in this mood generally involve a [conditional
-argument](./causes-conditions.md) to clarify under which counterfactual
-circumstances the claim would be true. Note that the conditional argument should
-apply to the verb phrase within the hypothetical clause, not to the entire
-hypothetical clause itself.
+conditions. Clauses in this mood generally involve a
+[conditional argument](./causes-conditions.md) to clarify under which
+counterfactual circumstances the claim would be true. Note that the conditional
+argument should apply to the verb phrase within the hypothetical clause, not to
+the entire hypothetical clause itself.
 
 Conditional claims where the consequent could actually be or become true should
 instead use the indicative mood with a conditional argument to the verb.
@@ -206,8 +206,8 @@ mood signifies that the speaker wonders whether _X_ is true and would like the
 listener to provide an answer.
 
 This kind of analysis is unusual but can be useful for correctly interpreting
-logical operators or prepositional phrases applied to clauses. For example, {je
-txa gleð} means _I sense that it's not raining_, whereas {txa je gleð} means _I
-don't sense that it's raining_, which is a weaker claim. Similarly, {nʊ zʊm kca
-vɪg} literally means _regretfully, I request that you go_, whereas {kca nʊ zʊm
-vɪg} means _I request that you regretfully go_.
+logical operators or prepositional phrases applied to clauses. For example, {jə
+txə gleð} means _I sense that it's not raining_, whereas {txə jə gleð} means _I
+don't sense that it's raining_, which is a weaker claim. Similarly, {nʊ zʊm kcə
+vig} literally means _regretfully, I request that you go_, whereas {kcə nʊ zʊm
+vig} means _I request that you regretfully go_.

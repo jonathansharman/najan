@@ -5,24 +5,24 @@ assigning that complement some semantic role within the clause or verb phrase
 that the prepositional phrase modifies.
 
 Prepositions are derived from corresponding verbs by clipping. For example, the
-preposition {ci} marks its object as an agent and is derived from the verb
-{cim}, _agent_.
+preposition {cɪ} marks its object as an agent and is derived from the verb
+{cɪm}, _agent_.
 
 | Case         | Gloss | Preposition | Verb   |
 | :----------- | :---- | :---------- | :----- |
-| Subjective   | sʙᴊ   | {ŋɪ}        | {ŋɪθ}  |
-| Relational   | ʀʟɴ   | {qa}        | {qac}  |
-| Agentive     | ᴀ     | {ci}        | {cim}  |
-| Causal       | ᴄᴀᴜs  | {slo}       | {slon} |
-| Causal-final | ғɪɴ   | {tce}       | {tceh} |
-| Conditional  | ᴄᴏɴᴅ  | {xo}        | {xotθ} |
-| Instrumental | ɪɴs   | {da}        | {dan}  |
-| Possessive   | ᴘᴏs   | {me}        | {mep}  |
-| Partitive    | ᴘᴛᴠ   | {bo}        | {bol}  |
-| Identical    | ɪᴅᴇɴᴛ | {kʊ}        | {kʊv}  |
+| Subjective   | sʙᴊ   | {ŋɪ}        | {ŋiθ}  |
+| Relational   | ʀʟɴ   | {qə}        | {qac}  |
+| Agentive     | ᴀ     | {cɪ}        | {cɪm}  |
+| Causal       | ᴄᴀᴜs  | {slə}       | {slon} |
+| Causal-final | ғɪɴ   | {tcɪ}       | {tceh} |
+| Conditional  | ᴄᴏɴᴅ  | {xə}        | {xoθ}  |
+| Instrumental | ɪɴs   | {də}        | {dan}  |
+| Possessive   | ᴘᴏs   | {mɪ}        | {mep}  |
+| Partitive    | ᴘᴛᴠ   | {bə}        | {bəl}  |
+| Identical    | ɪᴅᴇɴᴛ | {kʊ}        | {kuv}  |
 | Semblative   | sᴇᴍʙʟ | {kɪ}        | {kɪr}  |
-| Comparative  | ᴄᴏᴍᴘ  | {ve}        | {vek}  |
-| Locative     | ʟᴏᴄ   | {lɪ}        | {lɪf}  |
-| Lative       | ʟᴀᴛ   | {we}        | {wef}  |
-| Ablative     | ᴀʙʟ   | {xu}        | {xun}  |
-| Perlative    | ᴘᴇʀ   | {zi}        | {zij}  |
+| Comparative  | ᴄᴏᴍᴘ  | {vɪ}        | {vɪ}   |
+| Locative     | ʟᴏᴄ   | {lɪ}        | {lif}  |
+| Lative       | ʟᴀᴛ   | {wɪ}        | {wef}  |
+| Ablative     | ᴀʙʟ   | {xʊ}        | {xʊn}  |
+| Perlative    | ᴘᴇʀ   | {zɪ}        | {zij}  |

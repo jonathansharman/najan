@@ -3,11 +3,11 @@
 Najan has the following word classes:
 
 - Verbs ({fyas})
-- Determiners ({qa saθ dan}, _means of instantiation_)
-- Pronouns ({nʊ zax kʊv}, _borrowed identity_)
-- Prepositions ({qa qac dan}, _means of relation_)
-- Conjunctions ({qa cob vom}, _logical operator_)
-- Particles ({lʊg})
+- Determiners ({qə saθ dan}, _means of instantiation_)
+- Pronouns ({nʊ zax kuv}, _borrowed identity_)
+- Prepositions ({qə qac dan}, _means of relation_)
+- Conjunctions ({qə cob vom}, _logical operator_)
+- Particles ({lug})
 
 Najan has no nouns, adverbs, or adjectives. Verb phrases, pronouns, and
 [determiner phrases](./determiner-phrases.md) can all function as noun phrases.
@@ -36,7 +36,7 @@ expressed in extended Backus-Naur form as follows:
 >
 > <span class="lhs">**verb phrase (VP)** ⇒</span> [ ⟨**aspect ᴘᴛᴄʟ**⟩ ] ⟨**verb**⟩
 > <br>
-> <span class="lhs">|</span> {ma} ⟨**VP**⟩
+> <span class="lhs">|</span> {mə} ⟨**VP**⟩
 > <br>
 > <span class="lhs">|</span> ⟨**PP**⟩ ⟨**VP**⟩
 > <br>
@@ -44,7 +44,7 @@ expressed in extended Backus-Naur form as follows:
 > <br>
 > <span class="lhs">|</span> ⟨**non-restrictive clause**⟩ ⟨**VP**⟩
 > <br>
-> <span class="lhs">|</span> {txa} ⟨**VP**⟩
+> <span class="lhs">|</span> {txə} ⟨**VP**⟩
 > <br>
 > <span class="lhs">|</span> ⟨**ᴄᴏɴᴊ**⟩ ⟨**VP**⟩ ⟨**VP**⟩
 >
@@ -58,12 +58,12 @@ expressed in extended Backus-Naur form as follows:
 > <br>
 > <span class="lhs">|</span> ⟨**non-restrictive clause**⟩ ⟨**restricted NP**⟩
 > <br>
-> <span class="lhs">|</span> {txa} ⟨**restricted NP**⟩
+> <span class="lhs">|</span> {txə} ⟨**restricted NP**⟩
 > <br>
 > <span class="lhs">|</span> ⟨**ᴄᴏɴᴊ**⟩ ⟨**restricted NP**⟩ ⟨**restricted NP**⟩
 >
 > <span class="lhs">**ᴅᴇᴛ phrase** ⇒</span> ⟨**ᴅᴇᴛ**⟩ [ ⟨**ᴘʀᴏ**⟩ ] ⟨**VP**⟩
 >
-> <span class="lhs">**quotation** ⇒</span> {tca} ⟨**quoted word**⟩+ {tca}
+> <span class="lhs">**quotation** ⇒</span> {tcə} ⟨**quoted word**⟩+ {tcə}
 >
-> <span class="lhs">**quoted word** ⇒</span> ⟨**word**⟩ - {tca} - {tsa} | {tsa tca} | {tsa tsa}
+> <span class="lhs">**quoted word** ⇒</span> ⟨**word**⟩ - {tcə} - {tsə} | {tsə tcə} | {tsə tsə}

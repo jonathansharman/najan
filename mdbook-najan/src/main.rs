@@ -1,7 +1,8 @@
 use anyhow::Result;
 use clap::{Arg, Command};
-use mdbook::preprocess::{CmdPreprocessor, Preprocessor};
 use mdbook_najan::Najan;
+use mdbook_preprocessor::MDBOOK_VERSION;
+use mdbook_preprocessor::Preprocessor;
 use semver::Version;
 use semver::VersionReq;
 
@@ -18,7 +19,9 @@ pub fn make_app() -> Command {
 		.subcommand(
 			Command::new(SUPPORTS_COMMAND)
 				.arg(Arg::new("renderer").required(true))
-				.about("Check whether a renderer is supported by this preprocessor"),
+				.about(
+					"Check whether a renderer is supported by this preprocessor",
+				),
 		)
 }
 
@@ -36,17 +39,17 @@ fn main() -> Result<()> {
 }
 
 fn handle_preprocessing(pre: &dyn Preprocessor) -> Result<()> {
-	let (ctx, book) = CmdPreprocessor::parse_input(io::stdin())?;
+	let (ctx, book) = mdbook_preprocessor::parse_input(io::stdin())?;
 
 	let book_version = Version::parse(&ctx.mdbook_version)?;
-	let version_req = VersionReq::parse(mdbook::MDBOOK_VERSION)?;
+	let version_req = VersionReq::parse(MDBOOK_VERSION)?;
 
 	if !version_req.matches(&book_version) {
 		eprintln!(
 			"Warning: The {} plugin was built against version {} of mdbook, \
 			but we're being called from version {}",
 			pre.name(),
-			mdbook::MDBOOK_VERSION,
+			MDBOOK_VERSION,
 			ctx.mdbook_version
 		);
 	}

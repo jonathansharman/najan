@@ -63,7 +63,7 @@ lexemes:
   - lemma: ðʊ
     class: qə saθ dan
     definition: fʊ qə ðʊ nʊ ðus ŋiθ djə kuv # starts identifying generic entities
-    translation: >
+    translation: >-
       generic determiner, used to refer to a complement in a general,
       nonspecific sense
     glosses: [a, an, the]

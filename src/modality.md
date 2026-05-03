@@ -153,7 +153,7 @@ nɪ | cɪ | tʊ     | vig
 Are you going?
 </gloss>
 
-The reponse can usually be very brief, e.g. {jə lʊr} (_it's true_) or {jə txəy}
+The reponse can usually be very brief, e.g. {jə jʊ} (_it's true_) or {jə txəy}
 (_it's false_).
 
 An **alternative question** (ᴀᴏ̨) should pose a series of mutually exclusive

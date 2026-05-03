@@ -50,6 +50,21 @@ format:
     title: English-Najan Dictionary
 
 lexemes:
+  - lemma: txəy
+    class: loð
+    definition: ... # TODO
+    translation: ... # TODO. The "false" sense carries no value judgment (does not imply duplicity).
+    glosses: ["no", "false"]
+  - lemma: txə
+    class: qə cob vom
+    definition: ... # TODO
+    translation: not
+    glosses: [not]
+  - lemma: lʊr
+    class: loð
+    definition: ... # TODO
+    translation: ... # TODO
+    glosses: ["yes", "true"]
   - lemma: zə
     class: qə saθ dan
     definition: fʊ qə ðʊ jow nʊ txə lɪ klɪ qə jow θɪ tiz ŋiθ djə kuv # starts identifying entities previously unspoken of

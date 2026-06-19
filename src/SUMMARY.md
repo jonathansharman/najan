@@ -4,6 +4,7 @@
 - [Phonology](./phonology.md)
 - [Orthography](./orthography.md)
 - [Syntax](./syntax.md)
+- [Logical Connectives](./logical-connectives.md)
 - [Modality](./modality.md)
 - [Relative Clauses](./relative-clauses.md)
 - [Prepositional Phrases](./prepositional-phrases.md)

@@ -50,6 +50,31 @@ format:
     title: English-Najan Dictionary
 
 lexemes:
+  - lemma: sɪ
+    class: qə cob vom
+    definition: ... # TODO
+    translation: ... # TODO
+    glosses: [and]
+  - lemma: zov
+    class: qə cob vom
+    definition: ... # TODO
+    translation: ... # TODO
+    glosses: [or]
+  - lemma: drað
+    class: qə cob vom
+    definition: ... # TODO
+    translation: ... # TODO
+    glosses: [exclusive or]
+  - lemma: ŋaz
+    class: qə cob vom
+    definition: ... # TODO
+    translation: ... # TODO
+    glosses: [if, implies]
+  - lemma: juθ
+    class: qə cob vom
+    definition: ... # TODO
+    translation: ... # TODO
+    glosses: [if and only if]
   - lemma: txəy
     class: loð
     definition: ... # TODO

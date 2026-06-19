@@ -50,6 +50,46 @@ format:
     title: English-Najan Dictionary
 
 lexemes:
+  - lemma: sɪ
+    class: qə cob vom
+    definition: ... # TODO
+    translation: ... # TODO
+    glosses: [and]
+  - lemma: zov
+    class: qə cob vom
+    definition: ... # TODO
+    translation: ... # TODO
+    glosses: [or]
+  - lemma: drað
+    class: qə cob vom
+    definition: ... # TODO
+    translation: ... # TODO
+    glosses: [exclusive or]
+  - lemma: ŋaz
+    class: qə cob vom
+    definition: ... # TODO
+    translation: ... # TODO
+    glosses: [if, implies]
+  - lemma: juθ
+    class: qə cob vom
+    definition: ... # TODO
+    translation: ... # TODO
+    glosses: [if and only if]
+  - lemma: txəy
+    class: loð
+    definition: ... # TODO
+    translation: ... # TODO. The "false" sense carries no value judgment (does not imply duplicity).
+    glosses: ["no", "false"]
+  - lemma: txə
+    class: qə cob vom
+    definition: ... # TODO
+    translation: not
+    glosses: [not]
+  - lemma: jʊ
+    class: loð
+    definition: ... # TODO
+    translation: ... # TODO
+    glosses: ["yes", "true"]
   - lemma: zə
     class: qə saθ dan
     definition: fʊ qə ðʊ jow nʊ txə lɪ klɪ qə jow θɪ tiz ŋiθ djə kuv # starts identifying entities previously unspoken of

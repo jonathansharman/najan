@@ -4,7 +4,7 @@ Najan has the following word classes:
 
 - Verbs ({fyas})
 - Determiners ({qə saθ dan}, _means of instantiation_)
-- Pronouns ({nʊ zax kuv}, _borrowed identity_)
+- Pronouns ({sɪ zax kuv}, _borrowed identity_)
 - Prepositions ({qə qac dan}, _means of relation_)
 - Conjunctions ({qə cob vom}, _logical operator_)
 - Particles ({lug})
@@ -24,13 +24,9 @@ expressed in extended Backus-Naur form as follows:
 > <br>
 > <span class="lhs">|</span> ⟨**PP**⟩ ⟨**clause**⟩
 > <br>
-> <span class="lhs">|</span> ⟨**restrictive clause**⟩ ⟨**clause**⟩
-> <br>
 > <span class="lhs">|</span> ⟨**non-restrictive clause**⟩ ⟨**clause**⟩
 >
 > <span class="lhs">**ᴘʀᴇᴘ phrase (PP)** ⇒</span> ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩
->
-> <span class="lhs">**restrictive clause** ⇒</span> {nʊ} ⟨**VP**⟩
 >
 > <span class="lhs">**non-restrictive clause** ⇒</span> {vew} ⟨**VP**⟩
 >
@@ -39,8 +35,6 @@ expressed in extended Backus-Naur form as follows:
 > <span class="lhs">|</span> {mə} ⟨**VP**⟩
 > <br>
 > <span class="lhs">|</span> ⟨**PP**⟩ ⟨**VP**⟩
-> <br>
-> <span class="lhs">|</span> ⟨**restrictive clause**⟩ ⟨**VP**⟩
 > <br>
 > <span class="lhs">|</span> ⟨**non-restrictive clause**⟩ ⟨**VP**⟩
 > <br>

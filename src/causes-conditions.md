@@ -4,8 +4,8 @@ An **agent** ({cɪm}) of a verb, marked by the preposition {cɪ}, is its animate
 voluntary cause.
 
 <gloss>
-jə  | cɪ | kwʊ | ŋɪ  | gɪ  | nʊ   | gaθ     | qə | kwon       | tceh   | θɪ  | fleh
-sɴs | by | me  | sʙᴊ | the | that | is sand | of | fortifying | result | ᴘғᴠ | destroy
+jə  | cɪ | kwʊ | ŋɪ  | gɪ  | sɪ  | gaθ     | qə | kwon       | tceh   | θɪ  | fleh
+sɴs | by | me  | sʙᴊ | the | and | is sand | of | fortifying | result | ᴘғᴠ | destroy
 I destroyed the sand castle (intentionally).
 </gloss>
 
@@ -13,16 +13,16 @@ In contrast to an agent, a **cause** ({slon}) is involuntary. The preposition
 {slə} translates to _because of_.
 
 <gloss>
-jə  | slə        | kwʊ | ŋɪ  | gɪ  | nʊ   | gaθ     | qə | kwon       | tceh   | θɪ  | fleh
-sɴs | because of | me  | sʙᴊ | the | that | is sand | of | fortifying | result | ᴘғᴠ | destroy
+jə  | slə        | kwʊ | ŋɪ  | gɪ  | sɪ  | gaθ     | qə | kwon       | tceh   | θɪ  | fleh
+sɴs | because of | me  | sʙᴊ | the | and | is sand | of | fortifying | result | ᴘғᴠ | destroy
 The sand castle was destroyed because of me. (I destroyed the sand castle unintentionally.)
 </gloss>
 
 A cause can also be inanimate.
 
 <gloss>
-jə  | slə        | gɪ  | vuc | ŋɪ  | gɪ  | nʊ   | gaθ     | qə | kwon       | tceh   | θɪ  | fleh
-sɴs | because of | the | sea | sʙᴊ | the | that | is sand | of | fortifying | result | ᴘғᴠ | destroy
+jə  | slə        | gɪ  | vuc | ŋɪ  | gɪ  | sɪ  | gaθ     | qə | kwon       | tceh   | θɪ  | fleh
+sɴs | because of | the | sea | sʙᴊ | the | and | is sand | of | fortifying | result | ᴘғᴠ | destroy
 The sea destroyed the sand castle.
 </gloss>
 

@@ -31,8 +31,8 @@ sɴs | sʙᴊ | the | sun  | shine
 The sun is shining.
 </gloss>
 
-We can express a demonstrative (_this_ or _that_) by modifying the complement of
-a definite determiner with {nʊ tlɪ} (_here_) or {nʊ dwə} (_there_).
+We can express a demonstrative (_this_ or _that_) by intersecting the complement
+of a definite determiner with {tlɪ} (_here_) or {dwə} (_there_).
 
 The **distributive determiner** {sʊ} expresses that the clauses containing the
 determiner phrase (and its pronoun, if any) hold true for each instance of the

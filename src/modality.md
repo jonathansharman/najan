@@ -208,6 +208,6 @@ listener to provide an answer.
 This kind of analysis is unusual but can be useful for correctly interpreting
 logical operators or prepositional phrases applied to clauses. For example, {jə
 txə gleð} means _I sense that it's not raining_, whereas {txə jə gleð} means _I
-don't sense that it's raining_, which is a weaker claim. Similarly, {nʊ zʊm kcə
-vig} literally means _regretfully, I request that you go_, whereas {kcə nʊ zʊm
+don't sense that it's raining_, which is a weaker claim. Similarly, {sɪ zʊm kcə
+vig} literally means _regretfully, I request that you go_, whereas {kcə sɪ zʊm
 vig} means _I request that you regretfully go_.

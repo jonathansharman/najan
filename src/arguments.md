@@ -9,7 +9,7 @@ In the following, _you_ and _I_ are both eating the same fruit:
 
 <gloss>
 jə  | qə | kwʊ | qə | tʊ  | ŋɪ  | zə | bloθ  | tcet
-sɴs | by | me  | by | you | sʙᴊ | an | fruit | is eaten
+sɴs | by | me  | by | you | sʙᴊ | a  | fruit | is eaten
 You and I are eating a fruit.
 </gloss>
 
@@ -17,7 +17,7 @@ Reversing the order of the arguments usually does not affect the meaning:
 
 <gloss>
 jə  | ŋɪ  | zə | bloθ  | qə | kwʊ | qə | tʊ  | tcet
-sɴs | sʙᴊ | an | fruit | by | me  | by | you | is eaten
+sɴs | sʙᴊ | a  | fruit | by | me  | by | you | is eaten
 A fruit is being eaten by you and me.
 </gloss>
 

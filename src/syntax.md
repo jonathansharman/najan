@@ -12,7 +12,16 @@ Najan has the following word classes:
 Najan has no nouns, adverbs, or adjectives. Verb phrases, pronouns, and
 [determiner phrases](./determiner-phrases.md) can all function as noun phrases.
 (A verb phrase may be used as a verbal noun phrase without any inflection or
-other marking.) Prepositional phrases fill the roles of adverbs and adjectives.
+other marking.)
+
+[Prepositional phrases](./prepositional-phrases.md) can take the semantic role
+of adverbs and adjectives. However prepositions are a closed class; more
+generally, modification can be expressed through
+[logical conjunction](./logical-connectives.md). For example, whereas the
+English phrase _happy person_ consists of an adjective and a noun, the Najan
+phrase {sɪ tay mɪl} is a conjunction ({sɪ}) of two verbs: {tay} (_to be happy_)
+and {mɪl} (_to be a person_). Since conjunction is commutative, the reverse
+phrase, {sɪ mɪl tay} is equivalent.
 
 ## Formal Grammar
 

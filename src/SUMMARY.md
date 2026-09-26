@@ -6,7 +6,7 @@
 - [Syntax](./syntax.md)
 - [Logical Connectives](./logical-connectives.md)
 - [Modality](./modality.md)
-- [Relative Clauses](./relative-clauses.md)
+- [Parenthesis](./parenthesis.md)
 - [Prepositional Phrases](./prepositional-phrases.md)
   - [Subjects & Relations](./subjects-relations.md)
   - [Causes & Conditions](./causes-conditions.md)

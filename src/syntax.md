@@ -24,11 +24,11 @@ expressed in extended Backus-Naur form as follows:
 > <br>
 > <span class="lhs">|</span> ⟨**PP**⟩ ⟨**clause**⟩
 > <br>
-> <span class="lhs">|</span> ⟨**non-restrictive clause**⟩ ⟨**clause**⟩
+> <span class="lhs">|</span> ⟨**parenthesis**⟩ ⟨**clause**⟩
 >
 > <span class="lhs">**ᴘʀᴇᴘ phrase (PP)** ⇒</span> ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩
 >
-> <span class="lhs">**non-restrictive clause** ⇒</span> {vew} ⟨**VP**⟩
+> <span class="lhs">**parenthesis** ⇒</span> {vew} ⟨**VP**⟩
 >
 > <span class="lhs">**verb phrase (VP)** ⇒</span> [ ⟨**aspect ᴘᴛᴄʟ**⟩ ] ⟨**verb**⟩
 > <br>
@@ -36,7 +36,7 @@ expressed in extended Backus-Naur form as follows:
 > <br>
 > <span class="lhs">|</span> ⟨**PP**⟩ ⟨**VP**⟩
 > <br>
-> <span class="lhs">|</span> ⟨**non-restrictive clause**⟩ ⟨**VP**⟩
+> <span class="lhs">|</span> ⟨**parenthesis**⟩ ⟨**VP**⟩
 > <br>
 > <span class="lhs">|</span> {txə} ⟨**VP**⟩
 > <br>
@@ -50,7 +50,7 @@ expressed in extended Backus-Naur form as follows:
 > <br>
 > <span class="lhs">|</span> ⟨**quotation**⟩
 > <br>
-> <span class="lhs">|</span> ⟨**non-restrictive clause**⟩ ⟨**restricted NP**⟩
+> <span class="lhs">|</span> ⟨**parenthesis**⟩ ⟨**restricted NP**⟩
 > <br>
 > <span class="lhs">|</span> {txə} ⟨**restricted NP**⟩
 > <br>

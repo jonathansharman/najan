@@ -2,7 +2,9 @@
 
 A prepositional phrase comprises a preposition and its noun phrase complement,
 assigning that complement some semantic role within the clause or verb phrase
-that the prepositional phrase modifies.
+that the prepositional phrase modifies. In contrast to
+[parenthetical expressions](./parenthesis.md), prepositional phrases are always
+restrictive.
 
 Prepositions are derived from corresponding verbs by clipping. For example, the
 preposition {cɪ} marks its object as an agent and is derived from the verb

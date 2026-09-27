@@ -16,10 +16,6 @@
   --content-max-width: 850px;
 }
 
-main {
-  overflow-x: auto;
-}
-
 .najan {
   font-family: Najan;
 }
@@ -135,14 +131,6 @@ dt:hover .lexi-entry-link {
 }
 
 /* Tooltip Settings */
-
-/* Prevent tooltips from getting clipped by containers. */
-.menu-bar,
-.content,
-.table-wrapper,
-main {
-  overflow: visible;
-}
 
 /* Prevent lexi entry styling from clobbering najan-tooltip styling when a Najan
 tooltip is inside an entry. A couple important notes:

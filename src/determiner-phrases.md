@@ -85,24 +85,24 @@ sɴs | ᴀ  | the | it  | child | sʙᴊ | it  | ᴘғᴠ | hurt
 The child hurt itself.
 </gloss>
 
-## Plural and Uncountable Determiner Phrases
+## Countability
 
-The complement in a determiner phrase may be uncountable or
-[plural](./pluralization.md), in which case the entity identified by the
-determiner phrase is a set or quantity.
+In English, some determiners can only be used with countable nouns, some only
+with uncountable nouns, and some with either. In Najan, any determiner can be
+used with any verb since determiner phrases always identify discrete entities,
+even if the complement is semantically uncountable. For example, the Najan word
+for _rock_, {kut}, means _to be made of stone_. Thus {zə kut}, literally _a
+thing that is made of stone_, could be translated into English either as _a
+rock_ (countable) or as _some rock_ (uncountable).
 
-<gloss>
-jə  | qə | ðʊ  | mə | bloθ  | qə | ðʊ  | lec   | can
-sɴs | of | ɢɴʀ | ᴘʟ | fruit | of | ɢɴʀ | water | want
-(I) want some fruits and some water.
-</gloss>
+## Pluralization
 
-In fact, Najan does not distinguish between countable and uncountable determiner
-phrases since determiner phrases always identify discrete entities. In English,
-_rock_ is countable in _a small rock_ but uncountable in _a hunk of rock_. In
-Najan, the word for _rock_, {kut}, means _to be made of stone_. Thus {zə kut},
-literally _a thing that is made of stone_, could be translated into English
-either as _a rock_ (countable) or as _some rock_ (uncountable).
+Determiner phrases lack grammatical number and are always semantically singular.
+To refer to more than one of something, we must use a word that is semantically
+plural, such as {mə} (_group_, _set_). The [relation](./subjects-relations.md)
+of {me} is a verb phrase characterizing each of the entities in the set. Note
+that unlike an English plural noun phrase, {mə} can describe a set with any
+number of elements, including zero or one.
 
 ## Ordering Determiner Phrases
 

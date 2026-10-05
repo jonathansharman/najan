@@ -16,7 +16,6 @@
   - [Arguments](./arguments.md)
   - [Tense & Aspect](./tense-aspect.md)
 - [Noun Phrases](./noun-phrases.md)
-  - [Pluralization](./pluralization.md)
   - [Pronouns](./pronouns.md)
   - [Determiner Phrases](./determiner-phrases.md)
   - [Quotations](./quotations.md)

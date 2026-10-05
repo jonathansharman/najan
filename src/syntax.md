@@ -41,8 +41,6 @@ expressed in extended Backus-Naur form as follows:
 >
 > <span class="lhs">**verb phrase (VP)** ⇒</span> [ ⟨**aspect ᴘᴛᴄʟ**⟩ ] ⟨**verb**⟩
 > <br>
-> <span class="lhs">|</span> {mə} ⟨**VP**⟩
-> <br>
 > <span class="lhs">|</span> ⟨**PP**⟩ ⟨**VP**⟩
 > <br>
 > <span class="lhs">|</span> ⟨**parenthesis**⟩ ⟨**VP**⟩

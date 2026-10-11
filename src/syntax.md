@@ -29,16 +29,6 @@ Najan is a deterministic context-free language whose formal grammar can be
 expressed in extended Backus-Naur form as follows:
 
 <!-- prettier-ignore -->
-> <span class="lhs">**clause** ⇒</span> ⟨**mood ᴘᴛᴄʟ**⟩ ⟨**VP**⟩
-> <br>
-> <span class="lhs">|</span> ⟨**PP**⟩ ⟨**clause**⟩
-> <br>
-> <span class="lhs">|</span> ⟨**parenthesis**⟩ ⟨**clause**⟩
->
-> <span class="lhs">**ᴘʀᴇᴘ phrase (PP)** ⇒</span> ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩
->
-> <span class="lhs">**parenthesis** ⇒</span> {vew} ⟨**VP**⟩
->
 > <span class="lhs">**verb phrase (VP)** ⇒</span> [ ⟨**aspect ᴘᴛᴄʟ**⟩ ] ⟨**verb**⟩
 > <br>
 > <span class="lhs">|</span> ⟨**PP**⟩ ⟨**VP**⟩
@@ -48,6 +38,10 @@ expressed in extended Backus-Naur form as follows:
 > <span class="lhs">|</span> {txə} ⟨**VP**⟩
 > <br>
 > <span class="lhs">|</span> ⟨**ᴄᴏɴᴊ**⟩ ⟨**VP**⟩ ⟨**VP**⟩
+>
+> <span class="lhs">**ᴘʀᴇᴘ phrase (PP)** ⇒</span> ⟨**ᴘʀᴇᴘ**⟩ ⟨**NP**⟩
+>
+> <span class="lhs">**parenthesis** ⇒</span> {vew} ⟨**VP**⟩
 >
 > <span class="lhs">**noun phrase (NP)** ⇒</span> ⟨**VP**⟩ | ⟨**restricted NP**⟩
 >
